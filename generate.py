@@ -1,4 +1,4 @@
-import os, json, re, smtplib, requests, anthropic
+import os, json, re, smtplib, time, requests, anthropic
 from datetime import datetime, date, timedelta
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -19,7 +19,7 @@ if not API_KEY:
     raise ValueError('ANTHROPIC_API_KEY is missing! Add it in GitHub Settings -> Secrets and variables -> Actions')
 
 client = anthropic.Anthropic(api_key=API_KEY)
-MODEL  = 'claude-sonnet-4-20250514'
+MODEL  = 'claude-sonnet-4-6'
 
 
 def parse_json(text):
@@ -145,8 +145,10 @@ def generate():
         'forex':     fetch_forex(),
         'bitcoin':   fetch_bitcoin(),
         'stocks':    fetch_stocks(),
-        'news':      fetch_news(),
     }
+    print('Waiting 65s between Claude calls (rate limit)...')
+    time.sleep(65)
+    data['news'] = fetch_news()
     with open('data.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     print('data.json saved: ' + str(len(data['stocks'])) + ' stocks, ' + str(len(data['news'])) + ' news')
