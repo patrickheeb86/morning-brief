@@ -1,1 +1,41 @@
+name: Morning Brief – Tägliche Aktualisierung
 
+on:
+  schedule:
+    # 05:00 UTC = 06:00 CET (Winter) / 07:00 CEST (Sommer)
+    - cron: '0 5 * * *'
+  workflow_dispatch:  # Manueller Start jederzeit möglich
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Abhängigkeiten installieren
+        run: pip install anthropic requests
+
+      - name: Daten generieren & E-Mail senden
+        run: python generate.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_USER:        ${{ secrets.GMAIL_USER }}
+          GMAIL_PASS:        ${{ secrets.GMAIL_PASS }}
+          EMAIL_RECIPIENTS:  ${{ secrets.EMAIL_RECIPIENTS }}
+
+      - name: data.json ins Repository speichern
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "Morning Brief Bot"
+          git add data.json
+          git diff --staged --quiet || git commit -m "Morning Brief $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git push
