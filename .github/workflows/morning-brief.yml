@@ -1,10 +1,10 @@
-name: Morning Brief – Tägliche Aktualisierung
+name: Morning Brief - Taegliche Aktualisierung
 
 on:
   schedule:
-    # 05:00 UTC = 06:00 CET (Winter) / 07:00 CEST (Sommer)
-    - cron: '0 5 * * *'
-  workflow_dispatch:  # Manueller Start jederzeit möglich
+    # 04:00 UTC = 06:00 CEST (Sommer) / 05:00 CET (Winter)
+    - cron: '0 4 * * *'
+  workflow_dispatch:  # Manueller Start jederzeit moeglich
 
 jobs:
   update:
@@ -21,10 +21,10 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Abhängigkeiten installieren
+      - name: Abhaengigkeiten installieren
         run: pip install anthropic requests
 
-      - name: Daten generieren & E-Mail senden
+      - name: Daten generieren und E-Mail senden
         run: python generate.py
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
