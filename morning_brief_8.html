@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Morning Brief</title>
+<style>
+*, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+:root {
+  --bg:#0f172a; --bg2:#1e293b; --bg3:#263147; --border:#334155;
+  --text:#f1f5f9; --text2:#94a3b8; --muted:#64748b;
+  --green:#4ade80; --red:#f87171; --teal:#2dd4bf; --violet:#a78bfa;
+  --shadow:0 2px 8px rgba(0,0,0,.4);
+}
+body { font-family:Arial,Helvetica,sans-serif; background:var(--bg); color:var(--text); min-height:100vh; -webkit-font-smoothing:antialiased; }
+
+/* HEADER */
+.header { background:linear-gradient(160deg,#060f1f 0%,#0f172a 100%); padding:16px 18px 14px; position:sticky; top:0; z-index:200; text-align:center; }
+.header::after { content:''; position:absolute; bottom:0; left:0; right:0; height:2px; background:linear-gradient(90deg,var(--teal),var(--violet)); }
+.header-brand { font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--muted); font-weight:700; margin-bottom:5px; }
+.header h1    { font-size:26px; font-weight:900; letter-spacing:-.8px; color:var(--text); }
+.header-sub   { display:flex; justify-content:center; align-items:center; gap:10px; margin-top:8px; flex-wrap:wrap; }
+.header-date  { font-size:12px; color:var(--text2); }
+.header-time  { font-size:11px; color:var(--muted); }
+.refresh-btn  { background:rgba(255,255,255,.07); border:1px solid var(--border); color:var(--text2); font-size:11px; cursor:pointer; padding:4px 12px; border-radius:20px; font-family:Arial; transition:all .2s; }
+.refresh-btn:hover  { background:rgba(255,255,255,.14); color:var(--text); }
+.refresh-btn.spinning { opacity:.5; pointer-events:none; }
+.cache-note { font-size:9px; color:var(--muted); margin-top:5px; min-height:14px; }
+
+/* CONTENT */
+.content { max-width:700px; margin:0 auto; padding:16px 14px 48px; }
+.sec-label { font-size:9px; font-weight:800; letter-spacing:2.5px; text-transform:uppercase; color:var(--muted); margin:20px 0 9px; }
+.sec-label:first-child { margin-top:4px; }
+
+/* MARKET CARDS */
+.market-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; }
+.mcard {
+  display:block; text-decoration:none;
+  background:var(--bg2); border:1px solid var(--border); border-radius:10px;
+  padding:11px 12px; box-shadow:var(--shadow);
+  transition:border-color .18s, background .18s;
+  -webkit-tap-highlight-color:transparent;
+}
+.mcard:hover  { background:var(--bg3); border-color:#4d6480; }
+.mcard:active { opacity:.8; }
+.mcard-label { font-size:9px; font-weight:700; letter-spacing:1px; color:var(--muted); text-transform:uppercase; }
+.mcard-val   { font-size:15px; font-weight:800; color:var(--text); margin-top:5px; letter-spacing:-.3px; }
+.mcard-chg   { font-size:10px; font-weight:700; margin-top:3px; }
+.mcard-link  { font-size:8px; color:var(--muted); margin-top:4px; letter-spacing:.3px; }
+.up { color:var(--green); } .dn { color:var(--red); } .neut { color:var(--muted); }
+
+/* STOCK CARDS – clickable */
+.stock-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; }
+.scard {
+  display:block; text-decoration:none;
+  background:var(--bg2); border:1px solid var(--border); border-radius:10px;
+  padding:11px 12px; box-shadow:var(--shadow); position:relative; overflow:hidden;
+  transition:border-color .18s, background .18s;
+  -webkit-tap-highlight-color:transparent;
+}
+.scard:hover  { background:var(--bg3); border-color:#4d6480; }
+.scard:active { opacity:.8; }
+.scard::before { content:''; position:absolute; top:0; left:0; right:0; height:3px; background:linear-gradient(90deg,var(--teal),var(--violet)); }
+.scard-name   { font-size:9px; color:var(--muted); font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.scard-ticker { font-size:14px; font-weight:900; color:var(--text); letter-spacing:.3px; margin-top:2px; }
+.scard-price  { font-size:15px; font-weight:800; margin-top:7px; letter-spacing:-.3px; }
+.scard-change { font-size:10px; font-weight:700; margin-top:2px; }
+.scard-link   { font-size:8px; color:var(--muted); margin-top:4px; letter-spacing:.3px; }
+.skel    { background:linear-gradient(90deg,var(--bg3) 25%,var(--border) 50%,var(--bg3) 75%); background-size:200% 100%; animation:sk 1.5s infinite; border-radius:4px; height:12px; margin-top:8px; }
+.skel.sm { height:10px; width:60%; margin-top:4px; }
+@keyframes sk { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
+
+/* NEWS FEED */
+.news-wrap { background:var(--bg2); border:1px solid var(--border); border-radius:12px; box-shadow:var(--shadow); overflow:hidden; }
+
+.nitem {
+  display:flex; gap:12px; align-items:flex-start;
+  padding:13px 14px; border-bottom:1px solid var(--border);
+  text-decoration:none; transition:background .12s;
+}
+.nitem:last-child { border-bottom:none; }
+.nitem:hover  { background:var(--bg3); }
+.nitem:active { opacity:.8; }
+
+/* Source logo / favicon */
+.nitem-img {
+  width:40px; height:40px; border-radius:8px; flex-shrink:0;
+  background:var(--bg3); border:1px solid var(--border);
+  overflow:hidden; display:flex; align-items:center; justify-content:center;
+}
+.nitem-img img { width:100%; height:100%; object-fit:cover; border-radius:7px; }
+.nitem-img-fallback {
+  width:100%; height:100%; display:flex; align-items:center; justify-content:center;
+  font-size:15px; font-weight:900; color:var(--muted); letter-spacing:0;
+}
+
+.nitem-body  { flex:1; min-width:0; }
+.nitem-meta  { display:flex; align-items:center; gap:5px; font-size:10px; color:var(--muted); margin-bottom:4px; }
+.nsrc        { font-weight:700; color:var(--text2); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:140px; }
+.ndot        { color:var(--border); flex-shrink:0; }
+.nitem-title { font-size:12.5px; font-weight:700; color:var(--text); line-height:1.4; margin-bottom:4px; }
+.nitem-desc  { font-size:11px; color:var(--text2); line-height:1.5; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+
+.n-empty   { padding:24px; font-size:11px; color:var(--muted); font-style:italic; text-align:center; }
+.n-error   { padding:16px; font-size:11px; color:var(--red); text-align:center; }
+.n-loading { padding:14px; }
+.nsh   { height:11px; background:linear-gradient(90deg,var(--bg3) 25%,var(--border) 50%,var(--bg3) 75%); background-size:200% 100%; animation:sk 1.5s infinite; border-radius:4px; margin-bottom:8px; }
+.nsh.s { width:55%; }
+
+@media (max-width:380px) {
+  .header h1 { font-size:22px; } .mcard-val { font-size:13px; }
+  .scard-price { font-size:13px; } .nitem-title { font-size:12px; }
+  .nitem-img { width:34px; height:34px; }
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-brand">esthetic med &nbsp;·&nbsp; medical esthetic</div>
+  <h1>Morning Brief</h1>
+  <div class="header-sub">
+    <span class="header-date" id="hDate">–</span>
+    <span class="header-time" id="hTime">–</span>
+    <button class="refresh-btn" id="refBtn" onclick="forceRefresh()">↻ Aktualisieren</button>
+  </div>
+  <div class="cache-note" id="cacheNote"></div>
+</header>
+
+<div class="content">
+
+  <div class="sec-label">Währungen &amp; Markt</div>
+  <div class="market-grid">
+    <a class="mcard" href="https://finance.yahoo.com/quote/EURCHF=X/" target="_blank" rel="noopener">
+      <div class="mcard-label">EUR / CHF</div>
+      <div class="mcard-val" id="eurVal">–</div>
+      <div class="mcard-chg neut" id="eurNote">wird geladen…</div>
+      <div class="mcard-link">↗ Yahoo Finance</div>
+    </a>
+    <a class="mcard" href="https://finance.yahoo.com/quote/USDCHF=X/" target="_blank" rel="noopener">
+      <div class="mcard-label">USD / CHF</div>
+      <div class="mcard-val" id="usdVal">–</div>
+      <div class="mcard-chg neut" id="usdNote">wird geladen…</div>
+      <div class="mcard-link">↗ Yahoo Finance</div>
+    </a>
+    <a class="mcard" href="https://finance.yahoo.com/quote/BTC-USD/" target="_blank" rel="noopener">
+      <div class="mcard-label">Bitcoin / USD</div>
+      <div class="mcard-val" id="btcVal">–</div>
+      <div class="mcard-chg neut" id="btcChg">wird geladen…</div>
+      <div class="mcard-link">↗ Yahoo Finance</div>
+    </a>
+  </div>
+
+  <div class="sec-label">Partner-Aktien (NASDAQ)</div>
+  <div class="stock-grid">
+    <a class="scard" id="sc-ESTA" href="https://finance.yahoo.com/quote/ESTA" target="_blank" rel="noopener">
+      <div class="scard-name">Establishment Labs</div>
+      <div class="scard-ticker">ESTA</div>
+      <div class="skel"></div><div class="skel sm"></div>
+    </a>
+    <a class="scard" id="sc-APYX" href="https://finance.yahoo.com/quote/APYX" target="_blank" rel="noopener">
+      <div class="scard-name">Apyx Medical</div>
+      <div class="scard-ticker">APYX</div>
+      <div class="skel"></div><div class="skel sm"></div>
+    </a>
+    <a class="scard" id="sc-IART" href="https://finance.yahoo.com/quote/IART" target="_blank" rel="noopener">
+      <div class="scard-name">Integra LifeSci.</div>
+      <div class="scard-ticker">IART</div>
+      <div class="skel"></div><div class="skel sm"></div>
+    </a>
+  </div>
+
+  <div class="sec-label">News &amp; Radar</div>
+  <div class="news-wrap">
+    <div id="newsFeed">
+      <div class="n-loading"><div class="nsh"></div><div class="nsh s"></div><div class="nsh"></div><div class="nsh s"></div><div class="nsh"></div><div class="nsh s"></div></div>
+    </div>
+  </div>
+
+</div><!-- /content -->
+
+<script>
+// ═══ UTILS ══════════════════════════════════════
+function numCH(n, dec) {
+  if (n===null||n===undefined||isNaN(Number(n))) return '–';
+  const s = Number(n).toFixed(dec??2).split('.');
+  s[0] = s[0].replace(/\B(?=(\d{3})+(?!\d))/g,"'");
+  return s.join('.');
+}
+function usdFmt(n) { return '$\u00a0'+numCH(n,0); }
+function pct(n)    { return (Number(n)>=0?'+':'')+numCH(n,2)+'%'; }
+
+function setDateTime() {
+  const now=new Date();
+  const D=['Sonntag','Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag'];
+  const M=['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'];
+  document.getElementById('hDate').textContent=D[now.getDay()]+', '+now.getDate()+'. '+M[now.getMonth()]+' '+now.getFullYear();
+  document.getElementById('hTime').textContent='Stand: '+now.toLocaleTimeString('de-CH',{hour:'2-digit',minute:'2-digit'})+' Uhr';
+}
+
+// ═══ CACHE ══════════════════════════════════════
+const CACHE_KEY='mb_v4', CACHE_TTL=12*60*60*1000;
+function cacheGet(ignoreExpiry=false) {
+  try {
+    const o=JSON.parse(localStorage.getItem(CACHE_KEY));
+    if (!o) return null;
+    if (!ignoreExpiry && Date.now()-o.ts>CACHE_TTL) return null;
+    return o;
+  } catch(e){return null;}
+}
+function cacheSet(stocks,news) {
+  try { localStorage.setItem(CACHE_KEY,JSON.stringify({ts:Date.now(),stocks,news})); } catch(e){}
+}
+function showCacheNote(ts) {
+  const mins=Math.round((Date.now()-ts)/60000);
+  document.getElementById('cacheNote').textContent = mins<2?'':
+    'Gecachte Daten · aktualisiert vor '+mins+' Min. · ↻ für Live-Daten';
+}
+
+// ═══ FAVICON HELPER ════════════════════════════
+function getDomain(url) {
+  try { return new URL(url).hostname.replace(/^www\./,''); } catch(e){return '';}
+}
+function faviconUrl(url) {
+  const d=getDomain(url);
+  return d?'https://www.google.com/s2/favicons?domain='+d+'&sz=64':'';
+}
+function initials(source) {
+  return (source||'?').replace(/^(The|Der|Die|Das|Le|La|Les)\s+/i,'').charAt(0).toUpperCase();
+}
+
+// ═══ FOREX ══════════════════════════════════════
+async function loadForex() {
+  try {
+    const BASE='https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/';
+    const [rE,rU]=await Promise.all([fetch(BASE+'eur.json',{signal:AbortSignal.timeout(8000)}),fetch(BASE+'usd.json',{signal:AbortSignal.timeout(8000)})]);
+    const [dE,dU]=await Promise.all([rE.json(),rU.json()]);
+    const eur=dE?.eur?.chf,usd=dU?.usd?.chf;
+    if(eur){document.getElementById('eurVal').textContent=numCH(eur,4);document.getElementById('eurNote').textContent='Tageskurs';}
+    if(usd){document.getElementById('usdVal').textContent=numCH(usd,4);document.getElementById('usdNote').textContent='Tageskurs';}
+  } catch(e) {
+    ['eurVal','usdVal'].forEach(id=>document.getElementById(id).textContent='–');
+    ['eurNote','usdNote'].forEach(id=>document.getElementById(id).textContent='Keine Daten');
+  }
+}
+
+// ═══ BITCOIN ════════════════════════════════════
+async function loadBitcoin() {
+  try {
+    const r=await fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true',{signal:AbortSignal.timeout(8000)});
+    const d=await r.json();
+    const price=d?.bitcoin?.usd,chg=d?.bitcoin?.usd_24h_change;
+    if(price!==undefined)document.getElementById('btcVal').textContent=usdFmt(price);
+    if(chg!==undefined){const el=document.getElementById('btcChg');el.textContent=pct(chg)+' (24h)';el.className='mcard-chg '+(chg>=0?'up':'dn');}
+  } catch(e){document.getElementById('btcVal').textContent='–';document.getElementById('btcChg').textContent='Keine Daten';}
+}
+
+// ═══ CLAUDE API ════════════════════════════════
+async function askClaude(prompt) {
+  const r=await fetch('https://api.anthropic.com/v1/messages',{
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({
+      model:'claude-sonnet-4-5-20251001',
+      max_tokens:2000,
+      tools:[{type:'web_search_20250305',name:'web_search'}],
+      messages:[{role:'user',content:prompt}]
+    })
+  });
+  if(!r.ok) throw new Error('API '+r.status);
+  const d=await r.json();
+  return (d.content||[]).filter(b=>b.type==='text').map(b=>b.text).join('\n');
+}
+
+function parseJSON(text) {
+  try {
+    const clean=text.replace(/```json|```/gi,'').trim();
+    const start=clean.search(/[\[{]/);
+    return start===-1?null:JSON.parse(clean.slice(start));
+  } catch(e){return null;}
+}
+
+// ═══ STOCKS ════════════════════════════════════
+const STOCK_INFO={
+  ESTA:{name:'Establishment Labs', url:'https://finance.yahoo.com/quote/ESTA'},
+  APYX:{name:'Apyx Medical',       url:'https://finance.yahoo.com/quote/APYX'},
+  IART:{name:'Integra LifeSci.',   url:'https://finance.yahoo.com/quote/IART'}
+};
+
+function renderStocks(arr) {
+  arr.forEach(item=>{
+    const el=document.getElementById('sc-'+item.ticker);
+    if(!el)return;
+    const info=STOCK_INFO[item.ticker]||{};
+    const cls=Number(item.changePct)>=0?'up':'dn';
+    el.innerHTML=
+      '<div class="scard-name">'+(info.name||item.ticker)+'</div>'+
+      '<div class="scard-ticker">'+item.ticker+'</div>'+
+      '<div class="scard-price '+cls+'">$'+numCH(item.price,2)+'</div>'+
+      '<div class="scard-change '+cls+'">'+pct(item.changePct)+' ('+(Number(item.changePct)>=0?'+':'')+numCH(item.change,2)+')</div>'+
+      '<div class="scard-link">↗ Yahoo Finance</div>';
+  });
+}
+
+async function fetchStocks() {
+  const text=await askClaude(
+    `Search for current NASDAQ stock prices for: ESTA (Establishment Labs), APYX (Apyx Medical), IART (Integra LifeSciences).
+Return ONLY a JSON array, no text or markdown:
+[{"ticker":"ESTA","price":71.96,"change":0.97,"changePct":1.37},{"ticker":"APYX","price":1.23,"change":-0.05,"changePct":-3.9},{"ticker":"IART","price":18.50,"change":0.30,"changePct":1.65}]`
+  );
+  const arr=parseJSON(text);
+  if(!Array.isArray(arr)||arr.length===0)throw new Error('no data');
+  return arr;
+}
+
+// ═══ NEWS ══════════════════════════════════════
+function imgHtml(url, source) {
+  const fav = faviconUrl(url);
+  const init = initials(source);
+  if (fav) {
+    return '<div class="nitem-img"><img src="'+fav+'" alt="" onerror="this.parentNode.innerHTML=\'<div class=nitem-img-fallback>'+init+'</div>\'">'+'</div>';
+  }
+  return '<div class="nitem-img"><div class="nitem-img-fallback">'+init+'</div></div>';
+}
+
+function renderNews(items) {
+  const feed=document.getElementById('newsFeed');
+  if(!items.length){feed.innerHTML='<div class="n-empty">Keine Meldungen gefunden.</div>';return;}
+  feed.innerHTML=items.map(i=>
+    '<a href="'+(i.url||'#')+'" target="_blank" rel="noopener noreferrer" class="nitem">'+
+      imgHtml(i.url||'', i.source||'')+
+      '<div class="nitem-body">'+
+        '<div class="nitem-meta">'+
+          (i.source?'<span class="nsrc">'+i.source+'</span><span class="ndot">·</span>':'')+
+          '<span>'+(i.ago||'')+'</span>'+
+        '</div>'+
+        '<div class="nitem-title">'+(i.title||'')+'</div>'+
+        (i.summary?'<div class="nitem-desc">'+(i.summary)+'</div>':'')+
+      '</div>'+
+    '</a>'
+  ).join('');
+}
+
+async function fetchNews() {
+  const text=await askClaude(
+    `You are a news researcher for a Swiss medical aesthetics distributor (esthetic med GmbH / medical esthetic GmbH).
+Search for the 14-18 most relevant and recent news articles (last 7 days) from these topics:
+
+1. OWN PRODUCTS/PARTNERS: Establishment Labs, Motiva implants, Mia Femtech, Apyx Medical Renuvion, body-jet Humanmed liposuction, Lipoelastic compression, pHformula skincare, Puregraft, Integra IDRT wound care, RegenLab PRP, Sunekos injectables, Revanesse Prollenium filler, Tigr Mesh, Vaser liposuction, STRIM body contouring
+
+2. COMPETITORS: Allergan Natrelle breast implants, Mentor implants Johnson Johnson, Galderma Restylane aesthetics, Merz Belotero aesthetics, InMode BodyTite, GC Aesthetics LunaXT, breast implant safety recall news
+
+3. SWISS MARKET & COMPETITORS: Albin Group Switzerland aesthetics, Calista Medical BTL Switzerland, aesthetic medicine Switzerland, medical aesthetics Switzerland news
+
+4. CUSTOMERS: Hirslanden clinics, Lucerne Clinic, Clinique de la Source Lausanne, clinic utoquai Zurich, Clinique Générale-Beaulieu Geneva, HUG Genève, CHUV, Insel Gruppe Bern, HOCH Health Ostschweiz, Spital Zollikerberg, Affidea Switzerland
+
+5. INDUSTRY: Swissmedic medical device regulations, plastic surgery trends Switzerland, IMCAS AMWC 2026 conferences, EU MDR updates, aesthetic medicine industry news
+
+For each article, provide a 1-2 sentence summary in the same language as the article.
+Return ONLY a JSON array, no explanation, no markdown fences:
+[{"title":"Article headline","url":"https://real-article-url.com/...","source":"Publication Name","ago":"2 hours ago","summary":"Brief 1-2 sentence summary of the article content."}]
+
+Use only real articles with real URLs. Mix German, French and English as found.`
+  );
+  const arr=parseJSON(text);
+  if(!Array.isArray(arr)||arr.length===0)throw new Error('no news');
+  return arr;
+}
+
+// ═══ RENDER SKELETONS ══════════════════════════
+function resetSkeletons() {
+  Object.entries(STOCK_INFO).forEach(([t,info])=>{
+    document.getElementById('sc-'+t).innerHTML=
+      '<div class="scard-name">'+info.name+'</div><div class="scard-ticker">'+t+'</div>'+
+      '<div class="skel"></div><div class="skel sm"></div>';
+  });
+  document.getElementById('newsFeed').innerHTML=
+    '<div class="n-loading"><div class="nsh"></div><div class="nsh s"></div><div class="nsh"></div><div class="nsh s"></div><div class="nsh"></div><div class="nsh s"></div></div>';
+  document.getElementById('cacheNote').textContent='';
+}
+
+// ═══ INIT ══════════════════════════════════════
+async function loadFromAPI() {
+  const [sR,nR]=await Promise.allSettled([fetchStocks(), fetchNews()]);
+  if(sR.status==='fulfilled') renderStocks(sR.value);
+  else Object.keys(STOCK_INFO).forEach(t=>{
+    document.getElementById('sc-'+t).innerHTML=
+      '<div class="scard-name">'+STOCK_INFO[t].name+'</div><div class="scard-ticker">'+t+'</div>'+
+      '<div class="scard-price neut">–</div><div class="scard-change neut">Keine Daten</div>';
+  });
+  if(nR.status==='fulfilled') renderNews(nR.value);
+  else document.getElementById('newsFeed').innerHTML='<div class="n-error">News konnten nicht geladen werden – bitte neu laden</div>';
+  if(sR.status==='fulfilled'&&nR.status==='fulfilled') cacheSet(sR.value,nR.value);
+}
+
+async function loadAll(forceApi=false) {
+  setDateTime();
+  document.getElementById('refBtn').classList.add('spinning');
+  loadForex();
+  loadBitcoin();
+  // Always show cache if available (even stale) - only call API if no cache at all
+  const cache = forceApi ? null : cacheGet(true);
+  if(cache) {
+    renderStocks(cache.stocks);
+    renderNews(cache.news);
+    showCacheNote(cache.ts);
+  } else {
+    resetSkeletons();
+    await loadFromAPI();
+    document.getElementById('cacheNote').textContent='';
+  }
+  document.getElementById('refBtn').classList.remove('spinning');
+}
+
+function forceRefresh() {
+  try{localStorage.removeItem(CACHE_KEY);}catch(e){}
+  loadAll(true);
+}
+
+document.addEventListener('DOMContentLoaded',()=>loadAll(false));
+</script>
+</body>
+</html>
