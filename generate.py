@@ -172,6 +172,7 @@ def chg_cell(n):
     return '<span style="color:' + color + '">' + sign + str(round(float(n), 2)) + '%</span>'
 
 
+
 def send_email(data):
     if not GMAIL_USER or not GMAIL_PASS or not RECIPIENTS:
         print('Email credentials not set - skipping email.')
@@ -183,89 +184,123 @@ def send_email(data):
               'August','September','Oktober','November','Dezember']
     date_str = days[now.weekday()] + ', ' + str(now.day) + '. ' + months[now.month - 1] + ' ' + str(now.year)
 
-    # Forex table rows
-    forex_rows = ''
-    for label, key, dec in [('EUR / CHF', 'eur_chf', 4), ('USD / CHF', 'usd_chf', 4)]:
-        f    = data['forex'].get(key, {})
-        rate = num_fmt(f.get('rate'), dec) if f.get('rate') else '-'
-        chg  = chg_cell(f.get('changePct'))
-        forex_rows += (
-            '<tr>'
-            '<td style="padding:8px 14px;color:#94a3b8;font-size:12px">' + label + '</td>'
-            '<td style="padding:8px 14px;font-weight:800;font-size:15px;color:#f1f5f9">' + rate + '</td>'
-            '<td style="padding:8px 14px;font-size:11px">' + chg + ' (24h)</td>'
+    def f(n, dec=2):
+        if n is None: return '-'
+        s = ('{:.' + str(dec) + 'f}').format(abs(float(n)))
+        parts = s.split('.')
+        parts[0] = '{:,}'.format(int(parts[0])).replace(',', "'")
+        return parts[0] + '.' + parts[1]
+
+    def chg(n):
+        if n is None: return '-'
+        color = '#4ade80' if float(n) >= 0 else '#f87171'
+        sign  = '+' if float(n) >= 0 else ''
+        return '<span style="color:' + color + '">' + sign + ('{:.2f}'.format(float(n))) + '%</span>'
+
+    # -- Forex rows --
+    rows = ''
+    for label, key, dec in [('EUR / CHF','eur_chf',4),('USD / CHF','usd_chf',4)]:
+        fx   = data.get('forex', {}).get(key, {})
+        rate = f(fx.get('rate'), dec) if fx.get('rate') else '-'
+        rows += (
+            '<tr style="border-bottom:1px solid #334155">'
+            '<td style="padding:10px 16px;color:#94a3b8;font-size:13px;width:35%">' + label + '</td>'
+            '<td style="padding:10px 16px;font-weight:900;font-size:16px;color:#f1f5f9">' + rate + '</td>'
+            '<td style="padding:10px 16px;font-size:12px;text-align:right">' + chg(fx.get('changePct')) + ' (24h)</td>'
             '</tr>'
         )
     btc = data.get('bitcoin', {})
-    btc_price = ('$ ' + num_fmt(btc.get('price'), 0)) if btc.get('price') else '-'
-    forex_rows += (
+    btc_p = '$ ' + f(btc.get('price'), 0) if btc.get('price') else '-'
+    rows += (
         '<tr>'
-        '<td style="padding:8px 14px;color:#94a3b8;font-size:12px">Bitcoin / USD</td>'
-        '<td style="padding:8px 14px;font-weight:800;font-size:15px;color:#f1f5f9">' + btc_price + '</td>'
-        '<td style="padding:8px 14px;font-size:11px">' + chg_cell(btc.get('changePct')) + ' (24h)</td>'
+        '<td style="padding:10px 16px;color:#94a3b8;font-size:13px">Bitcoin / USD</td>'
+        '<td style="padding:10px 16px;font-weight:900;font-size:16px;color:#f1f5f9">' + btc_p + '</td>'
+        '<td style="padding:10px 16px;font-size:12px;text-align:right">' + chg(btc.get('changePct')) + ' (24h)</td>'
         '</tr>'
     )
 
-    # Stock cells
-    stock_cells = ''
+    # -- Stock cards --
+    stocks_html = ''
     for s in data.get('stocks', []):
         pct   = float(s.get('changePct', 0))
         color = '#4ade80' if pct >= 0 else '#f87171'
         sign  = '+' if pct >= 0 else ''
-        stock_cells += (
-            '<td style="width:33%;padding:0 3px">'
-            '<div style="background:#1e293b;border:1px solid #334155;border-radius:8px;'
-            'padding:10px;text-align:center">'
-            '<div style="font-size:9px;color:#64748b;letter-spacing:1px">' + str(s.get('ticker', '')) + '</div>'
-            '<div style="font-size:16px;font-weight:900;color:#f1f5f9;margin:4px 0">$' + num_fmt(s.get('price'), 2) + '</div>'
-            '<div style="font-size:11px;color:' + color + '">' + sign + str(round(pct, 2)) + '%</div>'
+        price = '$' + f(s.get('price'), 2) if s.get('price') else '-'
+        stocks_html += (
+            '<td style="width:33%;padding:4px">'
+            '<div style="background:#1e293b;border:1px solid #334155;border-radius:10px;padding:12px 8px;text-align:center">'
+            '<div style="font-size:10px;color:#64748b;letter-spacing:1.5px;margin-bottom:4px">' + str(s.get('ticker','')) + '</div>'
+            '<div style="font-size:9px;color:#64748b;margin-bottom:6px">' + str(s.get('name','')) + '</div>'
+            '<div style="font-size:18px;font-weight:900;color:#f1f5f9;margin-bottom:4px">' + price + '</div>'
+            '<div style="font-size:12px;color:' + color + '">' + sign + ('{:.2f}'.format(pct)) + '%</div>'
             '</div></td>'
         )
+    if not stocks_html:
+        stocks_html = '<td style="padding:10px;color:#64748b;font-size:12px">Keine Daten</td>'
 
-    # News rows
-    news_rows = ''
+    # -- News rows --
+    news_html = ''
     for item in data.get('news', [])[:15]:
         title   = str(item.get('title', ''))
         url     = str(item.get('url', '#'))
         source  = str(item.get('source', ''))
         ago     = str(item.get('ago', ''))
         summary = str(item.get('summary', ''))
-        news_rows += (
-            '<tr><td style="padding:10px 0;border-bottom:1px solid #334155">'
-            '<a href="' + url + '" style="text-decoration:none">'
-            '<div style="font-size:10px;color:#64748b;margin-bottom:3px">' + source + ' &nbsp;&#183;&nbsp; ' + ago + '</div>'
-            '<div style="font-size:13px;font-weight:700;color:#f1f5f9;line-height:1.4;margin-bottom:4px">' + title + '</div>'
-            '<div style="font-size:11px;color:#94a3b8;line-height:1.5">' + summary + '</div>'
+        news_html += (
+            '<tr>'
+            '<td style="padding:12px 0;border-bottom:1px solid #1e293b">'
+            '<a href="' + url + '" style="text-decoration:none;display:block">'
+            '<div style="font-size:10px;color:#475569;margin-bottom:4px">'
+            + (source + ' &nbsp;&middot;&nbsp; ' if source else '') + ago +
+            '</div>'
+            '<div style="font-size:14px;font-weight:700;color:#e2e8f0;line-height:1.45;margin-bottom:5px">' + title + '</div>'
+            + ('<div style="font-size:12px;color:#64748b;line-height:1.6">' + summary + '</div>' if summary else '') +
             '</a></td></tr>'
         )
+    if not news_html:
+        news_html = '<tr><td style="padding:16px 0;color:#64748b;font-size:12px">Keine Neuigkeiten heute.</td></tr>'
 
-    dashboard_url = 'https://patrickheeb86.github.io/morning-brief/'
-
+    # -- Assemble HTML --
     html = (
         '<!DOCTYPE html><html><head><meta charset="UTF-8">'
-        '<meta name="viewport" content="width=device-width,initial-scale=1"></head>'
-        '<body style="background:#0f172a;color:#f1f5f9;font-family:Arial,sans-serif;margin:0;padding:16px">'
-        '<div style="max-width:600px;margin:0 auto">'
-        '<div style="text-align:center;padding:20px 0 16px;border-bottom:1px solid #334155;margin-bottom:16px">'
-        '<div style="font-size:9px;letter-spacing:3px;text-transform:uppercase;color:#64748b;margin-bottom:6px">'
-        'esthetic med &middot; medical esthetic</div>'
-        '<div style="font-size:26px;font-weight:900;color:#f1f5f9;letter-spacing:-1px">Morning Brief</div>'
-        '<div style="font-size:12px;color:#94a3b8;margin-top:4px">' + date_str + '</div>'
+        '<meta name="viewport" content="width=device-width,initial-scale=1.0"></head>'
+        '<body style="margin:0;padding:0;background:#0f172a;font-family:Arial,Helvetica,sans-serif">'
+        '<div style="max-width:620px;margin:0 auto;padding:20px 16px 40px">'
+
+        # Header
+        '<div style="text-align:center;padding:24px 0 20px;margin-bottom:24px;border-bottom:1px solid #1e293b">'
+        '<div style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#475569;margin-bottom:8px">'
+        'ESTHETIC MED &middot; MEDICAL ESTHETIC</div>'
+        '<div style="font-size:32px;font-weight:900;color:#f1f5f9;letter-spacing:-1px;line-height:1">Morning Brief</div>'
+        '<div style="font-size:13px;color:#64748b;margin-top:8px">' + date_str + '</div>'
         '</div>'
-        '<div style="font-size:9px;font-weight:800;letter-spacing:2px;text-transform:uppercase;'
-        'color:#64748b;margin-bottom:8px">W&auml;hrungen &amp; Markt</div>'
-        '<table style="width:100%;background:#1e293b;border:1px solid #334155;border-radius:10px;'
-        'border-collapse:collapse;margin-bottom:16px">' + forex_rows + '</table>'
-        '<div style="font-size:9px;font-weight:800;letter-spacing:2px;text-transform:uppercase;'
-        'color:#64748b;margin-bottom:8px">Partner-Aktien (NASDAQ)</div>'
-        '<table style="width:100%;border-collapse:collapse;margin-bottom:16px"><tr>' + stock_cells + '</tr></table>'
-        '<div style="font-size:9px;font-weight:800;letter-spacing:2px;text-transform:uppercase;'
-        'color:#64748b;margin-bottom:4px">News &amp; Radar</div>'
-        '<table style="width:100%;border-collapse:collapse">' + news_rows + '</table>'
-        '<div style="text-align:center;padding:20px 0 0;font-size:9px;color:#475569">'
-        '<a href="' + dashboard_url + '" style="color:#64748b;text-decoration:none">Dashboard &ouml;ffnen</a>'
-        ' &nbsp;&middot;&nbsp; esthetic med GmbH / medical esthetic GmbH &middot; K&uuml;ssnacht am Rigi'
-        '</div></div></body></html>'
+
+        # Forex
+        '<div style="font-size:10px;font-weight:800;letter-spacing:2px;text-transform:uppercase;'
+        'color:#475569;margin-bottom:10px">W&Auml;HRUNGEN &amp; MARKT</div>'
+        '<table style="width:100%;background:#1e293b;border:1px solid #334155;border-radius:12px;'
+        'border-collapse:collapse;margin-bottom:24px">' + rows + '</table>'
+
+        # Stocks
+        '<div style="font-size:10px;font-weight:800;letter-spacing:2px;text-transform:uppercase;'
+        'color:#475569;margin-bottom:10px">PARTNER-AKTIEN (NASDAQ)</div>'
+        '<table style="width:100%;border-collapse:collapse;margin-bottom:24px">'
+        '<tr>' + stocks_html + '</tr></table>'
+
+        # News
+        '<div style="font-size:10px;font-weight:800;letter-spacing:2px;text-transform:uppercase;'
+        'color:#475569;margin-bottom:10px">NEWS &amp; RADAR</div>'
+        '<table style="width:100%;border-collapse:collapse">' + news_html + '</table>'
+
+        # Footer
+        '<div style="text-align:center;margin-top:32px;padding-top:20px;border-top:1px solid #1e293b">'
+        '<a href="https://patrickheeb86.github.io/morning-brief/" '
+        'style="color:#475569;text-decoration:none;font-size:11px">Dashboard &ouml;ffnen</a>'
+        '<span style="color:#334155;font-size:11px"> &nbsp;&middot;&nbsp; '
+        'esthetic med GmbH / medical esthetic GmbH &middot; K&uuml;ssnacht am Rigi</span>'
+        '</div>'
+
+        '</div></body></html>'
     )
 
     subject = 'Morning Brief \u00b7 ' + now.strftime('%d.%m.%Y')
