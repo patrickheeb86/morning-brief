@@ -4,7 +4,7 @@ on:
   schedule:
     # 04:00 UTC = 06:00 CEST (Sommer) / 05:00 CET (Winter)
     - cron: '0 4 * * *'
-  workflow_dispatch:  # Manueller Start jederzeit moeglich
+  workflow_dispatch:
 
 jobs:
   update:
@@ -22,15 +22,14 @@ jobs:
           python-version: '3.11'
 
       - name: Abhaengigkeiten installieren
-        run: pip install anthropic requests
+        run: pip install requests
 
       - name: Daten generieren und E-Mail senden
         run: python generate.py
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          GMAIL_USER:        ${{ secrets.GMAIL_USER }}
-          GMAIL_PASS:        ${{ secrets.GMAIL_PASS }}
-          EMAIL_RECIPIENTS:  ${{ secrets.EMAIL_RECIPIENTS }}
+          GMAIL_USER:       ${{ secrets.GMAIL_USER }}
+          GMAIL_PASS:       ${{ secrets.GMAIL_PASS }}
+          EMAIL_RECIPIENTS: ${{ secrets.EMAIL_RECIPIENTS }}
 
       - name: data.json ins Repository speichern
         run: |
