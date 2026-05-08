@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-08T06:48:48.508934Z",
+  "generated": "2026-05-08T07:10:13.383105Z",
   "forex": {
     "eur_chf": {
       "rate": 0.915494,
@@ -13,30 +13,30 @@
     }
   },
   "bitcoin": {
-    "price": 79502,
-    "changePct": -2.2134301067046085
+    "price": 79330,
+    "changePct": -2.637149654219047
   },
   "stocks": [
     {
       "ticker": "ESTA",
       "name": "Establishment Labs",
-      "price": 72.03,
-      "change": 1.0400000000000063,
-      "changePct": 1.4649950697281395
+      "price": 72.02999877929688,
+      "change": -2.5100021362304688,
+      "changePct": -3.367322384493844
     },
     {
       "ticker": "APYX",
       "name": "Apyx Medical",
-      "price": 3.56,
-      "change": 0.77,
-      "changePct": 27.598566308243726
+      "price": 3.559999942779541,
+      "change": 0.6399998664855957,
+      "changePct": 21.917803074097225
     },
     {
       "ticker": "IART",
       "name": "Integra LifeSciences",
-      "price": 13.56,
-      "change": 0.33999999999999986,
-      "changePct": 2.571860816944023
+      "price": 13.5600004196167,
+      "change": -0.4399995803833008,
+      "changePct": -3.142854145595005
     }
   ],
   "news": [
@@ -79,14 +79,14 @@
       "title": "Marktwachstum für medizinische Ästhetik, Anteil, Branchentrends, 2034",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd1BCMVFTNWgwU3FzQ3RMNjlWVThzcWtRVG9lTDZRbU9zZllZV0I2Q2c3UEIwMkJPQ0xOYWpVX1ZtN1l3ellyQmpJZzBvazlMY3V3WXB6QTJZQk5mM3JxS1pjSmFsTUF5dmQ1Znk0b1FMVXZMWUp5b1Zpd2RIQUZtZExRWTJKU2dQSmFYZFRQbHBRdEVOcGtpUjZrc2dweHJR?oc=5",
       "source": "Fortune Business Insights",
-      "ago": "17 Tage",
+      "ago": "18 Tage",
       "summary": ""
     },
     {
       "title": "Ist es an der Zeit, Establishment Labs Holdings (ESTA) nach einem Anstieg von 106% innerhalb eines Jahres neu zu bewerten?",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPS1hOU0hzN0U4cldzR2VvT3UxYldrWUpXYVhKQTBNUjNrLWlhTGc0ODF0dEpabTJtd3pkV2NrVlhUMzMyT3ZrdVZCVkdEU0xfWGIteE93QW1CUldGbUpia2F2VEE2MnFyWDM2ZGFfU1FPejVsaEtNXzJNUjVuNnpyMWMwc0hwRXV6UWE5T2ttS1ZET0hES2ppNlFuSU9IUzY5dDZEd3JNeGR3QnV6ZF9weVotZi1va1Zza1oySU5nQVZGSGJBNG1EWmRiR1Z0dFRKRFk1Z3lqTm5lbzN0enRJNzFGRVp0d9IB6wFBVV95cUxNWFc2LTM1NnpIcV9OWnhGRHZPaGNDUC0yODY1YUhoeEw3U280d25DN19WbzlPNm9QZWNNaFh6LVN1eGdMeHZCTnh5VGNqYUxHeloycVA5WkU0OUppYWtyclJIUC1CRkR6SjNNejFOOVMyc1l1d1I4MXZQMWhsbUlGbkhSVnZnZDRGaWstSFQwbXpuZ0JqeElPYjVoMDE2OE9naTNfb1FFMkVrN2MtdmhQR2NBODVCSFZkNGtDMzh3aXk3dkJReW5JNjEtcVpaZlVWZWY4eWxPTG5lbFBLeGl3eXBwMTZ3RWgtdEpB?oc=5",
       "source": "simplywall.st",
-      "ago": "27 Tage",
+      "ago": "28 Tage",
       "summary": ""
     }
   ]
