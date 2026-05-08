@@ -1,20 +1,20 @@
 {
-  "generated": "2026-05-08T07:10:13.383105Z",
+  "generated": "2026-05-08T07:33:14.257068Z",
   "forex": {
     "eur_chf": {
-      "rate": 0.915494,
-      "change": 0.0,
-      "changePct": 0.0
+      "rate": 0.915461,
+      "change": -3.300000000006076e-05,
+      "changePct": -0.0036046112809107167
     },
     "usd_chf": {
-      "rate": 0.77871504,
-      "change": 0.0,
-      "changePct": 0.0
+      "rate": 0.78060521,
+      "change": 0.0018901700000000243,
+      "changePct": 0.24272935578591423
     }
   },
   "bitcoin": {
-    "price": 79330,
-    "changePct": -2.637149654219047
+    "price": 79412,
+    "changePct": -2.7440367699430075
   },
   "stocks": [
     {
