@@ -13,12 +13,12 @@ jobs:
 
     steps:
       - name: Repository auschecken
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
 
       - name: Python einrichten
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v5.4.0
         with:
-          python-version: '3.11'
+          python-version: '3.12'
 
       - name: Abhaengigkeiten installieren
         run: pip install requests
