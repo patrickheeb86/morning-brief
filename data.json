@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-08T05:02:43.332442Z",
+  "generated": "2026-05-08T05:19:31.714481Z",
   "forex": {
     "eur_chf": {
       "rate": 0.915494,
@@ -7,14 +7,14 @@
       "changePct": 0.0
     },
     "usd_chf": {
-      "rate": 0.77871504,
-      "change": 0.0,
-      "changePct": 0.0
+      "rate": 0.78060521,
+      "change": 0.0018901700000000243,
+      "changePct": 0.24272935578591423
     }
   },
   "bitcoin": {
-    "price": 79639,
-    "changePct": -1.7228548147175275
+    "price": 79645,
+    "changePct": -1.8224225679975534
   },
   "stocks": [
     {
@@ -39,5 +39,69 @@
       "changePct": 2.571860816944023
     }
   ],
-  "news": []
+  "news": [
+    {
+      "title": "Establishment Labs Holdings Inc AKTIE | Aktienkurs & News | A2JRE4 – boerse.de",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPS3lmMDNic3lvUzE5dUpPY0ozaFRiN2RLa3Jvd0h4UE1rekxlYmtLOHduQldGd3VaZ042akFjVElQLWh0X2JPZlFTaTFGdk1iekEybFZDUHlXV3NYYUcyYUJOX0stMWh4WDFqVmNZOEJaZUE2REYzcURlaWttVWJnNHhIRFFJUQ?oc=5",
+      "source": "boerse.de",
+      "ago": "5 Tage",
+      "summary": ""
+    },
+    {
+      "title": "Ist es an der Zeit, Establishment Labs Holdings (ESTA) nach einem Anstieg von 106% innerhalb eines Jahres neu zu bewerten?",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPS1hOU0hzN0U4cldzR2VvT3UxYldrWUpXYVhKQTBNUjNrLWlhTGc0ODF0dEpabTJtd3pkV2NrVlhUMzMyT3ZrdVZCVkdEU0xfWGIteE93QW1CUldGbUpia2F2VEE2MnFyWDM2ZGFfU1FPejVsaEtNXzJNUjVuNnpyMWMwc0hwRXV6UWE5T2ttS1ZET0hES2ppNlFuSU9IUzY5dDZEd3JNeGR3QnV6ZF9weVotZi1va1Zza1oySU5nQVZGSGJBNG1EWmRiR1Z0dFRKRFk1Z3lqTm5lbzN0enRJNzFGRVp0d9IB6wFBVV95cUxNWFc2LTM1NnpIcV9OWnhGRHZPaGNDUC0yODY1YUhoeEw3U280d25DN19WbzlPNm9QZWNNaFh6LVN1eGdMeHZCTnh5VGNqYUxHeloycVA5WkU0OUppYWtyclJIUC1CRkR6SjNNejFOOVMyc1l1d1I4MXZQMWhsbUlGbkhSVnZnZDRGaWstSFQwbXpuZ0JqeElPYjVoMDE2OE9naTNfb1FFMkVrN2MtdmhQR2NBODVCSFZkNGtDMzh3aXk3dkJReW5JNjEtcVpaZlVWZWY4eWxPTG5lbFBLeGl3eXBwMTZ3RWgtdEpB?oc=5",
+      "source": "simplywall.st",
+      "ago": "27 Tage",
+      "summary": ""
+    },
+    {
+      "title": "Establishment Labs Aktie (VGG3006U1060): Insider-Verkäufe nach starkem Kursanstieg im Fokus",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPa1pzb2VrdXREZk9FSVk1YmFLaVNDdHNUdm8wZFdlZGhkRFNGaTBtbDFaNEZiTF9DUEhSWU5SWjZaNUxuQ3hVX0UzUkd3dnEtbmhiTGdHN0FyLXF6SURKdXZCZjd6OTdmUnBVYUx3ZTdoQkxMVXRFdFhla3N2OU9HWkktNXE3b2R4X3UyR3pfTjMwc2hFZFZoclg3bkhxelZGNTJKYUdBUF9uS1Vhd0pQWUt4QnJOYnRrN3lVNFFYS1VwS1JQMlE?oc=5",
+      "source": "AD HOC NEWS",
+      "ago": "2 Tage",
+      "summary": ""
+    },
+    {
+      "title": "Establishment Labs Secures Up to $300 Million 5-Year Term Loan From Oaktree to Refinance Debt",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPWC1ZRWZsUjBiVEtFWTFoZ1JYeXVMSnp5cnZpWkVMUzVJSlMwWm5JZFBPQWREY04zdzBWdlcxSUdTa2RNS1BwR3ZmcHd4RkJvUTdsdHRLSnBhWkdLLUNHYWFBbEZSRXRYT043djM4NmVTRzRNTkNiLXZPdWIzMnlyM3J3MmNsek9sTmhWNGFlREtDck1BWlhIcGQ3Z1pyZF9jZWpVOXl3VVQxblB4bjNpSi1oV1pYOGV0a0hjT3VCVEpyYkkzYl96aDJLbUIwQmZsUW9DSFNvby1oUEJJYWtNX3JxdHEtZnJ0VjhjUW5B?oc=5",
+      "source": "TradingView",
+      "ago": "7 Tage",
+      "summary": ""
+    },
+    {
+      "title": "Establishment Labs (ESTA) steigt um 8,6% nach Umsatzsprüngen und geringerem Verlust in Q1 2026",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOYTB5c2RkcW9NenJNdHBPc1Vad0VtWk5DMmlsSk16aGh4Tkd0U1d1Rm9BYVJJUEtMc01NTjhzN3J2dkFfbHBmRjdFTHAyUEtrU0hSLTlNUTNFalZ1amhzVi0wdlgyMkxBa3VxeEhFQ2RrckJ0MDZSeEhCQzMzZlcwekY5bk9jQlRsNTB6Tng5aUhrM3dZME9RZTZ3b3AzQ2V4cmhQa1lUQTRMSVpISWlkUjgzQm5HMlhkdWJGSU4wUGhGRHdHOEZ5X2x0ajRHUUtzcVJfYjJVV1o5SDFod21rLU5ZV1hhQdIB6wFBVV95cUxPNV92TG0wenJZV3lXSmkyUF9Pc3FfMHFuQWF1Qzh2Ulkxd3NoLVBFck5CMzFucDJPdHhhOVZZU0RVRmt0SVpCSkVnZGxMN0lyM1YyUHMtMmVUbzZoNlRWZUFIUENDUEEzQ1RFM1c0dU9LYkJOcE5BdFJnRWZncHMwV0hSRkF4VjBXQUZjWHBCQmV1cURvR3BabWpmRFBGaENjNmpXQ29adTdCUmgwcko5VFhiYUNCaHpiZy1KSVV6eEV1OF8yVG1IeUlleUc5VGJIWEotUEI4eF9xTGRpeUh2aUxRblRMV1JYMF9V?oc=5",
+      "source": "simplywall.st",
+      "ago": "23 Std.",
+      "summary": ""
+    },
+    {
+      "title": "Apyx Medical Corporation Aktie (APYX) | Aktienkurs » US03837C1062",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5NcUZaTkZPQnc3V3hJdEM5Snd5UTE1T1N6d0ZKa1pQWGtkaVRNTlJNWWRYcHdPRVRVU2VEQVJ3dTMwXzlkSzViMDdFYjFiUm5YLXgwamo2MEp0cl9WTUg3QWo1U180aDh1SmxtSTJqX1gyNnBCY0E3bjNR?oc=5",
+      "source": "Wallstreet Online",
+      "ago": "2657 Tage",
+      "summary": ""
+    },
+    {
+      "title": "AbbVie's Strategic Pivot: Aesthetic Innovations and Investor Sentiment",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT1BSb3VzQ1pvaUZXaV9qMDVBbGJSQmlSTFNnZ3NteVYyanlycHpQMXE4YXVjSmx1RklkYkJOYXV1R2l4M1ZxSHNranZ2QklTYzlSczFRS2Y2d1dhUVh6WEJwa0pkaGpOTkJvZmd6WmFGcEhJOUljSHB3TnNvN25nbVhqaktBMFVmdUw5R0ZzOHJiSmhjM2xWdXRTUVg3RlAzNEZCbTVNQ2pIcjhBb0QyZDdRNkJRQWs4UW92ODZnMk5jN19nSXVV?oc=5",
+      "source": "AD HOC NEWS",
+      "ago": "46 Tage",
+      "summary": ""
+    },
+    {
+      "title": "Marktwachstum für medizinische Ästhetik, Anteil, Branchentrends, 2034",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd1BCMVFTNWgwU3FzQ3RMNjlWVThzcWtRVG9lTDZRbU9zZllZV0I2Q2c3UEIwMkJPQ0xOYWpVX1ZtN1l3ellyQmpJZzBvazlMY3V3WXB6QTJZQk5mM3JxS1pjSmFsTUF5dmQ1Znk0b1FMVXZMWUp5b1Zpd2RIQUZtZExRWTJKU2dQSmFYZFRQbHBRdEVOcGtpUjZrc2dweHJR?oc=5",
+      "source": "Fortune Business Insights",
+      "ago": "17 Tage",
+      "summary": ""
+    },
+    {
+      "title": "Marktgrößen-, Nachfrage- und Wachstumsanalysebericht für ästhetische Laser und Energiegeräte 2030",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUHhGU1Z6Y2x1SGhQekVLY1pIa3czYVJneEFxRTJwcW8xQWRHdHZvZzBCUnNKQkV3bWlUTWJyVmVUVmJhSDNQal94dTQxanlmRnRsRHh5QndLTDNMZ0d1ZzdReEFWR2hxblRuUWVPNk9IN3B5VV9iSEllNXQtQmhtUDZ3ZEVob0E?oc=5",
+      "source": "Straits Research",
+      "ago": "559 Tage",
+      "summary": ""
+    }
+  ]
 }
