@@ -52,31 +52,39 @@ def fetch_bitcoin():
         return {'price': None, 'changePct': None}
 
 
-# ── STOCKS (Yahoo Finance – regularMarketPreviousClose) ─────
+# ── STOCKS (Yahoo Finance quoteSummary – same values as Yahoo website) ──
 def fetch_stocks():
     tickers = [('ESTA','Establishment Labs'), ('APYX','Apyx Medical'), ('IART','Integra LifeSciences')]
     result  = []
     for ticker, name in tickers:
         try:
-            url  = 'https://query1.finance.yahoo.com/v8/finance/chart/' + ticker + '?range=5d&interval=1d&includePrePost=false'
-            r    = requests.get(url, headers=HEADERS, timeout=10).json()
-            meta = r['chart']['result'][0]['meta']
+            # quoteSummary/price module returns exactly what Yahoo shows on their website
+            url = ('https://query2.finance.yahoo.com/v10/finance/quoteSummary/'
+                   + ticker + '?modules=price')
+            r   = requests.get(url, headers=HEADERS, timeout=10).json()
+            p   = r['quoteSummary']['result'][0]['price']
 
-            # regularMarketPrice = last closing price (or current if market open)
-            # regularMarketPreviousClose = explicitly yesterday's regular session close
-            price = meta.get('regularMarketPrice') or 0
-            prev  = (meta.get('regularMarketPreviousClose')
-                     or meta.get('chartPreviousClose')
-                     or meta.get('previousClose')
-                     or price)
-
-            chg  = price - prev
-            pct  = (chg / prev * 100) if prev else 0
-            result.append({'ticker':ticker,'name':name,'price':price,'change':chg,'changePct':pct})
-            print(ticker + ': $' + str(round(price,2)) + ' / prev $' + str(round(prev,2)) + ' -> ' + ('+' if pct>=0 else '') + str(round(pct,2)) + '%')
+            price  = p['regularMarketPrice']['raw']
+            change = p['regularMarketChange']['raw']
+            pct    = p['regularMarketChangePercent']['raw'] * 100  # Yahoo returns as decimal e.g. -0.0355
+            result.append({'ticker':ticker,'name':name,'price':price,'change':change,'changePct':pct})
+            print(ticker + ': $' + str(round(price,2)) + ' ' + ('+' if pct>=0 else '') + str(round(pct,2)) + '%')
         except Exception as e:
             print('Stock error ' + ticker + ': ' + str(e))
-            result.append({'ticker':ticker,'name':name,'price':None,'change':None,'changePct':None})
+            # Fallback to v8 chart API
+            try:
+                url2 = 'https://query1.finance.yahoo.com/v8/finance/chart/' + ticker + '?range=2d&interval=1d'
+                r2   = requests.get(url2, headers=HEADERS, timeout=10).json()
+                meta = r2['chart']['result'][0]['meta']
+                price  = meta.get('regularMarketPrice', 0)
+                prev   = meta.get('chartPreviousClose') or price
+                change = price - prev
+                pct    = (change / prev * 100) if prev else 0
+                result.append({'ticker':ticker,'name':name,'price':price,'change':change,'changePct':pct})
+                print(ticker + ' (fallback): $' + str(round(price,2)) + ' ' + ('+' if pct>=0 else '') + str(round(pct,2)) + '%')
+            except Exception as e2:
+                print('Stock fallback error ' + ticker + ': ' + str(e2))
+                result.append({'ticker':ticker,'name':name,'price':None,'change':None,'changePct':None})
     return result
 
 
