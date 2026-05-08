@@ -2,7 +2,6 @@ name: Morning Brief - Taegliche Aktualisierung
 
 on:
   schedule:
-    # 04:00 UTC = 06:00 CEST (Sommer) / 05:00 CET (Winter)
     - cron: '0 4 * * *'
   workflow_dispatch:
 
@@ -31,10 +30,10 @@ jobs:
           GMAIL_PASS:       ${{ secrets.GMAIL_PASS }}
           EMAIL_RECIPIENTS: ${{ secrets.EMAIL_RECIPIENTS }}
 
-      - name: data.json ins Repository speichern
+      - name: Dateien ins Repository speichern
         run: |
           git config user.email "actions@github.com"
           git config user.name "Morning Brief Bot"
-          git add data.json
+          git add data.json news_cache.json
           git diff --staged --quiet || git commit -m "Morning Brief $(date -u +'%Y-%m-%d %H:%M') UTC"
           git push
