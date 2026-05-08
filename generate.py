@@ -119,11 +119,23 @@ def fetch_news():
             messages=[{'role': 'user', 'content': prompt}]
         )
         text   = '\n'.join(b.text for b in msg.content if b.type == 'text')
+        print('Raw response (first 500 chars): ' + text[:500])
         result = parse_json(text)
         if isinstance(result, list) and result:
             print('Got ' + str(len(result)) + ' news items')
             return result
-        print('Warning: could not parse news response')
+        # Second attempt: try to find JSON array anywhere in text
+        import re as _re
+        matches = _re.findall(r'\[\s*\{[^\[\]]*\}\s*\]', text, _re.DOTALL)
+        if matches:
+            try:
+                result2 = json.loads(matches[0])
+                if isinstance(result2, list) and result2:
+                    print('Got ' + str(len(result2)) + ' news items (second parse)')
+                    return result2
+            except Exception:
+                pass
+        print('Warning: could not parse news response - returning empty')
         return []
     except Exception as e:
         print('News error: ' + str(e))
@@ -149,9 +161,12 @@ def generate():
 # ── EMAIL ────────────────────────────────────────
 def f(n, dec=2):
     if n is None: return '-'
-    s = ('{:.' + str(dec) + 'f}').format(abs(float(n))).split('.')
-    s[0] = '{:,}'.format(int(s[0])).replace(',', "'")
-    return s[0] + '.' + s[1]
+    formatted = ('{:.' + str(dec) + 'f}').format(abs(float(n)))
+    parts = formatted.split('.')
+    parts[0] = '{:,}'.format(int(parts[0])).replace(',', "'")
+    if len(parts) == 1 or dec == 0:
+        return parts[0]
+    return parts[0] + '.' + parts[1]
 
 def chg(n):
     if n is None: return '-'
@@ -281,4 +296,9 @@ def send_email(data):
 
 if __name__ == '__main__':
     data = generate()
-    send_email(data)
+    try:
+        send_email(data)
+    except Exception as e:
+        print('Email sending failed: ' + str(e))
+        print('data.json was saved successfully - email issue only')
+        raise
