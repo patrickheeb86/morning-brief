@@ -64,13 +64,14 @@ def fetch_stocks():
                    + ticker + '?modules=price')
             r   = requests.get(url, headers=HEADERS, timeout=10).json()
             p   = r['quoteSummary']['result'][0]['price']
-            price = p['regularMarketPrice']['raw']
-            prev  = p['regularMarketPreviousClose']['raw']
-            change = price - prev
+            price  = p['regularMarketPrice']['raw']
+            change = p['regularMarketChange']['raw']   # Yahoo's own daily absolute change
+            prev   = price - change                    # Back-calculate exact previous close
             pct    = (change / prev * 100) if prev else 0
             print(ticker + ' [qS]: price=' + str(round(price,2))
+                  + ' change=' + str(round(change,2))
                   + ' prev=' + str(round(prev,2))
-                  + ' chg=' + ('+' if pct>=0 else '') + str(round(pct,2)) + '%')
+                  + ' pct=' + ('+' if pct>=0 else '') + str(round(pct,2)) + '%')
         except Exception as e:
             print(ticker + ' quoteSummary failed: ' + str(e))
             # Method 2: v8 chart, get last two actual daily closes
