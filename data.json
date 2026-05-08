@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-08T06:15:31.877862Z",
+  "generated": "2026-05-08T06:48:48.508934Z",
   "forex": {
     "eur_chf": {
       "rate": 0.915494,
@@ -13,30 +13,30 @@
     }
   },
   "bitcoin": {
-    "price": 79559,
-    "changePct": -1.6541409898125494
+    "price": 79502,
+    "changePct": -2.2134301067046085
   },
   "stocks": [
     {
       "ticker": "ESTA",
       "name": "Establishment Labs",
       "price": 72.03,
-      "change": 3.4000000000000057,
-      "changePct": 4.954101704793831
+      "change": 1.0400000000000063,
+      "changePct": 1.4649950697281395
     },
     {
       "ticker": "APYX",
       "name": "Apyx Medical",
       "price": 3.56,
-      "change": 0.22999999999999998,
-      "changePct": 6.906906906906906
+      "change": 0.77,
+      "changePct": 27.598566308243726
     },
     {
       "ticker": "IART",
       "name": "Integra LifeSciences",
       "price": 13.56,
-      "change": 3.0200000000000014,
-      "changePct": 28.65275142314992
+      "change": 0.33999999999999986,
+      "changePct": 2.571860816944023
     }
   ],
   "news": [
