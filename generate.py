@@ -55,13 +55,24 @@ def fetch_stocks():
     result = []
     for ticker, name in tickers:
         try:
-            url = 'https://query1.finance.yahoo.com/v8/finance/chart/' + ticker + '?range=2d&interval=1d'
+            # Use 5d range to get at least 2 complete trading days of closing data
+            url = 'https://query1.finance.yahoo.com/v8/finance/chart/' + ticker + '?range=5d&interval=1d&includePrePost=false'
             r    = requests.get(url, headers=HEADERS, timeout=10).json()
-            meta = r['chart']['result'][0]['meta']
-            price = meta['regularMarketPrice']
-            prev  = meta.get('previousClose') or meta.get('chartPreviousClose') or price
-            chg   = price - prev
-            pct   = (chg / prev * 100) if prev else 0
+            res  = r['chart']['result'][0]
+            meta = res['meta']
+            # Get actual closing prices from chart (not meta, which can be pre/after-hours)
+            closes = res.get('indicators',{}).get('quote',[{}])[0].get('close',[])
+            times  = res.get('timestamp',[])
+            # Filter out None values, keep only valid closes
+            valid = [(t, c) for t, c in zip(times, closes) if c is not None]
+            if len(valid) >= 2:
+                price = valid[-1][1]
+                prev  = valid[-2][1]
+            else:
+                price = meta.get('regularMarketPrice') or meta.get('chartPreviousClose', 0)
+                prev  = meta.get('previousClose') or price
+            chg  = price - prev
+            pct  = (chg / prev * 100) if prev else 0
             result.append({'ticker':ticker,'name':name,'price':price,'change':chg,'changePct':pct})
             print(ticker + ': $' + str(round(price,2)) + ' (' + ('+' if pct>=0 else '') + str(round(pct,2)) + '%)')
         except Exception as e:
@@ -150,7 +161,24 @@ def fetch_news():
         except Exception as e:
             print('News query ' + str(i+1) + ' error: ' + str(e))
 
-    print('Total news: ' + str(len(all_items)))
+    # Sort by age string (convert to minutes for sorting)
+    def age_sort_key(item):
+        ago = item.get('ago', '')
+        if 'Min' in ago:
+            try: return int(ago.split()[0])
+            except: return 9999
+        if 'Std' in ago or 'h' in ago:
+            try: return int(ago.split()[0]) * 60
+            except: return 99999
+        if 'Tag' in ago or 'd' in ago:
+            days = int(ago.split()[0]) if ago.split() else 999
+            if days > 30: return 9999999  # exclude older than 30 days
+            return days * 1440
+        return 999999
+
+    all_items = [i for i in all_items if age_sort_key(i) < 9999999]
+    all_items.sort(key=age_sort_key)
+    print('Total news (filtered): ' + str(len(all_items)))
     return all_items[:18]
 
 
@@ -208,22 +236,30 @@ def send_email(data):
     forex_rows = ''
     for label, key, dec, link in forex_items:
         fx = data.get('forex', {}).get(key, {})
+        rate_str = fmt(fx.get('rate'), dec)
+        chg_str  = chg_span(fx.get('changePct')) + ' <span style="color:#475569">(24h)</span>'
         forex_rows += (
             '<tr style="border-bottom:1px solid #334155">'
-            '<td style="padding:12px 16px;font-size:13px;color:#94a3b8;width:35%">'
-            '<a href="' + link + '" style="color:#94a3b8;text-decoration:none">' + label + '</a></td>'
-            '<td style="padding:12px 16px;font-size:17px;font-weight:900;color:#f1f5f9">' + fmt(fx.get('rate'), dec) + '</td>'
-            '<td style="padding:12px 16px;font-size:12px;text-align:right">' + chg_span(fx.get('changePct')) + ' <span style="color:#475569">(24h)</span></td>'
-            '</tr>'
+            '<td colspan="3" style="padding:0">'
+            '<a href="' + link + '" style="text-decoration:none;display:block;width:100%">'
+            '<table width="100%" cellpadding="0" cellspacing="0" border="0"><tr>'
+            '<td style="padding:12px 16px;font-size:13px;color:#94a3b8;width:35%">' + label + '</td>'
+            '<td style="padding:12px 16px;font-size:17px;font-weight:900;color:#f1f5f9">' + rate_str + '</td>'
+            '<td style="padding:12px 16px;font-size:12px;text-align:right">' + chg_str + '</td>'
+            '</tr></table></a>'
+            '</td></tr>'
         )
     btc = data.get('bitcoin', {})
     forex_rows += (
         '<tr>'
-        '<td style="padding:12px 16px;font-size:13px;color:#94a3b8">'
-        '<a href="https://finance.yahoo.com/quote/BTC-USD/" style="color:#94a3b8;text-decoration:none">Bitcoin / USD</a></td>'
+        '<td colspan="3" style="padding:0">'
+        '<a href="https://finance.yahoo.com/quote/BTC-USD/" style="text-decoration:none;display:block;width:100%">'
+        '<table width="100%" cellpadding="0" cellspacing="0" border="0"><tr>'
+        '<td style="padding:12px 16px;font-size:13px;color:#94a3b8;width:35%">Bitcoin / USD</td>'
         '<td style="padding:12px 16px;font-size:17px;font-weight:900;color:#f1f5f9">$ ' + fmt(btc.get('price'), 0) + '</td>'
         '<td style="padding:12px 16px;font-size:12px;text-align:right">' + chg_span(btc.get('changePct')) + ' <span style="color:#475569">(24h)</span></td>'
-        '</tr>'
+        '</tr></table></a>'
+        '</td></tr>'
     )
 
     # Stock cards - Outlook-safe nested tables, fixed equal heights
@@ -312,9 +348,8 @@ def send_email(data):
         '<table style="width:100%;border-collapse:collapse;margin-top:28px">'
         '<tr><td style="padding-top:20px;border-top:1px solid #1e293b;text-align:center">'
         '<a href="https://patrickheeb86.github.io/morning-brief/" '
-        'style="color:#64748b;text-decoration:none;font-size:11px">Dashboard &ouml;ffnen</a>'
-        '<span style="color:#334155;font-size:11px"> &nbsp;&middot;&nbsp; '
-        'esthetic med GmbH / medical esthetic GmbH</span>'
+        'style="color:#94a3b8;text-decoration:none;font-size:12px;display:block;margin-bottom:4px">Dashboard &ouml;ffnen</a>'
+        '<div style="color:#475569;font-size:11px">esthetic med GmbH / medical esthetic GmbH</div>'
         '</td></tr></table>'
 
         '</div></body></html>'
