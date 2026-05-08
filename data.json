@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-08T05:52:35.396910Z",
+  "generated": "2026-05-08T06:15:31.877862Z",
   "forex": {
     "eur_chf": {
       "rate": 0.915494,
@@ -7,36 +7,36 @@
       "changePct": 0.0
     },
     "usd_chf": {
-      "rate": 0.78060521,
-      "change": 0.0018901700000000243,
-      "changePct": 0.24272935578591423
+      "rate": 0.77871504,
+      "change": 0.0,
+      "changePct": 0.0
     }
   },
   "bitcoin": {
-    "price": 79688,
-    "changePct": -1.643225748171424
+    "price": 79559,
+    "changePct": -1.6541409898125494
   },
   "stocks": [
     {
       "ticker": "ESTA",
       "name": "Establishment Labs",
-      "price": 72.02999877929688,
-      "change": -2.5100021362304688,
-      "changePct": -3.367322384493844
+      "price": 72.03,
+      "change": 3.4000000000000057,
+      "changePct": 4.954101704793831
     },
     {
       "ticker": "APYX",
       "name": "Apyx Medical",
-      "price": 3.559999942779541,
-      "change": 0.6399998664855957,
-      "changePct": 21.917803074097225
+      "price": 3.56,
+      "change": 0.22999999999999998,
+      "changePct": 6.906906906906906
     },
     {
       "ticker": "IART",
       "name": "Integra LifeSciences",
-      "price": 13.5600004196167,
-      "change": -0.4399995803833008,
-      "changePct": -3.142854145595005
+      "price": 13.56,
+      "change": 3.0200000000000014,
+      "changePct": 28.65275142314992
     }
   ],
   "news": [
@@ -44,7 +44,7 @@
       "title": "Establishment Labs (ESTA) steigt um 8,6% nach Umsatzsprüngen und geringerem Verlust in Q1 2026",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOYTB5c2RkcW9NenJNdHBPc1Vad0VtWk5DMmlsSk16aGh4Tkd0U1d1Rm9BYVJJUEtMc01NTjhzN3J2dkFfbHBmRjdFTHAyUEtrU0hSLTlNUTNFalZ1amhzVi0wdlgyMkxBa3VxeEhFQ2RrckJ0MDZSeEhCQzMzZlcwekY5bk9jQlRsNTB6Tng5aUhrM3dZME9RZTZ3b3AzQ2V4cmhQa1lUQTRMSVpISWlkUjgzQm5HMlhkdWJGSU4wUGhGRHdHOEZ5X2x0ajRHUUtzcVJfYjJVV1o5SDFod21rLU5ZV1hhQdIB6wFBVV95cUxPNV92TG0wenJZV3lXSmkyUF9Pc3FfMHFuQWF1Qzh2Ulkxd3NoLVBFck5CMzFucDJPdHhhOVZZU0RVRmt0SVpCSkVnZGxMN0lyM1YyUHMtMmVUbzZoNlRWZUFIUENDUEEzQ1RFM1c0dU9LYkJOcE5BdFJnRWZncHMwV0hSRkF4VjBXQUZjWHBCQmV1cURvR3BabWpmRFBGaENjNmpXQ29adTdCUmgwcko5VFhiYUNCaHpiZy1KSVV6eEV1OF8yVG1IeUlleUc5VGJIWEotUEI4eF9xTGRpeUh2aUxRblRMV1JYMF9V?oc=5",
       "source": "simplywall.st",
-      "ago": "23 Std.",
+      "ago": "1 Tag",
       "summary": ""
     },
     {
@@ -59,6 +59,13 @@
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPS3lmMDNic3lvUzE5dUpPY0ozaFRiN2RLa3Jvd0h4UE1rekxlYmtLOHduQldGd3VaZ042akFjVElQLWh0X2JPZlFTaTFGdk1iekEybFZDUHlXV3NYYUcyYUJOX0stMWh4WDFqVmNZOEJaZUE2REYzcURlaWttVWJnNHhIRFFJUQ?oc=5",
       "source": "boerse.de",
       "ago": "5 Tage",
+      "summary": ""
+    },
+    {
+      "title": "Establishment Labs Holdings Inc Charts | Jahreschart | Tageschart",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbGVXZHFkX2hOX3VlM2t0eVpvUnVpWWVBSWx1UWMzdFhrNHhlVGNLcjkxZnMzM3Jnb3Q5cEkwcVNNeUgwRDBvZjI4ZnNXMkkxYzQ0V3AtVk8wSk1nc183M1BiaVNrdWc4NkNvZVBmWWtWTU84emdGMmhvZlV4RHJrblFVajNGZw?oc=5",
+      "source": "boerse.de",
+      "ago": "6 Tage",
       "summary": ""
     },
     {
