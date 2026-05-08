@@ -52,39 +52,52 @@ def fetch_bitcoin():
         return {'price': None, 'changePct': None}
 
 
-# ── STOCKS (Yahoo Finance quoteSummary – same values as Yahoo website) ──
+# ── STOCKS (Yahoo Finance – price from regularMarketPrice vs regularMarketPreviousClose) ──
 def fetch_stocks():
     tickers = [('ESTA','Establishment Labs'), ('APYX','Apyx Medical'), ('IART','Integra LifeSciences')]
     result  = []
     for ticker, name in tickers:
+        price, change, pct = None, None, None
+        # Method 1: quoteSummary - calculate change ourselves from price and previousClose
         try:
-            # quoteSummary/price module returns exactly what Yahoo shows on their website
             url = ('https://query2.finance.yahoo.com/v10/finance/quoteSummary/'
                    + ticker + '?modules=price')
             r   = requests.get(url, headers=HEADERS, timeout=10).json()
             p   = r['quoteSummary']['result'][0]['price']
-
-            price  = p['regularMarketPrice']['raw']
-            change = p['regularMarketChange']['raw']
-            pct    = p['regularMarketChangePercent']['raw'] * 100  # Yahoo returns as decimal e.g. -0.0355
-            result.append({'ticker':ticker,'name':name,'price':price,'change':change,'changePct':pct})
-            print(ticker + ': $' + str(round(price,2)) + ' ' + ('+' if pct>=0 else '') + str(round(pct,2)) + '%')
+            price = p['regularMarketPrice']['raw']
+            prev  = p['regularMarketPreviousClose']['raw']
+            change = price - prev
+            pct    = (change / prev * 100) if prev else 0
+            print(ticker + ' [qS]: price=' + str(round(price,2))
+                  + ' prev=' + str(round(prev,2))
+                  + ' chg=' + ('+' if pct>=0 else '') + str(round(pct,2)) + '%')
         except Exception as e:
-            print('Stock error ' + ticker + ': ' + str(e))
-            # Fallback to v8 chart API
+            print(ticker + ' quoteSummary failed: ' + str(e))
+            # Method 2: v8 chart, get last two actual daily closes
             try:
-                url2 = 'https://query1.finance.yahoo.com/v8/finance/chart/' + ticker + '?range=2d&interval=1d'
-                r2   = requests.get(url2, headers=HEADERS, timeout=10).json()
-                meta = r2['chart']['result'][0]['meta']
-                price  = meta.get('regularMarketPrice', 0)
-                prev   = meta.get('chartPreviousClose') or price
-                change = price - prev
-                pct    = (change / prev * 100) if prev else 0
-                result.append({'ticker':ticker,'name':name,'price':price,'change':change,'changePct':pct})
-                print(ticker + ' (fallback): $' + str(round(price,2)) + ' ' + ('+' if pct>=0 else '') + str(round(pct,2)) + '%')
+                url2  = 'https://query1.finance.yahoo.com/v8/finance/chart/' + ticker + '?range=5d&interval=1d&includePrePost=false'
+                r2    = requests.get(url2, headers=HEADERS, timeout=10).json()
+                res   = r2['chart']['result'][0]
+                closes  = res['indicators']['quote'][0].get('close', [])
+                volumes = res['indicators']['quote'][0].get('volume', [])
+                # Only use days with actual volume (excludes partial/pre-market bars)
+                valid = [(c, v) for c, v in zip(closes, volumes)
+                         if c is not None and v is not None and v > 0]
+                if len(valid) >= 2:
+                    price  = valid[-1][0]
+                    prev   = valid[-2][0]
+                    change = price - prev
+                    pct    = (change / prev * 100) if prev else 0
+                    print(ticker + ' [chart]: price=' + str(round(price,2))
+                          + ' prev=' + str(round(prev,2))
+                          + ' chg=' + ('+' if pct>=0 else '') + str(round(pct,2)) + '%')
+                else:
+                    print(ticker + ': not enough chart data')
             except Exception as e2:
-                print('Stock fallback error ' + ticker + ': ' + str(e2))
-                result.append({'ticker':ticker,'name':name,'price':None,'change':None,'changePct':None})
+                print(ticker + ' chart failed: ' + str(e2))
+
+        result.append({'ticker':ticker,'name':name,
+                       'price':price,'change':change,'changePct':pct})
     return result
 
 
