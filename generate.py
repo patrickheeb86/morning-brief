@@ -1,7 +1,8 @@
 import os, json, re, time, smtplib, requests, xml.etree.ElementTree as ET
-from datetime import datetime, date, timedelta
+from datetime import datetime, date, timedelta, timezone
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from email.utils import parsedate_to_datetime
 from urllib.parse import quote
 
 # CONFIG
@@ -9,11 +10,13 @@ GMAIL_USER = os.environ.get('GMAIL_USER', '')
 GMAIL_PASS = os.environ.get('GMAIL_PASS', '')
 RECIPIENTS = [r.strip() for r in os.environ.get('EMAIL_RECIPIENTS', '').split(',') if r.strip()]
 
-print('=== Morning Brief Generator (zero API cost) ===')
+print('=== Morning Brief Generator ===')
 print('Gmail: ' + (GMAIL_USER if GMAIL_USER else 'not set'))
 print('Recipients: ' + str(RECIPIENTS))
 
-HEADERS = {'User-Agent': 'Mozilla/5.0 (compatible; MorningBrief/1.0)'}
+HEADERS   = {'User-Agent': 'Mozilla/5.0 (compatible; MorningBrief/1.0)'}
+CACHE_FILE = 'news_cache.json'
+MAX_DAYS   = 30
 
 
 # ── FOREX ──────────────────────────────────────
@@ -49,140 +52,176 @@ def fetch_bitcoin():
         return {'price': None, 'changePct': None}
 
 
-# ── STOCKS (Yahoo Finance) ─────────────────────
+# ── STOCKS (Yahoo Finance – regularMarketPreviousClose) ─────
 def fetch_stocks():
     tickers = [('ESTA','Establishment Labs'), ('APYX','Apyx Medical'), ('IART','Integra LifeSciences')]
-    result = []
+    result  = []
     for ticker, name in tickers:
         try:
-            # Use 5d range to get at least 2 complete trading days of closing data
-            url = 'https://query1.finance.yahoo.com/v8/finance/chart/' + ticker + '?range=5d&interval=1d&includePrePost=false'
+            url  = 'https://query1.finance.yahoo.com/v8/finance/chart/' + ticker + '?range=5d&interval=1d&includePrePost=false'
             r    = requests.get(url, headers=HEADERS, timeout=10).json()
-            res  = r['chart']['result'][0]
-            meta = res['meta']
-            # Get actual closing prices from chart (not meta, which can be pre/after-hours)
-            closes = res.get('indicators',{}).get('quote',[{}])[0].get('close',[])
-            times  = res.get('timestamp',[])
-            # Filter out None values, keep only valid closes
-            valid = [(t, c) for t, c in zip(times, closes) if c is not None]
-            if len(valid) >= 2:
-                price = valid[-1][1]
-                prev  = valid[-2][1]
-            else:
-                price = meta.get('regularMarketPrice') or meta.get('chartPreviousClose', 0)
-                prev  = meta.get('previousClose') or price
+            meta = r['chart']['result'][0]['meta']
+
+            # regularMarketPrice = last closing price (or current if market open)
+            # regularMarketPreviousClose = explicitly yesterday's regular session close
+            price = meta.get('regularMarketPrice') or 0
+            prev  = (meta.get('regularMarketPreviousClose')
+                     or meta.get('chartPreviousClose')
+                     or meta.get('previousClose')
+                     or price)
+
             chg  = price - prev
             pct  = (chg / prev * 100) if prev else 0
             result.append({'ticker':ticker,'name':name,'price':price,'change':chg,'changePct':pct})
-            print(ticker + ': $' + str(round(price,2)) + ' (' + ('+' if pct>=0 else '') + str(round(pct,2)) + '%)')
+            print(ticker + ': $' + str(round(price,2)) + ' / prev $' + str(round(prev,2)) + ' -> ' + ('+' if pct>=0 else '') + str(round(pct,2)) + '%')
         except Exception as e:
             print('Stock error ' + ticker + ': ' + str(e))
             result.append({'ticker':ticker,'name':name,'price':None,'change':None,'changePct':None})
     return result
 
 
-# ── NEWS (Google News RSS – zero cost) ─────────
+# ── NEWS – persistent cache ────────────────────
 NEWS_QUERIES = [
-    # Products & Partners
     '"Establishment Labs" OR "Motiva implant" OR "Apyx Medical" OR "Renuvion" OR "Lipoelastic" OR "pHformula" OR "Integra IDRT" OR "Vaser liposuction" OR "Revanesse" OR "Prollenium" OR "Sunekos" OR "RegenLab" OR "body-jet" OR "Puregraft"',
-    # Competitors & Swiss market
     '"Allergan" aesthetics OR "Mentor implant" OR "Galderma" aesthetics OR "Merz Aesthetics" OR "InMode" aesthetic OR "breast implant" Switzerland OR "Albin Group" OR "Calista Medical" OR aesthetic medicine Switzerland',
-    # Customers & Industry
     '"Hirslanden" OR "Lucerne Clinic" OR "CHUV" plastic surgery OR "Insel Gruppe" OR "Swissmedic" Medizinprodukt OR "plastic surgery" Switzerland OR "aesthetic medicine" Schweiz OR "IMCAS 2026"',
 ]
+
+def load_cache():
+    try:
+        with open(CACHE_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception:
+        return []
+
+def save_cache(items):
+    with open(CACHE_FILE, 'w', encoding='utf-8') as f:
+        json.dump(items, f, ensure_ascii=False, indent=2)
+
+def parse_pub_date(pub_str):
+    """Parse RSS pubDate string to UTC ISO string."""
+    try:
+        dt = parsedate_to_datetime(pub_str)
+        return dt.astimezone(timezone.utc).isoformat()
+    except Exception:
+        return datetime.now(timezone.utc).isoformat()
+
+def ago_str(iso_str):
+    """Convert stored ISO date to human-readable age string."""
+    try:
+        dt   = datetime.fromisoformat(iso_str)
+        diff = datetime.now(timezone.utc) - dt.astimezone(timezone.utc)
+        secs = diff.total_seconds()
+        if secs < 3600:    return str(int(secs // 60)) + ' Min.'
+        if secs < 86400:   return str(int(secs // 3600)) + ' Std.'
+        days = int(secs // 86400)
+        return str(days) + (' Tag' if days == 1 else ' Tage')
+    except Exception:
+        return ''
 
 def parse_rss(xml_text):
     items = []
     try:
         root = ET.fromstring(xml_text)
-        ns   = {'media': 'http://search.yahoo.com/mrss/'}
         for item in root.iter('item'):
             title_el = item.find('title')
-            link_el  = item.find('link')
             pub_el   = item.find('pubDate')
             src_el   = item.find('source')
-
             title = (title_el.text or '') if title_el is not None else ''
             pub   = (pub_el.text or '')   if pub_el  is not None else ''
             src   = (src_el.text or '')   if src_el  is not None else ''
 
-            # Google News: link is a text node after <link/>
             link = ''
-            if link_el is not None:
-                link = link_el.text or ''
+            for node in item.childNodes if hasattr(item, 'childNodes') else []:
+                pass
+            # ET approach for link
+            link_el = item.find('link')
+            if link_el is not None and link_el.text:
+                link = link_el.text.strip()
             if not link:
                 guid = item.find('guid')
-                link = guid.text if guid is not None else '#'
+                link = guid.text.strip() if guid is not None and guid.text else ''
 
-            # Clean title: remove "- Source Name" suffix
+            # Clean title
             title = re.sub(r'\s+-\s+\S.{2,40}$', '', title).strip()
-            # Decode HTML entities
             for ent, ch in [('&amp;','&'),('&lt;','<'),('&gt;','>'),('&quot;','"'),('&#39;',"'"),('&nbsp;',' ')]:
                 title = title.replace(ent, ch)
-
-            if len(title) < 10:
+            if len(title) < 10 or not link:
                 continue
 
-            # Parse age
-            ago = ''
-            try:
-                from email.utils import parsedate_to_datetime
-                dt  = parsedate_to_datetime(pub)
-                diff = datetime.now(dt.tzinfo) - dt
-                secs = diff.total_seconds()
-                if secs < 3600:    ago = str(int(secs//60)) + ' Min.'
-                elif secs < 86400: ago = str(int(secs//3600)) + ' Std.'
-                else:              ago = str(int(secs//86400)) + ' Tage'
-            except Exception:
-                ago = ''
-
-            items.append({'title': title, 'url': link, 'source': src, 'ago': ago, 'summary': ''})
+            items.append({
+                'title':   title,
+                'url':     link,
+                'source':  src,
+                'pubDate': parse_pub_date(pub),
+            })
     except Exception as e:
         print('RSS parse error: ' + str(e))
     return items
 
 def fetch_news():
-    all_items = []
-    seen_titles = set()
+    # Load existing cache
+    cache = load_cache()
+    cached_urls = set(i.get('url','') for i in cache)
+    print('Cache loaded: ' + str(len(cache)) + ' items')
+
+    # Fetch new items from RSS
+    new_count = 0
     for i, query in enumerate(NEWS_QUERIES):
         try:
             rss_url = 'https://news.google.com/rss/search?q=' + quote(query) + '&hl=de&gl=CH&ceid=CH:de'
-            r = requests.get(rss_url, headers=HEADERS, timeout=15)
-            items = parse_rss(r.text)
-            new_items = []
+            r       = requests.get(rss_url, headers=HEADERS, timeout=15)
+            items   = parse_rss(r.text)
             for item in items:
-                key = item['title'][:60].lower()
-                if key not in seen_titles:
-                    seen_titles.add(key)
-                    new_items.append(item)
-            all_items.extend(new_items[:6])
-            print('Query ' + str(i+1) + ': ' + str(len(new_items)) + ' new items')
+                if item['url'] not in cached_urls:
+                    cache.append(item)
+                    cached_urls.add(item['url'])
+                    new_count += 1
+            print('Query ' + str(i+1) + ': fetched ' + str(len(items)) + ' items')
             time.sleep(1)
         except Exception as e:
-            print('News query ' + str(i+1) + ' error: ' + str(e))
+            print('RSS query ' + str(i+1) + ' error: ' + str(e))
 
-    # Sort by age string (convert to minutes for sorting)
-    def age_sort_key(item):
-        ago = item.get('ago', '')
-        if 'Min' in ago:
-            try: return int(ago.split()[0])
-            except: return 9999
-        if 'Std' in ago or 'h' in ago:
-            try: return int(ago.split()[0]) * 60
-            except: return 99999
-        if 'Tag' in ago or 'd' in ago:
-            days = int(ago.split()[0]) if ago.split() else 999
-            if days > 30: return 9999999  # exclude older than 30 days
-            return days * 1440
-        return 999999
+    print('New items added: ' + str(new_count))
 
-    all_items = [i for i in all_items if age_sort_key(i) < 9999999]
-    all_items.sort(key=age_sort_key)
-    print('Total news (filtered): ' + str(len(all_items)))
-    return all_items[:18]
+    # Filter: keep only last MAX_DAYS days
+    cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_DAYS)
+    def is_recent(item):
+        try:
+            dt = datetime.fromisoformat(item.get('pubDate',''))
+            return dt.astimezone(timezone.utc) >= cutoff
+        except Exception:
+            return True  # keep if date unknown
+
+    cache = [i for i in cache if is_recent(i)]
+
+    # Sort: newest first
+    def sort_key(item):
+        try:
+            return datetime.fromisoformat(item.get('pubDate','')).astimezone(timezone.utc)
+        except Exception:
+            return datetime.min.replace(tzinfo=timezone.utc)
+
+    cache.sort(key=sort_key, reverse=True)
+
+    # Save updated cache
+    save_cache(cache)
+    print('Cache saved: ' + str(len(cache)) + ' items')
+
+    # Add ago string for display
+    result = []
+    for item in cache[:25]:
+        result.append({
+            'title':   item['title'],
+            'url':     item['url'],
+            'source':  item.get('source',''),
+            'ago':     ago_str(item['pubDate']),
+            'summary': item.get('summary',''),
+        })
+    return result
 
 
-# ── GENERATE data.json ─────────────────────────
+# ── GENERATE ───────────────────────────────────
 def generate():
     data = {
         'generated': datetime.utcnow().isoformat() + 'Z',
@@ -193,7 +232,7 @@ def generate():
     }
     with open('data.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print('data.json saved: ' + str(len(data['stocks'])) + ' stocks, ' + str(len(data['news'])) + ' news')
+    print('data.json: ' + str(len(data['stocks'])) + ' stocks, ' + str(len(data['news'])) + ' news')
     return data
 
 
@@ -228,7 +267,7 @@ def send_email(data):
               'August','September','Oktober','November','Dezember']
     date_str = days[now.weekday()] + ', ' + str(now.day) + '. ' + months[now.month-1] + ' ' + str(now.year)
 
-    # Forex rows - each row linked to Yahoo Finance
+    # Forex
     forex_items = [
         ('EUR / CHF', 'eur_chf', 4, 'https://finance.yahoo.com/quote/EURCHF=X/'),
         ('USD / CHF', 'usd_chf', 4, 'https://finance.yahoo.com/quote/USDCHF=X/'),
@@ -236,33 +275,28 @@ def send_email(data):
     forex_rows = ''
     for label, key, dec, link in forex_items:
         fx = data.get('forex', {}).get(key, {})
-        rate_str = fmt(fx.get('rate'), dec)
-        chg_str  = chg_span(fx.get('changePct')) + ' <span style="color:#475569">(24h)</span>'
         forex_rows += (
             '<tr style="border-bottom:1px solid #334155">'
             '<td colspan="3" style="padding:0">'
-            '<a href="' + link + '" style="text-decoration:none;display:block;width:100%">'
+            '<a href="' + link + '" style="text-decoration:none;display:block">'
             '<table width="100%" cellpadding="0" cellspacing="0" border="0"><tr>'
             '<td style="padding:12px 16px;font-size:13px;color:#94a3b8;width:35%">' + label + '</td>'
-            '<td style="padding:12px 16px;font-size:17px;font-weight:900;color:#f1f5f9">' + rate_str + '</td>'
-            '<td style="padding:12px 16px;font-size:12px;text-align:right">' + chg_str + '</td>'
-            '</tr></table></a>'
-            '</td></tr>'
+            '<td style="padding:12px 16px;font-size:17px;font-weight:900;color:#f1f5f9">' + fmt(fx.get('rate'), dec) + '</td>'
+            '<td style="padding:12px 16px;font-size:12px;text-align:right">' + chg_span(fx.get('changePct')) + ' <span style="color:#475569">(24h)</span></td>'
+            '</tr></table></a></td></tr>'
         )
     btc = data.get('bitcoin', {})
     forex_rows += (
-        '<tr>'
-        '<td colspan="3" style="padding:0">'
-        '<a href="https://finance.yahoo.com/quote/BTC-USD/" style="text-decoration:none;display:block;width:100%">'
+        '<tr><td colspan="3" style="padding:0">'
+        '<a href="https://finance.yahoo.com/quote/BTC-USD/" style="text-decoration:none;display:block">'
         '<table width="100%" cellpadding="0" cellspacing="0" border="0"><tr>'
         '<td style="padding:12px 16px;font-size:13px;color:#94a3b8;width:35%">Bitcoin / USD</td>'
         '<td style="padding:12px 16px;font-size:17px;font-weight:900;color:#f1f5f9">$ ' + fmt(btc.get('price'), 0) + '</td>'
         '<td style="padding:12px 16px;font-size:12px;text-align:right">' + chg_span(btc.get('changePct')) + ' <span style="color:#475569">(24h)</span></td>'
-        '</tr></table></a>'
-        '</td></tr>'
+        '</tr></table></a></td></tr>'
     )
 
-    # Stock cards - Outlook-safe nested tables, fixed equal heights
+    # Stocks
     stock_cells = ''
     for s in data.get('stocks', []):
         pct    = float(s.get('changePct') or 0)
@@ -276,82 +310,57 @@ def send_email(data):
             '<a href="' + yf_url(ticker) + '" style="text-decoration:none;display:block">'
             '<table width="100%" cellpadding="0" cellspacing="0" border="0" '
             'style="background:#1e293b;border:1px solid #334155;border-radius:8px">'
-            '<tr><td height="16"></td></tr>'
-            '<tr><td align="center" height="16" '
-            'style="font-size:11px;font-weight:800;color:#64748b;letter-spacing:2px">' + ticker + '</td></tr>'
-            '<tr><td align="center" height="28" '
-            'style="font-size:10px;color:#475569;padding:0 6px;line-height:1.3">' + name + '</td></tr>'
-            '<tr><td align="center" height="28" '
-            'style="font-size:20px;font-weight:900;color:#f1f5f9">' + price + '</td></tr>'
-            '<tr><td align="center" height="22" '
-            'style="font-size:12px;font-weight:700;color:' + color + '">' + sign + '{:.2f}'.format(pct) + '%</td></tr>'
-            '<tr><td height="16"></td></tr>'
+            '<tr><td height="14"></td></tr>'
+            '<tr><td align="center" height="16" style="font-size:11px;font-weight:800;color:#64748b;letter-spacing:2px">' + ticker + '</td></tr>'
+            '<tr><td align="center" height="28" style="font-size:10px;color:#475569;padding:0 6px;line-height:1.3">' + name + '</td></tr>'
+            '<tr><td align="center" height="28" style="font-size:20px;font-weight:900;color:#f1f5f9">' + price + '</td></tr>'
+            '<tr><td align="center" height="22" style="font-size:12px;font-weight:700;color:' + color + '">' + sign + '{:.2f}'.format(pct) + '%</td></tr>'
+            '<tr><td height="14"></td></tr>'
             '</table></a></td>'
         )
 
-    # News rows
+    # News
     news_rows = ''
-    for item in data.get('news', []):
-        title   = str(item.get('title', ''))
-        url     = str(item.get('url', '#'))
-        source  = str(item.get('source', ''))
-        ago     = str(item.get('ago', ''))
-        meta    = ''
-        if source: meta += source
-        if source and ago: meta += ' &nbsp;&middot;&nbsp; '
-        if ago: meta += ago
+    for item in data.get('news', [])[:20]:
+        title  = str(item.get('title', ''))
+        url    = str(item.get('url', '#'))
+        source = str(item.get('source', ''))
+        ago    = str(item.get('ago', ''))
+        meta   = (source + ' &nbsp;&middot;&nbsp; ' if source else '') + ago
         news_rows += (
             '<tr><td style="padding:11px 0;border-bottom:1px solid #1e293b">'
             '<a href="' + url + '" style="text-decoration:none;display:block">'
-            + ('<div style="font-size:10px;color:#475569;margin-bottom:3px">' + meta + '</div>' if meta else '') +
+            + ('<div style="font-size:10px;color:#475569;margin-bottom:3px">' + meta + '</div>' if meta.strip() else '') +
             '<div style="font-size:13px;font-weight:700;color:#e2e8f0;line-height:1.45">' + title + '</div>'
             '</a></td></tr>'
         )
     if not news_rows:
         news_rows = '<tr><td style="padding:16px 0;font-size:12px;color:#64748b">Keine Neuigkeiten heute.</td></tr>'
 
-    # Full email HTML
     html = (
         '<!DOCTYPE html><html><head><meta charset="UTF-8">'
         '<meta name="viewport" content="width=device-width,initial-scale=1.0"></head>'
         '<body style="margin:0;padding:0;background:#0f172a;font-family:Arial,Helvetica,sans-serif">'
         '<div style="max-width:640px;margin:0 auto;padding:0 16px 40px">'
-
-        # Header
         '<table style="width:100%;border-collapse:collapse">'
         '<tr><td style="padding:28px 0 20px;text-align:center;border-bottom:2px solid #1e293b">'
-        '<div style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#475569;margin-bottom:8px">'
-        'ESTHETIC MED &middot; MEDICAL ESTHETIC</div>'
+        '<div style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#475569;margin-bottom:8px">ESTHETIC MED &middot; MEDICAL ESTHETIC</div>'
         '<div style="font-size:34px;font-weight:900;color:#f1f5f9;letter-spacing:-1px;line-height:1">Morning Brief</div>'
         '<div style="font-size:13px;color:#64748b;margin-top:8px">' + date_str + '</div>'
         '</td></tr></table>'
-
-        # Forex
-        '<div style="font-size:10px;font-weight:800;letter-spacing:2px;text-transform:uppercase;'
-        'color:#475569;margin:24px 0 10px">W&Auml;HRUNGEN &amp; MARKT</div>'
-        '<table style="width:100%;border-collapse:collapse;background:#1e293b;'
-        'border:1px solid #334155;border-radius:12px;overflow:hidden;margin-bottom:24px">'
+        '<div style="font-size:10px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:#475569;margin:24px 0 10px">W&Auml;HRUNGEN &amp; MARKT</div>'
+        '<table style="width:100%;border-collapse:collapse;background:#1e293b;border:1px solid #334155;border-radius:12px;overflow:hidden;margin-bottom:24px">'
         + forex_rows + '</table>'
-
-        # Stocks
-        '<div style="font-size:10px;font-weight:800;letter-spacing:2px;text-transform:uppercase;'
-        'color:#475569;margin-bottom:10px">PARTNER-AKTIEN (NASDAQ)</div>'
+        '<div style="font-size:10px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:#475569;margin-bottom:10px">PARTNER-AKTIEN (NASDAQ)</div>'
         '<table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;margin-bottom:28px">'
         '<tr>' + stock_cells + '</tr></table>'
-
-        # News
-        '<div style="font-size:10px;font-weight:800;letter-spacing:2px;text-transform:uppercase;'
-        'color:#475569;margin-bottom:6px">NEWS &amp; RADAR</div>'
+        '<div style="font-size:10px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:#475569;margin-bottom:6px">NEWS &amp; RADAR</div>'
         '<table style="width:100%;border-collapse:collapse">' + news_rows + '</table>'
-
-        # Footer
         '<table style="width:100%;border-collapse:collapse;margin-top:28px">'
         '<tr><td style="padding-top:20px;border-top:1px solid #1e293b;text-align:center">'
-        '<a href="https://patrickheeb86.github.io/morning-brief/" '
-        'style="color:#94a3b8;text-decoration:none;font-size:12px;display:block;margin-bottom:4px">Dashboard &ouml;ffnen</a>'
+        '<a href="https://patrickheeb86.github.io/morning-brief/" style="color:#94a3b8;text-decoration:none;font-size:12px;display:block;margin-bottom:4px">Dashboard &ouml;ffnen</a>'
         '<div style="color:#475569;font-size:11px">esthetic med GmbH / medical esthetic GmbH</div>'
         '</td></tr></table>'
-
         '</div></body></html>'
     )
 
