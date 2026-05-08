@@ -52,51 +52,41 @@ def fetch_bitcoin():
         return {'price': None, 'changePct': None}
 
 
-# ── STOCKS (Yahoo Finance – price from regularMarketPrice vs regularMarketPreviousClose) ──
+# ── STOCKS – actual OHLCV closing prices, volume-filtered (no adjustments) ──
 def fetch_stocks():
     tickers = [('ESTA','Establishment Labs'), ('APYX','Apyx Medical'), ('IART','Integra LifeSciences')]
     result  = []
     for ticker, name in tickers:
         price, change, pct = None, None, None
-        # Method 1: quoteSummary - calculate change ourselves from price and previousClose
         try:
-            url = ('https://query2.finance.yahoo.com/v10/finance/quoteSummary/'
-                   + ticker + '?modules=price')
-            r   = requests.get(url, headers=HEADERS, timeout=10).json()
-            p   = r['quoteSummary']['result'][0]['price']
-            price  = p['regularMarketPrice']['raw']
-            change = p['regularMarketChange']['raw']   # Yahoo's own daily absolute change
-            prev   = price - change                    # Back-calculate exact previous close
-            pct    = (change / prev * 100) if prev else 0
-            print(ticker + ' [qS]: price=' + str(round(price,2))
-                  + ' change=' + str(round(change,2))
-                  + ' prev=' + str(round(prev,2))
-                  + ' pct=' + ('+' if pct>=0 else '') + str(round(pct,2)) + '%')
+            # Primary: actual daily OHLCV bars, last two days with real volume
+            # includePrePost=false + volume filter = only complete regular sessions
+            url  = ('https://query1.finance.yahoo.com/v8/finance/chart/'
+                    + ticker + '?range=10d&interval=1d&includePrePost=false')
+            r    = requests.get(url, headers=HEADERS, timeout=10).json()
+            res  = r['chart']['result'][0]
+            q    = res['indicators']['quote'][0]
+            raw_closes  = q.get('close',  [])
+            raw_volumes = q.get('volume', [])
+            raw_times   = res.get('timestamp', [])
+            # Filter: only complete sessions (volume > 0, close not None)
+            valid = []
+            for ts, cl, vol in zip(raw_times, raw_closes, raw_volumes):
+                if cl is not None and vol is not None and int(vol) > 0:
+                    valid.append((ts, cl))
+            print(ticker + ': ' + str(len(valid)) + ' valid sessions')
+            if len(valid) >= 2:
+                price  = round(valid[-1][1], 4)
+                prev   = round(valid[-2][1], 4)
+                change = round(price - prev, 4)
+                pct    = round((change / prev * 100), 4) if prev else 0
+                print(ticker + ': close=' + str(round(price,2))
+                      + ' prev=' + str(round(prev,2))
+                      + ' chg=' + ('+' if pct>=0 else '') + str(round(pct,2)) + '%')
+            else:
+                print(ticker + ': not enough data')
         except Exception as e:
-            print(ticker + ' quoteSummary failed: ' + str(e))
-            # Method 2: v8 chart, get last two actual daily closes
-            try:
-                url2  = 'https://query1.finance.yahoo.com/v8/finance/chart/' + ticker + '?range=5d&interval=1d&includePrePost=false'
-                r2    = requests.get(url2, headers=HEADERS, timeout=10).json()
-                res   = r2['chart']['result'][0]
-                closes  = res['indicators']['quote'][0].get('close', [])
-                volumes = res['indicators']['quote'][0].get('volume', [])
-                # Only use days with actual volume (excludes partial/pre-market bars)
-                valid = [(c, v) for c, v in zip(closes, volumes)
-                         if c is not None and v is not None and v > 0]
-                if len(valid) >= 2:
-                    price  = valid[-1][0]
-                    prev   = valid[-2][0]
-                    change = price - prev
-                    pct    = (change / prev * 100) if prev else 0
-                    print(ticker + ' [chart]: price=' + str(round(price,2))
-                          + ' prev=' + str(round(prev,2))
-                          + ' chg=' + ('+' if pct>=0 else '') + str(round(pct,2)) + '%')
-                else:
-                    print(ticker + ': not enough chart data')
-            except Exception as e2:
-                print(ticker + ' chart failed: ' + str(e2))
-
+            print(ticker + ' error: ' + str(e))
         result.append({'ticker':ticker,'name':name,
                        'price':price,'change':change,'changePct':pct})
     return result
