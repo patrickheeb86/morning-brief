@@ -1,5 +1,6 @@
 import os, json, re, time, smtplib, requests, xml.etree.ElementTree as ET
 from datetime import datetime, date, timedelta, timezone
+from zoneinfo import ZoneInfo
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.utils import parsedate_to_datetime
@@ -59,8 +60,6 @@ def fetch_stocks():
     for ticker, name in tickers:
         price, change, pct = None, None, None
         try:
-            # Primary: actual daily OHLCV bars, last two days with real volume
-            # includePrePost=false + volume filter = only complete regular sessions
             url  = ('https://query1.finance.yahoo.com/v8/finance/chart/'
                     + ticker + '?range=10d&interval=1d&includePrePost=false')
             r    = requests.get(url, headers=HEADERS, timeout=10).json()
@@ -69,7 +68,6 @@ def fetch_stocks():
             raw_closes  = q.get('close',  [])
             raw_volumes = q.get('volume', [])
             raw_times   = res.get('timestamp', [])
-            # Filter: only complete sessions (volume > 0, close not None)
             valid = []
             for ts, cl, vol in zip(raw_times, raw_closes, raw_volumes):
                 if cl is not None and vol is not None and int(vol) > 0:
@@ -159,7 +157,6 @@ def parse_rss(xml_text):
             link = ''
             for node in item.childNodes if hasattr(item, 'childNodes') else []:
                 pass
-            # ET approach for link
             link_el = item.find('link')
             if link_el is not None and link_el.text:
                 link = link_el.text.strip()
@@ -167,7 +164,6 @@ def parse_rss(xml_text):
                 guid = item.find('guid')
                 link = guid.text.strip() if guid is not None and guid.text else ''
 
-            # Clean title
             title = re.sub(r'\s+-\s+\S.{2,40}$', '', title).strip()
             for ent, ch in [('&amp;','&'),('&lt;','<'),('&gt;','>'),('&quot;','"'),('&#39;',"'"),('&nbsp;',' ')]:
                 title = title.replace(ent, ch)
@@ -185,12 +181,10 @@ def parse_rss(xml_text):
     return items
 
 def fetch_news():
-    # Load existing cache
     cache = load_cache()
     cached_urls = set(i.get('url','') for i in cache)
     print('Cache loaded: ' + str(len(cache)) + ' items')
 
-    # Fetch new items from RSS
     new_count = 0
     for i, query in enumerate(NEWS_QUERIES):
         try:
@@ -209,18 +203,16 @@ def fetch_news():
 
     print('New items added: ' + str(new_count))
 
-    # Filter: keep only last MAX_DAYS days
     cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_DAYS)
     def is_recent(item):
         try:
             dt = datetime.fromisoformat(item.get('pubDate',''))
             return dt.astimezone(timezone.utc) >= cutoff
         except Exception:
-            return True  # keep if date unknown
+            return True
 
     cache = [i for i in cache if is_recent(i)]
 
-    # Sort: newest first
     def sort_key(item):
         try:
             return datetime.fromisoformat(item.get('pubDate','')).astimezone(timezone.utc)
@@ -228,12 +220,9 @@ def fetch_news():
             return datetime.min.replace(tzinfo=timezone.utc)
 
     cache.sort(key=sort_key, reverse=True)
-
-    # Save updated cache
     save_cache(cache)
     print('Cache saved: ' + str(len(cache)) + ' items')
 
-    # Add ago string for display
     result = []
     for item in cache[:40]:
         result.append({
@@ -286,8 +275,8 @@ def send_email(data):
         print('Email not configured - skipping.')
         return
 
-    now    = datetime.now()
-    days   = ['Sonntag','Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag']
+    now    = datetime.now(ZoneInfo('Europe/Zurich'))
+    days   = ['Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag','Sonntag']
     months = ['Januar','Februar','Maerz','April','Mai','Juni','Juli',
               'August','September','Oktober','November','Dezember']
     date_str = days[now.weekday()] + ', ' + str(now.day) + '. ' + months[now.month-1] + ' ' + str(now.year)
