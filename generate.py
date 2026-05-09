@@ -94,9 +94,18 @@ def fetch_stocks():
 
 # ── NEWS – persistent cache ────────────────────
 NEWS_QUERIES = [
-    '"Establishment Labs" OR "Motiva implant" OR "Apyx Medical" OR "Renuvion" OR "Lipoelastic" OR "pHformula" OR "Integra IDRT" OR "Vaser liposuction" OR "Revanesse" OR "Prollenium" OR "Sunekos" OR "RegenLab" OR "body-jet" OR "Puregraft"',
-    '"Allergan" aesthetics OR "Mentor implant" OR "Galderma" aesthetics OR "Merz Aesthetics" OR "InMode" aesthetic OR "breast implant" Switzerland OR "Albin Group" OR "Calista Medical" OR aesthetic medicine Switzerland',
-    '"Hirslanden" OR "Lucerne Clinic" OR "CHUV" plastic surgery OR "Insel Gruppe" OR "Swissmedic" Medizinprodukt OR "plastic surgery" Switzerland OR "aesthetic medicine" Schweiz OR "IMCAS 2026"',
+    # Produkte & Partner
+    '"Establishment Labs" OR "Motiva implant" OR "Apyx Medical" OR "Renuvion" OR "Integra LifeSciences"',
+    # Weitere Produkte
+    '"Lipoelastic" OR "pHformula" OR "Vaser liposuction" OR "Revanesse" OR "RegenLab" OR "Puregraft" OR "Sunekos"',
+    # Grosse Konkurrenten & Markt
+    '"Galderma" aesthetics OR "Merz Aesthetics" OR "InMode" aesthetic OR "Allergan" aesthetics OR "Mentor implant"',
+    # Schweizer Markt
+    '"Swissmedic" Medizinprodukt OR "plastic surgery" Switzerland OR "aesthetic medicine" Schweiz OR "Hirslanden" OR "Albin Group"',
+    # Kongresse & Industrie
+    '"IMCAS 2026" OR "AMEC 2026" OR "aesthetic medicine" congress OR "breast implant" safety OR "body contouring" trend',
+    # Breit: Ästhetische Medizin allgemein
+    'aesthetic medicine innovation OR "minimally invasive" aesthetics OR "regenerative aesthetics" OR fillers trends 2026',
 ]
 
 def load_cache():
