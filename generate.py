@@ -326,7 +326,7 @@ def send_email(data):
             '<tr><td align="center" height="16" style="font-size:11px;font-weight:800;color:#64748b;letter-spacing:2px">' + ticker + '</td></tr>'
             '<tr><td align="center" height="28" style="font-size:10px;color:#475569;padding:0 6px;line-height:1.3">' + name + '</td></tr>'
             '<tr><td align="center" height="28" style="font-size:20px;font-weight:900;color:#f1f5f9">' + price + '</td></tr>'
-            '<tr><td align="center" height="22" style="font-size:12px;font-weight:700;color:' + color + '">' + sign + '{:.2f}'.format(pct) + '%</td></tr>'
+            '<tr><td align="center" height="22" style="font-size:12px;font-weight:700;color:' + color + '">' + sign + '{:.2f}'.format(pct) + '% / ' + sign + '$' + fmt(s.get('change'), 2) + '</td></tr>'
             '<tr><td height="14"></td></tr>'
             '</table></a></td>'
         )
