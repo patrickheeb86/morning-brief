@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-09T14:29:07.681082Z",
+  "generated": "2026-05-09T15:29:26.785380Z",
   "forex": {
     "eur_chf": {
       "rate": 0.916177,
@@ -13,8 +13,8 @@
     }
   },
   "bitcoin": {
-    "price": 80278,
-    "changePct": 0.1479404101651622
+    "price": 80395,
+    "changePct": 0.9455189248348884
   },
   "stocks": [
     {
@@ -41,17 +41,31 @@
   ],
   "news": [
     {
+      "title": "Aptos steigt um 9,23 %, nachdem Decibel die Marke von 1 Mrd. US-Dollar Handelsvolumen überschritten hat",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNEJpblRyVndaYWJGT0xLU0xhc1NlUlpSbjVYaFBqTEtiTU0tY1M2VGVGelppT21pemttcExENkg1UkEzdnBQRnJoMEs0QWItM0YwMmJMOTFSdF9Vem1DUGtkN1dsVTV1M0lvOTFudWhMV2JhQzdLZkNrS1k0OVRCQlZNX2ZGUWlrSVNSZnVNUUFFZkZzdENtbjhwNkhmUmVv?oc=5",
+      "source": "Traders Union",
+      "ago": "8 Std.",
+      "summary": ""
+    },
+    {
+      "title": "Aptos unterstützt das Ökosystem mit 50 Millionen Dollar und setzt auf Agentic AI",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUHZoVE9nSU82Q0xDNW5EbU5ZelNfczRVYzZsRERGb1lWX3dna0tsaGx1RmpGMHFVUXdkTFBFRjZWUXVjZlQ4WE9wVTdTTEZ2YlJkUlBJWk9ET2lUOWd0d2h6bnkxZEJnRGJ6R2xfX0VHRzJhVjVNV1F3TlVoLWg0Ml9LUDJ6YkxWU25EempvZi02LXl1M3JGdjJjVm1FZE1FOFpqbVhkLTJsQWxjQS1iOHI1N1pvRmxyUnNGdFN6eVg?oc=5",
+      "source": "CryptoMonday",
+      "ago": "13 Std.",
+      "summary": ""
+    },
+    {
       "title": "Fonds von JW Asset Management veräußern Aktien von Establishment Labs für 4,5 Mio. US-Dollar",
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMFRkS1V6SXZESVh0blhBYUxNbnd6RlFUckpxZVNpbF9KZE1FMjlMb3hRSGFJbGt6b0Q5eFJBSmxJcHVvV2VhY1JoXzNDNVQtcE1BdlE1RjFLYzNBajBCMHh2c2p6VHpPT0djaDgtU29ORUdSZGc2RXFpOURyUEpPU2Y1dnltSjIwR2h2bFlXVFA5Vm9vb2pFV0hPTkZUdnBPcW9sOGU5YVFoeTJZQ1c3NDEtQ2N1Ri1HSHU0blJLZFYxY0ZiRWxZcEVvS2FRanFjVGlhUWdhVTlCSEJRUWwwMDFsYXJkM1JX?oc=5",
       "source": "Investing.com Deutsch",
-      "ago": "18 Std.",
+      "ago": "19 Std.",
       "summary": ""
     },
     {
       "title": "Apyx Medical (APYX) Q1 2026 Earnings Transcript",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObEd6TE9PWTZUMUcwZVVYdWVUNVc5UW12N3JTaXRldFMyVTdCQm9vZGgtU1BoVjl5ZlBBSVRhQXBka1pOeEg4eUVYUnJSSzRyUWo4bXpBTkhtT1ZZX2x0RFE0NXd3QXF1TDdONWJsR19qQ0FIV2pBbmtabk9MWHJkbm1YblV4TFlpMmY1T1VyM0NUQmJETHAwQXNzbmtJU2IyRmNxalU2cnJLd2ktWHlteEgtR0t2WnM?oc=5",
       "source": "sharewise.com",
-      "ago": "21 Std.",
+      "ago": "22 Std.",
       "summary": ""
     },
     {
@@ -62,9 +76,79 @@
       "summary": ""
     },
     {
+      "title": "Skandal an USZ‑Herzklinik – wer kontrolliert Medizinprodukte?",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcGlhczJIdE9GcGYxVl9zcFpfSTFQT0xrZGdjTFYtUmhURmlNZlhIbzlkSTZlTm03ak9pZkFOWFdVS0ZaS3pVOVJpUHZ4ZU1ybURMX1RJTm9zSy1TRHhSaUxCREkxMzhJRmdhalpCWWI1RE1YQWFfWXkyWHJ2bWNwdEU4ZnBVbk41WFRCVWhINGRnUFpndmxZUTd3VVQwdDRuWHk4?oc=5",
+      "source": "SRF",
+      "ago": "1 Tag",
+      "summary": ""
+    },
+    {
+      "title": "Aptos investiert über 50 Millionen Dollar in Infrastruktur, KI und Trading",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5sTEY0M0NBREJTM3FkbmRyTU5nRGxGdC1TY3p0cDhBU0dRZENvWUdhblF1X0ZKc3RYRE5KS1pSUE1FbjBQWGtwM0JPMFRjRUp2OHUxblRUMmNqSUNL?oc=5",
+      "source": "Cryptonews.net",
+      "ago": "1 Tag",
+      "summary": ""
+    },
+    {
+      "title": "Aptos Price Forecast: Rally extends to fourth day amid $50 million commitment for ecosystem development",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOOURVYVltSDBjUVJ4NTdhVWwxaTNoaU5EczZOMGF6RW5GaUFxYTVlWl9hMWdLYkV3UGEyNGRXM3otR0RRMFIyVGhUM1VoQzNmcEFnd3hTTUJnYTFkSUlvZEVPUjBJb0JNVkkzdXJIMlZ1RW5kd3ZXLXpDYXlVM3p3eEhxU2Uxa2hlR0hlZmwyR3FrMDlJZjU3cDlHN25GOFo0NlVzdlVVX1psTTN5STRITUJoZlZvZ2FRcnJXWUlXM3EydldJa0hEVk82cXBRaGNoZUtUZC1scXVpMWNRX2Z3RERuWmg2Q0Y0WFpuNkdkdmhiMGFPR0ZZRFE2NA?oc=5",
+      "source": "TMGM",
+      "ago": "1 Tag",
+      "summary": ""
+    },
+    {
+      "title": "Aptos: Rallye hält angesichts einer Verpflichtung von 50 Mio USD für die Entwicklung des Ökosystems an",
+      "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxNcTR3VW1qMFczUlN5THFlSXFFVlk3bEdiWHlwcXJzdWVnX21wbXRRY3FmcDJPUHVnYkpZOFA3V01Gb0t1cTRqZUZ0d2haWE90X0RBNHN6VU04UlNnaF9laHRFMzhNQy1nTk9sX0c5cklNXzBEMlJLSkx3Y1JCNmJVV05DaFlBc3JYSDYxZFB0VS0xa2p0N1J1ZGlzYlB4ZFlvZWlNQllrMFIxc2lHX241WnlkenhwS3NRTVJqUFlCdFdGZ2dYemM0Vzd2RWRKdnFtYzRGczh2NjNxdEo3Ym9DMnBSMFpvQ292dUxDRzRMeGtYV3BzaHN0VGdsQ3Q2QlNpSUFHcmRHTmJZVnp5YzlvdkxaX004QVo3UXVQWG4tN2ZGbWJEeE8wdndxTG9kX01aT2RHTGczRFbSAb4CQVVfeXFMT2VpUE8xNWtJYm5nbDlIS3BEclJsV3FpWDFDNXBESDR4dkJ5U0VoRExiQjBSbndxYjI4XzhyWjctRVBuVjZZYTlILVNhNzRJMEI1elFkcnVNSnBKNE1DZER6bC1MZVpqb0wzc1JoTHNBb1RVZXNPT1lMekEwNlh6Qk5LYTFHTHpnUFJycGJBeFQ5UzhiNFl1R0ZnSHBBZEwzRmgwUFM1aUVaRTNoT2ZUdzJxcFFuWVBGNmZ1YVkyYWNIZWJPYjRjdVljTXVCVndiMkJRX3F0ZFo5TEpsWUFNVE51N1MzVkpfdmdhMi1VSTdZWWhCR3MyaFRJNEZiSlg2UEJBNXlhd2RMcDhfc0I3VlFVdGktMEEzdWs1a2h5MmdoRE4zVkVldW5YeHc3anlxOEJKNTdYZDJjbjJ5RW13?oc=5",
+      "source": "DE.COM",
+      "ago": "1 Tag",
+      "summary": ""
+    },
+    {
+      "title": "Aptos investiert über 50 Millionen Dollar in KI, Handelsinfrastruktur und institutionelles Wachstum",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5YRmVQbDdxc3UtQ2lBLUhDbVpqTnBhSzgwcW1wcVJmN0syZUVHOGo2LVZPQ1BIa3RjejRnZWtCTE50MWpZTWVTMmN4ZUM3SHpYV29MNk5XeWg2dFV5YkE?oc=5",
+      "source": "Cryptonews.net",
+      "ago": "1 Tag",
+      "summary": ""
+    },
+    {
+      "title": "Aptos hält sich stabil über der wichtigen Unterstützung nahe 0,92 $, trotz starker Verkaufssignale vom MACD: Wöchentliche Analyse",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLXFhazJIMFZfOGI2LWdGZFJmWmNnVnE5SkpHRGRIRmFqOE55WWpqUW82YkdJOG1jaVdvWm16bFp5RVlCTHVCanVJZVNjN1hzRTAyMHRMdWpEMkw5Q3lBVzdjLW93cV9ZT1hJbTlJcDFfU19lYUZJRkhwS0ExOUs0dkQ5UW5EakllREE4QjV5c0plMGhqNTVzVFMtMTRYNDZIVlE?oc=5",
+      "source": "Traders Union",
+      "ago": "1 Tag",
+      "summary": ""
+    },
+    {
+      "title": "Aptos unterzeichnet eine Absichtserklärung mit dem japanischen Zahlungsdienstleister NETSTARS",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE80aDJDa0NRVkVkbEtFcGxXR2JEd24zRF84RjQwOGUtSGkyMFlCVVh3RlVBNkVMRmU4ZlNKbHlNWDlaZVZQdFlORUp1NXdXTERzOWlLQ1JuNlFmMDlaZ3NKM2hn0gFnQVVfeXFMTjhTWVVHcWR2QVd1QnBVU0VHaXJWY1VidnlzMzlMUzlyWUhYYTNPdFI5T0J0bXFVdDZRMFpoZUZ3cThNb0ZXSFU2d25rdjdTcUVHY0xYbnlRUkxVaGZZY01odlVUWjhySQ?oc=5",
+      "source": "Bitget",
+      "ago": "1 Tag",
+      "summary": ""
+    },
+    {
+      "title": "Xange.com, Aptos Labs und die Decibel Foundation gehen eine Partnerschaft ein",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBVQ0dQYzF0UkQ5dEJrVjV6bEpNYjg3Yl83WjRzMkpGRnNxU25XNmE2RkMzUFY4aGlSRlRKSGJSTmpjdXM1U19hd253b1dINDZGMTg4TWNLdC1OWEJtVW14QQ?oc=5",
+      "source": "Cryptonews.net",
+      "ago": "1 Tag",
+      "summary": ""
+    },
+    {
+      "title": "Xange.com, Aptos Labs und die Decibel Foundation schließen sich zusammen, um den ersten On-Chain-Standard für Daten zur Risikominderung bei souveränen Emittenten einzuführen",
+      "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxOSWwtSlY3YTIyUzdNTzRfcWpMaWZVZzhBOFhYa1FtUVU5bm1CdW54djVPSXI5SDdYbE9GN2NpN1RYbV9DMzJoNTlMTUNWcnhrWUtrMmV6Y2NnOXBVYnItUWNTeDlrX1FvQnRERWJJMXQydjQtTDFzSEhyNHh2OXowdkxMZGpIMnpha1A2U1pacUdTOXZFVHdhT1doaEpueDZ5R2JHVWhWbUFtdDBMVkVYSlNKd3ZBQkFpbEt0Vmx5T2R1NVpNT1FQeU9KbHBnQ04xaGxJWmZXNGJOOG43eHlnQ2hFLUtUQXdxZUhzUnBBNWRZcEJSNm42bkZIazJkTFpYSTlRN0hvUzZySEV4WjJYYUROYUladEpDb0xONzVMcVhBdUgtUDd3TlZfMGZZdnpaTE0xQU03WUFYM095cTA2M1dodjhaSVBYaGc?oc=5",
+      "source": "PR Newswire",
+      "ago": "2 Tage",
+      "summary": ""
+    },
+    {
       "title": "Apyx Medical übertrifft Erwartungen in Q1 2026 – Aktie legt deutlich zu",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeEVSd0pfb2dlb1EzcnhqY2dhT1h1VnN6ZTdYTlBxMGo1dHBFZFVTSmo4cGFGRXJaaUV1cUVUaTl0WThpU2kyOHV0MmNoRURqVXp2RkJVNmhUUURDeTIxUmVjRTNWT0ZHMGJYWEoydWI4WThSbEZON2t3dkUzMS1CQlNxTWxGbzNXT2NCMVBQNHl0dS00SUZjU2xTNmRqWVFLTFJVN280ckE3VnFsQ2tWVDJ3Qm1waHJqeTE1U0pRaXNwLUk?oc=5",
       "source": "Investing.com Deutsch",
+      "ago": "2 Tage",
+      "summary": ""
+    },
+    {
+      "title": "Aptos Foundation und Aptos Labs werden über 50 Millionen US-Dollar zur Unterstützung des Ökosystems bereitstellen.",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBJNjE3ODdiNE9LVDl5Rk5jbjdFamtGb3E5M2JmN3o4LVJVZjVWbXQ2T013RDh0cko5Yjg5blZkNExhZnBkU0RCLWV6Z1JGTUxJVlYtdG96dVJhckpYT05ESmtn0gFnQVVfeXFMUE9pR1BjcDdZNFg2cTBTRUJYN0JxaEhCV2FlUC1ueW5rUWZ2clkwT3BpZ3Y5Z2FfVVBzX0Z6OGREakdLUUNFbE5LT2NTMWY1TnZaN1VTSDBYWHdZSk9DcXNEYXlyR0ttUQ?oc=5",
+      "source": "Bitget",
       "ago": "2 Tage",
       "summary": ""
     },
@@ -167,10 +251,59 @@
       "summary": ""
     },
     {
+      "title": "Die Marktkapitalisierung von Stablecoins auf der Aptos-Blockchain übertrifft 1,9 Milliarden US-Dollar und erreicht damit einen neuen Rekord.",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5wMVdkTVowbWg1azZ1THRFSk1wODlDc1VBVDZPbkNneURYVF9sbzE5QnltV1dYbnVkemtqWUFlS3czTlV1NF9aMDBndnZtbDc2WTRxR0VtMWlFdGVNbzdtV19n0gFnQVVfeXFMUE1pMnNzS3VnYUlJNzFjb1pTdEVTUTcyNXFJWkx5NkRtdW92ajNQLUdPcHJ4aHNpQzVSV0JRaVNkMFdHQ3JzZmFib2dhVXJBWW9BbHlYWVBGbjJtbDMxdG5GUDlYQ0Zuaw?oc=5",
+      "source": "Bitget",
+      "ago": "5 Tage",
+      "summary": ""
+    },
+    {
+      "title": "Die Marktkapitalisierung der Stablecoins auf Aptos hat 1,9 Milliarden Dollar überschritten und damit ein neues Allzeithoch erreicht.",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA5ejhMSjE5bGEtTW00MVM4WkpTanBxazh0RlczMlA4dlRteG0tVFlFZnc4bGduVTZNcjBXMUhRUEVXb09LVG13OHlRSFhqTC1RRG5oTVhMbmhLTjY2cWt2bjV30gFnQVVfeXFMUDh4Y2FwamVVWUZNUjV0VF9nQ0QzWlM4ajRncGV2V0otcjBlTEVRR3ZFQkJWb2VUTFB3VFcydEc3Q2p6c0dBTWNtUmxlQnBZeG1YR01QcjlvLU1ua05xWkpxM0g3WHlfRQ?oc=5",
+      "source": "Bitget",
+      "ago": "5 Tage",
+      "summary": ""
+    },
+    {
+      "title": "Die Marktkapitalisierung der Stablecoins auf Aptos übersteigt 1,9 Milliarden US-Dollar und erreicht ein neues Allzeithoch.",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBKcGVHX0Z5Y2dKVE1EVE5DQVRhanN1N3FRSVJ5SkxENDB5OEIzMHZMLTRwdDFhSmVvLXdXZ00yOER2bzBDUlJVVGljOG0zZDZrb3I4ZG1OZWNJalpzZHVRXzhn0gFnQVVfeXFMT0ZNZDN2Wk0tbFE5Yi1DYnNPOVYtbEx0RjRVM3pKLUZERDhLRzl1aGNxT2FjeW9aUEtNNGpDVE1mTmpNaTdldy1TMGUtN3ZpdFBfLTZhbnF3dkJhNXo3bmlSWVJuT3FzYw?oc=5",
+      "source": "Bitget",
+      "ago": "5 Tage",
+      "summary": ""
+    },
+    {
+      "title": "Aptos: Wie viel Wert mit einer Investition von vor 1 Jahr verloren gegangen wäre",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQc1lwLVQ5VDRYZjdBWWhWM3A5ZDJ1NWFUUm1rNTZaV1p6V0NDdzVyQWxWSUtlTUh5cXl4djA2d3pxTDZuV1BoNHJoUWlYcUhwSXYwZ25qZDh2UnNERnVyOVRORG50NmFnSkhqdENFbHJPX0c3X3JidU5WTUhfOTc1OGNqNGNvNjRSb1lDemFPVE9TR2JzUDJMWE9ybEFDTGVQNmFVRFlOaDE5OHFNamhSNG01TUdJa0ZuU2pGMWdWVjZVcXZSRDB5T1JrSENXX1E?oc=5",
+      "source": "finanzen.at",
+      "ago": "6 Tage",
+      "summary": ""
+    },
+    {
+      "title": "So viel Verlust wäre bei einem Investment in Aptos von vor 1 Jahr angefallen",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVjlXeEVybGVVMnZtZ3JJNXpqNUtPYnc5RHB0REJSb2JjcFAwbXdiSXItYXhJNDA2LWVYU1FvNTZFNVBaRTlncXdobnAybC1taDFmWnY0OUJobUxCaC1Wa1JQMkF6dUc5NHQyQldadmtBNjEycDNnekNBZDlPaTJLeVFnMV9kaHlubGdtSzhqYkxtemVtMXlYa1JvQ0xuRV9Oc0Zsc3pESnNJcUhDd3U4VElxZmI5T3VyUUd1TEU2Qzg2dmVicF9acF90ZWM?oc=5",
+      "source": "finanzen.ch",
+      "ago": "6 Tage",
+      "summary": ""
+    },
+    {
+      "title": "So viel Wert wäre mit einer Aptos-Investition von vor 1 Jahr verloren gegangen",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNUprZTF1ZkgzbkFDQXUzSlZ1Sm1iYVF4T09zWGNfTktiN1E4b3M5ZU91TG1xaDFzTV9xSUdFWEdNRXJkVFNpNXcxVVBNcG5Pb3hOclNtb0F5MmtmdG5ld3VyT2h0RU5MQzVvOUtNTEJScTFLRXlNMnR6RE1LSHBhNVhIYXFEbHNIdnVTaG5QcDlURHJwOWdkSjJhN1U3YldGWlBPSDlNMkc2dGdEZTlrVi1zREl4UU5iSU84SXpYWHdPeWExZi1CWkU3RdIBuAFBVV95cUxOdEw0QWhzeXdmYzRSbXBfc3A4ZGhFYWMyTFlxTWhnUjVvR3RYRm1ocWNrOURRd3FIMHVteUdlZzBSZkxIelBrc1piR2RmaUlLc3FOTEEtOUlsNWdYOFphWDhsb0ZITm5ZY3RMRC1uZlZwRDRiSllIV3NrWGJ4bUJNbldxcTFHSFZnZlVNTVREOXF3WWRXQ1hycWc3MkF3dFRvQ2VBcEVyQVhRQkVCYmR3amVxaDBIWWk5?oc=5",
+      "source": "Finanzen.net",
+      "ago": "6 Tage",
+      "summary": ""
+    },
+    {
       "title": "Establishment Labs Holdings Inc AKTIE | Aktienkurs & News | A2JRE4 – boerse.de",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPS3lmMDNic3lvUzE5dUpPY0ozaFRiN2RLa3Jvd0h4UE1rekxlYmtLOHduQldGd3VaZ042akFjVElQLWh0X2JPZlFTaTFGdk1iekEybFZDUHlXV3NYYUcyYUJOX0stMWh4WDFqVmNZOEJaZUE2REYzcURlaWttVWJnNHhIRFFJUQ?oc=5",
       "source": "boerse.de",
       "ago": "6 Tage",
+      "summary": ""
+    },
+    {
+      "title": "Männer gehen zum Beauty-Doc, wenn es die Frau vormacht",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRldDMjRYQW1sbkJkbFYtdXl5OTIzQ2lzeVNPeU5HRlI4NlJtazFhclVFZHhjY2ZhdExKQmt1U2poSE1FUXhtZEFHSWpjUGdPSTZlUmx2NFNVVkVUb3JDVmJHT1JrNkM5RjZXbjhxUDM3cE9EVXByRXY3UVhqVUhXdThMLUZ5b0VZSXFlZFYwMTV0aFFEN2UwcGln?oc=5",
+      "source": "Nau",
+      "ago": "7 Tage",
       "summary": ""
     },
     {
@@ -185,69 +318,6 @@
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbGVXZHFkX2hOX3VlM2t0eVpvUnVpWWVBSWx1UWMzdFhrNHhlVGNLcjkxZnMzM3Jnb3Q5cEkwcVNNeUgwRDBvZjI4ZnNXMkkxYzQ0V3AtVk8wSk1nc183M1BiaVNrdWc4NkNvZVBmWWtWTU84emdGMmhvZlV4RHJrblFVajNGZw?oc=5",
       "source": "boerse.de",
       "ago": "7 Tage",
-      "summary": ""
-    },
-    {
-      "title": "Establishment Labs Secures Up to $300 Million 5-Year Term Loan From Oaktree to Refinance Debt",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPWC1ZRWZsUjBiVEtFWTFoZ1JYeXVMSnp5cnZpWkVMUzVJSlMwWm5JZFBPQWREY04zdzBWdlcxSUdTa2RNS1BwR3ZmcHd4RkJvUTdsdHRLSnBhWkdLLUNHYWFBbEZSRXRYT043djM4NmVTRzRNTkNiLXZPdWIzMnlyM3J3MmNsek9sTmhWNGFlREtDck1BWlhIcGQ3Z1pyZF9jZWpVOXl3VVQxblB4bjNpSi1oV1pYOGV0a0hjT3VCVEpyYkkzYl96aDJLbUIwQmZsUW9DSFNvby1oUEJJYWtNX3JxdHEtZnJ0VjhjUW5B?oc=5",
-      "source": "TradingView",
-      "ago": "8 Tage",
-      "summary": ""
-    },
-    {
-      "title": "Establishment Labs sichert sich Kreditfazilität über 300 Mio. USD von Oaktree",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUUJwZC1ralZDMTRoT3V0QklzTjFnSTh3U3gtZzAyVEQ2aDlwVEZ0MlpFd1BmejlQRWJ4Y3p3Y0VWY3A2U0FsNUFxUWpoYnZFR2FfbHhJZU15anZRVHNGMGxFdS1YODVGaUtyRHBjalRoMW9zTVd5UktyQVV1VEZzM1k1M0ZOeHNYcVFhRWtzbENCeFdnZk1uZEswamdaZkVDclhkTnF2bVJaNG13MlpCNUFiSHBPMXdxOHJEUWZtZk54S0V2QXpGWnRMbEM?oc=5",
-      "source": "Investing.com Deutsch",
-      "ago": "9 Tage",
-      "summary": ""
-    },
-    {
-      "title": "NASDAQ Composite Index-Titel Integra LifeSciences-Aktie: So viel Verlust hätte ein Investment in Integra LifeSciences von vor einem Jahr eingebracht",
-      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOejM0WGVENV9VQ05OZnR3N0FXeW9scGM5anNkX2xvanNISVpTaWhJbUo0bnREdTJhbTNPUmtualBYVFFiRS1pWkVQV2Y3VlN5ZkRVN0hQMUlfaHJvLXJxaHoxYkRPM3Y4dFMwZG54ek9YaDdUXzlpRWpNa0czaXYzVDlITmRKcEtKU1hiTEZlejhKMlZaT3NtTDIyaUtINW5WbDJTUmwxQmU5MTlzaU9DUTJRa1kxVElGMnFTUVJaVlVidTZVdTZrbGRQeVdick9NUkNLeEljNmk2QWZrYkV0cVVBOXpwUm1PS2RwWk1ib2dobWRBdUlvNC1Rb1htQmtNUV9ETl9uZ0htcVBBdnBmZzhHSW9hQ0E4Umh1WHgxMDZ3TFhxbmhjRFRR?oc=5",
-      "source": "finanzen.ch",
-      "ago": "12 Tage",
-      "summary": ""
-    },
-    {
-      "title": "Establishment Labs: Direktor verkauft ESTA-Aktien im Wert von 4,9 Mio. US-Dollar",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSkNGZW1DNnBmMUFsbmlHU0pQRUZLZFRNUjlYRUhlTjRudzB2cUpJbHNFdkRQdlhTQ0MzRDFCbm5RelREWEVtMVB6SUhmX1RNcGF6U3RjTmVRbXNPYVVXcHdGRVBmVFYtb3p1OVNmR0toc0pmT2ZKN2s4VUh0WXJDemVPWFZMY0lYVUcwYVIzZnJZMnFtOXItYktGX1FTb0ZpdUMxZjVIbWFkemxBc0FNenNUbG94cXpCaW1PWk5FUkhTQ0VRQnVDVnVzRE9VckxQaEs0OVpR?oc=5",
-      "source": "Investing.com Deutsch",
-      "ago": "12 Tage",
-      "summary": ""
-    },
-    {
-      "title": "Marktwachstum für medizinische Ästhetik, Anteil, Branchentrends, 2034",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd1BCMVFTNWgwU3FzQ3RMNjlWVThzcWtRVG9lTDZRbU9zZllZV0I2Q2c3UEIwMkJPQ0xOYWpVX1ZtN1l3ellyQmpJZzBvazlMY3V3WXB6QTJZQk5mM3JxS1pjSmFsTUF5dmQ1Znk0b1FMVXZMWUp5b1Zpd2RIQUZtZExRWTJKU2dQSmFYZFRQbHBRdEVOcGtpUjZrc2dweHJR?oc=5",
-      "source": "Fortune Business Insights",
-      "ago": "19 Tage",
-      "summary": ""
-    },
-    {
-      "title": "NASDAQ Composite Index-Papier Integra LifeSciences-Aktie: So viel Verlust hätte ein Investment in Integra LifeSciences von vor 10 Jahren eingebracht",
-      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQcENSbEhkUlU1V2Z2ZTZndzBMc1JMUnVvUlJtaFh6Z0p1aXdzTDgzT20yWWF3Ynp2bTVhOUlsZ092d05DQTlPZTVrLTFZczcwWk1BcDFCb2Q2cmVHVEtuZkNhVk1BenlaZTZyRG1hSW5UTlIzMUVmUnlpVi1GdlhXRTVKTW5mYWRBTnI2M1NnbGNTUlhSdHZvNThpWnQxQkpMblJwQVdTUnhyc1JCQ085MVVDdUZzS0VoZmJ3cFQyajc3U2NwNG1Oc2c2TTZUUG1FdXVQVU4wN29LUmtGQXBSazNkMUNJQlA1X2xJZGNreEFvNmFsLU51ZHI1RmlZU0NPZno3SXhQeTV1dmFZSUxiVlphVXgxZHJFRHg0QWE1cGZpcUtSaUx5SVZ3?oc=5",
-      "source": "finanzen.ch",
-      "ago": "19 Tage",
-      "summary": ""
-    },
-    {
-      "title": "Werden die Rekordumsätze von Motiva und die steigenden Margen das Wachstumsnarrativ von Establishment Labs (ESTA) neu definieren?",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQT2l1cXowVlNkS1JSWDl6a2tEYkd6MWhFYU1iMmUzTUx2ZWlZcnlFT0pjdWpBS3lYdWNYWnNJRFhhWlFCOFRiR3JWV0w0Um1tNExpRTdiNjFONTd3ZlRKdjVZV1Y1N09fQ3MxVTNjeWRfTnEzVnNjc3NoaC1ZRXlHVFcwcHpkdkVUZEZtOWZMYzlkeVRjM2lpMzRJX3Q0RTU0eWw1R3l2ZUNrV3c0M3paYTF4a0FyanFudDduWDByRXpGVVc2UFp4ZlA0c29aSm5jblpDelIxX1dSSDgyWjJnOTU2cmJsUdIB6wFBVV95cUxPMkt1TktQN0QycFhYVDhvLUFtNks4dWJhR3JqVmtybTM2aTVPaWZtRXZhNG1rcTd3NXBPUnd2dHZ0Y3lSMHZLb3JNakhJX2JTTGpfRHJiV2NUQmpzZ09mVHF4N0FIa1BESEEtandZQVVSZVY5dklpUUp0b0twU3ZaS01VbC1CQXhMR0ZQRFloZlFCQVpHZEhGU1Q2ZklJenZEY0NWSHFuLU15djdiVDlLMUJNYmVmOTY5eGRvRDNPNTNlZDVVZDY4NXpmSzJSRzNDT3JzVDV2eFZOaTNnYkpidkR3cHFJUUMzMDlr?oc=5",
-      "source": "simplywall.st",
-      "ago": "26 Tage",
-      "summary": ""
-    },
-    {
-      "title": "Marktgröße, Marktanteil und globaler Bericht für Gesichtsinjektionspräparate, 2034",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNjlWeUw0TVd4QVdTVkpHdEExN2pGMHM5M1IxcW95MW9RZjY4amRMamJCQktlMl93QThwd1lGOERhMjNZUk9pUGVWU2RBZGZrV1g3SDdRZVFqdF9TOVNibHhjYjRfa2V5VmZIVUxtQkJJTWZYSFhPU3NoSjlrM1NBVmhKdlRRZElySUxidklETF9JcDNCQ2VTaHVHWWo5bVhnNmR1VnYtOEVTSlNQTlh6UFpn?oc=5",
-      "source": "Fortune Business Insights",
-      "ago": "26 Tage",
-      "summary": ""
-    },
-    {
-      "title": "Ist es an der Zeit, Establishment Labs Holdings (ESTA) nach einem Anstieg von 106% innerhalb eines Jahres neu zu bewerten?",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPS1hOU0hzN0U4cldzR2VvT3UxYldrWUpXYVhKQTBNUjNrLWlhTGc0ODF0dEpabTJtd3pkV2NrVlhUMzMyT3ZrdVZCVkdEU0xfWGIteE93QW1CUldGbUpia2F2VEE2MnFyWDM2ZGFfU1FPejVsaEtNXzJNUjVuNnpyMWMwc0hwRXV6UWE5T2ttS1ZET0hES2ppNlFuSU9IUzY5dDZEd3JNeGR3QnV6ZF9weVotZi1va1Zza1oySU5nQVZGSGJBNG1EWmRiR1Z0dFRKRFk1Z3lqTm5lbzN0enRJNzFGRVp0d9IB6wFBVV95cUxNWFc2LTM1NnpIcV9OWnhGRHZPaGNDUC0yODY1YUhoeEw3U280d25DN19WbzlPNm9QZWNNaFh6LVN1eGdMeHZCTnh5VGNqYUxHeloycVA5WkU0OUppYWtyclJIUC1CRkR6SjNNejFOOVMyc1l1d1I4MXZQMWhsbUlGbkhSVnZnZDRGaWstSFQwbXpuZ0JqeElPYjVoMDE2OE9naTNfb1FFMkVrN2MtdmhQR2NBODVCSFZkNGtDMzh3aXk3dkJReW5JNjEtcVpaZlVWZWY4eWxPTG5lbFBLeGl3eXBwMTZ3RWgtdEpB?oc=5",
-      "source": "simplywall.st",
-      "ago": "29 Tage",
       "summary": ""
     }
   ]
