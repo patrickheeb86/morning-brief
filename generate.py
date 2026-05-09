@@ -97,7 +97,7 @@ NEWS_QUERIES = [
     # Gruppe 1: Kernprodukte & Hauptpartner
     '"Establishment Labs" OR "Motiva implant" OR "Apyx Medical" OR "Renuvion" OR "Integra LifeSciences" OR "Integra IDRT"',
     # Gruppe 2: Weitere Produkte & Lieferanten
-    '"Lipoelastic" OR "Humanmed" OR "body-jet" OR "pHformula" OR "Regen Lab" OR "RegenLab" OR "Puregraft" OR "GC Aesthetics" OR "Novus Scientific" OR "Aptos" OR "Revanesse" OR "Prollenium"',
+    '"Lipoelastic" OR "Humanmed" OR "body-jet" OR "pHformula" OR "Regen Lab" OR "RegenLab" OR "Puregraft" OR "GC Aesthetics" OR "Novus Scientific" OR "Revanesse" OR "Prollenium"',
     # Gruppe 3: Weitere Lieferanten & Partner
     '"STRIM HC" OR "Professional Dietetics" OR "TULIP MEDICAL" OR "Absorbest" OR "Meta Cell Technology" OR "Derm-appeal" OR "Soft Medical Aesthetics"',
     # Gruppe 4: Wettbewerber & Marktumfeld
