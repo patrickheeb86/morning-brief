@@ -1,10 +1,10 @@
 {
-  "generated": "2026-05-09T06:11:03.464665Z",
+  "generated": "2026-05-09T13:40:16.285771Z",
   "forex": {
     "eur_chf": {
-      "rate": 0.915461,
-      "change": 0.0,
-      "changePct": 0.0
+      "rate": 0.916177,
+      "change": 0.0007160000000000499,
+      "changePct": 0.07821196096830449
     },
     "usd_chf": {
       "rate": 0.77695518,
@@ -13,8 +13,8 @@
     }
   },
   "bitcoin": {
-    "price": 80414,
-    "changePct": 1.0530601466503884
+    "price": 80372,
+    "changePct": 0.7267300844025721
   },
   "stocks": [
     {
@@ -44,6 +44,13 @@
       "title": "Establishment Labs (ESTA) steigt um 8,6% nach Umsatzsprüngen und geringerem Verlust in Q1 2026",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOYTB5c2RkcW9NenJNdHBPc1Vad0VtWk5DMmlsSk16aGh4Tkd0U1d1Rm9BYVJJUEtMc01NTjhzN3J2dkFfbHBmRjdFTHAyUEtrU0hSLTlNUTNFalZ1amhzVi0wdlgyMkxBa3VxeEhFQ2RrckJ0MDZSeEhCQzMzZlcwekY5bk9jQlRsNTB6Tng5aUhrM3dZME9RZTZ3b3AzQ2V4cmhQa1lUQTRMSVpISWlkUjgzQm5HMlhkdWJGSU4wUGhGRHdHOEZ5X2x0ajRHUUtzcVJfYjJVV1o5SDFod21rLU5ZV1hhQdIB6wFBVV95cUxPNV92TG0wenJZV3lXSmkyUF9Pc3FfMHFuQWF1Qzh2Ulkxd3NoLVBFck5CMzFucDJPdHhhOVZZU0RVRmt0SVpCSkVnZGxMN0lyM1YyUHMtMmVUbzZoNlRWZUFIUENDUEEzQ1RFM1c0dU9LYkJOcE5BdFJnRWZncHMwV0hSRkF4VjBXQUZjWHBCQmV1cURvR3BabWpmRFBGaENjNmpXQ29adTdCUmgwcko5VFhiYUNCaHpiZy1KSVV6eEV1OF8yVG1IeUlleUc5VGJIWEotUEI4eF9xTGRpeUh2aUxRblRMV1JYMF9V?oc=5",
       "source": "simplywall.st",
+      "ago": "2 Tage",
+      "summary": ""
+    },
+    {
+      "title": "Apyx Medical Corp Chart-Vergleich | Chart-Signal",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0S1l6N0hMRVpwZUNDMllTeVJZYklyeTVvZlVodXREUldmY3pteElXUm1wVXlTRFZoUVViU2NTX1hWVjVaR1MyMFBLX2pzRElncTF2R2FCUGFyclQyVmxUT3BXWlBXOGd1bVhxd1Y5X2NSV2U1S1BjM0s4OA?oc=5",
+      "source": "boerse.de",
       "ago": "2 Tage",
       "summary": ""
     },
@@ -79,14 +86,14 @@
       "title": "Marktwachstum für medizinische Ästhetik, Anteil, Branchentrends, 2034",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd1BCMVFTNWgwU3FzQ3RMNjlWVThzcWtRVG9lTDZRbU9zZllZV0I2Q2c3UEIwMkJPQ0xOYWpVX1ZtN1l3ellyQmpJZzBvazlMY3V3WXB6QTJZQk5mM3JxS1pjSmFsTUF5dmQ1Znk0b1FMVXZMWUp5b1Zpd2RIQUZtZExRWTJKU2dQSmFYZFRQbHBRdEVOcGtpUjZrc2dweHJR?oc=5",
       "source": "Fortune Business Insights",
-      "ago": "18 Tage",
+      "ago": "19 Tage",
       "summary": ""
     },
     {
       "title": "Ist es an der Zeit, Establishment Labs Holdings (ESTA) nach einem Anstieg von 106% innerhalb eines Jahres neu zu bewerten?",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPS1hOU0hzN0U4cldzR2VvT3UxYldrWUpXYVhKQTBNUjNrLWlhTGc0ODF0dEpabTJtd3pkV2NrVlhUMzMyT3ZrdVZCVkdEU0xfWGIteE93QW1CUldGbUpia2F2VEE2MnFyWDM2ZGFfU1FPejVsaEtNXzJNUjVuNnpyMWMwc0hwRXV6UWE5T2ttS1ZET0hES2ppNlFuSU9IUzY5dDZEd3JNeGR3QnV6ZF9weVotZi1va1Zza1oySU5nQVZGSGJBNG1EWmRiR1Z0dFRKRFk1Z3lqTm5lbzN0enRJNzFGRVp0d9IB6wFBVV95cUxNWFc2LTM1NnpIcV9OWnhGRHZPaGNDUC0yODY1YUhoeEw3U280d25DN19WbzlPNm9QZWNNaFh6LVN1eGdMeHZCTnh5VGNqYUxHeloycVA5WkU0OUppYWtyclJIUC1CRkR6SjNNejFOOVMyc1l1d1I4MXZQMWhsbUlGbkhSVnZnZDRGaWstSFQwbXpuZ0JqeElPYjVoMDE2OE9naTNfb1FFMkVrN2MtdmhQR2NBODVCSFZkNGtDMzh3aXk3dkJReW5JNjEtcVpaZlVWZWY4eWxPTG5lbFBLeGl3eXBwMTZ3RWgtdEpB?oc=5",
       "source": "simplywall.st",
-      "ago": "28 Tage",
+      "ago": "29 Tage",
       "summary": ""
     }
   ]
