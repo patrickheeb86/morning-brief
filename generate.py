@@ -94,12 +94,22 @@ def fetch_stocks():
 
 # ── NEWS – persistent cache ────────────────────
 NEWS_QUERIES = [
-    '"Establishment Labs" OR "Motiva implant" OR "Apyx Medical" OR "Renuvion" OR "Integra LifeSciences"',
-    '"Lipoelastic" OR "pHformula" OR "Vaser liposuction" OR "Revanesse" OR "RegenLab" OR "Puregraft" OR "Sunekos"',
-    '"Galderma" aesthetics OR "Merz Aesthetics" OR "InMode" aesthetic OR "Allergan" aesthetics OR "Mentor implant"',
-    '"Swissmedic" Medizinprodukt OR "plastic surgery" Switzerland OR "aesthetic medicine" Schweiz OR "Hirslanden" OR "Albin Group"',
-    '"IMCAS 2026" OR "AMEC 2026" OR "aesthetic medicine" congress OR "breast implant" safety OR "body contouring" trend',
-    'aesthetic medicine innovation OR "minimally invasive" aesthetics OR "regenerative aesthetics" OR fillers trends 2026',
+    # Gruppe 1: Kernprodukte & Hauptpartner
+    '"Establishment Labs" OR "Motiva implant" OR "Apyx Medical" OR "Renuvion" OR "Integra LifeSciences" OR "Integra IDRT"',
+    # Gruppe 2: Weitere Produkte & Lieferanten
+    '"Lipoelastic" OR "Humanmed" OR "body-jet" OR "pHformula" OR "Regen Lab" OR "RegenLab" OR "Puregraft" OR "GC Aesthetics" OR "Novus Scientific" OR "Aptos" OR "Revanesse" OR "Prollenium"',
+    # Gruppe 3: Weitere Lieferanten & Partner
+    '"STRIM HC" OR "Professional Dietetics" OR "TULIP MEDICAL" OR "Absorbest" OR "Meta Cell Technology" OR "Derm-appeal" OR "Soft Medical Aesthetics"',
+    # Gruppe 4: Wettbewerber & Marktumfeld
+    '"Galderma" aesthetics OR "Merz Aesthetics" OR "InMode" aesthetic OR "Allergan" aesthetics OR "Mentor implant" OR "Sientra"',
+    # Gruppe 5: Kunden (Kliniken & Praxen)
+    '"Lucerne Clinic" OR "BRST AG" OR "CHUV" OR "Clinique Générale-Beaulieu" OR "Clinique de la Source" OR "ZANZI CLINIC" OR "Affidea Plastic Surgery" OR "clinic utoquai" OR "LIPO CLINIC" OR "Aesthetic Alliance" OR "Clinique des Grangettes"',
+    # Gruppe 6: Spitäler & Institutionen
+    '"Universitätsspital Zürich" OR "Universitätsspital Basel" OR "Insel Gruppe" OR "Hirslanden" OR "Hôpitaux Universitaires de Genève" OR "Kantonsspital Winterthur" OR "Spital Zollikerberg" OR "LUKS Spitalbetriebe" OR "Ospedale Lugano" OR "Hôpital du Valais" OR "HOCH Health Ostschweiz"',
+    # Gruppe 7: Branchentrends & Kongresse
+    '"IMCAS 2026" OR "aesthetic medicine" congress OR "breast implant" safety OR "body contouring" trend OR "minimally invasive" aesthetics OR "regenerative aesthetics" OR fillers 2026',
+    # Gruppe 8: Regulatorik & Behörden
+    '"Swissmedic" Medizinprodukt OR "Swissmedic" Zulassung OR "Swissmedic" Implantat OR "MDR" Medizinprodukte Schweiz',
 ]
 
 def load_cache():
