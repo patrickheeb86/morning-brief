@@ -225,7 +225,7 @@ def fetch_news():
 
     # Add ago string for display
     result = []
-    for item in cache[:25]:
+    for item in cache[:40]:
         result.append({
             'title':   item['title'],
             'url':     item['url'],
@@ -336,7 +336,7 @@ def send_email(data):
 
     # News
     news_rows = ''
-    for item in data.get('news', [])[:20]:
+    for item in data.get('news', [])[:40]:
         title  = str(item.get('title', ''))
         url    = str(item.get('url', '#'))
         source = str(item.get('source', ''))
