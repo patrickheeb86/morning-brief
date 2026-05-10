@@ -1,20 +1,20 @@
 {
-  "generated": "2026-05-09T17:24:55.261660Z",
+  "generated": "2026-05-10T05:39:19.496638Z",
   "forex": {
     "eur_chf": {
       "rate": 0.916177,
-      "change": 0.0007160000000000499,
-      "changePct": 0.07821196096830449
+      "change": 0.0,
+      "changePct": 0.0
     },
     "usd_chf": {
       "rate": 0.77695518,
-      "change": -0.003650030000000082,
-      "changePct": -0.46758975641477996
+      "change": 0.0,
+      "changePct": 0.0
     }
   },
   "bitcoin": {
-    "price": 80756,
-    "changePct": 1.0216060140340222
+    "price": 80759,
+    "changePct": 0.37655151815634513
   },
   "stocks": [
     {
@@ -41,10 +41,17 @@
   ],
   "news": [
     {
+      "title": "Apyx Medical Corp Charts | Jahreschart | Tageschart",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yZVZpaU5UaXF0SDJJMzdBekVWQUlOLWtvOV9udTNlMWRaQW8wcG1MTUhSRlltS3pSMG5rdmJVUko5UTBfZFh3V21udGJoWDJMQWVZQWtjZWdKVXB6WnFKZWlxRUJmcU5uMkJfdjlMb01TdEk?oc=5",
+      "source": "boerse.de",
+      "ago": "12 Std.",
+      "summary": ""
+    },
+    {
       "title": "Fonds von JW Asset Management veräußern Aktien von Establishment Labs für 4,5 Mio. US-Dollar",
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMFRkS1V6SXZESVh0blhBYUxNbnd6RlFUckpxZVNpbF9KZE1FMjlMb3hRSGFJbGt6b0Q5eFJBSmxJcHVvV2VhY1JoXzNDNVQtcE1BdlE1RjFLYzNBajBCMHh2c2p6VHpPT0djaDgtU29ORUdSZGc2RXFpOURyUEpPU2Y1dnltSjIwR2h2bFlXVFA5Vm9vb2pFV0hPTkZUdnBPcW9sOGU5YVFoeTJZQ1c3NDEtQ2N1Ri1HSHU0blJLZFYxY0ZiRWxZcEVvS2FRanFjVGlhUWdhVTlCSEJRUWwwMDFsYXJkM1JX?oc=5",
       "source": "Investing.com Deutsch",
-      "ago": "21 Std.",
+      "ago": "1 Tag",
       "summary": ""
     },
     {
@@ -79,28 +86,28 @@
       "title": "Apyx Medical Corp Kursverlauf | Entwicklung | Rendite",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9rTFpmRnVOZ1ZzWkJRcGU3Z1ZxUHNmWGIwcGZzR3hXaTE5YkZxMDEzSmFWcEFBNHRTQXk3Z2xvT2dwYmpnbk5YVlB0aDZOazZGN19IMlVvYm1GTko2MTEyVEwtOUdnNVpneG53b2lQa1Qwcm93TmFCVlJn?oc=5",
       "source": "boerse.de",
-      "ago": "2 Tage",
+      "ago": "3 Tage",
       "summary": ""
     },
     {
       "title": "Apyx Medical Corp Aktie",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBQd2ctYnFaUU9XYXJhWlRWWlVFc05EUy0zZ0NNV3d1UFo1YnppRHE0NVdFQlNuUEp2Q1ZrNDJNNlk5RDVSRXBObnNBR2dxTFhDUmd2aXY0eWMybWlULVZNcVdmZ0c4M3VyTVlJZkRZRUpVaGhkRXBWeVNSaEYwdw?oc=5",
       "source": "boerse.de",
-      "ago": "2 Tage",
+      "ago": "3 Tage",
       "summary": ""
     },
     {
       "title": "Apyx Medical Corp Chart-Vergleich | Chart-Signal",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0S1l6N0hMRVpwZUNDMllTeVJZYklyeTVvZlVodXREUldmY3pteElXUm1wVXlTRFZoUVViU2NTX1hWVjVaR1MyMFBLX2pzRElncTF2R2FCUGFyclQyVmxUT3BXWlBXOGd1bVhxd1Y5X2NSV2U1S1BjM0s4OA?oc=5",
       "source": "boerse.de",
-      "ago": "2 Tage",
+      "ago": "3 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs Holdings Inc. veröffentlicht Ergebniszahlen für das erste Quartal zum 31. März 2026",
       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOdDJ2THQyUlVVYUNqRVJyLVRSdFY3Q3UxS0VkU0x0cmZPYlRNY3FHSXJ4cnVZYnhMZWRmS2ZkaUN6MWdaRnZWamZIbjdydnREZzFOVDZqU096a0pLOHhmbmFpREdpNjEtLXVoM241OU96Qm9fUml5cXAwVENYVlQ4aXdvMExoY3ludy1GSWR0U01OUHhBMWQ0SDlHLUhjX0syWWMyTWszUWNPYi1lczJLRHNpR3FaRVF0VFNreG9YRG00M0ZPLTZDOTVVWEJOazJQcHpxZ2JVMkRBSjlrTFh5OHhIRGRqSktiU3VENDNZX1NJZW1RYmhINTEwSQ?oc=5",
       "source": "MarketScreener Schweiz",
-      "ago": "2 Tage",
+      "ago": "3 Tage",
       "summary": ""
     },
     {
@@ -132,6 +139,13 @@
       "summary": ""
     },
     {
+      "title": "Integra LifeSciences übertrifft Prognosen für Q1 2026 – Aktie steigt stark an",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdFhJMU9UbFpqNFc2X3NuRXdnWXgtejk0d1lQUU5BZ0hfR0JlMWF4RW8wdHdmeXNmVllfVGtlY0xpQmJ0TEs4dGd4NFdWa2NrN2ZWeEdoU2M5dzhhVUhMd1dPakJmSEJ6Q3cwdTVfRXgyZldKMHFtZ2c4Uy1pOGRvY0lOVEVjTHRtNDhEdTFWanNCMUcwd3o3RTE3TVFQM3hSclhVOXVFS051anhrcmZLMFhpRGQydjV3dHg0OFI4WEtJc3hla0ZuYWxMNA?oc=5",
+      "source": "Investing.com Deutsch",
+      "ago": "4 Tage",
+      "summary": ""
+    },
+    {
       "title": "Integra LifeSciences Holdings Corporation gibt Gewinnprognose für das zweite Quartal 2026 bekannt und bestätigt Ausblick für das Gesamtjahr 2026",
       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPTWpQbGhVa29kM253cWJqbDFHQnZ4dWxUNndfdHRsRzNZc0J2QnBDVk8zSml5VXhCU3lBaUZxY3dBWFZVcDR3R0kyUms2Zk9Zanc5OWl3M1BfUms5NnY4TmtLbGRmcG91WldiMk5GR3FVaHlzQU1leDFfRWVtejdId3MxR2Z5TkVVdGl4U2RmUWZQRHlsWHAtZndfQU0yRnFyT2dEdkZwYWFzeF80RWZXb292RXRtNDQzbUJtZFkyX09Fd3l3UzZSclhtMWkzZnZKdEpueWNTQjdBdFREU1NRdURJVFduMmFkcnhZVExVWlNSMjRqSS1FcV9FSQ?oc=5",
       "source": "MarketScreener Schweiz",
@@ -156,14 +170,14 @@
       "title": "Establishment Labs: Direktor Chacon Quiros verkauft Aktien im Wert von 5,3 Mio. US-Dollar",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPT0Y1T2d3T2EtSUJ1MWt3QUM5YVNobUVsVlZCa01CSjJwZFVIWkpXM3loMnZaeWRTV0hDcEdMdTh6QXNPTU5nZzFRbm40SlZNNV9vX3NRWmNGOWk2cDItVXpMWEtnQnl1NzBhUVJ1dlNOQUNnbFh2dEg5LTFRVEprZHV6QzA4dERKakZjSlNkRmdjMElyM2lGQUduWFRyTnd2VlduOW80dHNYbDBrU1dLNlRIX3hfQVFVckNKSllrdGtPZXdmYzVKQ3NpSE53cFAxc2hZSE1DYkNCSjFSbzNUTHM2TQ?oc=5",
       "source": "Investing.com Deutsch",
-      "ago": "4 Tage",
+      "ago": "5 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs Holdings Inc AKTIE | Aktienkurs & News | A2JRE4 – boerse.de",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPS3lmMDNic3lvUzE5dUpPY0ozaFRiN2RLa3Jvd0h4UE1rekxlYmtLOHduQldGd3VaZ042akFjVElQLWh0X2JPZlFTaTFGdk1iekEybFZDUHlXV3NYYUcyYUJOX0stMWh4WDFqVmNZOEJaZUE2REYzcURlaWttVWJnNHhIRFFJUQ?oc=5",
       "source": "boerse.de",
-      "ago": "6 Tage",
+      "ago": "7 Tage",
       "summary": ""
     },
     {
@@ -177,14 +191,28 @@
       "title": "Establishment Labs Holdings Inc Chart-Vergleich | Chart-Signal",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN1dETG8zTzNDa2pNTlRMZWVISlQwRDV5Q0E2QlM3NFlWaUg2NFRidDFvVjVQZ1dWSGJpR2drSk9RNklPSzJKRjR0SjFnQ1dUUXBOWDU2M3g3OFB4a29wY2d3Tjc0UkRLTGtUWVRaRWQ3NXlETDJJdU9ZakVkOWpkelBWX01aN3pyX081bi13?oc=5",
       "source": "boerse.de",
-      "ago": "7 Tage",
+      "ago": "8 Tage",
+      "summary": ""
+    },
+    {
+      "title": "Establishment Labs Holdings Inc Charts | Jahreschart | Tageschart",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbGVXZHFkX2hOX3VlM2t0eVpvUnVpWWVBSWx1UWMzdFhrNHhlVGNLcjkxZnMzM3Jnb3Q5cEkwcVNNeUgwRDBvZjI4ZnNXMkkxYzQ0V3AtVk8wSk1nc183M1BiaVNrdWc4NkNvZVBmWWtWTU84emdGMmhvZlV4RHJrblFVajNGZw?oc=5",
+      "source": "boerse.de",
+      "ago": "8 Tage",
+      "summary": ""
+    },
+    {
+      "title": "Establishment Labs Holdings Inc | Renditeverteilung | historische Renditen",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbUFEZGtheUtyVUd0QTJGcU4xRVN0bUYzN0FLeXZYbDU5MnpfQl9ZVlpyX2FQLXlLS2pVVEduNDhZUW1PM0tob0ZvYkc5WWc3UmdRSUNTejUtWUlORENGdDkxSXkzQTdaTmZHdjhiZmg3S05CM0ZjNnhVMWlpTWltVW1vaUw2UHN1cDZGLVU1bllyT0xF?oc=5",
+      "source": "boerse.de",
+      "ago": "8 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs Secures Up to $300 Million 5-Year Term Loan From Oaktree to Refinance Debt",
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPWC1ZRWZsUjBiVEtFWTFoZ1JYeXVMSnp5cnZpWkVMUzVJSlMwWm5JZFBPQWREY04zdzBWdlcxSUdTa2RNS1BwR3ZmcHd4RkJvUTdsdHRLSnBhWkdLLUNHYWFBbEZSRXRYT043djM4NmVTRzRNTkNiLXZPdWIzMnlyM3J3MmNsek9sTmhWNGFlREtDck1BWlhIcGQ3Z1pyZF9jZWpVOXl3VVQxblB4bjNpSi1oV1pYOGV0a0hjT3VCVEpyYkkzYl96aDJLbUIwQmZsUW9DSFNvby1oUEJJYWtNX3JxdHEtZnJ0VjhjUW5B?oc=5",
       "source": "TradingView",
-      "ago": "8 Tage",
+      "ago": "9 Tage",
       "summary": ""
     },
     {
@@ -227,6 +255,13 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNjlWeUw0TVd4QVdTVkpHdEExN2pGMHM5M1IxcW95MW9RZjY4amRMamJCQktlMl93QThwd1lGOERhMjNZUk9pUGVWU2RBZGZrV1g3SDdRZVFqdF9TOVNibHhjYjRfa2V5VmZIVUxtQkJJTWZYSFhPU3NoSjlrM1NBVmhKdlRRZElySUxidklETF9JcDNCQ2VTaHVHWWo5bVhnNmR1VnYtOEVTSlNQTlh6UFpn?oc=5",
       "source": "Fortune Business Insights",
       "ago": "26 Tage",
+      "summary": ""
+    },
+    {
+      "title": "Ist es an der Zeit, Establishment Labs Holdings (ESTA) nach einem Anstieg von 106% innerhalb eines Jahres neu zu bewerten?",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPS1hOU0hzN0U4cldzR2VvT3UxYldrWUpXYVhKQTBNUjNrLWlhTGc0ODF0dEpabTJtd3pkV2NrVlhUMzMyT3ZrdVZCVkdEU0xfWGIteE93QW1CUldGbUpia2F2VEE2MnFyWDM2ZGFfU1FPejVsaEtNXzJNUjVuNnpyMWMwc0hwRXV6UWE5T2ttS1ZET0hES2ppNlFuSU9IUzY5dDZEd3JNeGR3QnV6ZF9weVotZi1va1Zza1oySU5nQVZGSGJBNG1EWmRiR1Z0dFRKRFk1Z3lqTm5lbzN0enRJNzFGRVp0d9IB6wFBVV95cUxNWFc2LTM1NnpIcV9OWnhGRHZPaGNDUC0yODY1YUhoeEw3U280d25DN19WbzlPNm9QZWNNaFh6LVN1eGdMeHZCTnh5VGNqYUxHeloycVA5WkU0OUppYWtyclJIUC1CRkR6SjNNejFOOVMyc1l1d1I4MXZQMWhsbUlGbkhSVnZnZDRGaWstSFQwbXpuZ0JqeElPYjVoMDE2OE9naTNfb1FFMkVrN2MtdmhQR2NBODVCSFZkNGtDMzh3aXk3dkJReW5JNjEtcVpaZlVWZWY4eWxPTG5lbFBLeGl3eXBwMTZ3RWgtdEpB?oc=5",
+      "source": "simplywall.st",
+      "ago": "29 Tage",
       "summary": ""
     }
   ]
