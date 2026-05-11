@@ -1,4 +1,4 @@
-name: Morning Brief - Taegliche Aktualisierung
+name: Morning Brief - Tägliche Aktualisierung
 
 on:
   schedule:
@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Abhaengigkeiten installieren
+      - name: Abhängigkeiten installieren
         run: pip install requests
 
       - name: Daten generieren und E-Mail senden
