@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-10T05:39:19.496638Z",
+  "generated": "2026-05-11T05:23:05.483115Z",
   "forex": {
     "eur_chf": {
       "rate": 0.916177,
@@ -7,14 +7,14 @@
       "changePct": 0.0
     },
     "usd_chf": {
-      "rate": 0.77695518,
-      "change": 0.0,
-      "changePct": 0.0
+      "rate": 0.77891479,
+      "change": 0.0019596100000000005,
+      "changePct": 0.2522166079129559
     }
   },
   "bitcoin": {
-    "price": 80759,
-    "changePct": 0.37655151815634513
+    "price": 80878,
+    "changePct": 0.12516719301735255
   },
   "stocks": [
     {
@@ -44,224 +44,259 @@
       "title": "Apyx Medical Corp Charts | Jahreschart | Tageschart",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yZVZpaU5UaXF0SDJJMzdBekVWQUlOLWtvOV9udTNlMWRaQW8wcG1MTUhSRlltS3pSMG5rdmJVUko5UTBfZFh3V21udGJoWDJMQWVZQWtjZWdKVXB6WnFKZWlxRUJmcU5uMkJfdjlMb01TdEk?oc=5",
       "source": "boerse.de",
-      "ago": "12 Std.",
+      "ago": "1 Tag",
       "summary": ""
     },
     {
       "title": "Fonds von JW Asset Management veräußern Aktien von Establishment Labs für 4,5 Mio. US-Dollar",
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMFRkS1V6SXZESVh0blhBYUxNbnd6RlFUckpxZVNpbF9KZE1FMjlMb3hRSGFJbGt6b0Q5eFJBSmxJcHVvV2VhY1JoXzNDNVQtcE1BdlE1RjFLYzNBajBCMHh2c2p6VHpPT0djaDgtU29ORUdSZGc2RXFpOURyUEpPU2Y1dnltSjIwR2h2bFlXVFA5Vm9vb2pFV0hPTkZUdnBPcW9sOGU5YVFoeTJZQ1c3NDEtQ2N1Ri1HSHU0blJLZFYxY0ZiRWxZcEVvS2FRanFjVGlhUWdhVTlCSEJRUWwwMDFsYXJkM1JX?oc=5",
       "source": "Investing.com Deutsch",
-      "ago": "1 Tag",
+      "ago": "2 Tage",
       "summary": ""
     },
     {
       "title": "Apyx Medical (APYX) Q1 2026 Earnings Transcript",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObEd6TE9PWTZUMUcwZVVYdWVUNVc5UW12N3JTaXRldFMyVTdCQm9vZGgtU1BoVjl5ZlBBSVRhQXBka1pOeEg4eUVYUnJSSzRyUWo4bXpBTkhtT1ZZX2x0RFE0NXd3QXF1TDdONWJsR19qQ0FIV2pBbmtabk9MWHJkbm1YblV4TFlpMmY1T1VyM0NUQmJETHAwQXNzbmtJU2IyRmNxalU2cnJLd2ktWHlteEgtR0t2WnM?oc=5",
       "source": "sharewise.com",
-      "ago": "1 Tag",
+      "ago": "2 Tage",
       "summary": ""
     },
     {
       "title": "Skandal an USZ‑Herzklinik – wer kontrolliert Medizinprodukte?",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcGlhczJIdE9GcGYxVl9zcFpfSTFQT0xrZGdjTFYtUmhURmlNZlhIbzlkSTZlTm03ak9pZkFOWFdVS0ZaS3pVOVJpUHZ4ZU1ybURMX1RJTm9zSy1TRHhSaUxCREkxMzhJRmdhalpCWWI1RE1YQWFfWXkyWHJ2bWNwdEU4ZnBVbk41WFRCVWhINGRnUFpndmxZUTd3VVQwdDRuWHk4?oc=5",
       "source": "SRF",
-      "ago": "1 Tag",
+      "ago": "2 Tage",
+      "summary": ""
+    },
+    {
+      "title": "Integra LifeSciences to Present at the BofA Securities 2026 Health Care Conference",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPZUotRzFkWHR3TEo0eDNZSXNZUTBJdjctN01wN3MybjlfdDFRc0ZWdzl4ZWJ0WkpSTUhRLWEzWVBpcGMtUHFXZmx3YnUyUVlUZzZKcHktQ2xtR0RIYThyTUhtQTJWOXZqT2h6bmRTSXRBaHhqMEM1ZmVfUlczd0gzbVhUelVyeVJab184NHI2VlZrNkxfMjUzMnBaX0ViYXhEbi1ENUdVc05yOUZweTN6ajBGaHV1aUFZYzZQQWJzQ2VwT3M2UjhtOXozVm9WOGpHSW9YdFpnVVNMbzRWRGVZSy1lMUpNbGVBdVNPSnFn?oc=5",
+      "source": "GlobeNewswire",
+      "ago": "2 Tage",
+      "summary": ""
+    },
+    {
+      "title": "Apyx Medical Corporation veröffentlicht Ergebniszahlen für das erste Quartal zum 31. März 2026",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNQzVyREl4ZmhxZlJXby1ROHJzUHVkZl9SbFNDZEJZOXJTSHRUOVdlaHBseUJ6MzBMbnlCYVdRQUdUSWdRcmxoYmlXX2hwdEpTWVEzMjNZNmw5VkRrUzBzWHJKRDN4c3A5V2piNEdld2lBS1pNdWVOT19JRzJLWWp3SjM4dmFFWUlIcGpEYTBvVzY3dEs0WXdIbHRXS1JUWVg4SkxpYVRXQU04ZW1uN2xaYjhqaktmREtncXpERHpTWHBDa3dIREtfZWFQU3ZJWUdmQjlRdmpRTXR1YjBreXE1d2d6d0tqRUJ5cWdWNG1EbEhUb3JG?oc=5",
+      "source": "MarketScreener Deutschland",
+      "ago": "3 Tage",
       "summary": ""
     },
     {
       "title": "Apyx Medical übertrifft Erwartungen in Q1 2026 – Aktie legt deutlich zu",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeEVSd0pfb2dlb1EzcnhqY2dhT1h1VnN6ZTdYTlBxMGo1dHBFZFVTSmo4cGFGRXJaaUV1cUVUaTl0WThpU2kyOHV0MmNoRURqVXp2RkJVNmhUUURDeTIxUmVjRTNWT0ZHMGJYWEoydWI4WThSbEZON2t3dkUzMS1CQlNxTWxGbzNXT2NCMVBQNHl0dS00SUZjU2xTNmRqWVFLTFJVN280ckE3VnFsQ2tWVDJ3Qm1waHJqeTE1U0pRaXNwLUk?oc=5",
       "source": "Investing.com Deutsch",
-      "ago": "2 Tage",
+      "ago": "3 Tage",
+      "summary": ""
+    },
+    {
+      "title": "Apyx Medical Corporation korrigiert Finanzprognose für das am 31. Dezember 2026 endende Geschäftsjahr nach oben",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOUlpJMnBna3pBdF9HTUtqOUN6Mm4zZnFPN0pnT1hPb0ZRc3R3NjZNa240akFSZk1KNGhTZ3duY0ptdno3OS1uU05iYkRCRG1vcFF0Vm1yR2stNUN4dUc0TzVPNlVVV3A1bGtGR2RKOFFMWVQxMWtTbWR2aG9ZOHota1hQaFNGWVNGbVJtYms3dTNmUzZLYWp3cDhPWkYtZVRKQkpYT3BTMHEzcDI2bnN0NDFfR1ZPT3FneFpKZlFraVpKRDFITVlWU1p4dkNHRkZCa2NIenN6UWtsUm5tMzhjbnVFeUYta2lTbDdrQ1JJWWRHQVlhZmwzUkFRWQ?oc=5",
+      "source": "MarketScreener Deutschland",
+      "ago": "3 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs (ESTA) steigt um 8,6% nach Umsatzsprüngen und geringerem Verlust in Q1 2026",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOYTB5c2RkcW9NenJNdHBPc1Vad0VtWk5DMmlsSk16aGh4Tkd0U1d1Rm9BYVJJUEtMc01NTjhzN3J2dkFfbHBmRjdFTHAyUEtrU0hSLTlNUTNFalZ1amhzVi0wdlgyMkxBa3VxeEhFQ2RrckJ0MDZSeEhCQzMzZlcwekY5bk9jQlRsNTB6Tng5aUhrM3dZME9RZTZ3b3AzQ2V4cmhQa1lUQTRMSVpISWlkUjgzQm5HMlhkdWJGSU4wUGhGRHdHOEZ5X2x0ajRHUUtzcVJfYjJVV1o5SDFod21rLU5ZV1hhQdIB6wFBVV95cUxPNV92TG0wenJZV3lXSmkyUF9Pc3FfMHFuQWF1Qzh2Ulkxd3NoLVBFck5CMzFucDJPdHhhOVZZU0RVRmt0SVpCSkVnZGxMN0lyM1YyUHMtMmVUbzZoNlRWZUFIUENDUEEzQ1RFM1c0dU9LYkJOcE5BdFJnRWZncHMwV0hSRkF4VjBXQUZjWHBCQmV1cURvR3BabWpmRFBGaENjNmpXQ29adTdCUmgwcko5VFhiYUNCaHpiZy1KSVV6eEV1OF8yVG1IeUlleUc5VGJIWEotUEI4eF9xTGRpeUh2aUxRblRMV1JYMF9V?oc=5",
       "source": "simplywall.st",
-      "ago": "2 Tage",
+      "ago": "3 Tage",
       "summary": ""
     },
     {
       "title": "Apyx Medical Corp Kursverlauf | Entwicklung | Rendite",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9rTFpmRnVOZ1ZzWkJRcGU3Z1ZxUHNmWGIwcGZzR3hXaTE5YkZxMDEzSmFWcEFBNHRTQXk3Z2xvT2dwYmpnbk5YVlB0aDZOazZGN19IMlVvYm1GTko2MTEyVEwtOUdnNVpneG53b2lQa1Qwcm93TmFCVlJn?oc=5",
       "source": "boerse.de",
-      "ago": "3 Tage",
+      "ago": "4 Tage",
       "summary": ""
     },
     {
       "title": "Apyx Medical Corp Aktie",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBQd2ctYnFaUU9XYXJhWlRWWlVFc05EUy0zZ0NNV3d1UFo1YnppRHE0NVdFQlNuUEp2Q1ZrNDJNNlk5RDVSRXBObnNBR2dxTFhDUmd2aXY0eWMybWlULVZNcVdmZ0c4M3VyTVlJZkRZRUpVaGhkRXBWeVNSaEYwdw?oc=5",
       "source": "boerse.de",
-      "ago": "3 Tage",
+      "ago": "4 Tage",
       "summary": ""
     },
     {
       "title": "Apyx Medical Corp Chart-Vergleich | Chart-Signal",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0S1l6N0hMRVpwZUNDMllTeVJZYklyeTVvZlVodXREUldmY3pteElXUm1wVXlTRFZoUVViU2NTX1hWVjVaR1MyMFBLX2pzRElncTF2R2FCUGFyclQyVmxUT3BXWlBXOGd1bVhxd1Y5X2NSV2U1S1BjM0s4OA?oc=5",
       "source": "boerse.de",
-      "ago": "3 Tage",
+      "ago": "4 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs Holdings Inc. veröffentlicht Ergebniszahlen für das erste Quartal zum 31. März 2026",
       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOdDJ2THQyUlVVYUNqRVJyLVRSdFY3Q3UxS0VkU0x0cmZPYlRNY3FHSXJ4cnVZYnhMZWRmS2ZkaUN6MWdaRnZWamZIbjdydnREZzFOVDZqU096a0pLOHhmbmFpREdpNjEtLXVoM241OU96Qm9fUml5cXAwVENYVlQ4aXdvMExoY3ludy1GSWR0U01OUHhBMWQ0SDlHLUhjX0syWWMyTWszUWNPYi1lczJLRHNpR3FaRVF0VFNreG9YRG00M0ZPLTZDOTVVWEJOazJQcHpxZ2JVMkRBSjlrTFh5OHhIRGRqSktiU3VENDNZX1NJZW1RYmhINTEwSQ?oc=5",
       "source": "MarketScreener Schweiz",
-      "ago": "3 Tage",
+      "ago": "4 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs: Umsatzwachstum in Q1 2026 überzeugt, doch verfehlter Gewinn belastet die Aktie",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNd0tOSkFHVUduWE55NVlMbTdTWl8yX3Q3ZHJNZjRjXzlTY3dPUWl4T0pfSFlTdkNXaFN0UTM5dGlBN1phQXJOcHJBZzlhUHdZWF93cHNzU0ZOY2V3MktzLWxJa0RWM1BRSi03ekkyV0NTNVFONEZXS2tYdkRlNUNyOVVhcXBEZUQtVGY4TzRVQ2MtUThsMm80bVFabEhTYTdJbEVYcVRWYmNTaGFzd1U2ellmSGczZU5NbmlKT1l2eFRBVW1CUHJZSWlpRlBMVGozQk4tbnZqR3ItYlpCU2cxME43RHNPQQ?oc=5",
       "source": "Investing.com Deutsch",
-      "ago": "3 Tage",
+      "ago": "4 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs verringert Nettoverlust im ersten Quartal bei steigenden Umsätzen; Umsatzprognose für 2026 angehoben",
       "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNU2MtdjlWV3VlUXdQZktrajFhLTVzRTc1RXBaa0RDOW9CUVN5d2hqUkhmM09Lam93dTJQZ0dFdVBfSEo2eWJMa2laM2tfNUlfNUJTNlVmQkFhTmw2TkRFVHYtbmRCNlU3ZVotVFYzVjl0a0h0MGs3TkQ1b0RWVXE1el9aa0xHejY5bmhGTi1hODBnOEFzYTJBaDRfRXNzcUMtZkNIREdvWVFwWnNPN0RoVU9RWUhhSjJQOXFZeEJYX09taFVkU29FUmg0a2hpbXhIVkFlOVRla3hoQk5La1ppUW1WajZiZmNxaV9LVmk3VVVwQXNhaVZWZ3NR?oc=5",
       "source": "MarketScreener Deutschland",
-      "ago": "3 Tage",
+      "ago": "4 Tage",
+      "summary": ""
+    },
+    {
+      "title": "Establishment Labs verringert Nettoverlust im ersten Quartal bei steigenden Umsätzen; Umsatzprognose für 2026 angehoben",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQa0gtd0pVUDhqNTF5TTRfRkJTM3JqeHFSMGRRbVV1U0ZidnZUM2c4Rk5IdGwxWXlaSHlybUJDMUFHZmZBNXcwelVLTnU2ejAwaWIzeTVhM2lUN01ObVdLZTdVSXIyUXVSSkhrRGt1c2szNF9aZ3FBX19mY3lUWkdVQktGcTE5U2xNWUdlNGM1cU0xa3dFUERVLWlJanRHeUx2R0hQOG5CWjAycUZNMFhIOW00aEpqOENXSzZnamtPUU1vc2d0LXdyZ09leHBqQktIMl9vMHBHWXN0STA2MHk5alJSeEZEcEl1ZDllMURpem1OTDk5S0d5LVZ3?oc=5",
+      "source": "MarketScreener Schweiz",
+      "ago": "4 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs Holdings Inc. hebt Gewinnprognose für 2026 an",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVXFreW15cldacDB6TWNtZkwtc2xZekQ3ZlpSTjFQYXFQTW56X0NINkFndXpmMWJnRFdlb2VmelEtYTV3SGhHcW1xUks3dFVRTklFRHp1SDBYZnJVNWxDTF9DYV9UNDNtOVlZSGFydnJURUFPY25WZ1BGcUJfdVBZVVVvZGtLWkw1NXdvZ3UxdDFXalZZdGZtTHhQR212RXNGSFFUWEY1TVF6eHZrRkx1MkhiOFVHV1NoeTNqSUN6LXI1am1RYS1qZGlR?oc=5",
       "source": "MarketScreener Schweiz",
-      "ago": "3 Tage",
+      "ago": "4 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs Aktie (VGG3006U1060): Insider-Verkäufe nach starkem Kursanstieg im Fokus",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPa1pzb2VrdXREZk9FSVk1YmFLaVNDdHNUdm8wZFdlZGhkRFNGaTBtbDFaNEZiTF9DUEhSWU5SWjZaNUxuQ3hVX0UzUkd3dnEtbmhiTGdHN0FyLXF6SURKdXZCZjd6OTdmUnBVYUx3ZTdoQkxMVXRFdFhla3N2OU9HWkktNXE3b2R4X3UyR3pfTjMwc2hFZFZoclg3bkhxelZGNTJKYUdBUF9uS1Vhd0pQWUt4QnJOYnRrN3lVNFFYS1VwS1JQMlE?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "4 Tage",
+      "ago": "5 Tage",
       "summary": ""
     },
     {
       "title": "Integra LifeSciences übertrifft Prognosen für Q1 2026 – Aktie steigt stark an",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdFhJMU9UbFpqNFc2X3NuRXdnWXgtejk0d1lQUU5BZ0hfR0JlMWF4RW8wdHdmeXNmVllfVGtlY0xpQmJ0TEs4dGd4NFdWa2NrN2ZWeEdoU2M5dzhhVUhMd1dPakJmSEJ6Q3cwdTVfRXgyZldKMHFtZ2c4Uy1pOGRvY0lOVEVjTHRtNDhEdTFWanNCMUcwd3o3RTE3TVFQM3hSclhVOXVFS051anhrcmZLMFhpRGQydjV3dHg0OFI4WEtJc3hla0ZuYWxMNA?oc=5",
       "source": "Investing.com Deutsch",
-      "ago": "4 Tage",
+      "ago": "5 Tage",
       "summary": ""
     },
     {
       "title": "Integra LifeSciences Holdings Corporation gibt Gewinnprognose für das zweite Quartal 2026 bekannt und bestätigt Ausblick für das Gesamtjahr 2026",
       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPTWpQbGhVa29kM253cWJqbDFHQnZ4dWxUNndfdHRsRzNZc0J2QnBDVk8zSml5VXhCU3lBaUZxY3dBWFZVcDR3R0kyUms2Zk9Zanc5OWl3M1BfUms5NnY4TmtLbGRmcG91WldiMk5GR3FVaHlzQU1leDFfRWVtejdId3MxR2Z5TkVVdGl4U2RmUWZQRHlsWHAtZndfQU0yRnFyT2dEdkZwYWFzeF80RWZXb292RXRtNDQzbUJtZFkyX09Fd3l3UzZSclhtMWkzZnZKdEpueWNTQjdBdFREU1NRdURJVFduMmFkcnhZVExVWlNSMjRqSS1FcV9FSQ?oc=5",
       "source": "MarketScreener Schweiz",
-      "ago": "4 Tage",
+      "ago": "5 Tage",
       "summary": ""
     },
     {
       "title": "Integra LifeSciences Holdings Corporation veröffentlicht Ergebniszahlen für das erste Quartal zum 31. März 2026",
       "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOQm1HSlZwSHNDbHZRTGdjOHVnaUNRWS0yeU5jTllsRFRxQTlzOXJrb3c0aXJmU2NZektKbGVIVXVJalFvR1lXVGNZWW0zUXlseFVzaEVxWmJ4MHQ2TkJtZko4eVk0aTNRTHotNGF3QjFZbTM2TzZqalREZW8zd3RKN3MwT2JGRzl2X015OTV1RUZIVWhfZE5TZmQwdllteUdBQXBXOEQ2UzNKVkZlM25YUXViRVlVd0xIekFkX1E3V0pYM3A4T0NrWG9uYUFhVUJYWVVFaWY3dWhyMnlPRFpEdFBqOFBXV01mRzBYOWtpV19qcl8xajd3RVNoRXk?oc=5",
       "source": "MarketScreener Deutschland",
-      "ago": "4 Tage",
+      "ago": "5 Tage",
       "summary": ""
     },
     {
       "title": "Integra LifeSciences Holdings Corporation: Integra LifeSciences Announces Leadership Transition",
       "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOZ1IzNktMUFFhb3hpSm9mQktWczhnLXppVWhCeDBieVNEQXBiVFJ1bEsxNEdKOUhjV1g3ZlVuUlNjVmJQc2lsOEQzS3ByT2luQjcxSFM1bDBrajlSTTA0NHRCRXh6ODVyc2E3WThnZHV2LWRFMlkyTVl6VGpZME0yRF83b2JBN2tFTml2dUdUWnhfTmFoWERFTU1IQy1kcE1CMGR4bmxyaURLT1c2UzIzWUJGU1JKaEtlbFBUc3pkaU9BQ2JxQnR0ajMyZ1FJNkNsMGlqMWQyaUpYU2lzMUNVZ2dyUFZqaEItQmxwbUVLOGFOUEs5SG9J?oc=5",
       "source": "FinanzNachrichten.de",
-      "ago": "4 Tage",
+      "ago": "5 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs: Direktor Chacon Quiros verkauft Aktien im Wert von 5,3 Mio. US-Dollar",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPT0Y1T2d3T2EtSUJ1MWt3QUM5YVNobUVsVlZCa01CSjJwZFVIWkpXM3loMnZaeWRTV0hDcEdMdTh6QXNPTU5nZzFRbm40SlZNNV9vX3NRWmNGOWk2cDItVXpMWEtnQnl1NzBhUVJ1dlNOQUNnbFh2dEg5LTFRVEprZHV6QzA4dERKakZjSlNkRmdjMElyM2lGQUduWFRyTnd2VlduOW80dHNYbDBrU1dLNlRIX3hfQVFVckNKSllrdGtPZXdmYzVKQ3NpSE53cFAxc2hZSE1DYkNCSjFSbzNUTHM2TQ?oc=5",
       "source": "Investing.com Deutsch",
-      "ago": "5 Tage",
+      "ago": "6 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs Holdings Inc AKTIE | Aktienkurs & News | A2JRE4 – boerse.de",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPS3lmMDNic3lvUzE5dUpPY0ozaFRiN2RLa3Jvd0h4UE1rekxlYmtLOHduQldGd3VaZ042akFjVElQLWh0X2JPZlFTaTFGdk1iekEybFZDUHlXV3NYYUcyYUJOX0stMWh4WDFqVmNZOEJaZUE2REYzcURlaWttVWJnNHhIRFFJUQ?oc=5",
       "source": "boerse.de",
-      "ago": "7 Tage",
+      "ago": "8 Tage",
       "summary": ""
     },
     {
       "title": "Männer gehen zum Beauty-Doc, wenn es die Frau vormacht",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRldDMjRYQW1sbkJkbFYtdXl5OTIzQ2lzeVNPeU5HRlI4NlJtazFhclVFZHhjY2ZhdExKQmt1U2poSE1FUXhtZEFHSWpjUGdPSTZlUmx2NFNVVkVUb3JDVmJHT1JrNkM5RjZXbjhxUDM3cE9EVXByRXY3UVhqVUhXdThMLUZ5b0VZSXFlZFYwMTV0aFFEN2UwcGln?oc=5",
       "source": "Nau",
-      "ago": "7 Tage",
+      "ago": "8 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs Holdings Inc Chart-Vergleich | Chart-Signal",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN1dETG8zTzNDa2pNTlRMZWVISlQwRDV5Q0E2QlM3NFlWaUg2NFRidDFvVjVQZ1dWSGJpR2drSk9RNklPSzJKRjR0SjFnQ1dUUXBOWDU2M3g3OFB4a29wY2d3Tjc0UkRLTGtUWVRaRWQ3NXlETDJJdU9ZakVkOWpkelBWX01aN3pyX081bi13?oc=5",
       "source": "boerse.de",
-      "ago": "8 Tage",
+      "ago": "9 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs Holdings Inc Charts | Jahreschart | Tageschart",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbGVXZHFkX2hOX3VlM2t0eVpvUnVpWWVBSWx1UWMzdFhrNHhlVGNLcjkxZnMzM3Jnb3Q5cEkwcVNNeUgwRDBvZjI4ZnNXMkkxYzQ0V3AtVk8wSk1nc183M1BiaVNrdWc4NkNvZVBmWWtWTU84emdGMmhvZlV4RHJrblFVajNGZw?oc=5",
       "source": "boerse.de",
-      "ago": "8 Tage",
+      "ago": "9 Tage",
+      "summary": ""
+    },
+    {
+      "title": "Establishment Labs Holdings Inc Aktie",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcWFsR05nYnZGZUxKOXFGRXRRcmpXOW5zYWViMlBZT2xsNXRlcVo4T00yY0lKbXNDQXMxSFlhaFA1cGVTb3J1Z09LOGFQOFV1cVEtbndyWDJwM2MyV3hkbzQ0R3NmWHR4dmdhY3hQMkE1OTBnU3hEVDNncDV0dUtTMF9HOEVFb04wcnYyenIxZHdCdVNPeXc?oc=5",
+      "source": "boerse.de",
+      "ago": "9 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs Holdings Inc | Renditeverteilung | historische Renditen",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbUFEZGtheUtyVUd0QTJGcU4xRVN0bUYzN0FLeXZYbDU5MnpfQl9ZVlpyX2FQLXlLS2pVVEduNDhZUW1PM0tob0ZvYkc5WWc3UmdRSUNTejUtWUlORENGdDkxSXkzQTdaTmZHdjhiZmg3S05CM0ZjNnhVMWlpTWltVW1vaUw2UHN1cDZGLVU1bllyT0xF?oc=5",
       "source": "boerse.de",
-      "ago": "8 Tage",
+      "ago": "9 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs Secures Up to $300 Million 5-Year Term Loan From Oaktree to Refinance Debt",
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPWC1ZRWZsUjBiVEtFWTFoZ1JYeXVMSnp5cnZpWkVMUzVJSlMwWm5JZFBPQWREY04zdzBWdlcxSUdTa2RNS1BwR3ZmcHd4RkJvUTdsdHRLSnBhWkdLLUNHYWFBbEZSRXRYT043djM4NmVTRzRNTkNiLXZPdWIzMnlyM3J3MmNsek9sTmhWNGFlREtDck1BWlhIcGQ3Z1pyZF9jZWpVOXl3VVQxblB4bjNpSi1oV1pYOGV0a0hjT3VCVEpyYkkzYl96aDJLbUIwQmZsUW9DSFNvby1oUEJJYWtNX3JxdHEtZnJ0VjhjUW5B?oc=5",
       "source": "TradingView",
-      "ago": "9 Tage",
+      "ago": "10 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs sichert sich Kreditfazilität über 300 Mio. USD von Oaktree",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUUJwZC1ralZDMTRoT3V0QklzTjFnSTh3U3gtZzAyVEQ2aDlwVEZ0MlpFd1BmejlQRWJ4Y3p3Y0VWY3A2U0FsNUFxUWpoYnZFR2FfbHhJZU15anZRVHNGMGxFdS1YODVGaUtyRHBjalRoMW9zTVd5UktyQVV1VEZzM1k1M0ZOeHNYcVFhRWtzbENCeFdnZk1uZEswamdaZkVDclhkTnF2bVJaNG13MlpCNUFiSHBPMXdxOHJEUWZtZk54S0V2QXpGWnRMbEM?oc=5",
       "source": "Investing.com Deutsch",
-      "ago": "9 Tage",
+      "ago": "10 Tage",
       "summary": ""
     },
     {
       "title": "NASDAQ Composite Index-Titel Integra LifeSciences-Aktie: So viel Verlust hätte ein Investment in Integra LifeSciences von vor einem Jahr eingebracht",
       "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOejM0WGVENV9VQ05OZnR3N0FXeW9scGM5anNkX2xvanNISVpTaWhJbUo0bnREdTJhbTNPUmtualBYVFFiRS1pWkVQV2Y3VlN5ZkRVN0hQMUlfaHJvLXJxaHoxYkRPM3Y4dFMwZG54ek9YaDdUXzlpRWpNa0czaXYzVDlITmRKcEtKU1hiTEZlejhKMlZaT3NtTDIyaUtINW5WbDJTUmwxQmU5MTlzaU9DUTJRa1kxVElGMnFTUVJaVlVidTZVdTZrbGRQeVdick9NUkNLeEljNmk2QWZrYkV0cVVBOXpwUm1PS2RwWk1ib2dobWRBdUlvNC1Rb1htQmtNUV9ETl9uZ0htcVBBdnBmZzhHSW9hQ0E4Umh1WHgxMDZ3TFhxbmhjRFRR?oc=5",
       "source": "finanzen.ch",
-      "ago": "12 Tage",
+      "ago": "13 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs: Direktor verkauft ESTA-Aktien im Wert von 4,9 Mio. US-Dollar",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSkNGZW1DNnBmMUFsbmlHU0pQRUZLZFRNUjlYRUhlTjRudzB2cUpJbHNFdkRQdlhTQ0MzRDFCbm5RelREWEVtMVB6SUhmX1RNcGF6U3RjTmVRbXNPYVVXcHdGRVBmVFYtb3p1OVNmR0toc0pmT2ZKN2s4VUh0WXJDemVPWFZMY0lYVUcwYVIzZnJZMnFtOXItYktGX1FTb0ZpdUMxZjVIbWFkemxBc0FNenNUbG94cXpCaW1PWk5FUkhTQ0VRQnVDVnVzRE9VckxQaEs0OVpR?oc=5",
       "source": "Investing.com Deutsch",
-      "ago": "12 Tage",
+      "ago": "13 Tage",
       "summary": ""
     },
     {
       "title": "NASDAQ Composite Index-Papier Integra LifeSciences-Aktie: So viel Verlust hätte ein Investment in Integra LifeSciences von vor 10 Jahren eingebracht",
       "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQcENSbEhkUlU1V2Z2ZTZndzBMc1JMUnVvUlJtaFh6Z0p1aXdzTDgzT20yWWF3Ynp2bTVhOUlsZ092d05DQTlPZTVrLTFZczcwWk1BcDFCb2Q2cmVHVEtuZkNhVk1BenlaZTZyRG1hSW5UTlIzMUVmUnlpVi1GdlhXRTVKTW5mYWRBTnI2M1NnbGNTUlhSdHZvNThpWnQxQkpMblJwQVdTUnhyc1JCQ085MVVDdUZzS0VoZmJ3cFQyajc3U2NwNG1Oc2c2TTZUUG1FdXVQVU4wN29LUmtGQXBSazNkMUNJQlA1X2xJZGNreEFvNmFsLU51ZHI1RmlZU0NPZno3SXhQeTV1dmFZSUxiVlphVXgxZHJFRHg0QWE1cGZpcUtSaUx5SVZ3?oc=5",
       "source": "finanzen.ch",
-      "ago": "19 Tage",
+      "ago": "20 Tage",
+      "summary": ""
+    },
+    {
+      "title": "Integra LifeSciences: Chancen und Herausforderungen in der regenerativen Medizin",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSmtlYTR5MWlQSllha214Z2pHRmh2YTY2UmFrOTVQdnpoQmNFVnlnaHBRaFg3cDlLeE1XdXdVM2NiNHZkeU85QTY1RHhlRmJZWWlRSGZvbEtHdXRsN284N19VXzJPTEI3blJUSFdqcUxCblpxbUkzMzlJbG84bVJsbE9ndjhLZC1TMDVGWXU1SkJ4RFZkalJiN1Y2bWlKQTFZZTl6NnRFRTgtT1V3aWdBbQ?oc=5",
+      "source": "it-boltwise.de",
+      "ago": "20 Tage",
       "summary": ""
     },
     {
       "title": "Werden die Rekordumsätze von Motiva und die steigenden Margen das Wachstumsnarrativ von Establishment Labs (ESTA) neu definieren?",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQT2l1cXowVlNkS1JSWDl6a2tEYkd6MWhFYU1iMmUzTUx2ZWlZcnlFT0pjdWpBS3lYdWNYWnNJRFhhWlFCOFRiR3JWV0w0Um1tNExpRTdiNjFONTd3ZlRKdjVZV1Y1N09fQ3MxVTNjeWRfTnEzVnNjc3NoaC1ZRXlHVFcwcHpkdkVUZEZtOWZMYzlkeVRjM2lpMzRJX3Q0RTU0eWw1R3l2ZUNrV3c0M3paYTF4a0FyanFudDduWDByRXpGVVc2UFp4ZlA0c29aSm5jblpDelIxX1dSSDgyWjJnOTU2cmJsUdIB6wFBVV95cUxPMkt1TktQN0QycFhYVDhvLUFtNks4dWJhR3JqVmtybTM2aTVPaWZtRXZhNG1rcTd3NXBPUnd2dHZ0Y3lSMHZLb3JNakhJX2JTTGpfRHJiV2NUQmpzZ09mVHF4N0FIa1BESEEtandZQVVSZVY5dklpUUp0b0twU3ZaS01VbC1CQXhMR0ZQRFloZlFCQVpHZEhGU1Q2ZklJenZEY0NWSHFuLU15djdiVDlLMUJNYmVmOTY5eGRvRDNPNTNlZDVVZDY4NXpmSzJSRzNDT3JzVDV2eFZOaTNnYkpidkR3cHFJUUMzMDlr?oc=5",
       "source": "simplywall.st",
-      "ago": "26 Tage",
+      "ago": "27 Tage",
       "summary": ""
     },
     {
       "title": "Marktgröße, Marktanteil und globaler Bericht für Gesichtsinjektionspräparate, 2034",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNjlWeUw0TVd4QVdTVkpHdEExN2pGMHM5M1IxcW95MW9RZjY4amRMamJCQktlMl93QThwd1lGOERhMjNZUk9pUGVWU2RBZGZrV1g3SDdRZVFqdF9TOVNibHhjYjRfa2V5VmZIVUxtQkJJTWZYSFhPU3NoSjlrM1NBVmhKdlRRZElySUxidklETF9JcDNCQ2VTaHVHWWo5bVhnNmR1VnYtOEVTSlNQTlh6UFpn?oc=5",
       "source": "Fortune Business Insights",
-      "ago": "26 Tage",
-      "summary": ""
-    },
-    {
-      "title": "Ist es an der Zeit, Establishment Labs Holdings (ESTA) nach einem Anstieg von 106% innerhalb eines Jahres neu zu bewerten?",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPS1hOU0hzN0U4cldzR2VvT3UxYldrWUpXYVhKQTBNUjNrLWlhTGc0ODF0dEpabTJtd3pkV2NrVlhUMzMyT3ZrdVZCVkdEU0xfWGIteE93QW1CUldGbUpia2F2VEE2MnFyWDM2ZGFfU1FPejVsaEtNXzJNUjVuNnpyMWMwc0hwRXV6UWE5T2ttS1ZET0hES2ppNlFuSU9IUzY5dDZEd3JNeGR3QnV6ZF9weVotZi1va1Zza1oySU5nQVZGSGJBNG1EWmRiR1Z0dFRKRFk1Z3lqTm5lbzN0enRJNzFGRVp0d9IB6wFBVV95cUxNWFc2LTM1NnpIcV9OWnhGRHZPaGNDUC0yODY1YUhoeEw3U280d25DN19WbzlPNm9QZWNNaFh6LVN1eGdMeHZCTnh5VGNqYUxHeloycVA5WkU0OUppYWtyclJIUC1CRkR6SjNNejFOOVMyc1l1d1I4MXZQMWhsbUlGbkhSVnZnZDRGaWstSFQwbXpuZ0JqeElPYjVoMDE2OE9naTNfb1FFMkVrN2MtdmhQR2NBODVCSFZkNGtDMzh3aXk3dkJReW5JNjEtcVpaZlVWZWY4eWxPTG5lbFBLeGl3eXBwMTZ3RWgtdEpB?oc=5",
-      "source": "simplywall.st",
-      "ago": "29 Tage",
+      "ago": "27 Tage",
       "summary": ""
     }
   ]
