@@ -74,38 +74,36 @@ def _fetch_stock_yfinance(ticker):
     return price, change, pct
 
 def _fetch_stock_direct(ticker):
-    """Fallback: direct Yahoo Finance v8 API, query2 then query1."""
+    """Direct Yahoo Finance v8 API.
+    Uses meta.regularMarketPrice + meta.chartPreviousClose from the chart response.
+    These are always present and correct regardless of whether todays OHLCV bar
+    is already fully populated.
+    """
     import math
-    from datetime import datetime, timezone
     for host in ['query2', 'query1']:
         try:
             url = ('https://' + host + '.finance.yahoo.com/v8/finance/chart/'
-                   + ticker + '?range=10d&interval=1d&includePrePost=false')
+                   + ticker + '?range=2d&interval=1d&includePrePost=false')
             r   = requests.get(url, headers=HEADERS, timeout=10)
             if r.status_code != 200:
                 print(ticker + ' direct/' + host + ' HTTP ' + str(r.status_code))
                 continue
-            res  = r.json()['chart']['result'][0]
-            q    = res['indicators']['quote'][0]
-            raw_ts     = res.get('timestamp', [])
-            raw_closes = q.get('close', [])
-            raw_vols   = q.get('volume', [])
-            print(ticker + ' raw sessions (' + host + '):')
-            for ts, cl, vol in zip(raw_ts, raw_closes, raw_vols):
-                dt = datetime.fromtimestamp(ts, tz=timezone.utc).strftime('%Y-%m-%d')
-                print('  ' + dt + '  close=' + str(round(cl,4) if cl else None) + '  vol=' + str(vol))
-            valid = [
-                (ts, cl) for ts, cl, vol in zip(raw_ts, raw_closes, raw_vols)
-                if cl is not None and vol is not None and int(vol) > 0
-            ]
-            if len(valid) >= 2:
-                price  = round(valid[-1][1], 4)
-                prev   = round(valid[-2][1], 4)
-                if math.isnan(price) or math.isnan(prev) or prev == 0:
-                    continue
-                change = round(price - prev, 4)
-                pct    = round((change / prev * 100), 4)
-                return price, change, pct
+            meta  = r.json()['chart']['result'][0].get('meta', {})
+            price = meta.get('regularMarketPrice')
+            prev  = meta.get('chartPreviousClose')
+            print(ticker + ' meta: regularMarketPrice=' + str(price)
+                  + ' chartPreviousClose=' + str(prev))
+            if price is None or prev is None:
+                continue
+            price = float(price)
+            prev  = float(prev)
+            if math.isnan(price) or math.isnan(prev) or prev == 0:
+                continue
+            price  = round(price, 4)
+            prev   = round(prev,  4)
+            change = round(price - prev, 4)
+            pct    = round((change / prev * 100), 4)
+            return price, change, pct
         except Exception as e:
             print(ticker + ' direct/' + host + ' error: ' + str(e))
     return None, None, None
