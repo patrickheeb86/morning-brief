@@ -76,21 +76,26 @@ def _fetch_stock_yfinance(ticker):
 def _fetch_stock_direct(ticker):
     """Fallback: direct Yahoo Finance v8 API, query2 then query1."""
     import math
+    from datetime import datetime, timezone
     for host in ['query2', 'query1']:
         try:
             url = ('https://' + host + '.finance.yahoo.com/v8/finance/chart/'
                    + ticker + '?range=10d&interval=1d&includePrePost=false')
             r   = requests.get(url, headers=HEADERS, timeout=10)
             if r.status_code != 200:
+                print(ticker + ' direct/' + host + ' HTTP ' + str(r.status_code))
                 continue
             res  = r.json()['chart']['result'][0]
             q    = res['indicators']['quote'][0]
+            raw_ts     = res.get('timestamp', [])
+            raw_closes = q.get('close', [])
+            raw_vols   = q.get('volume', [])
+            print(ticker + ' raw sessions (' + host + '):')
+            for ts, cl, vol in zip(raw_ts, raw_closes, raw_vols):
+                dt = datetime.fromtimestamp(ts, tz=timezone.utc).strftime('%Y-%m-%d')
+                print('  ' + dt + '  close=' + str(round(cl,4) if cl else None) + '  vol=' + str(vol))
             valid = [
-                (ts, cl) for ts, cl, vol in zip(
-                    res.get('timestamp', []),
-                    q.get('close', []),
-                    q.get('volume', [])
-                )
+                (ts, cl) for ts, cl, vol in zip(raw_ts, raw_closes, raw_vols)
                 if cl is not None and vol is not None and int(vol) > 0
             ]
             if len(valid) >= 2:
