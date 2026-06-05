@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-05T07:39:52.281021Z",
+  "generated": "2026-06-05T08:13:08.772764Z",
   "forex": {
     "eur_chf": {
       "rate": 0.91805369,
@@ -13,8 +13,8 @@
     }
   },
   "bitcoin": {
-    "price": 62661,
-    "changePct": -1.7874080343381153
+    "price": 62698,
+    "changePct": -0.9749663512117174
   },
   "stocks": [
     {
@@ -163,7 +163,7 @@
       "title": "Establishment Labs (ESTA) sinkt um 8,4% nach Erhöhung der Umsatzprognose für 2026 und Verringerung der Verluste",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQSlpkR2JYTlRsVkNSenZMOVF0dF90OERoSjNEMDNkSFg1YjZQekZWZTdURW4zWWhMcUxNQ2pnVnh0cjZid3R4LXM5Y3VZNUVzQ19ybG5uTi1WdVpQRGxTdXpDYURxS0VHMDZkWjZpcVlSSVdnSGFHWk5TVVBhd0lQbGI0UnJXXzBwZkFQS1htU0tHeUEtYnFJUnRFXzl4blMzeEtqR09CMmRjVEN5ejdXWFRpb1hzNUdiOElKd0EzRXdGU0Z5MzRpNmpwOVpCMVZsMEZGSjQzWGJkRkxIYm93LURRQktxbWk0ejNJ0gHrAUFVX3lxTFBKWmRHYlhOVGxWQ1J6dkw5UXR0X3Q4RGhKM0QwM2RIWDViNlB6RlZlN1RFbjNZaExxTE1DamdWeHRyNmJ3dHgtczljdVk1RXNDX3Jsbm5OLVZ1WlBEbFN1ekNhRHFLRUcwNmRaNmlxWVJJV2dIYUdaTlNVUGF3SVBsYjRScldfMHBmQVBLWG1TS0d5QS1icUlSdEVfOXhuUzN4S2pHT0IyZGNUQ3l6N1dYVGlvWHM1R2I4SUp3QTNFd0ZTRnkzNGk2anA5WkIxVmwwRkZKNDNYYmRGTEhib3ctRFFCS3FtaTR6M0k?oc=5",
       "source": "simplywall.st",
-      "ago": "17 Tage",
+      "ago": "18 Tage",
       "summary": ""
     },
     {
