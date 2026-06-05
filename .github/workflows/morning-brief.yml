@@ -1,8 +1,8 @@
-name: Morning Brief - Tägliche Aktualisierung
+name: Morning Brief - Taegliche Aktualisierung
 
 on:
   schedule:
-    - cron: '0 1 * * *'
+    - cron: '0 4 * * *'
   workflow_dispatch:
 
 jobs:
@@ -20,8 +20,8 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Abhängigkeiten installieren
-        run: pip install requests
+      - name: Abhaengigkeiten installieren
+        run: pip install requests yfinance
 
       - name: Daten generieren und E-Mail senden
         run: python generate.py
