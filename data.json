@@ -1,10 +1,10 @@
 {
-  "generated": "2026-06-05T12:16:29.077294Z",
+  "generated": "2026-06-05T12:33:39.531570Z",
   "forex": {
     "eur_chf": {
-      "rate": 0.91665237,
-      "change": -0.0014013200000000392,
-      "changePct": -0.15264031017619886
+      "rate": 0.91805369,
+      "change": 0.0,
+      "changePct": 0.0
     },
     "usd_chf": {
       "rate": 0.79070301,
@@ -13,30 +13,30 @@
     }
   },
   "bitcoin": {
-    "price": 62109,
-    "changePct": -0.8012298983289567
+    "price": 61895,
+    "changePct": -2.4066668102084163
   },
   "stocks": [
     {
       "ticker": "ESTA",
       "name": "Establishment Labs",
-      "price": 72.41,
-      "change": 2.0,
-      "changePct": 2.8405
+      "price": 76.49,
+      "change": 6.08,
+      "changePct": 8.6351
     },
     {
       "ticker": "APYX",
       "name": "Apyx Medical",
-      "price": 3.79,
-      "change": -0.06,
-      "changePct": -1.5584
+      "price": 4.29,
+      "change": 0.44,
+      "changePct": 11.4286
     },
     {
       "ticker": "IART",
       "name": "Integra LifeSciences",
       "price": 17.56,
-      "change": 1.46,
-      "changePct": 9.0683
+      "change": 1.89,
+      "changePct": 12.0613
     }
   ],
   "news": [
@@ -205,7 +205,7 @@
       "title": "Studie: Renuvion-Technologie von Apyx Medical verbessert Ergebnisse bei Fettabsaugungen",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPekgybHIwbmtXRjVkcUNIbkw0M09USFlxeHJrdXQtVEF6Q0hjZW80Mk13MkJNc0MycUJnRWxqMGlHeVREMlJDOHR2aEJVUXpTR2xoVVpKbnd3U3NGZ1UzQjdaR3p4V21IMWhXYXd5VE5jampsd1dsZVhfU0Z3blUxWWdIV1BISjB4YTV5S1hGck1mR1JrNmpiWWxiQ0xwc3BXUzdaY21SMmZ3R1h2MkszRkx1RHI4MmliNS1XS0VZbmNnQ0VYT3FSNzl4QTkwQ2lydEE1NzdOLTI?oc=5",
       "source": "Investing.com Deutsch",
-      "ago": "21 Tage",
+      "ago": "22 Tage",
       "summary": ""
     },
     {
