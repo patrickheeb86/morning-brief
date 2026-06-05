@@ -1,10 +1,10 @@
 {
-  "generated": "2026-06-05T08:13:08.772764Z",
+  "generated": "2026-06-05T12:16:29.077294Z",
   "forex": {
     "eur_chf": {
-      "rate": 0.91805369,
-      "change": 0.0,
-      "changePct": 0.0
+      "rate": 0.91665237,
+      "change": -0.0014013200000000392,
+      "changePct": -0.15264031017619886
     },
     "usd_chf": {
       "rate": 0.79070301,
@@ -13,8 +13,8 @@
     }
   },
   "bitcoin": {
-    "price": 62698,
-    "changePct": -0.9749663512117174
+    "price": 62109,
+    "changePct": -0.8012298983289567
   },
   "stocks": [
     {
@@ -65,7 +65,7 @@
       "title": "Apyx Medical: 72 % Rendite nach Fair-Value-Analyse von InvestingPro Von Investing.com",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb3JEbnlkeHJoTHkzVGY1QzU3cFZmY1ZFMm1YR25PWXhZak1kSFFGQ1F1YThrRUZ1c0ZnWk1Ca3NJRnZuUUdQd3NzM2VudGZucXNzSG95T0xSQ0RkUnk1T0RTSWNTaTlHMDJXcFowZjA0QnE4cm5uQUZSNmFxejlXNFduUkZVTGJ1dzZvMnJESGFMR0JrakpSdFNUTVl4eDRoM1lXMW93OXhQLWZ4UTd6Q040bm9ralhaVmdSU3I5X0Q?oc=5",
       "source": "Investing.com Deutsch",
-      "ago": "7 Tage",
+      "ago": "8 Tage",
       "summary": ""
     },
     {
@@ -121,14 +121,14 @@
       "title": "Apyx Medical: Klinische Studie belegt Wirksamkeit neuer Cellulite-Behandlung",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQd2d6aFJqdmc1WVg0WVRreHF5blVpQVhNbElWRnNKTjFaREdubUJfNUt5cmJUb2J6MENNMUhZSnFBVHhIc19CQkF0c2NQYVR4Wk8zYk5LMVBzV0V3ZXFuM3MxdU9fV1laU1BVdWhMR1gtekZheU45M2lZUU5ZX1lCcTZVSG9tWHpBTXVEOU1aWWxXSEtYSVBlcEVMRjRWRjJhdlZRSVI5NUJZVzQzOU9ZUlk5T0g4QjUtb3NjNEFpVXJvVFNQU1pJbnln?oc=5",
       "source": "Investing.com Deutsch",
-      "ago": "14 Tage",
+      "ago": "15 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs stock (VGG3006U1060): Analyst optimism follows recent trading update",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZUc1R0V5OFRrSXRJZWxBaERvTnBWMFhwZU84ZUVnUi1lNnQ4SUhva2c0b3c2eHNoTDFoa1h2Nk9YYUJkU0dOZnhQaFJxS2Y3UTRHbERucUEySkl5U3N5SFRTYVNjN1l1SkVHS2pLaS1KWkNhMmFOUVRQdW8tSEFNSzlmd3Nha2hnSHhpclVoa2pnb2hiQU11M0NiLVpQbUdKMEtJc2JxdXk0Tnp3UVN2aTk5bDVRME9rSE0tcXFOb2tSM3kzcmNV?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "14 Tage",
+      "ago": "15 Tage",
       "summary": ""
     },
     {
@@ -191,7 +191,7 @@
       "title": "Establishment Labs-Aktie (VGG3006U1060): Wie der Spezialist für ästhetische Implantate nach Turbul",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQ1Z6cFNOT01leEVZWnE4MG4yWl9COGo4c0ZNVnhSR0hiVEtmaFpSTlNnR2t5bEpUc2RNRVZVaEkxc0VpTlRpb24xbVFwTmdJSDZMYllLblM0QVotZmNoTzhncmUyZ0RUQ3RFcjJNMm1UVFFyOHNiZFZBOFhCSzZEbTNtWHlPcDZaQmVaSEwxZmFRU2lfVUVkZnMwblhrV01oRVZuY1hiRGZKZjNsMWlKa1NGTzM5SHVsa0t0dw?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "19 Tage",
+      "ago": "20 Tage",
       "summary": ""
     },
     {
@@ -212,7 +212,7 @@
       "title": "Establishment Labs-Aktie (VGG3006U1060): Medizintechnik-Anbieter mit Fokus auf Brustimplantate",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNLVF5OEZNYjFoTzhXZjB3VGFQamE1eDlqR19QYnlpRGJNSGhmLU9xdWEwUWgtYUcyMUhOMHo1QnFJTGd3dDBzOEpWR0hOdXJpMkZ1TkVXSXQzbWV3SEUzcVdRaE9ocG5pd0FGSThTWG9kUHAzRlVIb1BfUlVwcXJUeHJPN1c5cnhuTkJOQ1NZYVlBMGl4V2pqVXNDX2lpcVJENHF5eGtNNUZ2cnNQcU4xY3lncE1VM1NtOUd4X3NPYjAydWJ2dGhYWjZR?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "21 Tage",
+      "ago": "22 Tage",
       "summary": ""
     }
   ]
