@@ -19,7 +19,7 @@ CACHE_FILE = 'news_cache.json'
 MAX_DAYS   = 30
 
 
-# ── FOREX ──────────────────────────────────────
+# -- FOREX -----------------------------------------------------
 def fetch_forex():
     yesterday = (date.today() - timedelta(days=1)).isoformat()
     result = {}
@@ -40,7 +40,7 @@ def fetch_forex():
     return result
 
 
-# ── BITCOIN ────────────────────────────────────
+# -- BITCOIN ---------------------------------------------------
 def fetch_bitcoin():
     try:
         url = 'https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true'
@@ -52,25 +52,30 @@ def fetch_bitcoin():
         return {'price': None, 'changePct': None}
 
 
-# ── STOCKS – yfinance primary, direct API fallback ──────────────────────────
+# -- STOCKS – yfinance fast_info (primary) + direct API (fallback) --
 def _fetch_stock_yfinance(ticker):
-    """Fetch closing price and change via yfinance library."""
-    import math, yfinance as yf
-    hist = yf.Ticker(ticker).history(period='5d', auto_adjust=False)
-    # Filter: only rows with real volume and valid (non-NaN) close
-    hist = hist[(hist['Volume'] > 0) & hist['Close'].notna()][['Close']]
-    if len(hist) >= 2:
-        price  = round(float(hist['Close'].iloc[-1]), 4)
-        prev   = round(float(hist['Close'].iloc[-2]), 4)
-        if math.isnan(price) or math.isnan(prev):
-            return None, None, None
-        change = round(price - prev, 4)
-        pct    = round((change / prev * 100), 4) if prev else 0
-        return price, change, pct
-    return None, None, None
+    """Use yfinance fast_info: regular_market_price vs regular_market_previous_close.
+    These are the official unadjusted exchange values – no dividend distortion."""
+    import math
+    import yfinance as yf
+    fi = yf.Ticker(ticker).fast_info
+    price = fi.get('regular_market_price') or fi.get('last_price')
+    prev  = fi.get('regular_market_previous_close') or fi.get('previous_close')
+    if price is None or prev is None:
+        return None, None, None
+    price = float(price)
+    prev  = float(prev)
+    if math.isnan(price) or math.isnan(prev) or prev == 0:
+        return None, None, None
+    price  = round(price, 4)
+    prev   = round(prev,  4)
+    change = round(price - prev, 4)
+    pct    = round((change / prev * 100), 4)
+    return price, change, pct
 
 def _fetch_stock_direct(ticker):
-    """Fetch closing price and change via direct Yahoo Finance v8 API."""
+    """Fallback: direct Yahoo Finance v8 API, query2 then query1."""
+    import math
     for host in ['query2', 'query1']:
         try:
             url = ('https://' + host + '.finance.yahoo.com/v8/finance/chart/'
@@ -91,8 +96,10 @@ def _fetch_stock_direct(ticker):
             if len(valid) >= 2:
                 price  = round(valid[-1][1], 4)
                 prev   = round(valid[-2][1], 4)
+                if math.isnan(price) or math.isnan(prev) or prev == 0:
+                    continue
                 change = round(price - prev, 4)
-                pct    = round((change / prev * 100), 4) if prev else 0
+                pct    = round((change / prev * 100), 4)
                 return price, change, pct
         except Exception as e:
             print(ticker + ' direct/' + host + ' error: ' + str(e))
@@ -103,26 +110,26 @@ def fetch_stocks():
     result  = []
     for ticker, name in tickers:
         price, change, pct = None, None, None
-        # 1. Try yfinance (handles auth/crumb automatically)
+        # 1. yfinance fast_info (handles auth, returns exchange-official values)
         try:
             price, change, pct = _fetch_stock_yfinance(ticker)
             if price is not None:
-                print(ticker + ' [yfinance]: close=' + str(round(price,2))
+                print(ticker + ' [yfinance]: price=' + str(round(price,2))
                       + ' prev=' + str(round(price-change,2))
                       + ' chg=' + ('+' if pct>=0 else '') + str(round(pct,2)) + '%')
             else:
-                print(ticker + ' [yfinance]: not enough data')
+                print(ticker + ' [yfinance]: no data')
         except Exception as e:
             print(ticker + ' [yfinance] error: ' + str(e))
-        # 2. Fallback to direct API if yfinance failed
+        # 2. Direct API fallback
         if price is None:
             try:
                 price, change, pct = _fetch_stock_direct(ticker)
                 if price is not None:
-                    print(ticker + ' [direct]: close=' + str(round(price,2))
+                    print(ticker + ' [direct]: price=' + str(round(price,2))
                           + ' chg=' + ('+' if pct>=0 else '') + str(round(pct,2)) + '%')
                 else:
-                    print(ticker + ' [direct]: not enough data')
+                    print(ticker + ' [direct]: no data')
             except Exception as e:
                 print(ticker + ' [direct] error: ' + str(e))
         result.append({'ticker':ticker,'name':name,
@@ -130,7 +137,7 @@ def fetch_stocks():
     return result
 
 
-# ── NEWS – persistent cache ────────────────────
+# -- NEWS – persistent cache -----------------------------------
 NEWS_QUERIES = [
     '"Establishment Labs" OR "Motiva implant" OR "Apyx Medical" OR "Renuvion" OR "Lipoelastic" OR "pHformula" OR "Integra IDRT" OR "Vaser liposuction" OR "Revanesse" OR "Prollenium" OR "Sunekos" OR "RegenLab" OR "body-jet" OR "Puregraft"',
     '"Allergan" aesthetics OR "Mentor implant" OR "Galderma" aesthetics OR "Merz Aesthetics" OR "InMode" aesthetic OR "breast implant" Switzerland OR "Albin Group" OR "Calista Medical" OR aesthetic medicine Switzerland',
@@ -149,7 +156,6 @@ def save_cache(items):
         json.dump(items, f, ensure_ascii=False, indent=2)
 
 def parse_pub_date(pub_str):
-    """Parse RSS pubDate string to UTC ISO string."""
     try:
         dt = parsedate_to_datetime(pub_str)
         return dt.astimezone(timezone.utc).isoformat()
@@ -157,7 +163,6 @@ def parse_pub_date(pub_str):
         return datetime.now(timezone.utc).isoformat()
 
 def ago_str(iso_str):
-    """Convert stored ISO date to human-readable age string."""
     try:
         dt   = datetime.fromisoformat(iso_str)
         diff = datetime.now(timezone.utc) - dt.astimezone(timezone.utc)
@@ -184,7 +189,6 @@ def parse_rss(xml_text):
             link = ''
             for node in item.childNodes if hasattr(item, 'childNodes') else []:
                 pass
-            # ET approach for link
             link_el = item.find('link')
             if link_el is not None and link_el.text:
                 link = link_el.text.strip()
@@ -192,7 +196,6 @@ def parse_rss(xml_text):
                 guid = item.find('guid')
                 link = guid.text.strip() if guid is not None and guid.text else ''
 
-            # Clean title
             title = re.sub(r'\s+-\s+\S.{2,40}$', '', title).strip()
             for ent, ch in [('&amp;','&'),('&lt;','<'),('&gt;','>'),('&quot;','"'),('&#39;',"'"),('&nbsp;',' ')]:
                 title = title.replace(ent, ch)
@@ -210,12 +213,10 @@ def parse_rss(xml_text):
     return items
 
 def fetch_news():
-    # Load existing cache
     cache = load_cache()
     cached_urls = set(i.get('url','') for i in cache)
     print('Cache loaded: ' + str(len(cache)) + ' items')
 
-    # Fetch new items from RSS
     new_count = 0
     for i, query in enumerate(NEWS_QUERIES):
         try:
@@ -234,18 +235,16 @@ def fetch_news():
 
     print('New items added: ' + str(new_count))
 
-    # Filter: keep only last MAX_DAYS days
     cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_DAYS)
     def is_recent(item):
         try:
             dt = datetime.fromisoformat(item.get('pubDate',''))
             return dt.astimezone(timezone.utc) >= cutoff
         except Exception:
-            return True  # keep if date unknown
+            return True
 
     cache = [i for i in cache if is_recent(i)]
 
-    # Sort: newest first
     def sort_key(item):
         try:
             return datetime.fromisoformat(item.get('pubDate','')).astimezone(timezone.utc)
@@ -253,12 +252,9 @@ def fetch_news():
             return datetime.min.replace(tzinfo=timezone.utc)
 
     cache.sort(key=sort_key, reverse=True)
-
-    # Save updated cache
     save_cache(cache)
     print('Cache saved: ' + str(len(cache)) + ' items')
 
-    # Add ago string for display
     result = []
     for item in cache[:25]:
         result.append({
@@ -271,7 +267,7 @@ def fetch_news():
     return result
 
 
-# ── GENERATE ───────────────────────────────────
+# -- GENERATE --------------------------------------------------
 def generate():
     data = {
         'generated': datetime.utcnow().isoformat() + 'Z',
@@ -286,7 +282,7 @@ def generate():
     return data
 
 
-# ── EMAIL HELPERS ──────────────────────────────
+# -- EMAIL HELPERS ---------------------------------------------
 def fmt(n, dec=2):
     import math
     if n is None: return '-'
@@ -317,14 +313,14 @@ def yf_url(ticker):
     return 'https://finance.yahoo.com/quote/' + ticker + '/'
 
 
-# ── EMAIL ──────────────────────────────────────
+# -- EMAIL -----------------------------------------------------
 def send_email(data):
     if not GMAIL_USER or not GMAIL_PASS or not RECIPIENTS:
         print('Email not configured - skipping.')
         return
 
     now    = datetime.now()
-    days   = ['Sonntag','Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag']
+    days   = ['Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag','Sonntag']
     months = ['Januar','Februar','Maerz','April','Mai','Juni','Juli',
               'August','September','Oktober','November','Dezember']
     date_str = days[now.weekday()] + ', ' + str(now.day) + '. ' + months[now.month-1] + ' ' + str(now.year)
