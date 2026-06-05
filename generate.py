@@ -55,13 +55,15 @@ def fetch_bitcoin():
 # ── STOCKS – yfinance primary, direct API fallback ──────────────────────────
 def _fetch_stock_yfinance(ticker):
     """Fetch closing price and change via yfinance library."""
-    import yfinance as yf
+    import math, yfinance as yf
     hist = yf.Ticker(ticker).history(period='5d', auto_adjust=False)
-    # Filter: only rows with real volume
-    hist = hist[hist['Volume'] > 0][['Close']]
+    # Filter: only rows with real volume and valid (non-NaN) close
+    hist = hist[(hist['Volume'] > 0) & hist['Close'].notna()][['Close']]
     if len(hist) >= 2:
         price  = round(float(hist['Close'].iloc[-1]), 4)
         prev   = round(float(hist['Close'].iloc[-2]), 4)
+        if math.isnan(price) or math.isnan(prev):
+            return None, None, None
         change = round(price - prev, 4)
         pct    = round((change / prev * 100), 4) if prev else 0
         return price, change, pct
@@ -286,18 +288,30 @@ def generate():
 
 # ── EMAIL HELPERS ──────────────────────────────
 def fmt(n, dec=2):
+    import math
     if n is None: return '-'
-    s = ('{:.' + str(dec) + 'f}').format(abs(float(n)))
+    try:
+        f = float(n)
+        if math.isnan(f) or math.isinf(f): return '-'
+    except (TypeError, ValueError):
+        return '-'
+    s = ('{:.' + str(dec) + 'f}').format(abs(f))
     parts = s.split('.')
     parts[0] = '{:,}'.format(int(parts[0])).replace(',', "'")
     if dec == 0: return parts[0]
     return parts[0] + '.' + parts[1]
 
 def chg_span(n):
+    import math
     if n is None: return '-'
-    color = '#4ade80' if float(n) >= 0 else '#f87171'
-    sign  = '+' if float(n) >= 0 else ''
-    return '<span style="color:' + color + '">' + sign + '{:.2f}'.format(float(n)) + '%</span>'
+    try:
+        f = float(n)
+        if math.isnan(f) or math.isinf(f): return '-'
+    except (TypeError, ValueError):
+        return '-'
+    color = '#4ade80' if f >= 0 else '#f87171'
+    sign  = '+' if f >= 0 else ''
+    return '<span style="color:' + color + '">' + sign + '{:.2f}'.format(f) + '%</span>'
 
 def yf_url(ticker):
     return 'https://finance.yahoo.com/quote/' + ticker + '/'
