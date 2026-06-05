@@ -1,6 +1,5 @@
 import os, json, re, time, smtplib, requests, xml.etree.ElementTree as ET
 from datetime import datetime, date, timedelta, timezone
-from zoneinfo import ZoneInfo
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.utils import parsedate_to_datetime
@@ -53,38 +52,77 @@ def fetch_bitcoin():
         return {'price': None, 'changePct': None}
 
 
-# ── STOCKS – actual OHLCV closing prices, volume-filtered (no adjustments) ──
-def fetch_stocks():
-    tickers = [('ESTA','Establishment Labs'), ('APYX','Apyx Medical'), ('IART','Integra LifeSciences')]
-    result  = []
-    for ticker, name in tickers:
-        price, change, pct = None, None, None
+# ── STOCKS – yfinance primary, direct API fallback ──────────────────────────
+def _fetch_stock_yfinance(ticker):
+    """Fetch closing price and change via yfinance library."""
+    import yfinance as yf
+    hist = yf.Ticker(ticker).history(period='5d', auto_adjust=False)
+    # Filter: only rows with real volume
+    hist = hist[hist['Volume'] > 0][['Close']]
+    if len(hist) >= 2:
+        price  = round(float(hist['Close'].iloc[-1]), 4)
+        prev   = round(float(hist['Close'].iloc[-2]), 4)
+        change = round(price - prev, 4)
+        pct    = round((change / prev * 100), 4) if prev else 0
+        return price, change, pct
+    return None, None, None
+
+def _fetch_stock_direct(ticker):
+    """Fetch closing price and change via direct Yahoo Finance v8 API."""
+    for host in ['query2', 'query1']:
         try:
-            url  = ('https://query1.finance.yahoo.com/v8/finance/chart/'
-                    + ticker + '?range=10d&interval=1d&includePrePost=false')
-            r    = requests.get(url, headers=HEADERS, timeout=10).json()
-            res  = r['chart']['result'][0]
+            url = ('https://' + host + '.finance.yahoo.com/v8/finance/chart/'
+                   + ticker + '?range=10d&interval=1d&includePrePost=false')
+            r   = requests.get(url, headers=HEADERS, timeout=10)
+            if r.status_code != 200:
+                continue
+            res  = r.json()['chart']['result'][0]
             q    = res['indicators']['quote'][0]
-            raw_closes  = q.get('close',  [])
-            raw_volumes = q.get('volume', [])
-            raw_times   = res.get('timestamp', [])
-            valid = []
-            for ts, cl, vol in zip(raw_times, raw_closes, raw_volumes):
-                if cl is not None and vol is not None and int(vol) > 0:
-                    valid.append((ts, cl))
-            print(ticker + ': ' + str(len(valid)) + ' valid sessions')
+            valid = [
+                (ts, cl) for ts, cl, vol in zip(
+                    res.get('timestamp', []),
+                    q.get('close', []),
+                    q.get('volume', [])
+                )
+                if cl is not None and vol is not None and int(vol) > 0
+            ]
             if len(valid) >= 2:
                 price  = round(valid[-1][1], 4)
                 prev   = round(valid[-2][1], 4)
                 change = round(price - prev, 4)
                 pct    = round((change / prev * 100), 4) if prev else 0
-                print(ticker + ': close=' + str(round(price,2))
-                      + ' prev=' + str(round(prev,2))
+                return price, change, pct
+        except Exception as e:
+            print(ticker + ' direct/' + host + ' error: ' + str(e))
+    return None, None, None
+
+def fetch_stocks():
+    tickers = [('ESTA','Establishment Labs'), ('APYX','Apyx Medical'), ('IART','Integra LifeSciences')]
+    result  = []
+    for ticker, name in tickers:
+        price, change, pct = None, None, None
+        # 1. Try yfinance (handles auth/crumb automatically)
+        try:
+            price, change, pct = _fetch_stock_yfinance(ticker)
+            if price is not None:
+                print(ticker + ' [yfinance]: close=' + str(round(price,2))
+                      + ' prev=' + str(round(price-change,2))
                       + ' chg=' + ('+' if pct>=0 else '') + str(round(pct,2)) + '%')
             else:
-                print(ticker + ': not enough data')
+                print(ticker + ' [yfinance]: not enough data')
         except Exception as e:
-            print(ticker + ' error: ' + str(e))
+            print(ticker + ' [yfinance] error: ' + str(e))
+        # 2. Fallback to direct API if yfinance failed
+        if price is None:
+            try:
+                price, change, pct = _fetch_stock_direct(ticker)
+                if price is not None:
+                    print(ticker + ' [direct]: close=' + str(round(price,2))
+                          + ' chg=' + ('+' if pct>=0 else '') + str(round(pct,2)) + '%')
+                else:
+                    print(ticker + ' [direct]: not enough data')
+            except Exception as e:
+                print(ticker + ' [direct] error: ' + str(e))
         result.append({'ticker':ticker,'name':name,
                        'price':price,'change':change,'changePct':pct})
     return result
@@ -92,22 +130,9 @@ def fetch_stocks():
 
 # ── NEWS – persistent cache ────────────────────
 NEWS_QUERIES = [
-    # Gruppe 1: Kernprodukte & Hauptpartner
-    '"Establishment Labs" OR "Motiva implant" OR "Apyx Medical" OR "Renuvion" OR "Integra LifeSciences" OR "Integra IDRT"',
-    # Gruppe 2: Weitere Produkte & Lieferanten
-    '"Lipoelastic" OR "Humanmed" OR "body-jet" OR "pHformula" OR "Regen Lab" OR "RegenLab" OR "Puregraft" OR "GC Aesthetics" OR "Novus Scientific" OR "Revanesse" OR "Prollenium"',
-    # Gruppe 3: Weitere Lieferanten & Partner
-    '"STRIM HC" OR "Professional Dietetics" OR "TULIP MEDICAL" OR "Absorbest" OR "Meta Cell Technology" OR "Derm-appeal" OR "Soft Medical Aesthetics"',
-    # Gruppe 4: Wettbewerber & Marktumfeld
-    '"Galderma" aesthetics OR "Merz Aesthetics" OR "InMode" aesthetic OR "Allergan" aesthetics OR "Mentor implant" OR "Sientra"',
-    # Gruppe 5: Kunden (Kliniken & Praxen)
-    '"Lucerne Clinic" OR "BRST AG" OR "CHUV" OR "Clinique Générale-Beaulieu" OR "Clinique de la Source" OR "ZANZI CLINIC" OR "Affidea Plastic Surgery" OR "clinic utoquai" OR "LIPO CLINIC" OR "Aesthetic Alliance" OR "Clinique des Grangettes"',
-    # Gruppe 6: Spitäler & Institutionen
-    '"Universitätsspital Zürich" OR "Universitätsspital Basel" OR "Insel Gruppe" OR "Hirslanden" OR "Hôpitaux Universitaires de Genève" OR "Kantonsspital Winterthur" OR "Spital Zollikerberg" OR "LUKS Spitalbetriebe" OR "Ospedale Lugano" OR "Hôpital du Valais" OR "HOCH Health Ostschweiz"',
-    # Gruppe 7: Branchentrends & Kongresse
-    '"IMCAS 2026" OR "aesthetic medicine" congress OR "breast implant" safety OR "body contouring" trend OR "minimally invasive" aesthetics OR "regenerative aesthetics" OR fillers 2026',
-    # Gruppe 8: Regulatorik & Behörden
-    '"Swissmedic" Medizinprodukt OR "Swissmedic" Zulassung OR "Swissmedic" Implantat OR "MDR" Medizinprodukte Schweiz',
+    '"Establishment Labs" OR "Motiva implant" OR "Apyx Medical" OR "Renuvion" OR "Lipoelastic" OR "pHformula" OR "Integra IDRT" OR "Vaser liposuction" OR "Revanesse" OR "Prollenium" OR "Sunekos" OR "RegenLab" OR "body-jet" OR "Puregraft"',
+    '"Allergan" aesthetics OR "Mentor implant" OR "Galderma" aesthetics OR "Merz Aesthetics" OR "InMode" aesthetic OR "breast implant" Switzerland OR "Albin Group" OR "Calista Medical" OR aesthetic medicine Switzerland',
+    '"Hirslanden" OR "Lucerne Clinic" OR "CHUV" plastic surgery OR "Insel Gruppe" OR "Swissmedic" Medizinprodukt OR "plastic surgery" Switzerland OR "aesthetic medicine" Schweiz OR "IMCAS 2026"',
 ]
 
 def load_cache():
@@ -157,6 +182,7 @@ def parse_rss(xml_text):
             link = ''
             for node in item.childNodes if hasattr(item, 'childNodes') else []:
                 pass
+            # ET approach for link
             link_el = item.find('link')
             if link_el is not None and link_el.text:
                 link = link_el.text.strip()
@@ -164,6 +190,7 @@ def parse_rss(xml_text):
                 guid = item.find('guid')
                 link = guid.text.strip() if guid is not None and guid.text else ''
 
+            # Clean title
             title = re.sub(r'\s+-\s+\S.{2,40}$', '', title).strip()
             for ent, ch in [('&amp;','&'),('&lt;','<'),('&gt;','>'),('&quot;','"'),('&#39;',"'"),('&nbsp;',' ')]:
                 title = title.replace(ent, ch)
@@ -181,10 +208,12 @@ def parse_rss(xml_text):
     return items
 
 def fetch_news():
+    # Load existing cache
     cache = load_cache()
     cached_urls = set(i.get('url','') for i in cache)
     print('Cache loaded: ' + str(len(cache)) + ' items')
 
+    # Fetch new items from RSS
     new_count = 0
     for i, query in enumerate(NEWS_QUERIES):
         try:
@@ -203,16 +232,18 @@ def fetch_news():
 
     print('New items added: ' + str(new_count))
 
+    # Filter: keep only last MAX_DAYS days
     cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_DAYS)
     def is_recent(item):
         try:
             dt = datetime.fromisoformat(item.get('pubDate',''))
             return dt.astimezone(timezone.utc) >= cutoff
         except Exception:
-            return True
+            return True  # keep if date unknown
 
     cache = [i for i in cache if is_recent(i)]
 
+    # Sort: newest first
     def sort_key(item):
         try:
             return datetime.fromisoformat(item.get('pubDate','')).astimezone(timezone.utc)
@@ -220,11 +251,14 @@ def fetch_news():
             return datetime.min.replace(tzinfo=timezone.utc)
 
     cache.sort(key=sort_key, reverse=True)
+
+    # Save updated cache
     save_cache(cache)
     print('Cache saved: ' + str(len(cache)) + ' items')
 
+    # Add ago string for display
     result = []
-    for item in cache[:40]:
+    for item in cache[:25]:
         result.append({
             'title':   item['title'],
             'url':     item['url'],
@@ -275,8 +309,8 @@ def send_email(data):
         print('Email not configured - skipping.')
         return
 
-    now    = datetime.now(ZoneInfo('Europe/Zurich'))
-    days   = ['Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag','Sonntag']
+    now    = datetime.now()
+    days   = ['Sonntag','Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag']
     months = ['Januar','Februar','Maerz','April','Mai','Juni','Juli',
               'August','September','Oktober','November','Dezember']
     date_str = days[now.weekday()] + ', ' + str(now.day) + '. ' + months[now.month-1] + ' ' + str(now.year)
@@ -328,14 +362,14 @@ def send_email(data):
             '<tr><td align="center" height="16" style="font-size:11px;font-weight:800;color:#64748b;letter-spacing:2px">' + ticker + '</td></tr>'
             '<tr><td align="center" height="28" style="font-size:10px;color:#475569;padding:0 6px;line-height:1.3">' + name + '</td></tr>'
             '<tr><td align="center" height="28" style="font-size:20px;font-weight:900;color:#f1f5f9">' + price + '</td></tr>'
-            '<tr><td align="center" height="22" style="font-size:12px;font-weight:700;color:' + color + '">' + sign + '{:.2f}'.format(pct) + '% / ' + sign + '$' + fmt(s.get('change'), 2) + '</td></tr>'
+            '<tr><td align="center" height="22" style="font-size:12px;font-weight:700;color:' + color + '">' + sign + '{:.2f}'.format(pct) + '%</td></tr>'
             '<tr><td height="14"></td></tr>'
             '</table></a></td>'
         )
 
     # News
     news_rows = ''
-    for item in data.get('news', [])[:40]:
+    for item in data.get('news', [])[:20]:
         title  = str(item.get('title', ''))
         url    = str(item.get('url', '#'))
         source = str(item.get('source', ''))
