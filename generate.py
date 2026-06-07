@@ -75,34 +75,50 @@ def _fetch_stock_yfinance(ticker):
 
 def _fetch_stock_direct(ticker):
     """Direct Yahoo Finance v8 API.
-    Uses meta.regularMarketPrice + meta.chartPreviousClose from the chart response.
-    These are always present and correct regardless of whether todays OHLCV bar
-    is already fully populated.
+    - price:  meta.regularMarketPrice  (always current and correct)
+    - prev:   last OHLCV bar with close != None and volume > 0
+              This is the true last completed session, regardless of weekends
+              or delayed data for todays bar.
     """
     import math
     for host in ['query2', 'query1']:
         try:
             url = ('https://' + host + '.finance.yahoo.com/v8/finance/chart/'
-                   + ticker + '?range=2d&interval=1d&includePrePost=false')
+                   + ticker + '?range=10d&interval=1d&includePrePost=false')
             r   = requests.get(url, headers=HEADERS, timeout=10)
             if r.status_code != 200:
                 print(ticker + ' direct/' + host + ' HTTP ' + str(r.status_code))
                 continue
-            meta  = r.json()['chart']['result'][0].get('meta', {})
+            result = r.json()['chart']['result'][0]
+            meta   = result.get('meta', {})
+            q      = result['indicators']['quote'][0]
+            # Current price: always reliable from meta
             price = meta.get('regularMarketPrice')
-            prev  = meta.get('chartPreviousClose')
-            print(ticker + ' meta: regularMarketPrice=' + str(price)
-                  + ' chartPreviousClose=' + str(prev))
-            if price is None or prev is None:
+            if price is None:
                 continue
             price = float(price)
-            prev  = float(prev)
-            if math.isnan(price) or math.isnan(prev) or prev == 0:
+            if math.isnan(price) or price == 0:
+                continue
+            # Previous close: last OHLCV bar with a real close value and volume
+            raw_closes = q.get('close',  [])
+            raw_vols   = q.get('volume', [])
+            valid_closes = [
+                cl for cl, vol in zip(raw_closes, raw_vols)
+                if cl is not None and vol is not None and int(vol) > 0
+                and not math.isnan(float(cl))
+            ]
+            if not valid_closes:
+                continue
+            prev = float(valid_closes[-1])
+            if math.isnan(prev) or prev == 0:
                 continue
             price  = round(price, 4)
             prev   = round(prev,  4)
             change = round(price - prev, 4)
             pct    = round((change / prev * 100), 4)
+            print(ticker + ' meta+ohlcv: price=' + str(price)
+                  + ' prev=' + str(prev)
+                  + ' chg=' + ('+' if pct >= 0 else '') + str(round(pct, 2)) + '%')
             return price, change, pct
         except Exception as e:
             print(ticker + ' direct/' + host + ' error: ' + str(e))
