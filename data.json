@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-08T06:47:35.385194Z",
+  "generated": "2026-06-08T08:43:04.459262Z",
   "forex": {
     "eur_chf": {
       "rate": 0.91745667,
@@ -13,8 +13,8 @@
     }
   },
   "bitcoin": {
-    "price": 62974,
-    "changePct": 1.4145867125508607
+    "price": 63090,
+    "changePct": 0.9574145232779725
   },
   "stocks": [
     {
@@ -44,7 +44,7 @@
       "title": "Wealth Manager Sells $7 Million of Establishment Labs After Massive Gains. Is This Medical Device Stock a Buy?",
       "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPR1kxaUtDOXhoWkxjZ3VlM0locU1DaFR2VHB1S0F3NElRY2dwM2c0cmVtcjZMYmMteVZLaWp0YklEb3M2S0JnY011RHotZ3lsdUlUUGROcmF4VkZ5bTdONXNXbjBXc3ZzczdOZENXMXdCalZtMUJrQkotRGlZTWpJcklFLUhlWklwYlVsS1I5NDd4amNrTHdmeTdYSkhDdkdrcl9sSWVYRkVlVGJmZkxndWtPUW5obnBhMjVBdWx0bjZrWlJueVg0WTFmMzZ6OXhBS2gtdktkUzFpQjU3bG1Mck5rd1pQcllPTGY0aS1HcW5ENjlFZWZ2VEdybEZBYlk?oc=5",
       "source": "sharewise.com",
-      "ago": "7 Tage",
+      "ago": "8 Tage",
       "summary": ""
     },
     {
@@ -72,7 +72,7 @@
       "title": "Establishment Labs-Aktie (VGG3006U1060): Medizintechnik-Spezialist aus den Britischen Jungferninseln",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRExydTc0ZjdocHJ5RXFEcERwMW5FRExHZmJ4VEtkUENLMXNVNnVhRkgyZENXT2dRT1VpQnNIdGx0TzR5MlJUM2c0X0NlbjE2ZTNEMGtwV2RTdTJtcHo0QWsxS2ZoV2JKUzBuMUlDTGstbm5JczFFVUNqdkQwOHdfMzMzMUh0MzZoUVB6M1NBeDVlUk83dVpheUNpY3Z3b2pBX09BaTJMTjBNZURmU1YwLVNLNUZOMUdsTl90bFBjVGlHM0FWMldsU1hn?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "10 Tage",
+      "ago": "11 Tage",
       "summary": ""
     },
     {
@@ -86,7 +86,7 @@
       "title": "Apyx Medical Aktie (A2PBJC, APYX)",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0czhIUHhLcW5xOXNtRGszaGJjZWJCUkU3YjItRlNtZjVLN0ZCLXpZOGZsdGh0MEI4cWU2Tk5fODdYdGdLb0hZdEhCZWJ5Z21aWXlVZFQyS0Y1aVFMYjB2MQ?oc=5",
       "source": "Ariva",
-      "ago": "11 Tage",
+      "ago": "12 Tage",
       "summary": ""
     },
     {
@@ -107,7 +107,7 @@
       "title": "Integra LifeSciences-Aktie (US4579851036): Nach Zahlen und Ausblick im Fokus der Medtech-Anleger",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNWxDc2Q4MlVIaTFEdm43WV9lZnFLalBaZW5GeVhFR3I4SEdBdm1SYm1qaTZhSkpqVlZrRkhqMzZJM3JTREJhMDZ4c0VTUW9XalI3RFBIcF9hZEpxaEt5Q2cwRkxuNmxKNW9rQ2UwNDRza25qbnJFV3dMM3daWTJwOGhZeUhJaXkzYWt4MlpjSlo5S3hoTjVsaDZhdFhOdXVaREhmUmZCZFYzZExpWUtUazNZVWkxY3liamI1WWhmblRWQTBE?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "15 Tage",
+      "ago": "16 Tage",
       "summary": ""
     },
     {
@@ -163,7 +163,7 @@
       "title": "Establishment Labs (ESTA) sinkt um 8,4% nach Erhöhung der Umsatzprognose für 2026 und Verringerung der Verluste",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQSlpkR2JYTlRsVkNSenZMOVF0dF90OERoSjNEMDNkSFg1YjZQekZWZTdURW4zWWhMcUxNQ2pnVnh0cjZid3R4LXM5Y3VZNUVzQ19ybG5uTi1WdVpQRGxTdXpDYURxS0VHMDZkWjZpcVlSSVdnSGFHWk5TVVBhd0lQbGI0UnJXXzBwZkFQS1htU0tHeUEtYnFJUnRFXzl4blMzeEtqR09CMmRjVEN5ejdXWFRpb1hzNUdiOElKd0EzRXdGU0Z5MzRpNmpwOVpCMVZsMEZGSjQzWGJkRkxIYm93LURRQktxbWk0ejNJ0gHrAUFVX3lxTFBKWmRHYlhOVGxWQ1J6dkw5UXR0X3Q4RGhKM0QwM2RIWDViNlB6RlZlN1RFbjNZaExxTE1DamdWeHRyNmJ3dHgtczljdVk1RXNDX3Jsbm5OLVZ1WlBEbFN1ekNhRHFLRUcwNmRaNmlxWVJJV2dIYUdaTlNVUGF3SVBsYjRScldfMHBmQVBLWG1TS0d5QS1icUlSdEVfOXhuUzN4S2pHT0IyZGNUQ3l6N1dYVGlvWHM1R2I4SUp3QTNFd0ZTRnkzNGk2anA5WkIxVmwwRkZKNDNYYmRGTEhib3ctRFFCS3FtaTR6M0k?oc=5",
       "source": "simplywall.st",
-      "ago": "20 Tage",
+      "ago": "21 Tage",
       "summary": ""
     },
     {
