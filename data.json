@@ -1,20 +1,20 @@
 {
-  "generated": "2026-06-19T22:28:59.185609Z",
+  "generated": "2026-06-20T22:38:32.243312Z",
   "forex": {
     "eur_chf": {
-      "rate": 0.92396933,
-      "change": 0.0036794100000000496,
-      "changePct": 0.3998098773047573
+      "rate": 0.92626919,
+      "change": 0.0022998599999999314,
+      "changePct": 0.24891085941131091
     },
     "usd_chf": {
-      "rate": 0.80849324,
-      "change": 0.009910100000000033,
-      "changePct": 1.2409603338232302
+      "rate": 0.80724017,
+      "change": -0.0012530699999999673,
+      "changePct": -0.15498830886946777
     }
   },
   "bitcoin": {
-    "price": 63230,
-    "changePct": 0.7195134235884951
+    "price": 64218,
+    "changePct": 1.6450021088209386
   },
   "stocks": [
     {
@@ -27,9 +27,9 @@
     {
       "ticker": "APYX",
       "name": "Apyx Medical",
-      "price": 4.11,
-      "change": -0.1,
-      "changePct": -2.3753
+      "price": 4.21,
+      "change": 0.06,
+      "changePct": 1.4458
     },
     {
       "ticker": "IART",
@@ -44,147 +44,119 @@
       "title": "Establishment Labs Stock - weekly review and sector context",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPak1ZNEVzMlRoYkZZQVNJRUkwUTJsYl9aVFJ1N28yNHFfZ0lId3c3dldLT3lXVFRZSkFKM1hDRVJod1RpVFVUd1pEWUtjRDhsZWxQTzJJbm5feEIwS2JTeW9PaVpTcW40b1MwMmNjbjg1NUdDZGhENFJoRVlzZEdsT19UVHRuTXJCUHl2SjBOdDJmN2FjbktLUXY4MUNybnA5QlRScE10eE5JSF9RcFRfS0dINlBnckU?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "7 Std.",
+      "ago": "1 Tag",
       "summary": ""
     },
     {
       "title": "Establishment Labs Holdings Inc (ESTA) Gewinnprognose: Zukünftige EPS & Umsatzwachstumsprognosen",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tc1VJRjlnaEZ2YTVBNGJ2WWEyRDF3RmNaVU1RZHhiMzg0NU9CQjBZb0VNTmRHd255VWlaRVJjLXFGcFBxV25qTy1fODR5Nk1WOWZYdnQ1UVJIWlpBa25PbXNGOUhfU2UzcVZTUHNPeTZNMnc?oc=5",
       "source": "TradingKey",
-      "ago": "2 Tage",
+      "ago": "3 Tage",
       "summary": ""
     },
     {
       "title": "Ästhetik-Marktbericht: Größe, Anteil und Prognose 2035",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWDU4MjZFeFh3Qy02eERrSTNoYTBrTWx0Yll0QWJ0bGlNbWFGMUpHVU42SE1PTnhxSGt1cHl4ZlhsNWd4dzNLQkxfZlhrWnUyVno5QkVKNWRieDhJMEExNHlGaFhWQU5IMjFUMlZPVXRMSnFEREY1d0VWR3Y4ai1EeHdPRXBieGpZbUE?oc=5",
       "source": "Business Research Insights",
-      "ago": "2 Tage",
+      "ago": "3 Tage",
       "summary": ""
     },
     {
       "title": "AbbVie Inc. Stock (US00287Y1091): Skinvive and CLL data keep the story in focus",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR0dEc055aGNoZFp2SlBsUF9ockNPR3VpbUpCVHVLOFF1M1NPd0wxSjNpZXA5RkhaV2RycHJlLURxS0plSHZYTnJfUF9HTzlfVkVGUG1jZTM3SzZxRjl2Vzh6Q0hzcFpXaElBazVjS1o0elRvUThFbkpCZENwRWExUEQwWDZxYVNnWHIzS2x3aWtMQnR0SDdxU0RoUnloQWIyMHhwSXljTFgwZjZHcmVpTHlzcHd2WmpZendxM2NveU5yU2lVWkE0?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "3 Tage",
+      "ago": "4 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs-Aktie (VGG3006U1060): Kurs im Blick nach ruhiger Nachrichtenlage",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc3U5RnNUaXUwQkpVaGZPUGU2dE9VaC1aNjd3TnNTTi1Zb3lfVFZpekRTSExySDhEcnJpcVFhYnpEWU51cWk4bUFXUUpWQmIwc1FabmZQMEg2eHJnUTBDN2ROdXJHTE1oWWNTUUNZcWR3TUJWOUlVa2o0REsxbERwaFo5VWRzWER5QzRlekppNmIzS0Z6RlhPcXZjbXZmRmFTX0JObWhjTE1ET3gzbVVtOWFUYzhnNnVLdlctb1FuaTg?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "7 Tage",
+      "ago": "8 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs: Was die neuesten Quartalszahlen für die ESTA-Aktie bedeuten",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNa01pOUZrU3RZbmctUmhLbDloZUYycUF3OUZZOTFIMllCRWwxb2czMUpsVTk1cjU0OWxMc1Q3NWx4NmtSUDRxUDJsdkg3VUVWOFlKMTAwQWEwdnQzQU4xcWRmNTY3QVpIWk1QMENwcEpRMWpSODF2dmJ0TE9zbERLRGVROWdSbzV5T0JPTFN4UDZuWGRJemoxQ2RYSTc5X1k3MVlVdzJRRkNtNnJackM1YTBXeXpWX0VrYWpkckRLNnRaTmZVb2lzNA?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "10 Tage",
+      "ago": "11 Tage",
+      "summary": ""
+    },
+    {
+      "title": "Marktwachstum für medizinische Ästhetik, Anteil, Branchentrends, 2034",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd1BCMVFTNWgwU3FzQ3RMNjlWVThzcWtRVG9lTDZRbU9zZllZV0I2Q2c3UEIwMkJPQ0xOYWpVX1ZtN1l3ellyQmpJZzBvazlMY3V3WXB6QTJZQk5mM3JxS1pjSmFsTUF5dmQ1Znk0b1FMVXZMWUp5b1Zpd2RIQUZtZExRWTJKU2dQSmFYZFRQbHBRdEVOcGtpUjZrc2dweHJR?oc=5",
+      "source": "Fortune Business Insights",
+      "ago": "19 Tage",
       "summary": ""
     },
     {
       "title": "Wealth Manager Sells $7 Million of Establishment Labs After Massive Gains. Is This Medical Device Stock a Buy?",
       "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPR1kxaUtDOXhoWkxjZ3VlM0locU1DaFR2VHB1S0F3NElRY2dwM2c0cmVtcjZMYmMteVZLaWp0YklEb3M2S0JnY011RHotZ3lsdUlUUGROcmF4VkZ5bTdONXNXbjBXc3ZzczdOZENXMXdCalZtMUJrQkotRGlZTWpJcklFLUhlWklwYlVsS1I5NDd4amNrTHdmeTdYSkhDdkdrcl9sSWVYRkVlVGJmZkxndWtPUW5obnBhMjVBdWx0bjZrWlJueVg0WTFmMzZ6OXhBS2gtdktkUzFpQjU3bG1Mck5rd1pQcllPTGY0aS1HcW5ENjlFZWZ2VEdybEZBYlk?oc=5",
       "source": "sharewise.com",
-      "ago": "19 Tage",
+      "ago": "20 Tage",
       "summary": ""
     },
     {
       "title": "JW Asset Management stößt Aktien von Establishment Labs im Wert von 6,6 Mio. US-Dollar ab",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNcEtpZl9oSl9HWHg4aV8ycjBXbTdTTk5JbmRJRkZZMHNpcXNpTElwRHpCMElKVS0yZi10VnQ3MjFoUnc4R2NGXzMyTGZJTldiV3NyYV9VN0NnWVRVU0Z5OWg1cTdXdXNBaU9mZVltUHFPYmtHRW9lZWp4MVduY2hpQlAxUk5BUzkzaHZqQkY0UjhENFVCWVpzRkdjeGgtcWszSnVoWnUwbDBoN3U3Ml9PWjlrb2c1NE9aTGhfN1VmNEhSRFpnQ1QzZkhkQ2lVaGszZVZGdlVEenF4cjdna0M1M0dGQkc?oc=5",
       "source": "Investing.com Deutsch",
-      "ago": "21 Tage",
+      "ago": "22 Tage",
       "summary": ""
     },
     {
       "title": "Integra LifeSciences-Aktie erreicht 52-Wochen-Hoch bei 16,49 US-Dollar",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeVNDaUNWTWE4V1FBck8tclFsRWhJUW5yRWxKRHJLOVgxbG1NRHJkLXJ2RHp3V1pHdkMzc2xFQmwxYzAwX2ZUS25lSFJkQmZkUXdscmxQMEpXU1NWamF2RXpCNVVlcjd0cTFjenB2eHBRX0E1Wmkzd08zQ2JkazJiMmo1Rm9sNXpPLVduckNtbldhaVcyTDA4VlM1RXNhbi0xYWlHX3NUcng5UExqbEJqMWkyRlRyU01lYmFPNXZR?oc=5",
       "source": "Investing.com Deutsch",
-      "ago": "22 Tage",
+      "ago": "23 Tage",
       "summary": ""
     },
     {
       "title": "Apyx Medical: 72 % Rendite nach Fair-Value-Analyse von InvestingPro Von Investing.com",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb3JEbnlkeHJoTHkzVGY1QzU3cFZmY1ZFMm1YR25PWXhZak1kSFFGQ1F1YThrRUZ1c0ZnWk1Ca3NJRnZuUUdQd3NzM2VudGZucXNzSG95T0xSQ0RkUnk1T0RTSWNTaTlHMDJXcFowZjA0QnE4cm5uQUZSNmFxejlXNFduUkZVTGJ1dzZvMnJESGFMR0JrakpSdFNUTVl4eDRoM1lXMW93OXhQLWZ4UTd6Q040bm9ralhaVmdSU3I5X0Q?oc=5",
       "source": "Investing.com Deutsch",
-      "ago": "22 Tage",
+      "ago": "23 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs-Aktie (VGG3006U1060): Medizintechnik-Spezialist aus den Britischen Jungferninseln",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRExydTc0ZjdocHJ5RXFEcERwMW5FRExHZmJ4VEtkUENLMXNVNnVhRkgyZENXT2dRT1VpQnNIdGx0TzR5MlJUM2c0X0NlbjE2ZTNEMGtwV2RTdTJtcHo0QWsxS2ZoV2JKUzBuMUlDTGstbm5JczFFVUNqdkQwOHdfMzMzMUh0MzZoUVB6M1NBeDVlUk83dVpheUNpY3Z3b2pBX09BaTJMTjBNZURmU1YwLVNLNUZOMUdsTl90bFBjVGlHM0FWMldsU1hn?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "22 Tage",
+      "ago": "23 Tage",
       "summary": ""
     },
     {
       "title": "Apyx Medical Corp Aktie | Analysen | News | Kurse | Charts | Diskussionen | WKN A2PBJC, ISIN US03837C1062",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VNHhqVkdBRUUtcElQQ0NGWHQ2TmpzSU9fS0U5U0JrOU9uaHBQQ0JpWm9HUWdla3VzaEFlREFBN1ZCRTJGd3p4M3FLd1RDdFQ5cVJPd0wydklKYnFJVEE?oc=5",
       "source": "aktiencheck.de",
-      "ago": "22 Tage",
+      "ago": "23 Tage",
       "summary": ""
     },
     {
       "title": "Apyx Medical Aktie (A2PBJC, APYX)",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0czhIUHhLcW5xOXNtRGszaGJjZWJCUkU3YjItRlNtZjVLN0ZCLXpZOGZsdGh0MEI4cWU2Tk5fODdYdGdLb0hZdEhCZWJ5Z21aWXlVZFQyS0Y1aVFMYjB2MQ?oc=5",
       "source": "Ariva",
-      "ago": "23 Tage",
+      "ago": "24 Tage",
       "summary": ""
     },
     {
       "title": "NASDAQ Composite Index-Titel Integra LifeSciences-Aktie: So viel Gewinn hätte ein Investment in Integra LifeSciences von vor einem Jahr eingebracht",
       "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNQXozZmdFcERhSmxPdTBEeVZDR1pyXzdrMTRvTW1WSW0yV2pIVW5OSFdkaUYxSFFYc3dKeDdRZzBoelgzb0pSejRUUENqc2dVZkkxMUJiQ0k0OVhuYnVzTzNFQzhEbkZ5Yzc0dUJaNkR3QlRuTm52UkRVMXVuMUVpZ3NYMEhWdk9mNGNGNHlueEkwSVJPa25JZ0ZDTHZWY3R0MFBGX1JENVhFRmVsUGgyX0twMW1Hc2NQdHFHVXBsQWtHVTZMTW9kV183YUFMVG9aSkpIUmVjbmhOalNlY1ZZemlOejJsekJyQU90WUNpVzZSbXJWcFh1UG1LWmNFa3pqZzdvZ0JSNzBmVUUxdkF0VDdESEFBbTBucDRDdjNBaVZtaVJhMmlsbA?oc=5",
       "source": "finanzen.ch",
-      "ago": "25 Tage",
+      "ago": "26 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs-Aktie (VGG3006U1060): Insider-Verkauf rückt in den Fokus",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQS2E5TjdJeUttcUdneVF4eV9leEo3NjQ2Wmo0MktwMlRNQXlRTDlVNFNQYTFlalc0b1Bjay1yc0hQbk9Eanc1RkRPT0dBbGc2NE05YlR3ci1sd1IycVh6dVd5TjZNRTkza3pWaVQxUjlSc281RnVLaGMxSTJ5cEV0ZnBkdV9KeDZjNy0wN2FkT2JUQ1dCT0hFNms5dUlBcXVqVE5uSjBUeGEyY09CNnJDYmRLeld4OEFObGNFVnd1dDl5ZzJk?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "27 Tage",
+      "ago": "28 Tage",
       "summary": ""
     },
     {
       "title": "Integra LifeSciences-Aktie (US4579851036): Nach Zahlen und Ausblick im Fokus der Medtech-Anleger",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNWxDc2Q4MlVIaTFEdm43WV9lZnFLalBaZW5GeVhFR3I4SEdBdm1SYm1qaTZhSkpqVlZrRkhqMzZJM3JTREJhMDZ4c0VTUW9XalI3RFBIcF9hZEpxaEt5Q2cwRkxuNmxKNW9rQ2UwNDRza25qbnJFV3dMM3daWTJwOGhZeUhJaXkzYWt4MlpjSlo5S3hoTjVsaDZhdFhOdXVaREhmUmZCZFYzZExpWUtUazNZVWkxY3liamI1WWhmblRWQTBE?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "27 Tage",
-      "summary": ""
-    },
-    {
-      "title": "Wie die Einführung neuer Kosmetikprodukte von Top-Marken für Hautfüller den Kosmetiksektor ankurbelt",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUFZlMVhwUnBKYnV6b2N1cElFclFNQ3VEc3FTVlJfczFWVk9qMUxZUzBJZEVQNVdmRmdnejdadUJpd3NiT1FCODhmODlGUjF3d1dfZk04eDVCZ25DenkwaFRKOE8tMVlHdVctamJBNVBueVpQcENGWjB1ejZWMC0zYS1LeXA2czdldFFz?oc=5",
-      "source": "Fortune Business Insights",
-      "ago": "29 Tage",
-      "summary": ""
-    },
-    {
-      "title": "Apyx Medical: Klinische Studie belegt Wirksamkeit neuer Cellulite-Behandlung",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQd2d6aFJqdmc1WVg0WVRreHF5blVpQVhNbElWRnNKTjFaREdubUJfNUt5cmJUb2J6MENNMUhZSnFBVHhIc19CQkF0c2NQYVR4Wk8zYk5LMVBzV0V3ZXFuM3MxdU9fV1laU1BVdWhMR1gtekZheU45M2lZUU5ZX1lCcTZVSG9tWHpBTXVEOU1aWWxXSEtYSVBlcEVMRjRWRjJhdlZRSVI5NUJZVzQzOU9ZUlk5T0g4QjUtb3NjNEFpVXJvVFNQU1pJbnln?oc=5",
-      "source": "Investing.com Deutsch",
-      "ago": "29 Tage",
-      "summary": ""
-    },
-    {
-      "title": "Establishment Labs stock (VGG3006U1060): Analyst optimism follows recent trading update",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZUc1R0V5OFRrSXRJZWxBaERvTnBWMFhwZU84ZUVnUi1lNnQ4SUhva2c0b3c2eHNoTDFoa1h2Nk9YYUJkU0dOZnhQaFJxS2Y3UTRHbERucUEySkl5U3N5SFRTYVNjN1l1SkVHS2pLaS1KWkNhMmFOUVRQdW8tSEFNSzlmd3Nha2hnSHhpclVoa2pnb2hiQU11M0NiLVpQbUdKMEtJc2JxdXk0Tnp3UVN2aTk5bDVRME9rSE0tcXFOb2tSM3kzcmNV?oc=5",
-      "source": "AD HOC NEWS",
-      "ago": "29 Tage",
-      "summary": ""
-    },
-    {
-      "title": "Ist es zu spät, Establishment Labs Holdings (ESTA) nach einem Anstieg von 95 % innerhalb eines Jahres zu berücksichtigen?",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPTkd2M3BrTjZodS1HQnJSazF2bEk5RkZNTkk5ZEtMbVZjaFN5X2NaeXB1Y05XQzNBWHdhT0NIbDBTLVV0ZnRkSWRQSlg2enF4b2Y2M2t3bTNDazBJNWc1UjBmVXFRaEhtc0pSNlpIRi1CTXF3RnZlalgxcEc4aXVjdmpTcHkwTkd4aEgyRUlDUXBzbGxVcDJldDdka3BZZjVNLXZraVNUV1RRUEU0SE1raXptbEVQaGNqRzNVVDVJUjcwXzVYNWRLaVEzNXRxbzFINi1QYU9pakJpeFM1R0kwRERmMmdLenlYLUHSAeoBQVVfeXFMT05HdjNwa042aHUtR0JyUmsxdmxJOUZGTU5JOWRLTG1WY2hTeV9jWnlwdWNOV0MzQVh3YU9DSGwwUy1VdGZ0ZElkUEpYNnpxeG9mNjNrd20zQ2swSTVnNVIwZlVxUWhIbXNKUjZaSEYtQk1xd0Z2ZWpYMXBHOGl1Y3ZqU3B5ME5HeGhIMkVJQ1Fwc2xsVXAyZXQ3ZGtwWWY1TS12a2lTVFdUUVBFNEhNa2l6bWxFUGhjakczVVQ1SVI3MF81WDVkS2lRMzV0cW8xSDYtUGFPaWpCaXhTNUdJMEREZjJnS3p5WC1B?oc=5",
-      "source": "simplywall.st",
-      "ago": "29 Tage",
-      "summary": ""
-    },
-    {
-      "title": "Ist es zu spät, Establishment Labs Holdings (ESTA) nach einem Anstieg von 95 % innerhalb eines Jahres zu berücksichtigen?",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMTNEYmQxWlFBZFdKdG1Od1JLclBiNmNqNGJsaG8td0I5bG43WHZlQzlIWnBKVEQ1WElLb2hwQlVyalpodmxPaTFMRnRVdURjVUtsNkpjemd1QkZBQ2Z5OW9JbVl0aGEtVG5xSVlpYzBtUnpUbXBNNXZPTHNpSjRvYjVDV3lNSGlmbnNKNHlxV0dFc1NZdXNQV1pJd0tkWFByeEFmQ2Q0ZnV5V0xBeVhkSk5lc0VxbU9HeFdhdTkwaHotb0FuNVRhdmIyMndMNm9hbHk4WWRqY2hJazlKNzZwSmJpSmXSAeoBQVVfeXFMT05HdjNwa042aHUtR0JyUmsxdmxJOUZGTU5JOWRLTG1WY2hTeV9jWnlwdWNOV0MzQVh3YU9DSGwwUy1VdGZ0ZElkUEpYNnpxeG9mNjNrd20zQ2swSTVnNVIwZlVxUWhIbXNKUjZaSEYtQk1xd0Z2ZWpYMXBHOGl1Y3ZqU3B5ME5HeGhIMkVJQ1Fwc2xsVXAyZXQ3ZGtwWWY1TS12a2lTVFdUUVBFNEhNa2l6bWxFUGhjakczVVQ1SVI3MF81WDVkS2lRMzV0cW8xSDYtUGFPaWpCaXhTNUdJMEREZjJnS3p5WC1B?oc=5",
-      "source": "simplywall.st",
-      "ago": "29 Tage",
+      "ago": "28 Tage",
       "summary": ""
     }
   ]
