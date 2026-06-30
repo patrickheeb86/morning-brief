@@ -1,42 +1,42 @@
 {
-  "generated": "2026-06-29T22:34:12.132647Z",
+  "generated": "2026-06-30T22:46:03.303541Z",
   "forex": {
     "eur_chf": {
-      "rate": 0.92209733,
-      "change": 7.5999999999964984e-06,
-      "changePct": 0.0008242147974033393
+      "rate": 0.9223509,
+      "change": 0.00025356999999992524,
+      "changePct": 0.027499266265083453
     },
     "usd_chf": {
-      "rate": 0.80962968,
-      "change": 0.0,
-      "changePct": 0.0
+      "rate": 0.8091457,
+      "change": -0.0007850799999999936,
+      "changePct": -0.09693174026550684
     }
   },
   "bitcoin": {
-    "price": 60352,
-    "changePct": 1.914448595592523
+    "price": 58501,
+    "changePct": -2.9832395227546287
   },
   "stocks": [
     {
       "ticker": "ESTA",
       "name": "Establishment Labs",
-      "price": 87.42,
-      "change": -0.96,
-      "changePct": -1.0862
+      "price": 85.81,
+      "change": -1.61,
+      "changePct": -1.8417
     },
     {
       "ticker": "APYX",
       "name": "Apyx Medical",
-      "price": 4.69,
-      "change": 0.19,
-      "changePct": 4.2222
+      "price": 4.49,
+      "change": -0.2,
+      "changePct": -4.2644
     },
     {
       "ticker": "IART",
       "name": "Integra LifeSciences",
-      "price": 18.74,
-      "change": -0.02,
-      "changePct": -0.1066
+      "price": 17.96,
+      "change": -0.78,
+      "changePct": -4.1622
     }
   ],
   "news": [
@@ -44,83 +44,83 @@
       "title": "Wie Investoren auf die Aufnahme von Establishment Labs Holdings (ESTA) in den Russell-2000-Index reagieren",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTEJ3M1NtMFVZb01OTEV4dWI3UVQ2aXVRR2JfUmQtbnhGbVJiaElvUzFPTmRUUlh2ckFSckxiYzhNWENkOUgyaE5XUHNyR01jUXdiLWtwcnJkWUtFYTFVNUVxLVRjbHp0cUtGRFR2NzRHNVNHTVc2YVVSM3ZvQXpSMnZvVHhJV0prYzk2U05uSThwVlM1dzlQQVE4cDJaZmtQWVpjNEpERllhT1dDZk5XMGUxejgxY1o0bmlGalVSZ0tocmpjMWVCYVdYaUVwVS1ieDkxWHFSSGMzQTV2OVpwSGlOczg5UdIB6wFBVV95cUxNQ0cxb3l0cUJfd2ZWUkhGcktXd0hxT3VwWjlUbHBacU5mVU0ydXBpQWZQMlJxeW5jYnkxVExrZE90LUJxdGdoZUFJd3l6amhLT3FNZGQ0X2RqZ0pPRmVvNm1qd3N6VkVEOXo5djNFRDVGbFpPRW5SVHZJVHF4dmdjSzNacTd2a0xFd0NLWFA1X0NjSlh1dUw0UXU0U0NBdEtEckpiZzVaUUFHb3VXNnI3MmNmRDFPQ1BOSGhKOGpTSWZPR3hTbEV1aVdyd1dTcHNrWnFiREVfT0g4TUxHeFVqS2tEc1Q0aEpEV3Y4?oc=5",
       "source": "simplywall.st",
-      "ago": "2 Tage",
+      "ago": "3 Tage",
       "summary": ""
     },
     {
       "title": "Price to earnings forward von Apyx Medical Corporation – NASDAQ:APYX",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTkk0TGJYM2pnQ2hTTnhwOG5MU1JJeks5aWFmZmE2T3FfMXFxeUFFY0JsRWYwVlhMYWZyLTI2MUktMFBOSUxabVZBOTNUclhfRm9Mb0JJNGczMTVXeEpNVXFueXd5US1WX2lFc1dKcEZXdTQ1SS0yMVFNODZZR2NiRkZJem5ORFp6ZjVrMjBQWnd5NDBoNTZDazZsb2ZJTFpL?oc=5",
       "source": "TradingView",
-      "ago": "4 Tage",
+      "ago": "5 Tage",
       "summary": ""
     },
     {
       "title": "Personalisierte und multimodale Behandlungen sind gefragt",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBxNV9XVjN4UGtNT29GU2RxS29uQnVmZDgyVVJuT3ZDWms0YzB2cW05bUxGV3JpYmhKUk5zS0RmRGhiWjhEem1aaDZ5WUluOEJReUNtOXNuT3BEa2U5TTUzeHV2dnpwV0VsejNF?oc=5",
       "source": "Springer Nature Link",
-      "ago": "7 Tage",
+      "ago": "8 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs Stock - weekly review and sector context",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPak1ZNEVzMlRoYkZZQVNJRUkwUTJsYl9aVFJ1N28yNHFfZ0lId3c3dldLT3lXVFRZSkFKM1hDRVJod1RpVFVUd1pEWUtjRDhsZWxQTzJJbm5feEIwS2JTeW9PaVpTcW40b1MwMmNjbjg1NUdDZGhENFJoRVlzZEdsT19UVHRuTXJCUHl2SjBOdDJmN2FjbktLUXY4MUNybnA5QlRScE10eE5JSF9RcFRfS0dINlBnckU?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "10 Tage",
+      "ago": "11 Tage",
+      "summary": ""
+    },
+    {
+      "title": "Solide Umsätze und ein hoher Anteil institutioneller Anleger könnten für Establishment Labs (ESTA) eine entscheidende Wende bedeuten",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNYjVpV08tZmVUU1dHaVdaemVHVmRPb1hjaVB6Y2xXNjVPZUI2eWJMWUF1UTc4TEN2eGE5SGRSMDZxQWRDZXBTWFJHZGRWb1o3VERNcGlnZEh3Nm82MXZKcmlHclBwNkdNWFF3NW55VjE3Q0JIOF9VenVWWDJLOG5ITnVJZ3J3dXpHd19yWmZkdU9oQVRVOWN2dWFBOEZDQ0R6S0czNVNhWVRJRWd5Q3lVblJLTWFoc1BFbHAwN3UzbFdHU3NuSGZXUFEyQVdud2xiOXRyNnF2WXlkT1NlRHVzejc0eU1Bd9IB6wFBVV95cUxNeGlQekxrTzVlQ2N4a1ZrMXJIbmhUMUMyZnB3eTFlcXpTemZZR3k5aGp3Zmw1VFZ2Vlo0R2FWeFBhdkJZRjBPU0g0RC1IZjJES21wUVFheUk5anlBbC12UVNzYm9saWhhdkdGNGZ4WVcwYVRTMUppTFE3S1dPZkJoTFRMQldZTmtDNGxTb3pZck9md0ZSQ3JrMktpamlzYkNDcFBBQzA4OGtQdFlYRzAzYVBudzlhVFBQeUVxVnU5UDNpX1BMdGR0a215dTVTUElFOHRjeFVhb0NJWk5LR2UwSG50Uy1QelRUYlpr?oc=5",
+      "source": "simplywall.st",
+      "ago": "11 Tage",
       "summary": ""
     },
     {
       "title": "Apyx Medical Corp (APYX) Gewinnprognose: Zukünftige EPS & Umsatzwachstumsprognosen",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE96VkM0NnZab0c5OVF5U2NQWjNvWktkaWJWYUU5d1Vla2JfeFQwRnByTGdDQjROUnB4U0VpbUNfbndNNURKQ2FZbWd0Q3hpeUlMZmE3cXBPTUJ5UkNSNlR4ZFR3RFFUaUVEdEVpeF82UTl6YzA?oc=5",
       "source": "TradingKey",
-      "ago": "11 Tage",
+      "ago": "12 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs Holdings Inc (ESTA) Gewinnprognose: Zukünftige EPS & Umsatzwachstumsprognosen",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tc1VJRjlnaEZ2YTVBNGJ2WWEyRDF3RmNaVU1RZHhiMzg0NU9CQjBZb0VNTmRHd255VWlaRVJjLXFGcFBxV25qTy1fODR5Nk1WOWZYdnQ1UVJIWlpBa25PbXNGOUhfU2UzcVZTUHNPeTZNMnc?oc=5",
       "source": "TradingKey",
-      "ago": "12 Tage",
+      "ago": "13 Tage",
       "summary": ""
     },
     {
       "title": "Ästhetik-Marktbericht: Größe, Anteil und Prognose 2035",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWDU4MjZFeFh3Qy02eERrSTNoYTBrTWx0Yll0QWJ0bGlNbWFGMUpHVU42SE1PTnhxSGt1cHl4ZlhsNWd4dzNLQkxfZlhrWnUyVno5QkVKNWRieDhJMEExNHlGaFhWQU5IMjFUMlZPVXRMSnFEREY1d0VWR3Y4ai1EeHdPRXBieGpZbUE?oc=5",
       "source": "Business Research Insights",
-      "ago": "12 Tage",
+      "ago": "13 Tage",
       "summary": ""
     },
     {
       "title": "AbbVie Inc. Stock (US00287Y1091): Skinvive and CLL data keep the story in focus",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR0dEc055aGNoZFp2SlBsUF9ockNPR3VpbUpCVHVLOFF1M1NPd0wxSjNpZXA5RkhaV2RycHJlLURxS0plSHZYTnJfUF9HTzlfVkVGUG1jZTM3SzZxRjl2Vzh6Q0hzcFpXaElBazVjS1o0elRvUThFbkpCZENwRWExUEQwWDZxYVNnWHIzS2x3aWtMQnR0SDdxU0RoUnloQWIyMHhwSXljTFgwZjZHcmVpTHlzcHd2WmpZendxM2NveU5yU2lVWkE0?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "13 Tage",
+      "ago": "14 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs-Aktie (VGG3006U1060): Kurs im Blick nach ruhiger Nachrichtenlage",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc3U5RnNUaXUwQkpVaGZPUGU2dE9VaC1aNjd3TnNTTi1Zb3lfVFZpekRTSExySDhEcnJpcVFhYnpEWU51cWk4bUFXUUpWQmIwc1FabmZQMEg2eHJnUTBDN2ROdXJHTE1oWWNTUUNZcWR3TUJWOUlVa2o0REsxbERwaFo5VWRzWER5QzRlekppNmIzS0Z6RlhPcXZjbXZmRmFTX0JObWhjTE1ET3gzbVVtOWFUYzhnNnVLdlctb1FuaTg?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "17 Tage",
+      "ago": "18 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs: Was die neuesten Quartalszahlen für die ESTA-Aktie bedeuten",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNa01pOUZrU3RZbmctUmhLbDloZUYycUF3OUZZOTFIMllCRWwxb2czMUpsVTk1cjU0OWxMc1Q3NWx4NmtSUDRxUDJsdkg3VUVWOFlKMTAwQWEwdnQzQU4xcWRmNTY3QVpIWk1QMENwcEpRMWpSODF2dmJ0TE9zbERLRGVROWdSbzV5T0JPTFN4UDZuWGRJemoxQ2RYSTc5X1k3MVlVdzJRRkNtNnJackM1YTBXeXpWX0VrYWpkckRLNnRaTmZVb2lzNA?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "20 Tage",
+      "ago": "21 Tage",
       "summary": ""
     },
     {
       "title": "Marktwachstum für medizinische Ästhetik, Anteil, Branchentrends, 2034",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd1BCMVFTNWgwU3FzQ3RMNjlWVThzcWtRVG9lTDZRbU9zZllZV0I2Q2c3UEIwMkJPQ0xOYWpVX1ZtN1l3ellyQmpJZzBvazlMY3V3WXB6QTJZQk5mM3JxS1pjSmFsTUF5dmQ1Znk0b1FMVXZMWUp5b1Zpd2RIQUZtZExRWTJKU2dQSmFYZFRQbHBRdEVOcGtpUjZrc2dweHJR?oc=5",
       "source": "Fortune Business Insights",
-      "ago": "28 Tage",
-      "summary": ""
-    },
-    {
-      "title": "Wealth Manager Sells $7 Million of Establishment Labs After Massive Gains. Is This Medical Device Stock a Buy?",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPR1kxaUtDOXhoWkxjZ3VlM0locU1DaFR2VHB1S0F3NElRY2dwM2c0cmVtcjZMYmMteVZLaWp0YklEb3M2S0JnY011RHotZ3lsdUlUUGROcmF4VkZ5bTdONXNXbjBXc3ZzczdOZENXMXdCalZtMUJrQkotRGlZTWpJcklFLUhlWklwYlVsS1I5NDd4amNrTHdmeTdYSkhDdkdrcl9sSWVYRkVlVGJmZkxndWtPUW5obnBhMjVBdWx0bjZrWlJueVg0WTFmMzZ6OXhBS2gtdktkUzFpQjU3bG1Mck5rd1pQcllPTGY0aS1HcW5ENjlFZWZ2VEdybEZBYlk?oc=5",
-      "source": "sharewise.com",
       "ago": "29 Tage",
       "summary": ""
     }
