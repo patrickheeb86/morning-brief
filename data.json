@@ -1,42 +1,42 @@
 {
-  "generated": "2026-07-21T22:23:33.909047Z",
+  "generated": "2026-07-22T22:30:17.994675Z",
   "forex": {
     "eur_chf": {
-      "rate": 0.92511185,
-      "change": 0.0013021399999999517,
-      "changePct": 0.14095327056044385
+      "rate": 0.92709572,
+      "change": 0.0019838699999999987,
+      "changePct": 0.21444650179326952
     },
     "usd_chf": {
-      "rate": 0.81074291,
-      "change": 0.0032964599999999455,
-      "changePct": 0.40825741447001784
+      "rate": 0.8127649,
+      "change": 0.002021990000000029,
+      "changePct": 0.24939965247430027
     }
   },
   "bitcoin": {
-    "price": 66220,
-    "changePct": 1.6204009762755236
+    "price": 65991,
+    "changePct": -0.37008235194552286
   },
   "stocks": [
     {
       "ticker": "ESTA",
       "name": "Establishment Labs",
-      "price": 95.65,
-      "change": 2.23,
-      "changePct": 2.3871
+      "price": 93.87,
+      "change": -1.78,
+      "changePct": -1.861
     },
     {
       "ticker": "APYX",
       "name": "Apyx Medical",
-      "price": 4.12,
-      "change": 0.05,
-      "changePct": 1.2285
+      "price": 3.91,
+      "change": -0.21,
+      "changePct": -5.0971
     },
     {
       "ticker": "IART",
       "name": "Integra LifeSciences",
-      "price": 19.01,
-      "change": 0.12,
-      "changePct": 0.6353
+      "price": 18.82,
+      "change": -0.19,
+      "changePct": -0.9995
     }
   ],
   "news": [
@@ -44,112 +44,98 @@
       "title": "Die Aktie von Establishment Labs Holdings (ESTA) könnte angesichts steigender Wachstumserwartungen teuer erscheinen",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNOVI4UTgyeVJGcHpBdjlfV3JBMXRMQnl4V2llY2hDbDV0MUxnWlFmTmFwcVFnMjFOOE83bmxvcWVYb1hkMDh4TXZQRFlLdHVRM1pkQVp1RGNGTEpZZjg1NmtMSVo4N3RYY2JEQ0JrVnhyeWFNeHZCbk5pUFA5NnltaXpMdVBhRHFRSmJzTi10ajlJZmFPczZXbjlNQ3IyVktiQ0dZWVFWOGltUXZNOW5yTXRKS1R4X0UzUWRHejlOaWY5SkZrcnl2OXk1eVJVQ2lCSUtXZVNEcTdXUlRNZERhZ1dNWnA5ZW5oU3hR0gHrAUFVX3lxTE05UjhRODJ5UkZwekF2OV9XckExdExCeXhXaWVjaENsNXQxTGdaUWZOYXBxUWcyMU44TzdubG9xZVhvWGQwOHhNdlBEWUt0dVEzWmRBWnVEY0ZMSllmODU2a0xJWjg3dFhjYkRDQmtWeHJ5YU14dkJuTmlQUDk2eW1pekx1UGFEcVFKYnNOLXRqOUlmYU9zNlduOU1DcjJWS2JDR1lZUVY4aW1Rdk05bnJNdEpLVHhfRTNRZEd6OU5pZjlKRmtyeXY5eTV5UlVDaUJJS1dlU0RxN1dSVE1kRGFnV01acDllbmhTeFE?oc=5",
       "source": "simplywall.st",
-      "ago": "2 Tage",
+      "ago": "3 Tage",
+      "summary": ""
+    },
+    {
+      "title": "Die Aktie von Establishment Labs Holdings (ESTA) könnte angesichts steigender Wachstumserwartungen teuer erscheinen",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQNEJRLS1INkpjVFBvSHpBMXBNXzlrb3hjdTRtaDVhZVFTODZmSDlOTlhUNkd3UWZ3dXlhZ0hZWDVMamgzSzVfeVVyYVd2bVBvcENaZ000MGNvWDNmRlpNZzg4RVBwNFN2ZkVLcXRzZEhCRHpGQ1MtOU94cjgyczdqMEpLX3E0cmFyNzBIdERJMkJoRHIxUFhmeGhKb2toOEVHWjhKcGF5Z2lTOGcwYWZLZ1JYSUI2NTNGeGEtand3YmtDOWdBV21zbXZ1c25EeFFvQ3dqNHpycHp6NUFITjdZZHNrUTE4QdIB6wFBVV95cUxNOVI4UTgyeVJGcHpBdjlfV3JBMXRMQnl4V2llY2hDbDV0MUxnWlFmTmFwcVFnMjFOOE83bmxvcWVYb1hkMDh4TXZQRFlLdHVRM1pkQVp1RGNGTEpZZjg1NmtMSVo4N3RYY2JEQ0JrVnhyeWFNeHZCbk5pUFA5NnltaXpMdVBhRHFRSmJzTi10ajlJZmFPczZXbjlNQ3IyVktiQ0dZWVFWOGltUXZNOW5yTXRKS1R4X0UzUWRHejlOaWY5SkZrcnl2OXk1eVJVQ2lCSUtXZVNEcTdXUlRNZERhZ1dNWnA5ZW5oU3hR?oc=5",
+      "source": "simplywall.st",
+      "ago": "3 Tage",
       "summary": ""
     },
     {
       "title": "ESTA-Aktie bewegt sich mit Establishment Labs' Zahlen",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQzhLYXlpdnVqLXZzcWZ3MUpoVVJSM3NoTHBQdHg5SUQ0N2R2dlpfRXZQNjc2Y0lnU0ZVTFZUeDNNcTR3aUdSckR4ck9Ga0ctWXZQUnI5LTBBUV8wZ01YTkNBdHZxb1o3bUttS3QtX3MwYVlZX2JHbUFDUTkxeUFqa3YzLXlBVEZBSTBTNExZSklBLVhNdVZVemViaWtMdzRrMHhNeWhyWmpTU05jSkhFag?oc=5",
       "source": "ad-hoc-news.de",
-      "ago": "3 Tage",
+      "ago": "4 Tage",
       "summary": ""
     },
     {
       "title": "Top 30 Unternehmen im globalen ästhetischen Gerätemarkt",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPODQ0UEFfeExFQXpsdFNyRlpnZERud2F3ZWx1TlFxWFBKczVqMGNpUFZIV0FrS0swRF9NX0E3Z2Y3d2dRQnJkUG9td2JOZkFVUkZfT3gxdVBpc0NjeXpCMDU4S1l2T3huTEpaS3FteVB6cHd2RElFNnZXYmVBZ0dfTU5IeWNwWThIdXE4RnJzZlFwTXY0VkpaU0xxMnNaZGh0QzlkUC0xZ2RwX3dmZ1ZBVjJvSjhYLXZaSjVXWDh0Zm82OU5jVFZsY2swS1FMaUFfOVp4Sw?oc=5",
       "source": "Spherical Insights",
-      "ago": "10 Tage",
+      "ago": "11 Tage",
       "summary": ""
     },
     {
       "title": "Verändern die Aufnahme in den Russell-Index und Taylor Harris’ Vorstandsmandat die Investitionsargumente für Establishment Labs (ESTA)?",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNOWhfemRvZHhSak5hRnQtQnNrX2gtMmpnYjVjMXA0dUdLQ3MzN3o3cnoxSGNpdHBiS0Z0VzUzVXo1blhFVklObmhOV1lxOFNrcHFLUmQtbkJZNklqaUZveFQ1WFhmSUhPTnZfOUJuMy1KMWJlXzdQLW9CcVBkMWtRLXduRk5WSnl6NERxbmZmdTV6My1FRE9jbnFhSTlzbWVUQWxBdFcxRXNvYjZzMEdnVlVEQ3dtRnZkczE0WGNJRTZwcVJfdEdfUWV6TFJYRkNicjRpZWFGbE1qWWZHRDduWjdNei1zQ1hGSU1V0gHrAUFVX3lxTE05aF96ZG9keFJqTmFGdC1Cc2tfaC0yamdiNWMxcDR1R0tDczM3ejdyejFIY2l0cGJLRnRXNTNVejVuWEVWSU5uaE5XWXE4U2twcUtSZC1uQlk2SWppRm94VDVYWGZJSE9Odl85Qm4zLUoxYmVfN1Atb0JxUGQxa1Etd25GTlZKeXo0RHFuZmZ1NXozLUVET2NucWFJOXNtZVRBbEF0VzFFc29iNnMwR2dWVURDd21GdmRzMTRYY0lFNnBxUl90R19RZXpMUlhGQ2JyNGllYUZsTWpZZkdEN25aN016LXNDWEZJTVU?oc=5",
       "source": "simplywall.st",
-      "ago": "11 Tage",
+      "ago": "12 Tage",
       "summary": ""
     },
     {
       "title": "Verändern die Aufnahme in den Russell-Index und Taylor Harris’ Vorstandsmandat die Investitionsargumente für Establishment Labs (ESTA)?",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPemFPRE50dWpxT1ZseTBjYnYxQVg3aTVJNXZXOWt1OTkyY08yb0dpaVMtNmVsY2NjNHNFVzdPOFFuUFM4ajhZRTVxTWxJay1WUFlXUDRCQmxIQmVMdXEyeE1HaHhXUjJJTHIxcDlqcEdTNi1MTGhWN0RlanU2a3d3dS1PeXpGVnBFR0pvSFk5QnA5aUxxSUt2SnRtQUZCbWlQdVNrb01YZ2EzTS1GczJ1MmlYMDNHeHlOZWljWmRQLWpwYnF2SGVDVTJUdUVxTTRHTVdFWmtDS0ZUYlNmTEtmLXNIYXpTUdIB6wFBVV95cUxNOWhfemRvZHhSak5hRnQtQnNrX2gtMmpnYjVjMXA0dUdLQ3MzN3o3cnoxSGNpdHBiS0Z0VzUzVXo1blhFVklObmhOV1lxOFNrcHFLUmQtbkJZNklqaUZveFQ1WFhmSUhPTnZfOUJuMy1KMWJlXzdQLW9CcVBkMWtRLXduRk5WSnl6NERxbmZmdTV6My1FRE9jbnFhSTlzbWVUQWxBdFcxRXNvYjZzMEdnVlVEQ3dtRnZkczE0WGNJRTZwcVJfdEdfUWV6TFJYRkNicjRpZWFGbE1qWWZHRDduWjdNei1zQ1hGSU1V?oc=5",
       "source": "simplywall.st",
-      "ago": "11 Tage",
+      "ago": "12 Tage",
       "summary": ""
     },
     {
       "title": "Rubinstein Plastic Surgery Center: Dr. Ran Rubinstein Discusses FDA-Approved SKINVIVE by JUVÉDERM for Neck Lines in Newburgh, NY and Montvale, NJ",
       "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNVzRJa2VFUDJ0cGkwQk9kazFCcEZFUkpNRG1GRGI3TlBLQmFzVG9XdXBsY3BWT0lTMmFXRDZDak9oX2J4T1Nuc050TGc4Q2FsYWRRV3Y1eGRJcnRXdGlLXzdNRWJ0ZEd5REFsc0NTUmpjcTJyRnJkY1pZWTVRM1FCbEM2VjRiRUVzamdIUkZTUzU4OS1WVHlSNms0TVJsakpJaF9paUJjVC1iMzRkWVdBMnJCTEh2X2pXTjI0M19MZzl4cHg4N0JDTl9URXNRS1FGSTJUN21YYTJMdU5vVjY0cUVyM1pQaWxWRy1LUEo5VHBqWTh2SllRZjhYSm8yc0xjYk9ZMThDSURjN0FQc3RPYjRQV0FqYW9ZeDc4UmktRURha3VodjktNXg3czB2OF9zQ1ZUYU53?oc=5",
       "source": "FinanzNachrichten.de",
-      "ago": "12 Tage",
+      "ago": "13 Tage",
       "summary": ""
     },
     {
       "title": "Marktgröße, Wachstum und Bericht zum nordamerikanischen Markt für ästhetische Medizin bis 2034",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUXFVcjNNcjRsV0s2UVNJaTQtQkdLYzdKTnNUZUd4V1BWdTJnYnlzMmFhM20waVZMa2dJTHdrUkRaU0g1SWdCOUxKTGZqZFJhMkxGWjJGMklHcGVNSmpWaHNHelgzWEp4NW9JRmV4cWZUU1lPR0hhclhGOWtuZ0pNNkZfSQ?oc=5",
       "source": "Straits Research",
-      "ago": "13 Tage",
+      "ago": "14 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs focuses on aesthetics and growth",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ0VqZDFGTkRXU1N4a2xESG9kaTBLU3Z5TjlpU1pfSk9NM2Y2TjdSaS1yZWpkUjR3Y2xURUNNUi1kb2VZVW8zQ0wxSHB3T1ptRVpyaWVnSlJLQ1JhTG41SDU1RGdwaXN2dy1FbUtZWTlWZUVidXhtZzhZaC05RXdFc09wWFBxT3Vsb3RRbmo4OFViWlNjZFhSb29scUI5LVk0YXhaM0JPMVpXRzJKdkhj?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "14 Tage",
+      "ago": "15 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs Aktie erreicht 52-Wochen-Hoch bei 90,54 USD",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNXFWT1JCMDdxV0V1UWVmclphTUNkRDFHblNpN2s1ZmQ2OS16TWlCR1kwcjVZLXU1Z1VqUnRYaEczSmczRm9lWjNMaDY2ZzVqWDk5NEhjei1uaGgtblRGT1hHeUFOdzFpa3F1UHQzZUJZTEsyVE9PNHRINlF5b3phLXhyUjBYQm1QVDhUZXNBbkRkc01kTEJ3NTNwVDgydF9tNC12bGprUjRjU3Y1TC1YZ1MwS2d0QQ?oc=5",
       "source": "Investing.com Deutsch",
-      "ago": "15 Tage",
+      "ago": "16 Tage",
       "summary": ""
     },
     {
       "title": "ESTA setzt auf Wachstum im Medizintechnik-Markt. Establishment Labs im Porträt",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaGhWR2VpckFmdUVzbGp5OFFleERnTWNWZ0hha2cxQmQ5bkEwaUNMY1RObHNTNDI4X1pOQTdVbFVTZjFpQ2NwNE8tY0ZHeVRlRWRZbXdndndkdEJyQUI2VDFzdm9DbUFHblN5ZTl1MWRZQnRWNzNKYXNYeXFuT1hJcG9NdjNYUVpHanp0TmlXMEUyRUg3eWlMc0hkV1BQbG9hSHl1VEp5aWZPcVRWc2YxTEdfVTVKS0pyLWU3NEJDZTUxeTRpTlBR?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "15 Tage",
+      "ago": "16 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs beruft Taylor Harris in den Verwaltungsrat",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQ2F4ZHBJZEtwLXM3RU9yeFRtZXpTWnY2dHNtelBYVjFPd1hILXlRZjF5R3g3SnpWeTRiQlZKWnhKNjdYZlc4bEg3cnF6bFlNbUdEM3ZCTzJHWGNWSkx5V3VTa1piOHl6Ty1LTDFPYWJFNWIyOWNPYWM1VDdIbUo5cWNFQUFYQVpQcUxpTVZvSnN0MjNxd0RxRUtCd2xJNWk2aEdIb3RDRkFId0gyLTh0Z0RBZkcyczhn?oc=5",
       "source": "Investing.com Deutsch",
-      "ago": "22 Tage",
+      "ago": "23 Tage",
       "summary": ""
     },
     {
       "title": "Wie Investoren auf die Aufnahme von Establishment Labs Holdings (ESTA) in den Russell-2000-Index reagieren",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTEJ3M1NtMFVZb01OTEV4dWI3UVQ2aXVRR2JfUmQtbnhGbVJiaElvUzFPTmRUUlh2ckFSckxiYzhNWENkOUgyaE5XUHNyR01jUXdiLWtwcnJkWUtFYTFVNUVxLVRjbHp0cUtGRFR2NzRHNVNHTVc2YVVSM3ZvQXpSMnZvVHhJV0prYzk2U05uSThwVlM1dzlQQVE4cDJaZmtQWVpjNEpERllhT1dDZk5XMGUxejgxY1o0bmlGalVSZ0tocmpjMWVCYVdYaUVwVS1ieDkxWHFSSGMzQTV2OVpwSGlOczg5UdIB6wFBVV95cUxNQ0cxb3l0cUJfd2ZWUkhGcktXd0hxT3VwWjlUbHBacU5mVU0ydXBpQWZQMlJxeW5jYnkxVExrZE90LUJxdGdoZUFJd3l6amhLT3FNZGQ0X2RqZ0pPRmVvNm1qd3N6VkVEOXo5djNFRDVGbFpPRW5SVHZJVHF4dmdjSzNacTd2a0xFd0NLWFA1X0NjSlh1dUw0UXU0U0NBdEtEckpiZzVaUUFHb3VXNnI3MmNmRDFPQ1BOSGhKOGpTSWZPR3hTbEV1aVdyd1dTcHNrWnFiREVfT0g4TUxHeFVqS2tEc1Q0aEpEV3Y4?oc=5",
       "source": "simplywall.st",
-      "ago": "24 Tage",
+      "ago": "25 Tage",
       "summary": ""
     },
     {
       "title": "Price to earnings forward von Apyx Medical Corporation – NASDAQ:APYX",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTkk0TGJYM2pnQ2hTTnhwOG5MU1JJeks5aWFmZmE2T3FfMXFxeUFFY0JsRWYwVlhMYWZyLTI2MUktMFBOSUxabVZBOTNUclhfRm9Mb0JJNGczMTVXeEpNVXFueXd5US1WX2lFc1dKcEZXdTQ1SS0yMVFNODZZR2NiRkZJem5ORFp6ZjVrMjBQWnd5NDBoNTZDazZsb2ZJTFpL?oc=5",
       "source": "TradingView",
-      "ago": "26 Tage",
-      "summary": ""
-    },
-    {
-      "title": "Personalisierte und multimodale Behandlungen sind gefragt",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBxNV9XVjN4UGtNT29GU2RxS29uQnVmZDgyVVJuT3ZDWms0YzB2cW05bUxGV3JpYmhKUk5zS0RmRGhiWjhEem1aaDZ5WUluOEJReUNtOXNuT3BEa2U5TTUzeHV2dnpwV0VsejNF?oc=5",
-      "source": "Springer Nature Link",
-      "ago": "29 Tage",
-      "summary": ""
-    },
-    {
-      "title": "Establishment Labs Aktie erreicht neues 52-Wochen-Hoch bei 86,03 USD",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbFFWc2tzUHlIaWM1Y1ZyWDFOZFIybDZqbFF4WHBUQ2ZCdTQzM2l3QXBkcHJmd1FlZE1NX1h2Y01XYlFiY0FjZ3YxbEZYRE82bWtWN3d4SFRkaExyeU1PZ0RoYk9TTUJjQmhJMVJqNF9EZWE5aExUdTQ3R1hhdHNnMmNuVjBPOGp0dGIxczVHblg2bGl5dTR4WjdsUnJhd2dKWThOZFhZRWdtTnpDRGJhcG5LalFRMXlydzFYeGl3?oc=5",
-      "source": "Investing.com Deutsch",
-      "ago": "29 Tage",
-      "summary": ""
-    },
-    {
-      "title": "Marktwachstum für medizinische Ästhetik, Anteil, Branchentrends, 2034",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd1BCMVFTNWgwU3FzQ3RMNjlWVThzcWtRVG9lTDZRbU9zZllZV0I2Q2c3UEIwMkJPQ0xOYWpVX1ZtN1l3ellyQmpJZzBvazlMY3V3WXB6QTJZQk5mM3JxS1pjSmFsTUF5dmQ1Znk0b1FMVXZMWUp5b1Zpd2RIQUZtZExRWTJKU2dQSmFYZFRQbHBRdEVOcGtpUjZrc2dweHJR?oc=5",
-      "source": "Fortune Business Insights",
-      "ago": "29 Tage",
+      "ago": "27 Tage",
       "summary": ""
     }
   ]
