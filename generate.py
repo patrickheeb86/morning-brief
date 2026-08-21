@@ -20,23 +20,97 @@ MAX_DAYS   = 30
 
 
 # ── FOREX ──────────────────────────────────────
-def fetch_forex():
-    yesterday = (date.today() - timedelta(days=1)).isoformat()
-    result = {}
-    for key, base, target in [('eur_chf','eur','chf'), ('usd_chf','usd','chf')]:
+FX_KEYS = ['eur_chf', 'usd_chf']
+
+
+def _fx_frankfurter():
+    """EZB-Referenzkurse. Ein Request, letzte 10 Kalendertage.
+    Liefert ausschliesslich Handelstage - damit stimmt der Vortag
+    auch am Montag und nach Feiertagen."""
+    end   = date.today()
+    start = end - timedelta(days=10)
+    url = ('https://api.frankfurter.dev/v1/' + start.isoformat() + '..'
+           + end.isoformat() + '?base=EUR&symbols=CHF,USD')
+    d     = requests.get(url, headers=HEADERS, timeout=15).json()
+    rates = d.get('rates', {})
+    days  = sorted(rates.keys())
+    if len(days) < 2:
+        raise ValueError('nur ' + str(len(days)) + ' Handelstage geliefert')
+    snap = {}
+    for slot, day in (('now', days[-1]), ('prev', days[-2])):
+        eur_chf = float(rates[day]['CHF'])
+        eur_usd = float(rates[day]['USD'])
+        snap[slot] = {'date': day,
+                      'eur_chf': eur_chf,
+                      'usd_chf': eur_chf / eur_usd}
+    return snap
+
+
+def _fx_currency_api():
+    """Fallback: currency-api ueber den aktiven Cloudflare-Host
+    (NICHT ueber cdn.jsdelivr.net - dieser Mirror ist toter Stand)."""
+    def grab(host):
+        url = 'https://' + host + '.currency-api.pages.dev/v1/currencies/eur.json'
+        d   = requests.get(url, headers=HEADERS, timeout=10).json()
+        e   = d['eur']
+        eur_chf = float(e['chf'])
+        eur_usd = float(e['usd'])
+        return {'date': str(d.get('date', '')),
+                'eur_chf': eur_chf,
+                'usd_chf': eur_chf / eur_usd}
+
+    now  = grab('latest')
+    d0   = datetime.strptime(now['date'], '%Y-%m-%d').date()
+    prev = None
+    for back in range(1, 6):
         try:
-            base_url = 'https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@'
-            r_now  = requests.get(base_url+'latest/v1/currencies/'+base+'.json', timeout=10).json()
-            r_prev = requests.get(base_url+yesterday+'/v1/currencies/'+base+'.json', timeout=10).json()
-            rate   = r_now[base][target]
-            prev   = r_prev[base][target]
-            chg    = rate - prev
-            pct    = (chg / prev * 100) if prev else 0
-            result[key] = {'rate': rate, 'change': chg, 'changePct': pct}
-            print(key + ': ' + str(round(rate,4)) + ' (' + ('+' if pct>=0 else '') + str(round(pct,2)) + '%)')
+            prev = grab((d0 - timedelta(days=back)).isoformat())
+            break
+        except Exception:
+            continue
+    if prev is None:
+        raise ValueError('kein Vortageskurs gefunden')
+    return {'now': now, 'prev': prev}
+
+
+def fetch_forex():
+    snap = None
+    for name, fn in [('Frankfurter/EZB', _fx_frankfurter),
+                     ('currency-api',    _fx_currency_api)]:
+        try:
+            snap = fn()
+            print('Forex-Quelle: ' + name + ' ('
+                  + snap['now']['date'] + ' vs. ' + snap['prev']['date'] + ')')
+            break
         except Exception as e:
-            print('Forex error ' + key + ': ' + str(e))
-            result[key] = {'rate': None, 'change': None, 'changePct': None}
+            print('Forex-Quelle ' + name + ' fehlgeschlagen: ' + str(e))
+
+    if not snap:
+        print('Forex: KEINE Quelle erreichbar')
+        return {k: {'rate': None, 'change': None, 'changePct': None}
+                for k in FX_KEYS}
+
+    # Plausibilitaetspruefung: erkennt eine eingefrorene Quelle sofort
+    try:
+        age = (date.today()
+               - datetime.strptime(snap['now']['date'], '%Y-%m-%d').date()).days
+        if age > 4:
+            print('WARNUNG: Forex-Daten sind ' + str(age)
+                  + ' Tage alt - Quelle vermutlich eingefroren')
+    except Exception:
+        pass
+    if snap['now']['date'] == snap['prev']['date']:
+        print('WARNUNG: Vortag == aktueller Tag, Veraenderung waere immer 0')
+
+    result = {}
+    for key in FX_KEYS:
+        rate = snap['now'][key]
+        prev = snap['prev'][key]
+        chg  = rate - prev
+        pct  = (chg / prev * 100) if prev else 0
+        result[key] = {'rate': rate, 'change': chg, 'changePct': pct}
+        print(key + ': ' + str(round(rate, 4)) + ' ('
+              + ('+' if pct >= 0 else '') + str(round(pct, 2)) + '%)')
     return result
 
 
