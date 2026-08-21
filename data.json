@@ -1,20 +1,20 @@
 {
-  "generated": "2026-08-20T21:49:21.631422Z",
+  "generated": "2026-08-21T09:50:50.282468Z",
   "forex": {
     "eur_chf": {
-      "rate": null,
-      "change": null,
-      "changePct": null
+      "rate": 0.9333,
+      "change": -0.006900000000000017,
+      "changePct": -0.7338864071474173
     },
     "usd_chf": {
-      "rate": null,
-      "change": null,
-      "changePct": null
+      "rate": 0.7989898125160518,
+      "change": -0.011178218505059734,
+      "changePct": -1.379740754639632
     }
   },
   "bitcoin": {
-    "price": 72723,
-    "changePct": 4.531360984987605
+    "price": 78259,
+    "changePct": 8.894137841640012
   },
   "stocks": [
     {
@@ -58,7 +58,7 @@
       "title": "Establishment Labs erhält Buy-Upgrade – Ziel $92 nach Umsatzplus und F",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZThHWndXR3Y1NWtxNE9wUUpKZnBJWnRSOHFVRjJVYnh1TkJaYkFEaVRhRERySE9VRDU4S0ZoZ0QzNE44cWlrMFF5V3J0anFMZ1g2SDhuMFR4Q3A4aXJLbFFtbW11UjhJMU0waXF4NlgyZ21tdjVtUUhQZGtVblpRZmRuQ2E0YmZDODltQUR5dENkelhUalc1Q3hTWGI3WHl3N2N6RTYwcTVXcGpy?oc=5",
       "source": "goldesel.de",
-      "ago": "7 Tage",
+      "ago": "8 Tage",
       "summary": ""
     },
     {
@@ -79,7 +79,7 @@
       "title": "Establishment Labs Holdings Inc (ESTA) Aktuelle Aktien-News",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9NejZCeE11RGVZZzk2Z25pVmcyZUdFM0NyVlk1Z1d4TzYzblM0M29SLVhGOTNSQ2p2bEdpWG5qVXRrdDl4ZzFJOF90akkwR2M2Q2VPdkdZdE55ckRwcFFhQnAzREg?oc=5",
       "source": "TradingKey",
-      "ago": "13 Tage",
+      "ago": "14 Tage",
       "summary": ""
     },
     {
@@ -100,42 +100,42 @@
       "title": "Establishment Labs erhöht FY26-Umsatzprognose nach Q2-EPS-Übertreffen: Was Anleger jetzt wissen sollten",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcG85SUY1dWpkTC1ObzJZWGM4U1lZbkhIVnhaaWRWMjl6N25XbG9obkZheEhKQy1SSndqOXBwLV9iMG5SWG4wUkxmWWU4b3pEUDFPczYzSF82MEhRVC1DemJnU2YwaklDMnNSR2NBandwWmlOdW54V0h2V0prS1hFU3NndnFJT0ZSWHFiM2pmeG5TUTdzOGNXb1lhTmdXb01rRUNPOVduZTU2U0k5eGlwSmZCZkdnbGlQWm1jUThMcmRzdWpfOG4tMGROMXFURXM?oc=5",
       "source": "Goldesel.de",
-      "ago": "14 Tage",
+      "ago": "15 Tage",
       "summary": ""
     },
     {
       "title": "Apyx Medical Corp (APYX) Gewinnprognose: Zukünftige EPS & Umsatzwachstumsprognosen",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pYjVZQ0E1UHBFU0NOZjZSTktCU1VqOHpTVk84WWlDLVh4eDhlZWlPU1JBNDhsUFZzdmhUTmtyMTZLMDNvN0ZmOHU2UWg1SVA0REp2cW1wSUwtQkFWZTZ6cVNwMHpxSXdlWEE?oc=5",
       "source": "TradingKey",
-      "ago": "15 Tage",
+      "ago": "16 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs Aktie erreicht Allzeithoch bei 97,22 USD",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNUVoQjJOT3dfT2Q5NnU5TEl0MU5CdENBMWV1Slo3Z09iWHgzQk45YXNGeU9qYUE1NlQwZXRnVEE1VG5fTElTMjVkb2dTVDY0ZzRIOFJXTklXOXB5NVpCWEpQU0hpVzdpTllZaUdMMUEzXzhpbUVzSTB6bVZScjA4SUVxTjBnZmt0SGZqei1zNjB5YVM3MVlrdDNtaFNTQmNpOVp5LWYzTkJqcVc1MmdZZm1Ycno?oc=5",
       "source": "Investing.com Deutsch",
-      "ago": "17 Tage",
+      "ago": "18 Tage",
       "summary": ""
     },
     {
       "title": "Das JW Korean Plastic Surgery Hospital wendet die Renuvion J-Plasma-Technologie an.",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeDhfakh2QVZ5d1RxM0RXOFZ0Ry01X1ZBQnB0ejRWeURxM1J4VnAwM0EtN0NaWTVLdTRBN0VmdW01U2xIVGdRaFg5WTZ1RDBiM1ltMWtXNjY0ZmVPckpaaFlZX08wVFhIN3JIY3RBMGRVdm14cHI2d2pLaEdNc0EtcG5HUTNERWw4UzZ6TkhucDE4SUd3alZZbQ?oc=5",
       "source": "Vietnam.vn",
-      "ago": "22 Tage",
+      "ago": "23 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs Holdings Inc. Umsatzübersicht – NASDAQ:ESTA",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9TZm4wUzdLdnlfTVNDbkJpcDBKLU9sTzlGMUItN2lUV2ZHcXotSzMwOTdUeEVrZVdjTDFUakVkdE0xUkktcDRic3RnQzVVd3VMVDdtcUNIdXZiamRwekhqTWhRYlBKUGJGYS1pM3NLOUVKelhIdHc?oc=5",
       "source": "TradingView",
-      "ago": "22 Tage",
+      "ago": "23 Tage",
       "summary": ""
     },
     {
       "title": "ESTA|Establishment Labs Holdings Inc|Kurs:92.070|Änderung %:-0.250",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBkbnR5VTRyVUdiOU5nWjRQRk1sNEd5ekhaajg2Ynl3X2tHVmhpbFp2Q0VtcjNldHc0MFZnZDNQUHZpX3FRWUFVcm94SzJJYTRGWF8zYklDU1ExZ1Q0c1E?oc=5",
       "source": "TradingKey",
-      "ago": "23 Tage",
+      "ago": "24 Tage",
       "summary": ""
     },
     {
@@ -191,7 +191,7 @@
       "title": "Apyx Medical Corp (APYX) Gewinnprognose: Zukünftige EPS & Umsatzwachstumsprognosen",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8waXVaQjVuYXgzaXFpR2tQa1hpRnBpSHNpeWJCYmdPbEtja0g0UzJldlpnLTJtcUx1MWt1anVlaWxveElieXVMd3pPMmpIVHZTTk40R1UxV3dOSmczWS1RVjQ3eG5jUzNYTEE?oc=5",
       "source": "TradingKey",
-      "ago": "28 Tage",
+      "ago": "29 Tage",
       "summary": ""
     }
   ]
