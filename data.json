@@ -1,133 +1,133 @@
 {
-  "generated": "2026-09-03T23:21:36.135259Z",
+  "generated": "2026-09-04T23:06:17.334749Z",
   "forex": {
     "eur_chf": {
-      "rate": 0.939,
-      "change": -0.0034000000000000696,
-      "changePct": -0.3607809847198716
+      "rate": 0.9405,
+      "change": 0.0015000000000000568,
+      "changePct": 0.15974440894569297
     },
     "usd_chf": {
-      "rate": 0.808437365475678,
-      "change": -0.0055201401384177284,
-      "changePct": -0.6781852984146908
+      "rate": 0.8092410944759939,
+      "change": 0.0008037290003158892,
+      "changePct": 0.09941759679093773
     }
   },
   "bitcoin": {
-    "price": 81243,
-    "changePct": 5.334321655983032
+    "price": 79651,
+    "changePct": -1.8860565702559622
   },
   "stocks": [
     {
       "ticker": "ESTA",
       "name": "Establishment Labs",
-      "price": 72.3,
-      "change": -2.62,
-      "changePct": -3.4971
+      "price": 74.29,
+      "change": 1.99,
+      "changePct": 2.7524
     },
     {
       "ticker": "APYX",
       "name": "Apyx Medical",
-      "price": 3.06,
-      "change": -0.02,
-      "changePct": -0.6494
+      "price": 3.05,
+      "change": -0.01,
+      "changePct": -0.3268
     },
     {
       "ticker": "IART",
       "name": "Integra LifeSciences",
-      "price": 16.44,
-      "change": -0.37,
-      "changePct": -2.2011
+      "price": 16.72,
+      "change": 0.28,
+      "changePct": 1.7032
     }
   ],
   "news": [
     {
+      "title": "Heimlicher GLP-1-Gewinner: Abnehmspritzen-Boom: Dieser ungewöhnliche Gewinner könnte 56 % steigen",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPdXpYb281MmtaeEI4RFBEZzc5VjhVS0h5X29QRDJ5QjFMQzdwWkNjZjlVVkZtRDYxMTFTaWJqWlNPXzNmRXk3LWMtMTUwdVVUQmdsMTJVUk1yMXlqc2wzSU5oWWVzQTBVX2JZSUxITTVwcnllSlo2VDJtRkM0UVpsNGt2UXdvUHZycGtRVlRvSXA0NEx6UU82MGl0cGtRS3NtVU8tMG12V0xsWFJoZXNwQld3bHpvNDduVnhla05VeFk2X2tCY0VJRUR5Vl9zWjBPamxIMGJRVlo2UDNmOTZqVXFGZVA4clJNeklxTGpZRHNLUGVBUkw0dg?oc=5",
+      "source": "finanznachrichten.de",
+      "ago": "18 Std.",
+      "summary": ""
+    },
+    {
       "title": "Apyx Medical Corp Aktie | Kurs | Dividende | Nachrichten (A2PBJC, US03837C1062)",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kTTFIVkpSY1U3OERjTzZFU2laODd2VzIyNlRXdFRtR0ROUGx5WEw5eFkyWXlMbWEyWEZEcHptWjJGd2VMOHZrX3dXNk81VjRtekNUT0x1MmZobG9aNVRv?oc=5",
       "source": "extraETF",
-      "ago": "8 Tage",
+      "ago": "9 Tage",
       "summary": ""
     },
     {
       "title": "Die ESTA-Aktie bleibt nach solider Umsatzentwicklung im Medtech-Segment gefragt",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNX09TQm5SSUszRGNraVdrd1lVOGpYYnJ0eGZoenZJRDdnMFRCVHFJX2g3ZEpzeldPNEl6MjZDRG54cERuWTdJQ2NJVDZNbFYtTWlpUFpvd2RfQVBkNmNuYVpIXzRvUGxWdERyS3FvblZNU2N5SUU4RF94SlFTQlMyWW1fLUVkMDJfTV9YeUdnNGp2MzVZaC04NEtXX3FzYl9KUFRrbkJ2SmpGUjkzTkEyLUZKU0hsbWJ6aE1HTDNjR0tCMjNpQUFlUTJxRGxHVGM?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "13 Tage",
+      "ago": "14 Tage",
       "summary": ""
     },
     {
       "title": "Die optimistischen Aussichten für Establishment Labs (ESTA) könnten sich nach der Anhebung der Umsatzprognose für 2026 und der Verringerung der Verluste ändern",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPV1VqQ0t5bC12WlNsU1I1djBtOWVMTU9VeE13a3pJS2hMTzZDb0hiMExyN2VXV05mNTRKbFRVXzBZYnliSGtSZ0Z5SlAyTGhnRmktLTRkTWxzNXE4TWlqTUZFTkRLWVZUSUNqSENYaGlPbkM3Y2F5QzFqZy1pR2ZFYnI2cENkTEpLNU91MG5sVGd0eEY5UXV5eHJTbE5VQXFBa1hsaS1GSkhHUERoOW9BWFZ1dEt0RWlaMEEycDZ0WWZtWTJsdGdvaEJmUHNKVnhZa1Y0aUtOVHJ5LUUxSVNaMUVZSUJOVWpaZGsw0gHrAUFVX3lxTE9XVWpDS3lsLXZaU2xTUjV2MG05ZUxNT1V4TXdreklLaExPNkNvSGIwTHI3ZVdXTmY1NEpsVFVfMFlieWJIa1JnRnlKUDJMaGdGaS0tNGRNbHM1cThNaWpNRkVOREtZVlRJQ2pIQ1hoaU9uQzdjYXlDMWpnLWlHZkVicjZwQ2RMSks1T3UwbmxUZ3R4RjlRdXl4clNsTlVBcUFrWGxpLUZKSEdQRGg5b0FYVnV0S3RFaVowQTJwNnRZZm1ZMmx0Z29oQmZQc0pWeFlrVjRpS05UcnktRTFJU1oxRVlJQk5ValpkazA?oc=5",
       "source": "simplywall.st",
-      "ago": "21 Tage",
+      "ago": "22 Tage",
       "summary": ""
     },
     {
       "title": "Die optimistischen Aussichten für Establishment Labs (ESTA) könnten sich nach der Anhebung der Umsatzprognose für 2026 und der Verringerung der Verluste ändern",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOMmxjTDlwendkOFdpellnS3dHdEZOS19LV3duUzJyWTRwNTRJNG5TWUlmaFE5SEZmcVlqZHVYeDRNeWdxdGtSVklfbXNQTFhTend1X2JtdWR2d204VUxlZHh6QnAxUlQ0N0tKNjFsWVBOTDdrWEtvNkRLWkVyVlN3SlMwRXhLc0tBNzJ0TmRQQVE5OGY2YlJwc0xsOTEzQ05LWUFiOE1kSU9XWkxRaXVmZl92T0lIUUd1dVItdTJtVWsxTF9YLTJkbGJSbW1RanFPMFV4WGRtSkc0bTRDR3NWZmEwT1dIUdIB6wFBVV95cUxPV1VqQ0t5bC12WlNsU1I1djBtOWVMTU9VeE13a3pJS2hMTzZDb0hiMExyN2VXV05mNTRKbFRVXzBZYnliSGtSZ0Z5SlAyTGhnRmktLTRkTWxzNXE4TWlqTUZFTkRLWVZUSUNqSENYaGlPbkM3Y2F5QzFqZy1pR2ZFYnI2cENkTEpLNU91MG5sVGd0eEY5UXV5eHJTbE5VQXFBa1hsaS1GSkhHUERoOW9BWFZ1dEt0RWlaMEEycDZ0WWZtWTJsdGdvaEJmUHNKVnhZa1Y0aUtOVHJ5LUUxSVNaMUVZSUJOVWpaZGsw?oc=5",
       "source": "simplywall.st",
-      "ago": "21 Tage",
+      "ago": "22 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs erhält Buy-Upgrade – Ziel $92 nach Umsatzplus und F",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZThHWndXR3Y1NWtxNE9wUUpKZnBJWnRSOHFVRjJVYnh1TkJaYkFEaVRhRERySE9VRDU4S0ZoZ0QzNE44cWlrMFF5V3J0anFMZ1g2SDhuMFR4Q3A4aXJLbFFtbW11UjhJMU0waXF4NlgyZ21tdjVtUUhQZGtVblpRZmRuQ2E0YmZDODltQUR5dENkelhUalc1Q3hTWGI3WHl3N2N6RTYwcTVXcGpy?oc=5",
       "source": "goldesel.de",
-      "ago": "21 Tage",
+      "ago": "22 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs Holdings Inc. (NASDAQ:ESTA) hat letzte Woche seine Geschäftszahlen veröffentlicht, woraufhin Analysten ihr Kursziel auf 102 US-Dollar angehoben haben",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSFVacG12RkFaLTVVZlFsWGswaWEzTWl2X1FYOHBSbDhwcnk2NXhmdmJtTE5OTUo4Qmh1aGlSbVNMZUoxSGhiRlZCQUtsZHJoN3RNSTZRMG4tcThXekZKLU43MVRkWEUySTdGaDFJXzFKZXk1QkxQMkdHTHFmVHkxSjd4bFl1amoyalJSUTVJX2lOOTZobDFVZzZ5RkpSNmlReXJEVHFUb1FCRGVsMmlSOVh4Sk5IQmpLNGFXZ2o1anhvMnJWU2JBWU5uYlV5VDE2WWkxOHRIYmx0NEZpWl9zOGEwRlpmZ9IB6gFBVV95cUxPNThjbjlJVkhkWEU5THZxM1N6eU9xZ2ZidzRTZExwSUdOYVZuRmlqWERya2U4dk9jZUQ5UkVIVTFSX3p6WWdfZ2hXQUVkYnp1TU41RnJvMDNVYWFxU1FTbmVBemZXTUpnNXltcUpUTE16S1BGUW4xeE5TbkNYNDBfT1c0SDFtb0ItQ3J2Z3FnWllRaXlVLUk5Q1c0czhVMEQyQnpYYThxSFMwUHVheXpwMzBHWlpXUFJlYzJDUTAzVjNwc0NXcDFiWVBUMmVBSWRfbWFHQ0I1SG5DQzRRMmxzOW5Wd2tlRUZTM1E?oc=5",
       "source": "simplywall.st",
-      "ago": "24 Tage",
+      "ago": "25 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs Holdings Inc. (NASDAQ:ESTA) hat letzte Woche seine Geschäftszahlen veröffentlicht, woraufhin Analysten ihr Kursziel auf 102 US-Dollar angehoben haben",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNY3BvdUY1dGVZc0taYmM1enMtRVhabGJxYmotajR2UTZsWE51SUxYeDNPVkJNVGtoRHcxcGVqdzdvTnJqdExLQlFGU3N1Q2FKWmY4V043cWxIcXI5UXppS29RdGxLNGJ5ZjBmS0NINkhrbTJGR2QzSjBWeFRpRXdhQkJkMWNLbjc2NVdRa2I0RmRTeHlmZ0JBdE5ST3BkQXFnMnZhdVBzMXoxdW5JTU9FLVNEcDdZUUtIcXA5dlZoQ1RYRWh5blU2R01wYnREWjhvcmI2WUFOb1pDUHVmMW0wZDJ3NFDSAeoBQVVfeXFMTzU4Y245SVZIZFhFOUx2cTNTenlPcWdmYnc0U2RMcElHTmFWbkZpalhEcmtlOHZPY2VEOVJFSFUxUl96ellnX2doV0FFZGJ6dU1ONUZybzAzVWFhcVNRU25lQXpmV01KZzV5bXFKVExNektQRlFuMXhOU25DWDQwX09XNEgxbW9CLUNydmdxZ1pZUWl5VS1JOUNXNHM4VTBEMkJ6WGE4cUhTMFB1YXl6cDMwR1paV1BSZWMyQ1EwM1YzcHNDV3AxYllQVDJlQUlkX21hR0NCNUhuQ0M0UTJsczluVndrZUVGUzNR?oc=5",
       "source": "simplywall.st",
-      "ago": "24 Tage",
+      "ago": "25 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs Holdings Inc (ESTA) Aktuelle Aktien-News",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9NejZCeE11RGVZZzk2Z25pVmcyZUdFM0NyVlk1Z1d4TzYzblM0M29SLVhGOTNSQ2p2bEdpWG5qVXRrdDl4ZzFJOF90akkwR2M2Q2VPdkdZdE55ckRwcFFhQnAzREg?oc=5",
       "source": "TradingKey",
-      "ago": "27 Tage",
+      "ago": "28 Tage",
       "summary": ""
     },
     {
       "title": "Apyx Medical Q2 GJ 2026: Umsatz +22,1 %, Verluste sinken",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9uX0RFNHhKN3RBR3AyUC1NOFBtUUFkMTNkcER3emJqdWxucm5VaEJNaHBmS1RWRzdlLXpMb1ViSnFnQllqeTZnbS1IeXNMeFhscUtualJPVHpyNVp4RG1rRFVmMjh6ZGY5N05lMWt0S0hoQQ?oc=5",
       "source": "TradingKey",
-      "ago": "28 Tage",
+      "ago": "29 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs Q2 2026: Umsatz steigt um 31,7 %",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE05cWg1RGhESm5BbVJjRHBJVWc3bWJYb0pzTUNTVmdlbHg4OUNvaFRHSDZnWnpRSEh4ZDhuV2lPS3lBVVZncWtlbzhsSWM0Z3ZWRElRWGVIZFl2MUU1eTgxNXBTRWlvNXB4TE1BZ1p6QXl4Zw?oc=5",
       "source": "TradingKey",
-      "ago": "28 Tage",
+      "ago": "29 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs erhöht FY26-Umsatzprognose nach Q2-EPS-Übertreffen: Was Anleger jetzt wissen sollten",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcG85SUY1dWpkTC1ObzJZWGM4U1lZbkhIVnhaaWRWMjl6N25XbG9obkZheEhKQy1SSndqOXBwLV9iMG5SWG4wUkxmWWU4b3pEUDFPczYzSF82MEhRVC1DemJnU2YwaklDMnNSR2NBandwWmlOdW54V0h2V0prS1hFU3NndnFJT0ZSWHFiM2pmeG5TUTdzOGNXb1lhTmdXb01rRUNPOVduZTU2U0k5eGlwSmZCZkdnbGlQWm1jUThMcmRzdWpfOG4tMGROMXFURXM?oc=5",
       "source": "Goldesel.de",
-      "ago": "28 Tage",
+      "ago": "29 Tage",
       "summary": ""
     },
     {
       "title": "Earnings Call: Apyx Medical übertrifft Q2-Prognosen, Aktie gibt nachbörslich nach",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMU14RzY4dHoxd1VJbGlhdmxNczYwYmFyT0R2Z0FQWGlLaGpGZy1ybWFMWlFJN05wSVB5TVRUb0hFU3lsTHc5My1maVVmb1o0YTI1SVI5bThRdWJ0VUF0U2VmTWt5bmtvNTlEZkVLbGFyRDdGM1oyT3pkV3p0cGduMm40cUFRbEV0YlUtX1ByY1NuTlY5QmVwcGlFRjFwS2hxTnZzbF9IMGFMT3hsMjQtdHNLVHFXTzVpMEFReTZOZDZ0NXI3VGJya2d5VkJJZw?oc=5",
       "source": "Investing.com Deutsch",
-      "ago": "28 Tage",
-      "summary": ""
-    },
-    {
-      "title": "Apyx Medical Corp (APYX) Gewinnprognose: Zukünftige EPS & Umsatzwachstumsprognosen",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pYjVZQ0E1UHBFU0NOZjZSTktCU1VqOHpTVk84WWlDLVh4eDhlZWlPU1JBNDhsUFZzdmhUTmtyMTZLMDNvN0ZmOHU2UWg1SVA0REp2cW1wSUwtQkFWZTZ6cVNwMHpxSXdlWEE?oc=5",
-      "source": "TradingKey",
       "ago": "29 Tage",
       "summary": ""
     }
