@@ -1,20 +1,20 @@
 {
-  "generated": "2026-09-06T22:56:04.256661Z",
+  "generated": "2026-09-07T23:36:58.056014Z",
   "forex": {
     "eur_chf": {
       "rate": 0.9405,
-      "change": 0.0015000000000000568,
-      "changePct": 0.15974440894569297
+      "change": 0.0,
+      "changePct": 0.0
     },
     "usd_chf": {
       "rate": 0.8092410944759939,
-      "change": 0.0008037290003158892,
-      "changePct": 0.09941759679093773
+      "change": 0.0,
+      "changePct": 0.0
     }
   },
   "bitcoin": {
-    "price": 80016,
-    "changePct": 0.2690900699303554
+    "price": 79004,
+    "changePct": -1.5024216361004163
   },
   "stocks": [
     {
@@ -44,56 +44,56 @@
       "title": "Heimlicher GLP-1-Gewinner: Abnehmspritzen-Boom: Dieser ungewöhnliche Gewinner könnte 56 % steigen",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPdXpYb281MmtaeEI4RFBEZzc5VjhVS0h5X29QRDJ5QjFMQzdwWkNjZjlVVkZtRDYxMTFTaWJqWlNPXzNmRXk3LWMtMTUwdVVUQmdsMTJVUk1yMXlqc2wzSU5oWWVzQTBVX2JZSUxITTVwcnllSlo2VDJtRkM0UVpsNGt2UXdvUHZycGtRVlRvSXA0NEx6UU82MGl0cGtRS3NtVU8tMG12V0xsWFJoZXNwQld3bHpvNDduVnhla05VeFk2X2tCY0VJRUR5Vl9zWjBPamxIMGJRVlo2UDNmOTZqVXFGZVA4clJNeklxTGpZRHNLUGVBUkw0dg?oc=5",
       "source": "finanznachrichten.de",
-      "ago": "2 Tage",
+      "ago": "3 Tage",
       "summary": ""
     },
     {
       "title": "Apyx Medical Corp Aktie | Kurs | Dividende | Nachrichten (A2PBJC, US03837C1062)",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kTTFIVkpSY1U3OERjTzZFU2laODd2VzIyNlRXdFRtR0ROUGx5WEw5eFkyWXlMbWEyWEZEcHptWjJGd2VMOHZrX3dXNk81VjRtekNUT0x1MmZobG9aNVRv?oc=5",
       "source": "extraETF",
-      "ago": "11 Tage",
+      "ago": "12 Tage",
       "summary": ""
     },
     {
       "title": "Die ESTA-Aktie bleibt nach solider Umsatzentwicklung im Medtech-Segment gefragt",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNX09TQm5SSUszRGNraVdrd1lVOGpYYnJ0eGZoenZJRDdnMFRCVHFJX2g3ZEpzeldPNEl6MjZDRG54cERuWTdJQ2NJVDZNbFYtTWlpUFpvd2RfQVBkNmNuYVpIXzRvUGxWdERyS3FvblZNU2N5SUU4RF94SlFTQlMyWW1fLUVkMDJfTV9YeUdnNGp2MzVZaC04NEtXX3FzYl9KUFRrbkJ2SmpGUjkzTkEyLUZKU0hsbWJ6aE1HTDNjR0tCMjNpQUFlUTJxRGxHVGM?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "16 Tage",
+      "ago": "17 Tage",
       "summary": ""
     },
     {
       "title": "Die optimistischen Aussichten für Establishment Labs (ESTA) könnten sich nach der Anhebung der Umsatzprognose für 2026 und der Verringerung der Verluste ändern",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPV1VqQ0t5bC12WlNsU1I1djBtOWVMTU9VeE13a3pJS2hMTzZDb0hiMExyN2VXV05mNTRKbFRVXzBZYnliSGtSZ0Z5SlAyTGhnRmktLTRkTWxzNXE4TWlqTUZFTkRLWVZUSUNqSENYaGlPbkM3Y2F5QzFqZy1pR2ZFYnI2cENkTEpLNU91MG5sVGd0eEY5UXV5eHJTbE5VQXFBa1hsaS1GSkhHUERoOW9BWFZ1dEt0RWlaMEEycDZ0WWZtWTJsdGdvaEJmUHNKVnhZa1Y0aUtOVHJ5LUUxSVNaMUVZSUJOVWpaZGsw0gHrAUFVX3lxTE9XVWpDS3lsLXZaU2xTUjV2MG05ZUxNT1V4TXdreklLaExPNkNvSGIwTHI3ZVdXTmY1NEpsVFVfMFlieWJIa1JnRnlKUDJMaGdGaS0tNGRNbHM1cThNaWpNRkVOREtZVlRJQ2pIQ1hoaU9uQzdjYXlDMWpnLWlHZkVicjZwQ2RMSks1T3UwbmxUZ3R4RjlRdXl4clNsTlVBcUFrWGxpLUZKSEdQRGg5b0FYVnV0S3RFaVowQTJwNnRZZm1ZMmx0Z29oQmZQc0pWeFlrVjRpS05UcnktRTFJU1oxRVlJQk5ValpkazA?oc=5",
       "source": "simplywall.st",
-      "ago": "24 Tage",
+      "ago": "25 Tage",
       "summary": ""
     },
     {
       "title": "Die optimistischen Aussichten für Establishment Labs (ESTA) könnten sich nach der Anhebung der Umsatzprognose für 2026 und der Verringerung der Verluste ändern",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOMmxjTDlwendkOFdpellnS3dHdEZOS19LV3duUzJyWTRwNTRJNG5TWUlmaFE5SEZmcVlqZHVYeDRNeWdxdGtSVklfbXNQTFhTend1X2JtdWR2d204VUxlZHh6QnAxUlQ0N0tKNjFsWVBOTDdrWEtvNkRLWkVyVlN3SlMwRXhLc0tBNzJ0TmRQQVE5OGY2YlJwc0xsOTEzQ05LWUFiOE1kSU9XWkxRaXVmZl92T0lIUUd1dVItdTJtVWsxTF9YLTJkbGJSbW1RanFPMFV4WGRtSkc0bTRDR3NWZmEwT1dIUdIB6wFBVV95cUxPV1VqQ0t5bC12WlNsU1I1djBtOWVMTU9VeE13a3pJS2hMTzZDb0hiMExyN2VXV05mNTRKbFRVXzBZYnliSGtSZ0Z5SlAyTGhnRmktLTRkTWxzNXE4TWlqTUZFTkRLWVZUSUNqSENYaGlPbkM3Y2F5QzFqZy1pR2ZFYnI2cENkTEpLNU91MG5sVGd0eEY5UXV5eHJTbE5VQXFBa1hsaS1GSkhHUERoOW9BWFZ1dEt0RWlaMEEycDZ0WWZtWTJsdGdvaEJmUHNKVnhZa1Y0aUtOVHJ5LUUxSVNaMUVZSUJOVWpaZGsw?oc=5",
       "source": "simplywall.st",
-      "ago": "24 Tage",
+      "ago": "25 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs erhält Buy-Upgrade – Ziel $92 nach Umsatzplus und F",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZThHWndXR3Y1NWtxNE9wUUpKZnBJWnRSOHFVRjJVYnh1TkJaYkFEaVRhRERySE9VRDU4S0ZoZ0QzNE44cWlrMFF5V3J0anFMZ1g2SDhuMFR4Q3A4aXJLbFFtbW11UjhJMU0waXF4NlgyZ21tdjVtUUhQZGtVblpRZmRuQ2E0YmZDODltQUR5dENkelhUalc1Q3hTWGI3WHl3N2N6RTYwcTVXcGpy?oc=5",
       "source": "goldesel.de",
-      "ago": "24 Tage",
+      "ago": "25 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs Holdings Inc. (NASDAQ:ESTA) hat letzte Woche seine Geschäftszahlen veröffentlicht, woraufhin Analysten ihr Kursziel auf 102 US-Dollar angehoben haben",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSFVacG12RkFaLTVVZlFsWGswaWEzTWl2X1FYOHBSbDhwcnk2NXhmdmJtTE5OTUo4Qmh1aGlSbVNMZUoxSGhiRlZCQUtsZHJoN3RNSTZRMG4tcThXekZKLU43MVRkWEUySTdGaDFJXzFKZXk1QkxQMkdHTHFmVHkxSjd4bFl1amoyalJSUTVJX2lOOTZobDFVZzZ5RkpSNmlReXJEVHFUb1FCRGVsMmlSOVh4Sk5IQmpLNGFXZ2o1anhvMnJWU2JBWU5uYlV5VDE2WWkxOHRIYmx0NEZpWl9zOGEwRlpmZ9IB6gFBVV95cUxPNThjbjlJVkhkWEU5THZxM1N6eU9xZ2ZidzRTZExwSUdOYVZuRmlqWERya2U4dk9jZUQ5UkVIVTFSX3p6WWdfZ2hXQUVkYnp1TU41RnJvMDNVYWFxU1FTbmVBemZXTUpnNXltcUpUTE16S1BGUW4xeE5TbkNYNDBfT1c0SDFtb0ItQ3J2Z3FnWllRaXlVLUk5Q1c0czhVMEQyQnpYYThxSFMwUHVheXpwMzBHWlpXUFJlYzJDUTAzVjNwc0NXcDFiWVBUMmVBSWRfbWFHQ0I1SG5DQzRRMmxzOW5Wd2tlRUZTM1E?oc=5",
       "source": "simplywall.st",
-      "ago": "27 Tage",
+      "ago": "28 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs Holdings Inc. (NASDAQ:ESTA) hat letzte Woche seine Geschäftszahlen veröffentlicht, woraufhin Analysten ihr Kursziel auf 102 US-Dollar angehoben haben",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNY3BvdUY1dGVZc0taYmM1enMtRVhabGJxYmotajR2UTZsWE51SUxYeDNPVkJNVGtoRHcxcGVqdzdvTnJqdExLQlFGU3N1Q2FKWmY4V043cWxIcXI5UXppS29RdGxLNGJ5ZjBmS0NINkhrbTJGR2QzSjBWeFRpRXdhQkJkMWNLbjc2NVdRa2I0RmRTeHlmZ0JBdE5ST3BkQXFnMnZhdVBzMXoxdW5JTU9FLVNEcDdZUUtIcXA5dlZoQ1RYRWh5blU2R01wYnREWjhvcmI2WUFOb1pDUHVmMW0wZDJ3NFDSAeoBQVVfeXFMTzU4Y245SVZIZFhFOUx2cTNTenlPcWdmYnc0U2RMcElHTmFWbkZpalhEcmtlOHZPY2VEOVJFSFUxUl96ellnX2doV0FFZGJ6dU1ONUZybzAzVWFhcVNRU25lQXpmV01KZzV5bXFKVExNektQRlFuMXhOU25DWDQwX09XNEgxbW9CLUNydmdxZ1pZUWl5VS1JOUNXNHM4VTBEMkJ6WGE4cUhTMFB1YXl6cDMwR1paV1BSZWMyQ1EwM1YzcHNDV3AxYllQVDJlQUlkX21hR0NCNUhuQ0M0UTJsczluVndrZUVGUzNR?oc=5",
       "source": "simplywall.st",
-      "ago": "27 Tage",
+      "ago": "28 Tage",
       "summary": ""
     }
   ]
