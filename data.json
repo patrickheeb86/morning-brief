@@ -1,42 +1,42 @@
 {
-  "generated": "2026-09-09T23:22:06.499239Z",
+  "generated": "2026-09-10T23:15:33.320709Z",
   "forex": {
     "eur_chf": {
-      "rate": 0.9404,
-      "change": -0.0020999999999999908,
-      "changePct": -0.22281167108753216
+      "rate": 0.9432,
+      "change": 0.0028000000000000247,
+      "changePct": 0.29774564015312893
     },
     "usd_chf": {
-      "rate": 0.8070717473395125,
-      "change": -0.004448831272507503,
-      "changePct": -0.5482092986620917
+      "rate": 0.8119834710743802,
+      "change": 0.004911723734867701,
+      "changePct": 0.6085857609387331
     }
   },
   "bitcoin": {
-    "price": 78142,
-    "changePct": -0.4058829404875822
+    "price": 76732,
+    "changePct": -1.8001326596784117
   },
   "stocks": [
     {
       "ticker": "ESTA",
       "name": "Establishment Labs",
-      "price": 74.51,
-      "change": -0.78,
-      "changePct": -1.036
+      "price": 71.39,
+      "change": -3.12,
+      "changePct": -4.1874
     },
     {
       "ticker": "APYX",
       "name": "Apyx Medical",
-      "price": 3.05,
-      "change": 0.0,
-      "changePct": 0.0
+      "price": 2.89,
+      "change": -0.16,
+      "changePct": -5.2459
     },
     {
       "ticker": "IART",
       "name": "Integra LifeSciences",
-      "price": 16.25,
-      "change": -0.01,
-      "changePct": -0.0615
+      "price": 15.54,
+      "change": -0.71,
+      "changePct": -4.3692
     }
   ],
   "news": [
@@ -44,49 +44,49 @@
       "title": "Heimlicher GLP-1-Gewinner: Abnehmspritzen-Boom: Dieser ungewöhnliche Gewinner könnte 56 % steigen",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPdXpYb281MmtaeEI4RFBEZzc5VjhVS0h5X29QRDJ5QjFMQzdwWkNjZjlVVkZtRDYxMTFTaWJqWlNPXzNmRXk3LWMtMTUwdVVUQmdsMTJVUk1yMXlqc2wzSU5oWWVzQTBVX2JZSUxITTVwcnllSlo2VDJtRkM0UVpsNGt2UXdvUHZycGtRVlRvSXA0NEx6UU82MGl0cGtRS3NtVU8tMG12V0xsWFJoZXNwQld3bHpvNDduVnhla05VeFk2X2tCY0VJRUR5Vl9zWjBPamxIMGJRVlo2UDNmOTZqVXFGZVA4clJNeklxTGpZRHNLUGVBUkw0dg?oc=5",
       "source": "finanznachrichten.de",
-      "ago": "5 Tage",
+      "ago": "6 Tage",
       "summary": ""
     },
     {
       "title": "Apyx Medical Corp Aktie | Kurs | Dividende | Nachrichten (A2PBJC, US03837C1062)",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kTTFIVkpSY1U3OERjTzZFU2laODd2VzIyNlRXdFRtR0ROUGx5WEw5eFkyWXlMbWEyWEZEcHptWjJGd2VMOHZrX3dXNk81VjRtekNUT0x1MmZobG9aNVRv?oc=5",
       "source": "extraETF",
-      "ago": "14 Tage",
+      "ago": "15 Tage",
       "summary": ""
     },
     {
       "title": "Marktwachstum für medizinische Ästhetik, Anteil, Branchentrends, 2034",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd1BCMVFTNWgwU3FzQ3RMNjlWVThzcWtRVG9lTDZRbU9zZllZV0I2Q2c3UEIwMkJPQ0xOYWpVX1ZtN1l3ellyQmpJZzBvazlMY3V3WXB6QTJZQk5mM3JxS1pjSmFsTUF5dmQ1Znk0b1FMVXZMWUp5b1Zpd2RIQUZtZExRWTJKU2dQSmFYZFRQbHBRdEVOcGtpUjZrc2dweHJR?oc=5",
       "source": "Fortune Business Insights",
-      "ago": "16 Tage",
+      "ago": "17 Tage",
       "summary": ""
     },
     {
       "title": "Die ESTA-Aktie bleibt nach solider Umsatzentwicklung im Medtech-Segment gefragt",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNX09TQm5SSUszRGNraVdrd1lVOGpYYnJ0eGZoenZJRDdnMFRCVHFJX2g3ZEpzeldPNEl6MjZDRG54cERuWTdJQ2NJVDZNbFYtTWlpUFpvd2RfQVBkNmNuYVpIXzRvUGxWdERyS3FvblZNU2N5SUU4RF94SlFTQlMyWW1fLUVkMDJfTV9YeUdnNGp2MzVZaC04NEtXX3FzYl9KUFRrbkJ2SmpGUjkzTkEyLUZKU0hsbWJ6aE1HTDNjR0tCMjNpQUFlUTJxRGxHVGM?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "19 Tage",
+      "ago": "20 Tage",
       "summary": ""
     },
     {
       "title": "Die optimistischen Aussichten für Establishment Labs (ESTA) könnten sich nach der Anhebung der Umsatzprognose für 2026 und der Verringerung der Verluste ändern",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPV1VqQ0t5bC12WlNsU1I1djBtOWVMTU9VeE13a3pJS2hMTzZDb0hiMExyN2VXV05mNTRKbFRVXzBZYnliSGtSZ0Z5SlAyTGhnRmktLTRkTWxzNXE4TWlqTUZFTkRLWVZUSUNqSENYaGlPbkM3Y2F5QzFqZy1pR2ZFYnI2cENkTEpLNU91MG5sVGd0eEY5UXV5eHJTbE5VQXFBa1hsaS1GSkhHUERoOW9BWFZ1dEt0RWlaMEEycDZ0WWZtWTJsdGdvaEJmUHNKVnhZa1Y0aUtOVHJ5LUUxSVNaMUVZSUJOVWpaZGsw0gHrAUFVX3lxTE9XVWpDS3lsLXZaU2xTUjV2MG05ZUxNT1V4TXdreklLaExPNkNvSGIwTHI3ZVdXTmY1NEpsVFVfMFlieWJIa1JnRnlKUDJMaGdGaS0tNGRNbHM1cThNaWpNRkVOREtZVlRJQ2pIQ1hoaU9uQzdjYXlDMWpnLWlHZkVicjZwQ2RMSks1T3UwbmxUZ3R4RjlRdXl4clNsTlVBcUFrWGxpLUZKSEdQRGg5b0FYVnV0S3RFaVowQTJwNnRZZm1ZMmx0Z29oQmZQc0pWeFlrVjRpS05UcnktRTFJU1oxRVlJQk5ValpkazA?oc=5",
       "source": "simplywall.st",
-      "ago": "27 Tage",
+      "ago": "28 Tage",
       "summary": ""
     },
     {
       "title": "Die optimistischen Aussichten für Establishment Labs (ESTA) könnten sich nach der Anhebung der Umsatzprognose für 2026 und der Verringerung der Verluste ändern",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOMmxjTDlwendkOFdpellnS3dHdEZOS19LV3duUzJyWTRwNTRJNG5TWUlmaFE5SEZmcVlqZHVYeDRNeWdxdGtSVklfbXNQTFhTend1X2JtdWR2d204VUxlZHh6QnAxUlQ0N0tKNjFsWVBOTDdrWEtvNkRLWkVyVlN3SlMwRXhLc0tBNzJ0TmRQQVE5OGY2YlJwc0xsOTEzQ05LWUFiOE1kSU9XWkxRaXVmZl92T0lIUUd1dVItdTJtVWsxTF9YLTJkbGJSbW1RanFPMFV4WGRtSkc0bTRDR3NWZmEwT1dIUdIB6wFBVV95cUxPV1VqQ0t5bC12WlNsU1I1djBtOWVMTU9VeE13a3pJS2hMTzZDb0hiMExyN2VXV05mNTRKbFRVXzBZYnliSGtSZ0Z5SlAyTGhnRmktLTRkTWxzNXE4TWlqTUZFTkRLWVZUSUNqSENYaGlPbkM3Y2F5QzFqZy1pR2ZFYnI2cENkTEpLNU91MG5sVGd0eEY5UXV5eHJTbE5VQXFBa1hsaS1GSkhHUERoOW9BWFZ1dEt0RWlaMEEycDZ0WWZtWTJsdGdvaEJmUHNKVnhZa1Y0aUtOVHJ5LUUxSVNaMUVZSUJOVWpaZGsw?oc=5",
       "source": "simplywall.st",
-      "ago": "27 Tage",
+      "ago": "28 Tage",
       "summary": ""
     },
     {
       "title": "Establishment Labs erhält Buy-Upgrade – Ziel $92 nach Umsatzplus und F",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZThHWndXR3Y1NWtxNE9wUUpKZnBJWnRSOHFVRjJVYnh1TkJaYkFEaVRhRERySE9VRDU4S0ZoZ0QzNE44cWlrMFF5V3J0anFMZ1g2SDhuMFR4Q3A4aXJLbFFtbW11UjhJMU0waXF4NlgyZ21tdjVtUUhQZGtVblpRZmRuQ2E0YmZDODltQUR5dENkelhUalc1Q3hTWGI3WHl3N2N6RTYwcTVXcGpy?oc=5",
       "source": "goldesel.de",
-      "ago": "27 Tage",
+      "ago": "28 Tage",
       "summary": ""
     }
   ]
