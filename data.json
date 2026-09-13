@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-12T23:06:32.949189Z",
+  "generated": "2026-09-13T23:15:16.094447Z",
   "forex": {
     "eur_chf": {
       "rate": 0.9451,
@@ -13,8 +13,8 @@
     }
   },
   "bitcoin": {
-    "price": 77235,
-    "changePct": 0.08788493272156599
+    "price": 76690,
+    "changePct": -0.7332844617114527
   },
   "stocks": [
     {
@@ -44,28 +44,28 @@
       "title": "Heimlicher GLP-1-Gewinner: Abnehmspritzen-Boom: Dieser ungewöhnliche Gewinner könnte 56 % steigen",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPdXpYb281MmtaeEI4RFBEZzc5VjhVS0h5X29QRDJ5QjFMQzdwWkNjZjlVVkZtRDYxMTFTaWJqWlNPXzNmRXk3LWMtMTUwdVVUQmdsMTJVUk1yMXlqc2wzSU5oWWVzQTBVX2JZSUxITTVwcnllSlo2VDJtRkM0UVpsNGt2UXdvUHZycGtRVlRvSXA0NEx6UU82MGl0cGtRS3NtVU8tMG12V0xsWFJoZXNwQld3bHpvNDduVnhla05VeFk2X2tCY0VJRUR5Vl9zWjBPamxIMGJRVlo2UDNmOTZqVXFGZVA4clJNeklxTGpZRHNLUGVBUkw0dg?oc=5",
       "source": "finanznachrichten.de",
-      "ago": "8 Tage",
+      "ago": "9 Tage",
       "summary": ""
     },
     {
       "title": "Apyx Medical Corp Aktie | Kurs | Dividende | Nachrichten (A2PBJC, US03837C1062)",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kTTFIVkpSY1U3OERjTzZFU2laODd2VzIyNlRXdFRtR0ROUGx5WEw5eFkyWXlMbWEyWEZEcHptWjJGd2VMOHZrX3dXNk81VjRtekNUT0x1MmZobG9aNVRv?oc=5",
       "source": "extraETF",
-      "ago": "17 Tage",
+      "ago": "18 Tage",
       "summary": ""
     },
     {
       "title": "Marktwachstum für medizinische Ästhetik, Anteil, Branchentrends, 2034",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd1BCMVFTNWgwU3FzQ3RMNjlWVThzcWtRVG9lTDZRbU9zZllZV0I2Q2c3UEIwMkJPQ0xOYWpVX1ZtN1l3ellyQmpJZzBvazlMY3V3WXB6QTJZQk5mM3JxS1pjSmFsTUF5dmQ1Znk0b1FMVXZMWUp5b1Zpd2RIQUZtZExRWTJKU2dQSmFYZFRQbHBRdEVOcGtpUjZrc2dweHJR?oc=5",
       "source": "Fortune Business Insights",
-      "ago": "19 Tage",
+      "ago": "20 Tage",
       "summary": ""
     },
     {
       "title": "Die ESTA-Aktie bleibt nach solider Umsatzentwicklung im Medtech-Segment gefragt",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNX09TQm5SSUszRGNraVdrd1lVOGpYYnJ0eGZoenZJRDdnMFRCVHFJX2g3ZEpzeldPNEl6MjZDRG54cERuWTdJQ2NJVDZNbFYtTWlpUFpvd2RfQVBkNmNuYVpIXzRvUGxWdERyS3FvblZNU2N5SUU4RF94SlFTQlMyWW1fLUVkMDJfTV9YeUdnNGp2MzVZaC04NEtXX3FzYl9KUFRrbkJ2SmpGUjkzTkEyLUZKU0hsbWJ6aE1HTDNjR0tCMjNpQUFlUTJxRGxHVGM?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "22 Tage",
+      "ago": "23 Tage",
       "summary": ""
     }
   ]
