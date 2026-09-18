@@ -1,42 +1,42 @@
 {
-  "generated": "2026-09-17T23:34:49.632658Z",
+  "generated": "2026-09-18T23:23:35.496652Z",
   "forex": {
     "eur_chf": {
-      "rate": 0.9466,
-      "change": 0.0017000000000000348,
-      "changePct": 0.1799132183299857
+      "rate": 0.9462,
+      "change": -0.00039999999999995595,
+      "changePct": -0.04225649693639932
     },
     "usd_chf": {
-      "rate": 0.8244926400139362,
-      "change": 0.005475564517706699,
-      "changePct": 0.6685531573794284
+      "rate": 0.8256544502617802,
+      "change": 0.0011618102478440084,
+      "changePct": 0.1409121429906725
     }
   },
   "bitcoin": {
-    "price": 76398,
-    "changePct": 0.4589808532264335
+    "price": 81104,
+    "changePct": 6.1140653413035695
   },
   "stocks": [
     {
       "ticker": "ESTA",
       "name": "Establishment Labs",
-      "price": 69.56,
-      "change": -1.6,
-      "changePct": -2.2485
+      "price": 69.3,
+      "change": -0.26,
+      "changePct": -0.3738
     },
     {
       "ticker": "APYX",
       "name": "Apyx Medical",
-      "price": 3.03,
-      "change": 0.02,
-      "changePct": 0.6645
+      "price": 3.06,
+      "change": 0.03,
+      "changePct": 0.9901
     },
     {
       "ticker": "IART",
       "name": "Integra LifeSciences",
-      "price": 15.1,
-      "change": -0.96,
-      "changePct": -5.9776
+      "price": 15.22,
+      "change": 0.12,
+      "changePct": 0.7947
     }
   ],
   "news": [
@@ -44,28 +44,28 @@
       "title": "Heimlicher GLP-1-Gewinner: Abnehmspritzen-Boom: Dieser ungewöhnliche Gewinner könnte 56 % steigen",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPdXpYb281MmtaeEI4RFBEZzc5VjhVS0h5X29QRDJ5QjFMQzdwWkNjZjlVVkZtRDYxMTFTaWJqWlNPXzNmRXk3LWMtMTUwdVVUQmdsMTJVUk1yMXlqc2wzSU5oWWVzQTBVX2JZSUxITTVwcnllSlo2VDJtRkM0UVpsNGt2UXdvUHZycGtRVlRvSXA0NEx6UU82MGl0cGtRS3NtVU8tMG12V0xsWFJoZXNwQld3bHpvNDduVnhla05VeFk2X2tCY0VJRUR5Vl9zWjBPamxIMGJRVlo2UDNmOTZqVXFGZVA4clJNeklxTGpZRHNLUGVBUkw0dg?oc=5",
       "source": "finanznachrichten.de",
-      "ago": "13 Tage",
+      "ago": "14 Tage",
       "summary": ""
     },
     {
       "title": "Apyx Medical Corp Aktie | Kurs | Dividende | Nachrichten (A2PBJC, US03837C1062)",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kTTFIVkpSY1U3OERjTzZFU2laODd2VzIyNlRXdFRtR0ROUGx5WEw5eFkyWXlMbWEyWEZEcHptWjJGd2VMOHZrX3dXNk81VjRtekNUT0x1MmZobG9aNVRv?oc=5",
       "source": "extraETF",
-      "ago": "22 Tage",
+      "ago": "23 Tage",
       "summary": ""
     },
     {
       "title": "Marktwachstum für medizinische Ästhetik, Anteil, Branchentrends, 2034",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd1BCMVFTNWgwU3FzQ3RMNjlWVThzcWtRVG9lTDZRbU9zZllZV0I2Q2c3UEIwMkJPQ0xOYWpVX1ZtN1l3ellyQmpJZzBvazlMY3V3WXB6QTJZQk5mM3JxS1pjSmFsTUF5dmQ1Znk0b1FMVXZMWUp5b1Zpd2RIQUZtZExRWTJKU2dQSmFYZFRQbHBRdEVOcGtpUjZrc2dweHJR?oc=5",
       "source": "Fortune Business Insights",
-      "ago": "24 Tage",
+      "ago": "25 Tage",
       "summary": ""
     },
     {
       "title": "Die ESTA-Aktie bleibt nach solider Umsatzentwicklung im Medtech-Segment gefragt",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNX09TQm5SSUszRGNraVdrd1lVOGpYYnJ0eGZoenZJRDdnMFRCVHFJX2g3ZEpzeldPNEl6MjZDRG54cERuWTdJQ2NJVDZNbFYtTWlpUFpvd2RfQVBkNmNuYVpIXzRvUGxWdERyS3FvblZNU2N5SUU4RF94SlFTQlMyWW1fLUVkMDJfTV9YeUdnNGp2MzVZaC04NEtXX3FzYl9KUFRrbkJ2SmpGUjkzTkEyLUZKU0hsbWJ6aE1HTDNjR0tCMjNpQUFlUTJxRGxHVGM?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "27 Tage",
+      "ago": "28 Tage",
       "summary": ""
     }
   ]
