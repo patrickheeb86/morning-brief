@@ -167,11 +167,52 @@ def fetch_stocks():
 
 
 # ── NEWS – persistent cache ────────────────────
-NEWS_QUERIES = [
-    '"Establishment Labs" OR "Motiva implant" OR "Apyx Medical" OR "Renuvion" OR "Lipoelastic" OR "pHformula" OR "Integra IDRT" OR "Vaser liposuction" OR "Revanesse" OR "Prollenium" OR "Sunekos" OR "RegenLab" OR "body-jet" OR "Puregraft"',
-    '"Allergan" aesthetics OR "Mentor implant" OR "Galderma" aesthetics OR "Merz Aesthetics" OR "InMode" aesthetic OR "breast implant" Switzerland OR "Albin Group" OR "Calista Medical" OR aesthetic medicine Switzerland',
-    '"Hirslanden" OR "Lucerne Clinic" OR "CHUV" plastic surgery OR "Insel Gruppe" OR "Swissmedic" Medizinprodukt OR "plastic surgery" Switzerland OR "aesthetic medicine" Schweiz OR "IMCAS 2026"',
+# Kurze, thematisch getrennte Abfragen. Lange OR-Ketten liefern bei
+# Google News nur eine kleine, relevanz-sortierte Trefferliste voller
+# alter Evergreen-Seiten - deshalb pro Gruppe eine eigene Abfrage,
+# jeweils mit Zeitfenster (when:) und, wo sinnvoll, in beiden Editionen.
+# prio 1 = eigene Partner, Produkte und Regulatorik
+# prio 2 = Wettbewerb, Kliniken, Marktumfeld
+ED_DE = 'hl=de&gl=CH&ceid=CH:de'
+ED_EN = 'hl=en-US&gl=US&ceid=US:en'
+
+NEWS_GROUPS = [
+    {'name': 'Motiva / Establishment Labs', 'prio': 1, 'when': '30d',
+     'q': '"Establishment Labs" OR "Motiva implant" OR "Motiva implants" OR "Mia Femtech"',
+     'ed': [ED_DE, ED_EN]},
+    {'name': 'Apyx / Renuvion', 'prio': 1, 'when': '30d',
+     'q': '"Apyx Medical" OR "Renuvion"',
+     'ed': [ED_DE, ED_EN]},
+    {'name': 'Integra / Lipoelastic / Absorbest', 'prio': 1, 'when': '30d',
+     'q': '"Integra LifeSciences" OR "Lipoelastic" OR "Absorbest"',
+     'ed': [ED_DE, ED_EN]},
+    {'name': 'Filler & Regenerativ', 'prio': 1, 'when': '30d',
+     'q': '"Revanesse" OR "Prollenium" OR "SoftFil" OR "Sunekos" OR "Regen Lab"',
+     'ed': [ED_DE, ED_EN]},
+    {'name': 'Skincare & Geraete', 'prio': 1, 'when': '30d',
+     'q': '"pHformula" OR "Solta Medical" OR "Thermage"',
+     'ed': [ED_DE, ED_EN]},
+    {'name': 'Regulatorik Schweiz', 'prio': 1, 'when': '30d',
+     'q': '"Swissmedic" OR "swissdamed" OR "Medizinprodukteverordnung"',
+     'ed': [ED_DE]},
+    {'name': 'Wettbewerb', 'prio': 2, 'when': '14d',
+     'q': '"Merz Aesthetics" OR "Galderma" OR "Allergan Aesthetics" OR "Mentor implant" OR "InMode"',
+     'ed': [ED_DE, ED_EN]},
+    {'name': 'Kliniken Schweiz', 'prio': 2, 'when': '14d',
+     'q': '"Hirslanden" OR "Insel Gruppe" OR "clinic utoquai" OR "Klinik Pyramide"',
+     'ed': [ED_DE]},
+    {'name': 'Markt & Kongresse', 'prio': 2, 'when': '14d',
+     'q': '"breast implant" OR "body contouring" OR "IMCAS"',
+     'ed': [ED_EN]},
+    {'name': 'Branche Schweiz', 'prio': 2, 'when': '14d',
+     'q': '"Brustimplantat" OR "Aesthetische Medizin" OR "Schoenheitschirurgie"',
+     'ed': [ED_DE]},
 ]
+
+MAX_CACHE  = 600   # Obergrenze Cache-Eintraege
+MAX_SHOW   = 20    # Meldungen im Brief
+MAX_MARKET = 8     # davon hoechstens aus prio 2
+
 
 def load_cache():
     try:
@@ -205,6 +246,13 @@ def ago_str(iso_str):
     except Exception:
         return ''
 
+def sort_ts(item):
+    """pubDate als vergleichbarer Zeitstempel, robust gegen Fehlwerte."""
+    try:
+        return datetime.fromisoformat(item.get('pubDate', '')).astimezone(timezone.utc)
+    except Exception:
+        return datetime.min.replace(tzinfo=timezone.utc)
+
 def parse_rss(xml_text):
     items = []
     try:
@@ -213,17 +261,12 @@ def parse_rss(xml_text):
             title_el = item.find('title')
             pub_el   = item.find('pubDate')
             src_el   = item.find('source')
+            link_el  = item.find('link')
             title = (title_el.text or '') if title_el is not None else ''
             pub   = (pub_el.text or '')   if pub_el  is not None else ''
             src   = (src_el.text or '')   if src_el  is not None else ''
 
-            link = ''
-            for node in item.childNodes if hasattr(item, 'childNodes') else []:
-                pass
-            # ET approach for link
-            link_el = item.find('link')
-            if link_el is not None and link_el.text:
-                link = link_el.text.strip()
+            link = link_el.text.strip() if link_el is not None and link_el.text else ''
             if not link:
                 guid = item.find('guid')
                 link = guid.text.strip() if guid is not None and guid.text else ''
@@ -246,63 +289,85 @@ def parse_rss(xml_text):
     return items
 
 def fetch_news():
-    # Load existing cache
     cache = load_cache()
-    cached_urls = set(i.get('url','') for i in cache)
-    print('Cache loaded: ' + str(len(cache)) + ' items')
+    cached_urls = set(i.get('url', '') for i in cache)
+    print('Cache geladen: ' + str(len(cache)) + ' Eintraege')
 
-    # Fetch new items from RSS
     new_count = 0
-    for i, query in enumerate(NEWS_QUERIES):
-        try:
-            rss_url = 'https://news.google.com/rss/search?q=' + quote(query) + '&hl=de&gl=CH&ceid=CH:de'
-            r       = requests.get(rss_url, headers=HEADERS, timeout=15)
-            items   = parse_rss(r.text)
-            for item in items:
-                if item['url'] not in cached_urls:
+    empty_groups = []
+
+    for group in NEWS_GROUPS:
+        query = group['q'] + ' when:' + group['when']
+        for edition in group['ed']:
+            lang  = 'de' if edition == ED_DE else 'en'
+            label = group['name'] + ' [' + lang + ']'
+            try:
+                rss_url = ('https://news.google.com/rss/search?q='
+                           + quote(query) + '&' + edition)
+                r     = requests.get(rss_url, headers=HEADERS, timeout=15)
+                items = parse_rss(r.text)
+                added = 0
+                for item in items:
+                    if item['url'] in cached_urls:
+                        continue
+                    item['group'] = group['name']
+                    item['prio']  = group['prio']
                     cache.append(item)
                     cached_urls.add(item['url'])
+                    added     += 1
                     new_count += 1
-            print('Query ' + str(i+1) + ': fetched ' + str(len(items)) + ' items')
-            time.sleep(1)
-        except Exception as e:
-            print('RSS query ' + str(i+1) + ' error: ' + str(e))
+                print(label + ': ' + str(len(items)) + ' Treffer, '
+                      + str(added) + ' neu')
+                if not items:
+                    empty_groups.append(label)
+                time.sleep(1)
+            except Exception as e:
+                print(label + ': FEHLER ' + str(e))
+                empty_groups.append(label + ' (Fehler)')
 
-    print('New items added: ' + str(new_count))
+    print('Neue Meldungen insgesamt: ' + str(new_count))
+    if empty_groups:
+        print('WARNUNG: keine Treffer bei: ' + ', '.join(empty_groups))
+    if new_count == 0:
+        print('WARNUNG: kein einziger neuer Treffer - Abfragen pruefen')
 
-    # Filter: keep only last MAX_DAYS days
+    # Filter: nur die letzten MAX_DAYS Tage
     cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_DAYS)
     def is_recent(item):
         try:
-            dt = datetime.fromisoformat(item.get('pubDate',''))
+            dt = datetime.fromisoformat(item.get('pubDate', ''))
             return dt.astimezone(timezone.utc) >= cutoff
         except Exception:
-            return True  # keep if date unknown
+            return True  # behalten, wenn Datum unbekannt
 
     cache = [i for i in cache if is_recent(i)]
-
-    # Sort: newest first
-    def sort_key(item):
-        try:
-            return datetime.fromisoformat(item.get('pubDate','')).astimezone(timezone.utc)
-        except Exception:
-            return datetime.min.replace(tzinfo=timezone.utc)
-
-    cache.sort(key=sort_key, reverse=True)
-
-    # Save updated cache
+    cache.sort(key=sort_ts, reverse=True)
+    cache = cache[:MAX_CACHE]
     save_cache(cache)
-    print('Cache saved: ' + str(len(cache)) + ' items')
+    print('Cache gespeichert: ' + str(len(cache)) + ' Eintraege')
 
-    # Add ago string for display
+    # Anzeige: feste Quote, damit weder aeltere Partnermeldungen noch das
+    # Marktumfeld die Liste allein fuellen. Zum Schluss nach Datum sortiert.
+    core   = [i for i in cache if int(i.get('prio', 2)) == 1]
+    market = [i for i in cache if int(i.get('prio', 2)) != 1]
+    shown  = core[:MAX_SHOW - MAX_MARKET] + market[:MAX_MARKET]
+    if len(shown) < MAX_SHOW:
+        seen  = set(id(i) for i in shown)
+        rest  = [i for i in cache if id(i) not in seen]
+        shown += rest[:MAX_SHOW - len(shown)]
+    shown.sort(key=sort_ts, reverse=True)
+    print('Im Brief: ' + str(len(shown)) + ' Meldungen ('
+          + str(len([i for i in shown if int(i.get('prio', 2)) == 1])) + ' Partner)')
+
     result = []
-    for item in cache[:25]:
+    for item in shown:
         result.append({
             'title':   item['title'],
             'url':     item['url'],
-            'source':  item.get('source',''),
+            'source':  item.get('source', ''),
             'ago':     ago_str(item['pubDate']),
-            'summary': item.get('summary',''),
+            'group':   item.get('group', ''),
+            'summary': item.get('summary', ''),
         })
     return result
 
@@ -412,7 +477,9 @@ def send_email(data):
         url    = str(item.get('url', '#'))
         source = str(item.get('source', ''))
         ago    = str(item.get('ago', ''))
-        meta   = (source + ' &nbsp;&middot;&nbsp; ' if source else '') + ago
+        group  = str(item.get('group', ''))
+        meta   = ' &nbsp;&middot;&nbsp; '.join(
+                     [p for p in [group, source, ago] if p.strip()])
         news_rows += (
             '<tr><td style="padding:11px 0;border-bottom:1px solid #1e293b">'
             '<a href="' + url + '" style="text-decoration:none;display:block">'
