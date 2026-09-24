@@ -1,50 +1,138 @@
 {
-  "generated": "2026-09-23T23:48:00.006790Z",
+  "generated": "2026-09-24T23:55:06.899785Z",
   "forex": {
     "eur_chf": {
-      "rate": 0.939,
-      "change": -0.000300000000000078,
-      "changePct": -0.031938677738749914
+      "rate": 0.9409,
+      "change": 0.0019000000000000128,
+      "changePct": 0.20234291799787144
     },
     "usd_chf": {
-      "rate": 0.8228901936727718,
-      "change": 0.0034711934110602805,
-      "changePct": 0.4236164172360694
+      "rate": 0.82774698689188,
+      "change": 0.004856793219108146,
+      "changePct": 0.5902115806522158
     }
   },
   "bitcoin": {
-    "price": 84451,
-    "changePct": -1.9978191234702587
+    "price": 84392,
+    "changePct": 0.0018656914562581743
   },
   "stocks": [
     {
       "ticker": "ESTA",
       "name": "Establishment Labs",
-      "price": 67.76,
-      "change": 0.02,
-      "changePct": 0.0295
+      "price": 65.58,
+      "change": -2.18,
+      "changePct": -3.2172
     },
     {
       "ticker": "APYX",
       "name": "Apyx Medical",
-      "price": 2.95,
-      "change": 0.04,
-      "changePct": 1.3746
+      "price": 2.83,
+      "change": -0.12,
+      "changePct": -4.0678
     },
     {
       "ticker": "IART",
       "name": "Integra LifeSciences",
-      "price": 15.53,
-      "change": -0.06,
-      "changePct": -0.3849
+      "price": 15.88,
+      "change": 0.35,
+      "changePct": 2.2537
     }
   ],
   "news": [
     {
+      "title": "PROLLENIUM® Spotlights the Future of Regenerative Aesthetics at Aesthetic Next 8.0 and Chateau Prollenium Dallas",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOFpHVEZRR0ZYeXp3eUszZEVadmpJd29sU0FacWx3aDlUMkVTNVg5QkZlTk9IMVBDczQ5bXFyeE1fek1qRFVpdmZKZE80LUNsN2lHbXpDTk11M0NzbVlNR2FaaTZEOGo0Zkh4eFV0dUgxdlJqRG1VYlRxSkRoX1V3WVBWWHlER08wczNOeWVhVFJYdjVhSzB5ZDdXY2VYQjYyVERiaGlRaDRRaW5XSWVvZ0hlQ25RYzNnRUppenBB?oc=5",
+      "source": "Digital Journal",
+      "ago": "4 Std.",
+      "group": "Filler & Regenerativ",
+      "summary": ""
+    },
+    {
+      "title": "Integra LifeSciences stock gains 1.50 percent as margins improve",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOUZ5d3pkOGVhdnljMlBzaXA1NzV6ZmxjeWtyVEJTdVg1YkpSX0lBVk13NE1Nb3doX3ZGaVlNbHltNDJ4ejZybU9tZk9sU0E3NlRJVjZVNUJUUllkaGJWNHhRV25WVDRGdDdaLV81ODQzcEZxN0lrejNYRldacHc0UUhhbkwteGVwTWl4T1pMd3QwMVI0ejc2WkJLeW1KS0ZaVm1DUXVieU1WTFpQWkJFdGlDZGsyR09HV0pRdkVNbVU?oc=5",
+      "source": "ad-hoc-news.de",
+      "ago": "4 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "INDEPENDENT COLLECTION HOTELS & RESORTS CELEBRATES MICHELIN KEY ACHIEVEMENTS",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOMU1XY09vOXE4M3FNd1BsWFkzY1p1cnpRazM4em44RXY5RUhkb3RvOGJOQ1o2dHU2aWJrT2JJd1BPQ0M0RGZiUDhWc0NwdUhKVXk4cFlVTHBKa05CSHBKalRrX29hbmhkWWYxZWxpUXUxZV8tS2t6ZEpRMk04T05IVDRCMl96UTdsRWpZaGYyQ01mekFqSmJZa2pEUWtpbmxWek1RMmRlb1R1cWkwMkhzbklMNjNzU1JXY0RldW5zWEVoWVJwVy1PRlZZVmUyRUhKenZyVHYzU09FR3dSNU1jc0xWUHNucGfSAecBQVVfeXFMTjFNV2NPbzlxODNxTXdQbFhZM2NadXJ6UWszOHpuOEV2OUVIZG90bzhiTkNaNnR1Nmlia09iSXdQT0NDNERmYlA4VnNDcHVISlV5OHBZVUxwSmtOQkhwSmpUa19vYW5oZFlmMWVsaVF1MWVfLUtremRKUTJNOE9OSFQ0QjJfelE3bEVqWWhmMkNNZnpBakpiWWtqRFFraW5sVnpNUTJkZW9UdXFpMDJIc25JTDYzc1NSV2NEZXVuc1hFaFlScFctT0ZWWVZlMkVISnp2clR2M1NPRUd3UjVNY3NMVlBzbnBn?oc=5",
+      "source": "The Manila Times",
+      "ago": "4 Std.",
+      "group": "Filler & Regenerativ",
+      "summary": ""
+    },
+    {
+      "title": "Grant of Restricted Stock Units and Warrants to Employees in Genmab",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQYTVsNl80VXluUFZuTTNrTXp6eGdlX2M0RDYzTEVuUi1yTVBjOGhyQTNVT0pFM2tONnZXYUtPWjJsczBtTnUtb2xVQUZ6UUNsMWpELWNEWjBrRURQY1BPb2NkM1JreGtWOEwzejBLV25DOE1UQ1kzZWlObnluUXhWMF9FekYyd3hoZncyYWZ5YVpsWTcxVmJTcVlvMGRlQU9xT2dha0xCZkZqQkNYNm1vT2VmMkIyQkFDM04tX3drbmFMSm04cW9wRC1XY004eFMxc1cycDFYTVFneUd0Q1HSAd4BQVVfeXFMUGE1bDZfNFV5blBWbk0za016enhnZV9jNEQ2M0xFblItck1QYzhockEzVU9KRTNrTjZ2V2FLT1oybHMwbU51LW9sVUFGelFDbDFqRC1jRFowa0VEUGNQT29jZDNSa3hrVjhMM3owS1duQzhNVENZM2VpTm55blF4VjBfRXpGMnd4aGZ3MmFmeWFabFk3MVZiU3FZbzBkZUFPcU9nYWtMQmZGakJDWDZtb09lZjJCMkJBQzNOLV93a25hTEptOHFvcEQtV2NNOHhTMXNXMnAxWE1RZ3lHdENR?oc=5",
+      "source": "The Manila Times",
+      "ago": "5 Std.",
+      "group": "Filler & Regenerativ",
+      "summary": ""
+    },
+    {
+      "title": "Alterra IOS Expands Houston Presence with 4 Industrial Outdoor Storage Acquisitions",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNdURKQ3dnaTZiZ0ZNeWg1VS1YbGdrQUZQLWpHTW1jZHUxemgtbDVXczRMaEktUnVUY0ptcldMeWRDbTNUTzhpN3k1Z3RNNGZycU5NYWdVdEFXdk9zdlJMSm1fTERNUEx2V19ha2Rid1g2NkhsNENwNkxNd2xkcjNvd0dHc21May1lelB4TngtbHJKUHFuX0RQNUh1a2hxQlFNZjZZcFJGZm11aVZhZjFNVkhmUERJNUpyWG5wM1huWFU2c0ZfRS0xTGRuRFNHZ004OU52WVlTSE1pWHJvbXlNS3kzc0h5VHdTclhLSHJiQXVlSGvSAfMBQVVfeXFMTXVESkN3Z2k2YmdGTXloNVUtWGxna0FGUC1qR01tY2R1MXpoLWw1V3M0TGhJLVJ1VGNKbXJXTHlkQ20zVE84aTd5NWd0TTRmcnFOTWFnVXRBV3ZPc3ZSTEptX0xETVBMdldfYWtkYndYNjZIbDRDcDZMTXdsZHIzb3dHR3NtTGstZXpQeE54LWxySlBxbl9EUDVIdWtocUJRTWY2WXBSRmZtdWlWYWYxTVZIZlBESTVKclhucDNYblhVNnNGX0UtMUxkbkRTR2dNODlOdllZU0hNaVhyb215TUt5M3NIeVR3U3JYS0hyYkF1ZUhr?oc=5",
+      "source": "The Manila Times",
+      "ago": "5 Std.",
+      "group": "Filler & Regenerativ",
+      "summary": ""
+    },
+    {
+      "title": "Discovery 2026 Short Duration LP Raises the Maximum",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPSlVPZmcwY0hscTBDQkY1eE1RakZYZDIyblNfS21yU1NXVG5wT3NqVzJvNlM4eG5EN3ljOXMxTTJTanVhN2hqYWswcFZsbFFvcVF5MW93OGtxa083Vng3czFfNExlODNDcXNxT3BlczFDLVRZVDhaUzZLdnJZb3RPczE2anlWZVRsYUpMWEtqZVQ0WTM3dktCajJtMnlPaFl0cmlJX1Z2bFRnOHpmbzJOYWNob0lWaWVVZkYwS3hkX1N3WUY0alZNWDlTY1RVME5fdjAtUUR4SdIB1wFBVV95cUxPSlVPZmcwY0hscTBDQkY1eE1RakZYZDIyblNfS21yU1NXVG5wT3NqVzJvNlM4eG5EN3ljOXMxTTJTanVhN2hqYWswcFZsbFFvcVF5MW93OGtxa083Vng3czFfNExlODNDcXNxT3BlczFDLVRZVDhaUzZLdnJZb3RPczE2anlWZVRsYUpMWEtqZVQ0WTM3dktCajJtMnlPaFl0cmlJX1Z2bFRnOHpmbzJOYWNob0lWaWVVZkYwS3hkX1N3WUY0alZNWDlTY1RVME5fdjAtUUR4SQ?oc=5",
+      "source": "The Manila Times",
+      "ago": "5 Std.",
+      "group": "Filler & Regenerativ",
+      "summary": ""
+    },
+    {
+      "title": "Galderma wird attraktiver – Zweifel am Kassenschlager sind überzogen",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUlM2aHNKbzBQMURINUFZWXc2VURRTDNrMjU0WWRTTm16RVFMMW9EZ0d1NTlZSy1tYnBaNm1WLUh4UjRqT081UERwdzFxTEhVTFA2Zi1MSzQ2bVN5MUJ6TTg3dEdNWDU0ZHV6V01hcHZZaEdDNUVzWE1FOXNCb3F2ajVxcFlUQzY4WG0xaEpGOHhQb21OZ2k3RmprTnpFalNHNU56YkU3RmtlWTNKNWQ0?oc=5",
+      "source": "PLATOW Börse",
+      "ago": "8 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Galderma Aktie News: Galderma reagiert am Donnerstagnachmittag positiv",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSDgxdnJZaGx1MVN6WG1zTmNUZ2tkS3JTWVZZdW1ZYjh2REwtRkZoNk9XMHV1RHhxay10Sy1BdEt3bUlZSW9GOVlQdFE3ZzlMTW1xLU9zcXd4OEhfWjFJSTZCMHZ4NGIzSmRKTmpabC0yek43NW9YVGFCX01PMGVfSXFYQ3dFRWVweWhqY3Nhb19TZ01XNi1B?oc=5",
+      "source": "finanzen.ch",
+      "ago": "9 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Galderma Aktie News: Galderma verteidigt am Donnerstagmittag Tendenz",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZ05PZTBqeXMxczBEcXY4d1J1S0JBT2l5ZW1IcDRPR1RSQkFMWkM3ZGRlOHdnU3RKbm43bVVfVC1JamZpenpEYzgzZzZZNGxTbTdtWm5kMkVRQXNZNWYtUXNPMmVRT1hHdDhmNDcyOXc0RWhNdTlNaGZCVzRkZGkxS2M5RkxTNDdVMWZSUHhLczV5Q1NRc3dR?oc=5",
+      "source": "finanzen.ch",
+      "ago": "13 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Galderma Aktie News: Galderma am Vormittag leichter",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdlA5WURnV05ZaDd6Rmo3d3JwZ3hwZm4wVC1pQmh4OG1UZExfWTBQdE15a3A1Q0FLY3E4T0NXMGp1N3RuMlBWLTdkcU1IOGFrYlNQQ251bTJSZS1PTnN6RzBkTzlneVNqRnZNeTNoNmxjWG5NOHo4TFBrRGFOWHpJUDVoRXVGTjEtU3RoaFRJVlZRc05ra0pZ?oc=5",
+      "source": "finanzen.ch",
+      "ago": "16 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Galderma-Aktie unter 200-Tage-Linie",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSjJleXVtbmZmTVA1djJ0YTVjNHFzNjBNSzI2VXRnc2s1Nk1ud2FXUUxQQlRJV3lxSTIzQkZLMk9zSzBJdVZNQ3hsMkd1WXBqeW9MMXZkOEp0UnVxdVJ4ZzBrbFFIdlhxTjFISVNXanRzVjlsY090LXZQU1VIWEgxSUNrQ1I?oc=5",
+      "source": "boerse.de",
+      "ago": "23 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
       "title": "Integra Lifesciences Holdings Corp (IART) Stock Down 3.1% -- Now Undervalued? GF Score: 70/100",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVFJLRmhpQWRCWVY4eXBkSHl4R0h5NzlCRFpFNmFGM05mQkROUTl6c1N3LWM5d0JRdHdIakVPWmdXdEZDT3dnWVMzN0ZkQWNTRFJtOENBMUp5ekh2WEgteElaeVp2bTdTM3daWmxZR0wxSDVjS2VqN21OU2ctZlMtRkZCNHptbVRtLUJfc2lCX0w4MUl0MGd2dUpwWko4UXYtOE9jQ1lVX3pIVDFNTGZONUh6MVQzWVgwaTVxOE41TGo?oc=5",
       "source": "GuruFocus",
-      "ago": "15 Min.",
+      "ago": "1 Tag",
       "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
@@ -52,7 +140,7 @@
       "title": "Integra LifeSciences Holdings (IART) Faces Remediation Questions, Is The Stock 42% Undervalued?",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOX0VwY0lNMlQtZEVFdWRsT201NGZ0c3g2TWJ4bkVJQmF0elFHY3JxRXUxUzViNUluSUhLd0VEV19wX20zYV9GcHh0RnhXWk1sNnBNM01nVThCa2RlX3hKQjFRM1hrZ3FTWmo2dTJRblNiYS1QRWVicGtXNHdDZTRQblJ1M2lqMV9CREdES25GeHh6SkpSSzl0WEpVbFh1ck9uS2VldXYyZUJtZWNjdE1OME5yRFU3dkJ2MWxjWmtvTjlkNWxoeHVpQ2xQV3U2RC10VGdxaFZ3VlowQVQzZmttbG5sZmPSAeoBQVVfeXFMUE4zT1V0VHdyQmNMRXdnS1JmaGdUN2FsYWtiaXQ3Mk9lMmxHd2I2YWF2bWJESXNDV05Uak9yWXpobVJFRTY0dldCUU5NVEFaOTFkc1d4TVV3NTAxTkZJTGlJTjZVVFBPN3dmcWo4UWZKRjMtSlNUTFBfdDkyZ0dKY1R2dWFvaWVyYlprbGFXU1N0bTE5QWtkYjEyMzR2eHBxM1ZlR0t1QnpISW9EdWw5b1pKZTBUQVJ3Tl9WVDNVX19ETnVwSlZHYXZoWE42WG95N2UzOTFYYVlHenNKbDNmNWRtRGFyeVRWMHhB?oc=5",
       "source": "simplywall.st",
-      "ago": "1 Std.",
+      "ago": "1 Tag",
       "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
@@ -60,7 +148,7 @@
       "title": "Is Establishment Labs’ (ESTA) Profitability Inflection the Ultimate Buying Opportunity?",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQV2g3WGlfZy1Qb1lKNVhfNjZlTjEtekNJSkk4Z3pwQXMteExlRnFmZUF3Z2VocGRDb0RJRldaclFpV2xOZWlmOE9ER000YTcwOTE3c3B4RzdtdnFzQUtmZks5RG0zN0dYWktPYUZLNVJrenNNOGpxR3F5TlhPalVJZDR4aTVLek1CSmRnM2VqcHlqdXp0M3pieklCU1hkc0FRY190YjdLWVFGcjl4ZFUtWlJkY1IxZ0hab294TWpmYVlHTjNPSUlGWlFvS0xxZ9IBzgFBVV95cUxQV2g3WGlfZy1Qb1lKNVhfNjZlTjEtekNJSkk4Z3pwQXMteExlRnFmZUF3Z2VocGRDb0RJRldaclFpV2xOZWlmOE9ER000YTcwOTE3c3B4RzdtdnFzQUtmZks5RG0zN0dYWktPYUZLNVJrenNNOGpxR3F5TlhPalVJZDR4aTVLek1CSmRnM2VqcHlqdXp0M3pieklCU1hkc0FRY190YjdLWVFGcjl4ZFUtWlJkY1IxZ0hab294TWpmYVlHTjNPSUlGWlFvS0xxZw?oc=5",
       "source": "Insider Monkey",
-      "ago": "4 Std.",
+      "ago": "1 Tag",
       "group": "Motiva / Establishment Labs",
       "summary": ""
     },
@@ -68,7 +156,15 @@
       "title": "Is Establishment Labs Holdings (ESTA) Undervalued As New Clinical Data Tests Its Premium?",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxObXZsdTRON1R1MVRzS2F1bks3LXkwUlZIS1ZxZ201R05IQ1Vjb0EyUWt2MkduSE1JcWpkcGs0RU1lTWVLeHRXLWV4VWFjU01fa205SFNRV0p3M1VJb29RSGpfWkZqU0x3cDBHUWx5TjRvQjRXX05haGZFbjZQaUtmUUtBV1FTaElzeVBRUUxWZE9kbWxJLUg4LXRJWEw0RHF0eHo1ckhkVHJzS2t0WGJTUkNQbFpRdGFMNHZnUllUZUVob1dEWWVoQ3BVelk5UFFpQ2VCejFZenF6elUyMFk4cTl30gHnAUFVX3lxTE15WHhNUXd6bXZfQUpSXzZjU2tRTmFDVlozV2tBcWNLZ3J3al92RDZZQUY3WHV2VmEtRTBaUGdlZGxUb2ltNV9PWnpwSGZzSzdLWTNOX0lIZ2hBTG12VHkzNkJuU0JJN1F0RXBwRmtvaXl5dmVtYjJvcUtSWXQ2d1VlNVRNRzN1ZnUtWm9GYWxpUFZ6RjlUUXdac0JNU0M0d0wyV3lfS3paOEY5bTVTaXNSX2xCRHVCak5HV2hIejlGU1BVR05Ydlk2VnBFaU0tcVYtMGxTYkIwU29waVZjOTVmY2xQQjl6RQ?oc=5",
       "source": "simplywall.st",
-      "ago": "5 Std.",
+      "ago": "1 Tag",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Is Establishment Labs Holdings (ESTA) Undervalued As New Clinical Data Tests Its Premium?",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNeVh4TVF3em12X0FKUl82Y1NrUU5hQ1ZaM1drQXFjS2dyd2pfdkQ2WUFGN1h1dlZhLUUwWlBnZWRsVG9pbTVfT1p6cEhmc0s3S1kzTl9JSGdoQUxtdlR5MzZCblNCSTdRdEVwcEZrb2l5eXZlbWIyb3FLUll0NndVZTVUTUczdWZ1LVpvRmFsaVBWekY5VFF3WnNCTVNDNHdMMld5X0t6WjhGOW01U2lzUl9sQkR1QmpOR1doSHo5RlNQVUdOWHZZNlZwRWlNLXFWLTBsU2JCMFNvcGlWYzk1ZmNsUEI5ekXSAecBQVVfeXFMTXlYeE1Rd3ptdl9BSlJfNmNTa1FOYUNWWjNXa0FxY0tncndqX3ZENllBRjdYdXZWYS1FMFpQZ2VkbFRvaW01X09aenBIZnNLN0tZM05fSUhnaEFMbXZUeTM2Qm5TQkk3UXRFcHBGa29peXl2ZW1iMm9xS1JZdDZ3VWU1VE1HM3VmdS1ab0ZhbGlQVnpGOVRRd1pzQk1TQzR3TDJXeV9Lelo4RjltNVNpc1JfbEJEdUJqTkdXaEh6OUZTUFVHTlh2WTZWcEVpTS1xVi0wbFNiQjBTb3BpVmM5NWZjbFBCOXpF?oc=5",
+      "source": "simplywall.st",
+      "ago": "1 Tag",
       "group": "Motiva / Establishment Labs",
       "summary": ""
     },
@@ -76,7 +172,7 @@
       "title": "Swiss Dermatology Giant Sets Sights on Miami Amidst Aesthetic Medicine Surge",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ZbjBsQWxKRkR0RFZ5SWJ1Qms1UVpkWUp3S0RhLVhkUzlMQTJlY01icXpVMnY0ZWtoS1ZleW9QYXVmREt1VGxfbFZ1dXlOVUNiWnp0eUxzTVE?oc=5",
       "source": "CubaHeadlines",
-      "ago": "8 Std.",
+      "ago": "1 Tag",
       "group": "Wettbewerb",
       "summary": ""
     },
@@ -84,39 +180,15 @@
       "title": "Galderma Aktie News: Galderma am Nachmittag gesucht",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZ2lwdDFpd2xILW4yX2RUTFZfWmFKb1drMjA1MlFDbGpqR08tY0RKUEswLUlHTE56MjU2b3NIelFtWGJFY2lyenkyTF9ubDRDTGlFemVLVTFGcTdqeDBPS1QzZGt6eVhxRDF3VjRPcXg4LUFpUFA0Qkw2Tk1DT1lUWXNUY05nS1FXdmdwZUtjTGdyb1hVUDZv?oc=5",
       "source": "finanzen.ch",
-      "ago": "9 Std.",
+      "ago": "1 Tag",
       "group": "Wettbewerb",
       "summary": ""
     },
     {
-      "title": "Personalised Care Shapes Non-Surgical Aesthetics",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPX0p0R3ZUN0FGZ21OOHBfcnVlSFBjd3gwbUtNOEVHRUZHdWN4dG12ZWdMTDJWM0ExRFJtVjlyYi1pbi1UZEZyZHFnZFhwWF9WWkgwMGp2R3RMdkpzYkUwdUZNdXhCU2d4aHIzWDFwTzA4S1otSmV1eHk4WG1YbW1TdG1LUjVER1cyVkYtdktiWHJlMWMxd0JfRGhQNm95TU16Q3g2ZFpPbkVfY3JXbE1SV1VTdGF2Yk9JUGJpMEg0aE9BUTNzMmcxb0FFT18waHpE?oc=5",
-      "source": "ET Edge Insights",
-      "ago": "12 Std.",
-      "group": "Markt & Kongresse",
-      "summary": ""
-    },
-    {
-      "title": "Galderma Aktie News: Anleger schicken Galderma am Mittag ins Minus",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSEtWZ3gyWWZEc0JveTBrTENKcDR4MmFnRzVuTEdEMFltQV8wXzVZb2s4M29kelJ4Ui0xeGUzUEpiR2l4WF9RaXY5UXRBLThCRGlJOVIydm9EQ2NSOHFXaWVYcmVDOWhvdjdsQ0IyVEo2MVQ2OGh5NDdiRkJiRXNiNHhDSVpPS3MzYVhFVnRjYkNiMllKNGpB?oc=5",
+      "title": "Galderma-Aktie kaum verändert: Präsentation diverser Daten an Dermatologie-Fachkongress",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOejBMZ3VFUm9pYUZQRGU2c1dIM3JDbUZLck52V1FYMXJTWlk5REVVd1g4alYtWEJjMDFOQmEwZlhLRC16Mmo5Z2VFSlRvWGxZeUYxbjE3TkFZSnFYTUptVUlBalhqbk90Nk9fVnlNWXhjUUFZdkFUZTVVZXlzT0xSOFNIdUR4aFBJQjUxZ2N6N2dsOHNJUTVfWWdCYUt5MTNVODRieFFFeF9pNFA1NmlGMk1KdVBOWmFEenZ0bkV4T0pMOTA2NldGeXg5TjNoVUlKUnp1aTBCdw?oc=5",
       "source": "finanzen.ch",
-      "ago": "13 Std.",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "EADV 2026: Galderma to Unveil New Data Advancing Understanding of Skin Diseases, Skin Longevity, and Real-world Patient Experiences",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPUTNCZGJ3UFdJLWpVbTlieG42emJsdmhtMmtFeGV6bFpSeHNvRjVCYVVuTGo0XzZObzJQZkc0MG03cUpsNFk5X292VWFCeWZZaHN0RGNVYmNnWkhwOUVYb2JzOXl1SExLREtmTVR6T2txbkk5cWJUUUtlWlk5dWNFbVh1SkJHNDFYWWhIejIzNndmTlVTbmFwdjZMbnNfbG5pd1RGSUhZSGVTdmk4dUMzazdwVzhMREttZGdoTG1fX05YaDBkcW4tanJJU2pDRnRPVjFwb3MzdmhGdTZKRHoyMlFsMGRqRjRVZGpRQmk2MmRnd0d5U0xiRldjNA?oc=5",
-      "source": "Business Upturn",
-      "ago": "14 Std.",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "Galderma Aktie News: Galderma zieht am Mittwochvormittag an",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWU8xUDd1TWhFSk4zaGtOcDRGMU4xSWhpVFZIUVozeWFrbUNISHhuUjlFbm9td1poT2JLWDVwZlcwUGVSQndRZ1h5R3doZkVscmNUQ2Z1Sjd5am1WeWNxZWo2RGNTUjRjX3BjYUdXeHZIVUlObjNwMzlGdDhZX0ZwZGVTY0ZGVEpPUEg1aFZicW15dEV1UWtz?oc=5",
-      "source": "finanzen.ch",
-      "ago": "16 Std.",
+      "ago": "1 Tag",
       "group": "Wettbewerb",
       "summary": ""
     },
@@ -124,80 +196,8 @@
       "title": "Integra LifeSciences (IART) Stock May Be 48% Undervalued On Cash Flow",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZEhjeXdKa01CU19EY0lVTUNCTUNGNjhUZDJJSUlnNEJHaDcwYlZIWExRZk9vZ3hObERqUUdxSFlXMFFNdlZCSHRuWmJuTzBLVmItZXhwNVVFR3FJYmw4c1FINnpuaks0S2JKcEUySlFqSlVhZzVIanI2QVJlc2dXQlhhTmlrOU5LSERGblpsMHlTa29Ga0tnZy13c0xUbFI5bHc?oc=5",
       "source": "Yahoo Finance",
-      "ago": "17 Std.",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Galderma Group AG (GALD.SW) stock price, news, quote and history",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BekhWaXpCQ2lRcThJYWFPZlJuek9faG1OWUhQOU1TVTZiNGxyRnpJamhzWWZTUm9FUHdzY2VleF9FSDIxRElYUlJfcDZFZUxYVk5RTjdn?oc=5",
-      "source": "Yahoo Finance UK",
-      "ago": "18 Std.",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "EADV 2026: Galderma to Unveil New Data Advancing Understanding of Skin Diseases, Skin Longevity, and Real-world Patient Experiences",
-      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPY2xKVXd3Qm5GSG5ZQ21hX3RIU1JYUDRoTDBzbXdtUlB2UFhIaHpnNGlabmdWNUJoWmtnNWNlVHUyR3dEd0MyQUZDUWZQSVkyQ0RiSFFqMzF3ZXBHMHprcUljaTJNUUJ2akh1cDd3S0FIZU5EcFUyVmE2aThZc19iVUM4NDRyUUJJZk40c3N3aFg1WElYbm1ZTFF5cUIwUWxxUmFRMUdXaUowYUx6T1JqQmxZM1dXTEs4c1lqV1hwbWh1ckEzcEp1NmwxQm1KcDRXc2pITlJPM05BZXZsZnc0cENlMlB4d3FSS3ZiV1A0dGxXdU1hcmd4VDZ0eGUzUXcwLUlFOXpzQkVxR2tleDFyakU0eHZITHU2MDVtS2pUSTl6NG8?oc=5",
-      "source": "STT Info",
-      "ago": "18 Std.",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "Short-Seller Attack Triggers Selloff in Establishment Labs",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNnFBOHd1YXVmOVhsM3JwRU1IakVTS0JyVGl6d3Vud0FsbXdkVnFSTU5BUEtrUlZ2WllFbEVQSmFRMGg0bVlHUHNMY0EzVlFNOXg2NVQ4NnNPemZRQVI2SmpvVkVtTVZTSGRxMnhlcUM0ZGZOLVZIbGxLYlRyZEdNdzRLU0lucEZPd281dnc0aHZPQ0VPTWkxTC1nTG90dw?oc=5",
-      "source": "TipRanks",
-      "ago": "1 Tag",
-      "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences Holdings (IART) Stock Analysis: Potential 25% Upside Amid Market Challenges",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWl80TGN0VE1XaWdXeTRnWm9fd2FpUUZnMmxoMXBLUlIwZ25uUkE1b083ajFLMWNyRHZ2Q0duRXZ1aTFtXy1NVDVPZFFjVllzSkMtSk93Sk5tU3F6RHJsNGY5aXR0QTNPTHRCcWtoSVRxc3lxZmpIdE4wMFlUaEticUdFdVZjU01TWGV1SnJ3ZElfZzJWa1hCQ20yZ2dLaURtS1FqQ0JHY1NodVZxdEtzTndtUDNqZDhQWGE0UFAyVVA0T2RPSUU1VWtFSld2QTdqLWhSOXV6bmNYNzA?oc=5",
-      "source": "DirectorsTalk Interviews",
       "ago": "1 Tag",
       "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences stock falls after weak share performance despite stable Q2 revenue",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPb21OWF90RTdYcjViUGw4TzBFanBKM1VSMmYxMmpuTGZac01PZ09HUGdjcGJtejgwdjBIV1ZlNjdTRWhwdVFHVC1JUEY0MjFqMkJDNUZ6Qk5zWjJrZDNwX2NwYTBkSU9vUHNDVm8xanN0WWYzTUdnS2VsOFJRU2g3Snpiblg0dmptSXVOMUFXTG13RVU0Mm5IYUVzZVFIS1ZjNXhDRTd1eFdoVHNYMGthNlgyOU1pVDdyLXN0cGwwd05BeFV5a1pJ?oc=5",
-      "source": "AD HOC NEWS",
-      "ago": "2 Tage",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Establishment Labs highlights breast tissue preservation data",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPczlKU3MtZFVIN1dWVzBXRE85S0NnWTFWYjFnUXpGYnp5UXUzTnRlbzRUVkdPRVpJaGkxeDhNTGZFQ3lHdDJHWm1ocEw2d2RUTFA4T1hHa244WVZwWV9QY2VPMFdCZWlBa1pvMXl2ZUdoZWcwbDBjSnVMOF8xZHJnYjZ4eENiTG82Ykh4ZWlwNkhXdDlHS3V3NURHazg1N0I2QU80dXlaVU85LXBWU1QtVw?oc=5",
-      "source": "TipRanks",
-      "ago": "2 Tage",
-      "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "Establishment Labs presents clinical data, expands product lines By Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNTFmdDRGYVpxOUdEeXItVE9Va1V3Q0NPWGk0YURMQ25TYmphUm84cTdYZ3FmR1NwQVF1SFA4OGw3cGt2dDk0TlJTVWFVNVVPVl8yZlV6Uld1RkNiSlpiRlJybDFoODAyRnd4TjBHcW8tUkZKZHRGcHFiempxMVFHTC1HYXlrSFN2RzRhQ0phMUJ3aVd0Z3RvUXZhN1pzNmFfamtvVFNLM3RJWk5RdmVZbC1oTlozWHVZX1ZDU1g1SEtrdw?oc=5",
-      "source": "Investing.com Canada",
-      "ago": "2 Tage",
-      "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "Establishment Labs presents clinical data, expands product lines",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcXd4cmxHVUgxWWNtYW94YnR6UW5nVHhZalZ2WjlLSkJTdlZlWWdBOENoWnhibU9hY2k0MlM0aVlSSVZVRWtnMGxiMkl5bVVSWjZpT2NCT0VMRUJkOWhFN09NVVZNaHAwMHFib2pCTDc5WXN0RW5pMG02T1pSTWhGaGpiZVl4SE42Y0tUWmhsOTlYdHd4eTdTSjN1MldfRTd0VmRCc0hGOHdCcFZvVlF6ZGJGcVlta2czVzhXcA?oc=5",
-      "source": "Investing.com",
-      "ago": "2 Tage",
-      "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "Establishment Labs präsentiert klinische Daten und erweitert Produktlinien",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcGFRZVgyRzRJb3Q0YmtjSTVmY3pURGFROUNVQncteDFlNEdXdUZlQ0p4UzZmX2RoYm9fdWlNb3U4YTMzamxnb0R2Z0Z1TlB5V3J3NU91SGV3d082OFlVNHB4RzRSSGlNMU5RMGJOMEFPMjVQc0ZKVjF6cUM3amxoc0o2dlphZzljQlB2MDBxV2tBbU5mdzZhbXhITk1lZGxWR1h0VEZPMkV2aWpoak1pZTZUeHlreWk1aF9iOG0xRVBGdDltNEFCLTJ3?oc=5",
-      "source": "Investing.com Deutsch",
-      "ago": "2 Tage",
-      "group": "Motiva / Establishment Labs",
       "summary": ""
     }
   ]
