@@ -1,20 +1,20 @@
 {
-  "generated": "2026-09-27T23:51:03.058856Z",
+  "generated": "2026-09-29T01:04:34.787649Z",
   "forex": {
     "eur_chf": {
-      "rate": 0.9445,
-      "change": 0.0036000000000000476,
-      "changePct": 0.38261239239026973
+      "rate": 0.9464,
+      "change": 0.0019000000000000128,
+      "changePct": 0.20116463737427345
     },
     "usd_chf": {
-      "rate": 0.8282908006664912,
-      "change": 0.0005438137746112126,
-      "changePct": 0.0656980675524036
+      "rate": 0.8317806292845844,
+      "change": 0.003489828618093216,
+      "changePct": 0.42132891193347743
     }
   },
   "bitcoin": {
-    "price": 84374,
-    "changePct": -0.03943559140257818
+    "price": 83200,
+    "changePct": -1.018537249155979
   },
   "stocks": [
     {
@@ -41,66 +41,98 @@
   ],
   "news": [
     {
-      "title": "These power achievers are rethinking weight management for long-term wellness",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOT2Q0NVNmbTJieHZJX2Zud3lnX1ZMUTZDSmx6MUVvUlFabE5HUTc0YXFhYUlJVzZZSXJPbnhxSUlYZlo5WmVIcGdpRFBvT0dyaFdPS0lnWnljWm4xSF83YlV3Um5rQzlZTV8wTDd3ck5acjdsUExzNnJSWXJLemY3dEF5Z0UwZ0E3VzNwT3k4eEdDeXRPelB4T292bkVJdmVBTEJ6bzEtUFNXQzY3SGVhWnprUklyOW1JYkhHcTBVTnBXeHVZMEwwc1B2QzFwLUctTWttY3hLd21kZw?oc=5",
-      "source": "GMA Network",
-      "ago": "15 Std.",
+      "title": "DermaSensor startet in Deutschland über die DERMALYTICA-Sparte von ContraCare und expandiert nach Erhalt der CE-Kennzeichnung der Klasse IIb und der Zusammenarbeit mit dem NHS in Europa",
+      "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxNMzZBVDRDc2JhNFZqWnNVNHVvVndrTXdfcGhhb2RLWXRlWW93NVJiRWtJTXZ0Z3k3UUhvcjR2THFxX2l4V2NRdGZXaXZWX1Y3M1NVd0xnaHAxc0x4TjlNR1NOVW9aVmZ2QVBYZ2NRUmZYaDVFZUZUYTIwajFRZ0hjMkIyV3pnRnVkVFpUaGJVTVptZnFXNFlQd213SHJCbG5KMGR3QmhzMUJBdlg2UkJKVEtBVE42LWpFNC0tcm9rdmFaWDdyUU5QZWs5V2QwblFoVWF0Ui11SzBGb25sX2VTUG80UmZGbW9vMG5lcWtoSWNZa0VBbWozbnFjZnBxcERMLVJidWh6MkhvZEFNbkk5TXllbld6TDY4QUZ3UUJWXzJvUXFTZ1l1SE1ESF9jbENKXzZIS0M4cVVjZw?oc=5",
+      "source": "News-Press NOW",
+      "ago": "1 Std.",
+      "group": "Regulatorik Schweiz",
+      "summary": ""
+    },
+    {
+      "title": "The Med Spot Highlights Non-Surgical Body Contouring Ahead of Holiday Season",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcmVsczg0V1ZQVW83WE1lYl92NVpzWkdma0RDWjNaNzk5LTdKa2hob1dOMzdITGVNUG1wZGh1THlXQWQ1RkhJdGh6dDB6TDdPX3BUdjAwbGhCSEVOa05oS1lSRV9BMldYdnRiSFdERUlES1BEb2VpSTlmaFVNTUtSZmFFS25ZYjdGVFZaemVUaHhMeF85RzhDWUxYV1E3S0h5QW4yRlEzMWZDSEtHOEpGRDAtMGdYNU5NRE5tZTJPU051MjV3bW1UYXJ1UUFhdHAxWUFQc1A4TVA?oc=5",
+      "source": "Democrat and Chronicle",
+      "ago": "5 Std.",
       "group": "Markt & Kongresse",
       "summary": ""
     },
     {
-      "title": "Reality Star Opens up About Painful ‘Special Forces’ Injury",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV0ltMnJfVFMxd004Z2w3MlZmdXpfUzl1cUgtbmtZWm9qeHI3SGVjanFhQ1hFTXR3RTZsRXR4eV9QX3dVeFRCT0thTWgtUDhlNU9mbmd2VjhVeVVkZGpORW5iWFU2WkJrcEhtM3NvZVpoWVA1NFI2eDJ6OEJYb2hPNVhicGhGcTRfaF9URUstNTNfNnlH?oc=5",
-      "source": "Wide Open Country",
-      "ago": "1 Tag",
+      "title": "Claudia Artiles Fires Back at Critics of Her Appearance: \"If I Feel Beautiful, What's Your Problem?\"",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5iRjMxcmdGQjJsZktXMkVXTmZuU0F1YW5VQ2MweHN6TjJ3YURDR0JpOG5Zdkc1c3V0UWd5TXQ2S0s0N05tLXdEWHg0QkM3QVpvQ3ItOWpUMHg?oc=5",
+      "source": "CubaHeadlines",
+      "ago": "5 Std.",
       "group": "Markt & Kongresse",
       "summary": ""
     },
     {
-      "title": "PHOTOS: RHOA Star Kelli Porter Shows Off Results After Undergoing Lipo 360 Ahead of Season 18, See Her Before & After Pics",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQZEczXzVBYU5hNHlEN3Y1V2ZUNXpPR0FhVS11Wk00OVlVZHktUWloRXZVM09uTXZSSnBvTGxacVZyVU9fZHpoTG1jNVRkckZOSWFuOVcwZHNyOFlya2REeHE2ZVBheFNxeENCeGpuZUR0STNVeWxtZkhncWRkdVpacXZtby1qQXAyeUxzcmFXZ1hBa3g1UnRNSG1kZVZqNmp5SWFkNG1CSmhKMGFwMldXRDRzYnhaclN2TFJ0YnBlUXZsRE1WZEFhS3ctSkxpb2otdVB3UzdTSHgwUXNUSk4wdkhwSkZPdVBkTzl3?oc=5",
-      "source": "realityblurb.com",
-      "ago": "1 Tag",
+      "title": "EU-MDR-Zertifizierung für Supraflex Cruz: Sahajanand Medical Technologies unterstreicht Compliance und Patientensicherheit",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1uc2VvWHN0VEwzVjRmS0NDZllOUzlCVXBOUVJmLWlmM3VCY3dhUzFFUzJNdlFPVFU4bmdYNVdIdG10SXl2RVlSSGNOVHFWMEMyVk9Jc3RMOUN5M2h5TWJVNzFvcFNtOXM?oc=5",
+      "source": "Business Wire",
+      "ago": "7 Std.",
+      "group": "Regulatorik Schweiz",
+      "summary": ""
+    },
+    {
+      "title": "$99 T-Shape 2 Special | First 15 Viewers!",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVkdvTi1ZbWNMNjZCenBuZjV5MEY4Qm1fUkEzMkRkZlRsVnZxSndFSlh2VnY3V1pZdkxnajRKNENNSEQ4S0N1TzRVVWhrcFA4bmRrYzRxWWFFUlExNGljS2J0MjhYdXhid0Vmb3ZCVlk5emFzME91cWtHUlFGVjhtYk5FU3VrNVV6MjhDMDRlRdIBjwFBVV95cUxQVkdvTi1ZbWNMNjZCenBuZjV5MEY4Qm1fUkEzMkRkZlRsVnZxSndFSlh2VnY3V1pZdkxnajRKNENNSEQ4S0N1TzRVVWhrcFA4bmRrYzRxWWFFUlExNGljS2J0MjhYdXhid0Vmb3ZCVlk5emFzME91cWtHUlFGVjhtYk5FU3VrNVV6MjhDMDRlRQ?oc=5",
+      "source": "KCTV",
+      "ago": "7 Std.",
       "group": "Markt & Kongresse",
       "summary": ""
     },
     {
-      "title": "GALDERMA GRP AG | Kurs, Aktie, Chart | CH1335392721",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE95WUxsSFk0VUlGMXQxMURfOTBIMERDRGtHNERSbWFKZ1lZRWFXaW9IanBFWEZMTEd1dnpmZ3UzaU1DYWJ5c0lSSWFxcTlGWW1NWndzYzV6UjlNSHJPOUFkM294ZXpBcXIzc0FyLVNDQXczdw?oc=5",
-      "source": "n-tv.de",
-      "ago": "1 Tag",
+      "title": "Dr. Sean Doherty Offers Motiva(R) Implants for Breast Augmentation in Boston",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTThldGc5N0NGU01GRkR6ZzBtVTdqcUZDMFZLUVA5ZlNEYlZyZ291d0o2bW9lYUxvWGZGWTJvRlpNc3NFNWVtNGN1UGU0aXNzLXdFY2lPR19helBvQ25CTlV5SHdpWWdHVDFDSmJpZFRqTVpBdGZra3VoR3JoWTg0UGpnSXZzaGpzMTZpS2wzS3ByWFJjNC10bEtPbzRtbzBCRnhrSVNjSXVfQm5Rd1h5WktVQUNOTVV6THU2blBReUVaOHVtZEJPQmVFRjd0TUtSTFVCVzdLOERZMDhkaEEwUWl4aHY?oc=5",
+      "source": "ACCESS Newswire",
+      "ago": "7 Std.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Sean Doherty, MD - Plastic Surgeon: Dr. Sean Doherty Offers Motiva Implants for Breast Augmentation in Boston",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNb19NNnFlNEtRRHVBYkpjUFBrNUhnWG96NG94Y1BtTFlSbDktSWdHTHZxLURhTm1SZjZSTW0xQm9lQWprdDU3a2dSRWJhQ0tnUVBHbDBNaER1ZmhWYUtHRm92SXdKTmV4ZEFXeXQ4S3NPMXFWbkhXOGFjWktKa2ZIQnRoUWo3NzFWNmVBVU5vLTlDbU8tTWhVbzFqQk04cllRNVlqOFpEelVEbTBJZm9HRktJTUp1dFByVjRzbzBqWUNGSmJjMzNyS3VnYUw5alR4aGRMZUM1c21uRW11anV1SjJlZHh4RUlTRFFoZy1ycXowaVJ2NDZPdll4alRDamxQLW50cw?oc=5",
+      "source": "FinanzNachrichten.de",
+      "ago": "8 Std.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Galderma Aktie News: Galderma am Montagnachmittag nahe Nulllinie",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUEdOLUJqMkdNbjFza2xIemgwVWMxb3U2bWNSTy1QQzF4Y3hqYXVhVGpYYzRaLWFPakJUeGhvNUpubDl5MGJ3bkZtRFg4N1BRRXhzR01wLWQ5MlVRRm8xaWY1a0VTY2dsMzdiQ3NhWTlHalE0NnJYUktReC1VU2IwYWV1WFVSWHdyOW5ob0hfMHUteTB0Zjdz?oc=5",
+      "source": "finanzen.ch",
+      "ago": "10 Std.",
       "group": "Wettbewerb",
       "summary": ""
     },
     {
-      "title": "BOTSI®-Advisor Hochstufung Galderma von Rang 948 auf ...",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM3M3QU1kdDEzOWM2dkxsMVRRRFVTMGtUWjZucnYyMGh2SWpDenJhbWdkQlgxTjZkU3NOYnhVeVJCQ1B2TFJXOG9TMEU4Z3NMNFVJS21xZ2hkV29vcnIwU1ZQSXpsTUc5NUlFeGkzNlN3ZlIzR0NaSnFEb2w0UFViNjBpRGp1Y0ZxVDNWQmZZN0FNa1hURWN6NVBnX2ZFZFXSAZ8BQVVfeXFMTjNzN0FNZHQxMzljNnZMbDFUUURVUzBrVFo2bnJ2MjBodklqQ3pyYW1nZEJYMU42ZFNzTmJ4VXlSQkNQdkxSVzhvUzBFOGdzTDRVSUttcWdoZFdvb3JyMFNWUEl6bE1HOTVJRXhpMzZTd2ZSM0dDWkpxRG9sNFBVYjYwaURqdWNGcVQzVkJmWTdBTWtYVEVjejVQZ19mRWRV?oc=5",
-      "source": "boerse.de",
-      "ago": "1 Tag",
+      "title": "Galderma and the pan-Canadian Pharmaceutical Alliance (pCPA) successfully complete negotiations for NEMLUVIO® (nemolizumab), for moderate-to-severe atopic dermatitis and prurigo nodularis",
+      "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxQVjZOTE5jd2pnXy1JSGlSSk9MWTh5NUVPYU1LTW9QTUhNY1JyeTQzOEdZODJRbXdIN1M2S3ZWZ0FrSklXaDhEdHhYMExwbVkwZk9janZYYnNSZXVoendydTlGV0xieF9tQVByQmd3LTRyRy1pMWdIcS16UHBPZFJXWFhwTWY2NVNUZHAtV3JvRnVheUJKWnI1a1RBUGlsTUVuWjRVVzlLV1V5bEdIbFVVdWxJZXZQRW1vanNuOFF5aVRXZlhZcHp1a3VtSkN0Z05KMmJ2UkFBVUZOZmpUalQwdmNmQ19EOFNvV0RlOElRUERBaEQ5VVFFb2lBWXE0djJjVW1uTjJ0Y2xaem5XZGQ4Qk0yUkdNbmlrVDBlSzV4ZzVxVFUwUG9nUEwyN3k3NnJVMWVIQm40a0U5TXhOMFJjSGJmX2tpWXJiRDhhUFdvcmliUE5qQU1N?oc=5",
+      "source": "PR Newswire Canada",
+      "ago": "13 Std.",
       "group": "Wettbewerb",
       "summary": ""
     },
     {
-      "title": "Allergan Wins Second Lawsuit Over Breast Implant Cancer Risk",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMFhLRHdEVU9tbi13QUcxbDVJY2ZMT2RuYm5YU2tNaDV2alBPTm1wRG8xVmhGOXBLbURQUGdZZlduU2ZGVjZfT0hJaExMdTcwU3pZZTRCUGhNZUhNZXh5NFFXbkE5YTRCWVhkSXl4dGpLRUs5RTdYbTJIazRGNk11cFJFSFFodHl6?oc=5",
-      "source": "조선일보",
-      "ago": "1 Tag",
-      "group": "Markt & Kongresse",
-      "summary": ""
-    },
-    {
-      "title": "InMode stock steady amid US sales drop, buoyed by international growth and recurring revenue.",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQY0pCNTJTVnJvNzUtdlgtaXNEQk9mcFk1SW8zTV9JNnAxOGhfbkVKakRKV05ZWHhZUTNFVEMxWDFFT1d6N2pBcFNRY1ZCeWxwUE5OcTdBUHBuOFcxU1E4dkVITHJyUXZEVnZkeEt3R2JiMXM2ckRuV3BHcS1CWU1GTGs4T1drcmNNNXUxcm1R?oc=5",
-      "source": "Pluang",
-      "ago": "1 Tag",
+      "title": "Galderma Aktie News: Galderma am Montagmittag mit Aufschlag",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTWxPRjhuTmpiajhsZkRtZWt0OW1pUGF3WmRQclMxa3g5YmU0WVR1QkZsclNMNTFIUmtNcWIxNVZZZFpfNk5GSkoxOF93blZqdC15ekFNQ1BpUDRZNy1sWVo4SVpzb0pfZGZiZ3hlYWhZRDdmdGJRNXVuaWNUSHU1TDdRSmd3RUxTVGEydFNtbFJQZ3NRN21N?oc=5",
+      "source": "finanzen.ch",
+      "ago": "14 Std.",
       "group": "Wettbewerb",
       "summary": ""
     },
     {
-      "title": "Baden spürt Babyboom: Was heisst das für Aarau?",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUkxfdVVGLXBOVWhCX3IzNVhRUjV1Y2E1bWM5Rlc1aHgyc1BpaG8yYno4XzRhWmhIZmpfckNLM0dJUjdhczdEcHg4TEZHVm9ENUthQzlSNE1PSUZrUzMyUnNZTzhTaVhEQWNIZHZIdkVtQ1NVWEZkZVlaeTM1a01sVHQ5c2xQRGdzaEkxbkNSSjh2dGpxcEdreEV3Q2xWQzE1dlNkUw?oc=5",
-      "source": "Aargauer Zeitung",
-      "ago": "1 Tag",
+      "title": "Galderma Aktie News: Galderma am Vormittag gefragt",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOGZUNnRFaHRobGlsOTIxY1UzZ1Bic25aMzVaVTBVcU9CWmNLQ0hDYngwZTFoNC14aWIya2NjeWI4TGczM3Ytb1VXbkpSNGc3bnctczZDSjgtZUF0MzhsS1NTeXg1NjJwQ3F3MGhwRDllUzE5SnY5WVpPNWhZYVktcFNzSksyYWV4c2ZLNnAzZHB5QzQxY2Rr?oc=5",
+      "source": "finanzen.ch",
+      "ago": "17 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Abnehmen: Der Weg zum Magenbypass",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZHhubEtiMzU3aE43ZkZxMlQwa3lTaEdReV9YNXo2bEhqbzlkbXFNQVFkOVp6SFByVFRWckxHVkVMdzVBQnpUMjRaU3JPNzJkcmo4MVBxM2htS2NKel9DTmZaYVhZcDItUXBySTYyS1YzR3p5UnJ3am1oNjhmUk4yOQ?oc=5",
+      "source": "telezueri.ch",
+      "ago": "17 Std.",
       "group": "Kliniken Schweiz",
       "summary": ""
     },
@@ -108,7 +140,7 @@
       "title": "Integra LifeSciences Marks 20 Years of CUSA Technology with Liver Surgery Programming at ACS Clinical Congress 2026",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOa2FIVHg2cnJYMjBXaTBOUWUxOWpYZ0tDNXFJdjhZRFZHUTVQMlZPTXg4TGhDRkRwZUpFRUJ3X1JCR3FuYVlLVkxjRG4wT1UxbmU4bzhTLV9ROWc2Wl9XenV2cUYtVElPTWthbHZNTHJtd3NPNWRlVnQ2Q0VoUG5zQndGWEl3Z1FmM3E0eWRtMnlwOC0tTGtfRWdhTHU0aG44MmNTMlJURU42SEdTcGZacksxU29TU21zcEQ2M19tOXpZaTk1bXAyUGZKMnMyVEZqQi1lWkc3MEtLOEJHbUhyTEhB?oc=5",
       "source": "Quiver Quantitative",
-      "ago": "2 Tage",
+      "ago": "3 Tage",
       "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
@@ -116,7 +148,7 @@
       "title": "Integra LifeSciences Marks 20 Years of CUSA® Technology",
       "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOcU43bS1Xcjc4Z253cUlCcnBsRUpIU3E5dUtpbVhOTmdpY1dZVDVLeGpCbE8tWmZSU3JOWXhqVTNTMENRLTh6eWd5UDlVMEVpSExNcy1qVGxDWWtXdXYwd3ZLWW5TdTRXbGJqTnloZzF3ZmdBTTZ2N0g2Zkp5a0l0cWo0UDVUQ1B2RG9EN1JCSnRTOXc4OWJWZ2VoNU9MVUpQODA4Q0VLdElDNjBYUmJQN1BvR2Z1RkNZZFpzOXZ2WTNOMUtvOERhOFhfUkNydHZMX245NzFCak5ESzJ5SUpKdU1feEp3c3hoakpPbzBIOHRDUW9qQURtLXJJSjQzaUJ5aS1hZXp6cHhhRjI3UFZlejctQXU4bXc?oc=5",
       "source": "GlobeNewswire",
-      "ago": "2 Tage",
+      "ago": "3 Tage",
       "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
@@ -124,7 +156,7 @@
       "title": "Integra LifeSciences Marks 20 Years of CUSA® Technology",
       "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPUmNXSi1xVjYzeVhFVEk0V1NWeXVhTnJnaUFnLUU4d01IRjhuTDJSUWNCUjk2MnB5b0w3UGlERDFmc0w0NFJ4SzhId3Z0VnVCRUVsaTZuc0l4T2daRGs1c3pFeEpTcE5vSWU4V1Q0bzdweXlMRzBFbjZfZkwzY2xrSzZjeEppUlpwRGpLbTl3cUxxTmpTOURFYkl0cG5rS09fQWQyWDBLYmVPMmFXd3pTTjBwczI3QmhXYXVfVnVqWUw2Mml4eFhJZnNqLW5GdXhRR2laTmVTNl9mT0wycUpMTFR3ZXhUUVVYVVZfSl93Z1BpeUpPRGxBU3VLdnVweFJqZXdWT0tiNDhHLXlpTXRwTlhrNA?oc=5",
       "source": "GlobeNewswire",
-      "ago": "2 Tage",
+      "ago": "3 Tage",
       "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
@@ -132,7 +164,7 @@
       "title": "Establishment Labs stock falls 3.22 percent after Q2 loss",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTjR1RmZFZ3Y1Tl95SHN6c0hqQUdCOUU1R0JnVmJKRWlRcWVDajdnZUpkMGNyUkxtaU9TUkhsajhJb19NM2RXXzl4bWRiWDIwdVg0emJDY3dMaTU4dm5wOGxicktobTMydU5YQ0stVUR2QTh2MjFtc3dVbm5IT3pFSHktTFdXZzhuTXlYVWJYeFJCS2ZBMlo3XzZFWlJxNjdpYlJwTE9DMFVyWkNjQ01ZODVNNVBBNFE?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "2 Tage",
+      "ago": "3 Tage",
       "group": "Motiva / Establishment Labs",
       "summary": ""
     },
@@ -140,7 +172,7 @@
       "title": "Cash Flow Recovery Might Change The Case For Investing In Integra LifeSciences Stock (IART)",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQzBjSVJUYnBQVlZyc2c3LW5tMW5zVHMza2tYM21SU2JYdWVZbThHWGYxMHBmTTViVlpiVThRSjhoQ2YzemF4WHViWmFIVFljeHRVSk5wc3hZZFhsazV2MFhKRkdkRmZKQXF5am10NnpBaDRjTlBCZk1Tc1FFdFpRTVEyc3RCeW9Yem12TTEtWk8yekU0Y1BOUjlGM3A2T2hFZXJBdVhZZjVWd19tVTJBOHc4NXRwWUxYUlg1ZEtOc2xaM0pWUGp0bHE5MkJ6UUFuZ3dEUFRqZkZDVlM3ajl6UXFGanFBUFRDcnfSAeoBQVVfeXFMTUMwY0lSVGJwUFZWcnNnNy1ubTFuc1RzM2trWDNtUlNiWHVlWW04R1hmMTBwZk01YlZaYlU4UUo4aENmM3pheFh1YlphSFRZY3h0VUpOcHN4WWRYbGs1djBYSkZHZEZmSkFxeWptdDZ6QWg0Y05QQmZNU3NRRXRaUU1RMnN0QnlvWHptdk0xLVpPMnpFNGNQTlI5RjNwNk9oRWVyQXVYWWY1VndfbVUyQTh3ODV0cFlMWFJYNWRLTnNsWjNKVlBqdGxxOTJCelFBbmd3RFBUamZGQ1ZTN2o5elFxRmpxQVBUQ3J3?oc=5",
       "source": "simplywall.st",
-      "ago": "2 Tage",
+      "ago": "3 Tage",
       "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
@@ -148,7 +180,7 @@
       "title": "A Look at Establishment Labs Holdings Inc (ESTA) After 3.2% Decl",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbE9kTjdKOGxEeTFYZm1HV1ktdGRDUXBjM3FBWEtVbTVsTHpXS09FLUdscTdHcGN6cXlvN1BOcWtIZXlMaDZ3SGpfMm04X2xRNDVZUEJNNjRvVmFQTDZKRVVkMFdCUDhlaVY3MVhrN3dPMHZtZ2s2SnNGTWFtR3VWQzBDdWp1ZjBMMVh4WmI2aGtMNlQzT0NMVU02TENKQ3h0TXJ1TV9DRURGeFpOeWEyVU8xVHRFTkJldGU3X2ZEWnMtdks2Tlc1cmFB?oc=5",
       "source": "GuruFocus",
-      "ago": "2 Tage",
+      "ago": "4 Tage",
       "group": "Motiva / Establishment Labs",
       "summary": ""
     },
@@ -156,7 +188,7 @@
       "title": "PROLLENIUM® Spotlights the Future of Regenerative Aesthetics at Aesthetic Next 8.0 and Chateau Prollenium Dallas",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOFpHVEZRR0ZYeXp3eUszZEVadmpJd29sU0FacWx3aDlUMkVTNVg5QkZlTk9IMVBDczQ5bXFyeE1fek1qRFVpdmZKZE80LUNsN2lHbXpDTk11M0NzbVlNR2FaaTZEOGo0Zkh4eFV0dUgxdlJqRG1VYlRxSkRoX1V3WVBWWHlER08wczNOeWVhVFJYdjVhSzB5ZDdXY2VYQjYyVERiaGlRaDRRaW5XSWVvZ0hlQ25RYzNnRUppenBB?oc=5",
       "source": "Digital Journal",
-      "ago": "3 Tage",
+      "ago": "4 Tage",
       "group": "Filler & Regenerativ",
       "summary": ""
     },
@@ -164,40 +196,8 @@
       "title": "Integra LifeSciences stock gains 1.50 percent as margins improve",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOUZ5d3pkOGVhdnljMlBzaXA1NzV6ZmxjeWtyVEJTdVg1YkpSX0lBVk13NE1Nb3doX3ZGaVlNbHltNDJ4ejZybU9tZk9sU0E3NlRJVjZVNUJUUllkaGJWNHhRV25WVDRGdDdaLV81ODQzcEZxN0lrejNYRldacHc0UUhhbkwteGVwTWl4T1pMd3QwMVI0ejc2WkJLeW1KS0ZaVm1DUXVieU1WTFpQWkJFdGlDZGsyR09HV0pRdkVNbVU?oc=5",
       "source": "ad-hoc-news.de",
-      "ago": "3 Tage",
+      "ago": "4 Tage",
       "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "INDEPENDENT COLLECTION HOTELS & RESORTS CELEBRATES MICHELIN KEY ACHIEVEMENTS",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOMU1XY09vOXE4M3FNd1BsWFkzY1p1cnpRazM4em44RXY5RUhkb3RvOGJOQ1o2dHU2aWJrT2JJd1BPQ0M0RGZiUDhWc0NwdUhKVXk4cFlVTHBKa05CSHBKalRrX29hbmhkWWYxZWxpUXUxZV8tS2t6ZEpRMk04T05IVDRCMl96UTdsRWpZaGYyQ01mekFqSmJZa2pEUWtpbmxWek1RMmRlb1R1cWkwMkhzbklMNjNzU1JXY0RldW5zWEVoWVJwVy1PRlZZVmUyRUhKenZyVHYzU09FR3dSNU1jc0xWUHNucGfSAecBQVVfeXFMTjFNV2NPbzlxODNxTXdQbFhZM2NadXJ6UWszOHpuOEV2OUVIZG90bzhiTkNaNnR1Nmlia09iSXdQT0NDNERmYlA4VnNDcHVISlV5OHBZVUxwSmtOQkhwSmpUa19vYW5oZFlmMWVsaVF1MWVfLUtremRKUTJNOE9OSFQ0QjJfelE3bEVqWWhmMkNNZnpBakpiWWtqRFFraW5sVnpNUTJkZW9UdXFpMDJIc25JTDYzc1NSV2NEZXVuc1hFaFlScFctT0ZWWVZlMkVISnp2clR2M1NPRUd3UjVNY3NMVlBzbnBn?oc=5",
-      "source": "The Manila Times",
-      "ago": "3 Tage",
-      "group": "Filler & Regenerativ",
-      "summary": ""
-    },
-    {
-      "title": "Grant of Restricted Stock Units and Warrants to Employees in Genmab",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQYTVsNl80VXluUFZuTTNrTXp6eGdlX2M0RDYzTEVuUi1yTVBjOGhyQTNVT0pFM2tONnZXYUtPWjJsczBtTnUtb2xVQUZ6UUNsMWpELWNEWjBrRURQY1BPb2NkM1JreGtWOEwzejBLV25DOE1UQ1kzZWlObnluUXhWMF9FekYyd3hoZncyYWZ5YVpsWTcxVmJTcVlvMGRlQU9xT2dha0xCZkZqQkNYNm1vT2VmMkIyQkFDM04tX3drbmFMSm04cW9wRC1XY004eFMxc1cycDFYTVFneUd0Q1HSAd4BQVVfeXFMUGE1bDZfNFV5blBWbk0za016enhnZV9jNEQ2M0xFblItck1QYzhockEzVU9KRTNrTjZ2V2FLT1oybHMwbU51LW9sVUFGelFDbDFqRC1jRFowa0VEUGNQT29jZDNSa3hrVjhMM3owS1duQzhNVENZM2VpTm55blF4VjBfRXpGMnd4aGZ3MmFmeWFabFk3MVZiU3FZbzBkZUFPcU9nYWtMQmZGakJDWDZtb09lZjJCMkJBQzNOLV93a25hTEptOHFvcEQtV2NNOHhTMXNXMnAxWE1RZ3lHdENR?oc=5",
-      "source": "The Manila Times",
-      "ago": "3 Tage",
-      "group": "Filler & Regenerativ",
-      "summary": ""
-    },
-    {
-      "title": "Zachry Construction Launches Work Zone Safety Education Program",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOMlp5QnMzQmVKWVNHb3gzTmdJTmI3M29hMGQ0NDZoejRLSnZwZnhzNU5VWTd0WW1oeXBaNWJpZ015V1JWck84T1JKQzNzWkYxMkJvaG11ZzlUZHMxQ3FyWnZXcHNZUlY0VU5QdFU5Yzd1ZUJhMGMyX25HTUM3VWFyb1AtcGs1SmZHWVFKQnFFYzVmZmtTczZBc0hvWHhlOVJXRkZtVnNxNHNpZ0V1V3hDd0ZHVFZ3YXY5UF9DT1l4X1VkVy1DQmxTUENZWWU1WXg1bFE3Q3VvcFXSAdgBQVVfeXFMTjJaeUJzM0JlSllTR294M05nSU5iNzNvYTBkNDQ2aHo0S0p2cGZ4czVOVVk3dFltaHlwWjViaWdNeVdSVnJPOE9SSkMzc1pGMTJCb2htdWc5VGRzMUNxclp2V3BzWVJWNFVOUHRVOWM3dWVCYTBjMl9uR01DN1Vhcm9QLXBrNUpmR1lRSkJxRWM1ZmZrU3M2QXNIb1h4ZTlSV0ZGbVZzcTRzaWdFdVd4Q3dGR1RWd2F2OVBfQ09ZeF9VZFctQ0JsU1BDWVllNVl4NWxRN0N1b3BV?oc=5",
-      "source": "The Manila Times",
-      "ago": "3 Tage",
-      "group": "Filler & Regenerativ",
-      "summary": ""
-    },
-    {
-      "title": "Alterra IOS Expands Houston Presence with 4 Industrial Outdoor Storage Acquisitions",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNdURKQ3dnaTZiZ0ZNeWg1VS1YbGdrQUZQLWpHTW1jZHUxemgtbDVXczRMaEktUnVUY0ptcldMeWRDbTNUTzhpN3k1Z3RNNGZycU5NYWdVdEFXdk9zdlJMSm1fTERNUEx2V19ha2Rid1g2NkhsNENwNkxNd2xkcjNvd0dHc21May1lelB4TngtbHJKUHFuX0RQNUh1a2hxQlFNZjZZcFJGZm11aVZhZjFNVkhmUERJNUpyWG5wM1huWFU2c0ZfRS0xTGRuRFNHZ004OU52WVlTSE1pWHJvbXlNS3kzc0h5VHdTclhLSHJiQXVlSGvSAfMBQVVfeXFMTXVESkN3Z2k2YmdGTXloNVUtWGxna0FGUC1qR01tY2R1MXpoLWw1V3M0TGhJLVJ1VGNKbXJXTHlkQ20zVE84aTd5NWd0TTRmcnFOTWFnVXRBV3ZPc3ZSTEptX0xETVBMdldfYWtkYndYNjZIbDRDcDZMTXdsZHIzb3dHR3NtTGstZXpQeE54LWxySlBxbl9EUDVIdWtocUJRTWY2WXBSRmZtdWlWYWYxTVZIZlBESTVKclhucDNYblhVNnNGX0UtMUxkbkRTR2dNODlOdllZU0hNaVhyb215TUt5M3NIeVR3U3JYS0hyYkF1ZUhr?oc=5",
-      "source": "The Manila Times",
-      "ago": "3 Tage",
-      "group": "Filler & Regenerativ",
       "summary": ""
     }
   ]
