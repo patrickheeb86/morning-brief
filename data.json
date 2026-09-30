@@ -1,203 +1,203 @@
 {
-  "generated": "2026-09-29T01:04:34.787649Z",
+  "generated": "2026-09-30T00:35:57.572214Z",
   "forex": {
     "eur_chf": {
-      "rate": 0.9464,
-      "change": 0.0019000000000000128,
-      "changePct": 0.20116463737427345
+      "rate": 0.9461,
+      "change": -0.00029999999999996696,
+      "changePct": -0.03169907016060513
     },
     "usd_chf": {
-      "rate": 0.8317806292845844,
-      "change": 0.003489828618093216,
-      "changePct": 0.42132891193347743
+      "rate": 0.8332012329370322,
+      "change": 0.0014206036524477827,
+      "changePct": 0.1707906631186694
     }
   },
   "bitcoin": {
-    "price": 83200,
-    "changePct": -1.018537249155979
+    "price": null,
+    "changePct": null
   },
   "stocks": [
     {
       "ticker": "ESTA",
       "name": "Establishment Labs",
-      "price": 65.97,
-      "change": 0.39,
-      "changePct": 0.5947
+      "price": 65.34,
+      "change": -0.63,
+      "changePct": -0.955
     },
     {
       "ticker": "APYX",
       "name": "Apyx Medical",
-      "price": 2.96,
-      "change": 0.13,
-      "changePct": 4.5936
+      "price": 2.5,
+      "change": -0.46,
+      "changePct": -15.5405
     },
     {
       "ticker": "IART",
       "name": "Integra LifeSciences",
-      "price": 16.12,
-      "change": 0.24,
-      "changePct": 1.5113
+      "price": 16.27,
+      "change": 0.15,
+      "changePct": 0.9305
     }
   ],
   "news": [
     {
-      "title": "DermaSensor startet in Deutschland über die DERMALYTICA-Sparte von ContraCare und expandiert nach Erhalt der CE-Kennzeichnung der Klasse IIb und der Zusammenarbeit mit dem NHS in Europa",
-      "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxNMzZBVDRDc2JhNFZqWnNVNHVvVndrTXdfcGhhb2RLWXRlWW93NVJiRWtJTXZ0Z3k3UUhvcjR2THFxX2l4V2NRdGZXaXZWX1Y3M1NVd0xnaHAxc0x4TjlNR1NOVW9aVmZ2QVBYZ2NRUmZYaDVFZUZUYTIwajFRZ0hjMkIyV3pnRnVkVFpUaGJVTVptZnFXNFlQd213SHJCbG5KMGR3QmhzMUJBdlg2UkJKVEtBVE42LWpFNC0tcm9rdmFaWDdyUU5QZWs5V2QwblFoVWF0Ui11SzBGb25sX2VTUG80UmZGbW9vMG5lcWtoSWNZa0VBbWozbnFjZnBxcERMLVJidWh6MkhvZEFNbkk5TXllbld6TDY4QUZ3UUJWXzJvUXFTZ1l1SE1ESF9jbENKXzZIS0M4cVVjZw?oc=5",
-      "source": "News-Press NOW",
-      "ago": "1 Std.",
-      "group": "Regulatorik Schweiz",
+      "title": "Apyx Medical Highlights Renuvion Clinical Study Results",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUjNKa2E2ZDJmQllqS0tRaVlXNFBvRkc5ZTEtTmthZzlWSFI1R3VqZF9Wa3p2MGx0SEZoSFA3WnE0WmZPX0ZSOGp4X1hiVWtCcVVxc2NmYk95cHNFQ1VoX0ZwWGd1NFdPaXEwVnZ0bDJCNlhPMjlqQlJEak43ZFNOZ2FwUWpfVlVmZlhSTzVaNDBQRzF1V0pOWlBnTzNocndVcHVNeVJ3Rlk5U1E?oc=5",
+      "source": "TipRanks",
+      "ago": "3 Std.",
+      "group": "Apyx / Renuvion",
       "summary": ""
     },
     {
-      "title": "The Med Spot Highlights Non-Surgical Body Contouring Ahead of Holiday Season",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcmVsczg0V1ZQVW83WE1lYl92NVpzWkdma0RDWjNaNzk5LTdKa2hob1dOMzdITGVNUG1wZGh1THlXQWQ1RkhJdGh6dDB6TDdPX3BUdjAwbGhCSEVOa05oS1lSRV9BMldYdnRiSFdERUlES1BEb2VpSTlmaFVNTUtSZmFFS25ZYjdGVFZaemVUaHhMeF85RzhDWUxYV1E3S0h5QW4yRlEzMWZDSEtHOEpGRDAtMGdYNU5NRE5tZTJPU051MjV3bW1UYXJ1UUFhdHAxWUFQc1A4TVA?oc=5",
-      "source": "Democrat and Chronicle",
-      "ago": "5 Std.",
+      "title": "Form 8K Apyx Medical Inc For: 29 September By Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNODRrNnJvWUxWNWRsVnBGNDdjSm1GTVl1VmhLWG5YUWMzcUwxRWpMZFlXczJEdkRNYVVlR0FnVEl3SFhOeGgyOU5ZaXY4SGR5cnlFVlIzZlNidmlYWWxlX1dQblNuU19pU1I1ZU5wbHpyVEF4VmlCWmQ2VU1yaXczWUF0dnVwTTAwZnJMTTZKQmZtVzZiNWIyTXU0MGFwbEVFcnotUQ?oc=5",
+      "source": "Investing.com UK",
+      "ago": "4 Std.",
+      "group": "Apyx / Renuvion",
+      "summary": ""
+    },
+    {
+      "title": "Apyx Medical Corporation Announces New Clinical Study Demonstrating Renuvion?S Impact on Skin Quality",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPOTEzSFI2djFtdzNtMThTVldfZGZZc2dPTWpxUGFjMk1VSjVRZnQ2Y3BreFlhenFhY2huaktNWmhmUEl4NTRiVkRGRlZTeEYzY055elVmRVZSZTN5a3VWNzFfSmVJWlFZQm0xLUhBM0RNb202MUhKbEh5WGEzT0tHQ2NHUFVfOVRmaFhCc2o4OEhRbDQwUkN6clJXZENWZ0VBbG91bGlIbGYteGlJMjVpcDF0M1ZaeGUySERtVmljT3EzRFQ4NjRLQ0VjSWs0RUpqelNCZXZjRUZ2QlZpWlUzZEVMMWdvMk1E?oc=5",
+      "source": "marketscreener.com",
+      "ago": "4 Std.",
+      "group": "Apyx / Renuvion",
+      "summary": ""
+    },
+    {
+      "title": "Integra LifeSciences meldet Aufnahme des 100. Patienten in das pädiatrische AERA-Register",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOc0RnZWNmMlhSbVFtd3A4Y3RrcmpidVhNZ0VoQUlmcWRiSC1VU0RDMWVuR2Nyc3pBaTFzZGxKaFZTSkl4X3JQMFJxWEN0d2RGNFVpcmlMQmkwQzA3WjQ0b1F2X24xanRJS2pwbnNwYVBrbWdSTXBYNWdWLUlsUkxqYVAwa09OT2JfV0UtVWNPOUttM19GVVJ5U0YwUE1udDlQY0ljeWpfYkFyNFpQNjN1TGk5eEFySmxNSWVpcGJaYmFOeE82ekxwaFFjVS0zTFRoLVdSeWtNekxPVEhSU0p1WU1OSUkyYnd3MXdB?oc=5",
+      "source": "MarketScreener Deutschland",
+      "ago": "4 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "Anne Therese Aesthetic Medicine Adds Non-Surgical Body Contouring to Skin Treatments in Cape Coral",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOa2phR0JodGJrYkdaM2JWUWRhdDFLTzBKWXM5U3ZadFJEa2VsVkJVZG02WXFiZTZwNDFZRHhscmYwQ0dsem9ab0lha3F6dmZKY3BYOGtzcVRjR3ZfSUpoM2NHS0dDeXd3eF80aUpMX2tSM1hZalE3UnZMMThhVnE2YUhob1IxcGJKLXozRlRFUVVWeXFxaWVrRTlVbGVvRUIzUlEwSnBhVXN6cWFSUEhmeEVkMHlBZkZISkhfWkVJUTR6Q2pIb243dFlVeEJTb28?oc=5",
+      "source": "citybuzz -",
+      "ago": "9 Std.",
       "group": "Markt & Kongresse",
       "summary": ""
     },
     {
-      "title": "Claudia Artiles Fires Back at Critics of Her Appearance: \"If I Feel Beautiful, What's Your Problem?\"",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5iRjMxcmdGQjJsZktXMkVXTmZuU0F1YW5VQ2MweHN6TjJ3YURDR0JpOG5Zdkc1c3V0UWd5TXQ2S0s0N05tLXdEWHg0QkM3QVpvQ3ItOWpUMHg?oc=5",
-      "source": "CubaHeadlines",
-      "ago": "5 Std.",
+      "title": "Börsen-Ticker: Kleines Minus – Nahost-Krieg und KI im Fokus, Richemont, Galderma und AMS-Osram gefragt, Roche, Swiss Re und Nestlé verlieren",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA1UE9YQVNCbTBmMWNBUmN1Zmw2RlJicE9uSE1JT1hoNVVTUFhzRmpiOXN6N3lySm94T3FOX2QtenZKRkJtZmdORGk3Sk16MnBZVkUzaDNDSmp2aU1zcER2MVVreFBXT18xZmtRSQ?oc=5",
+      "source": "Finanz und Wirtschaft",
+      "ago": "9 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Best Non-Surgical Body Sculpting Treatments in 2026",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9RR2t2cVNqcXl1QzI2VmlTZ2lZcEpXZWdWaEoxQXpvTERaYXdUQzZOaHdJYXNRWWpBSTZmYXJLNzNPM1dLc1hWWFJfVkk4TjdwRGtYVTk4QnlTd3BDRGpfSWN1Sk16UGd6SzBOTHRaTUVtSzJWZndpaFg3REU?oc=5",
+      "source": "The Ritz Herald",
+      "ago": "9 Std.",
       "group": "Markt & Kongresse",
       "summary": ""
     },
     {
-      "title": "EU-MDR-Zertifizierung für Supraflex Cruz: Sahajanand Medical Technologies unterstreicht Compliance und Patientensicherheit",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1uc2VvWHN0VEwzVjRmS0NDZllOUzlCVXBOUVJmLWlmM3VCY3dhUzFFUzJNdlFPVFU4bmdYNVdIdG10SXl2RVlSSGNOVHFWMEMyVk9Jc3RMOUN5M2h5TWJVNzFvcFNtOXM?oc=5",
-      "source": "Business Wire",
-      "ago": "7 Std.",
-      "group": "Regulatorik Schweiz",
+      "title": "Die Integra-LifeSciences-Aktie meldet Fortschritt im AERA-Register",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPS2x2NUlrNm03TXlSN0tZZnZXRmQyZUVlVldXY0hoVHRZZXNjNVdRMVlrbmI1SnhtTzV3NFNfWmZSRmVONFVkR2dtVWItaDBnRHhGV3QxY282T1VFQmhGcEhmajBnLXZMUkV4TVp2MGpWMnI5U2laRnBNTXBaU1hyVHctRVNtNW0zZDZZb3RCOHNGZEpDUnlxXzduOVliZWlFQXQtN0FVNHdLbEpUMWtSZFVYcGI3WGVRdzJ3YzJzMkhKZFU?oc=5",
+      "source": "AD HOC NEWS",
+      "ago": "9 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
     {
-      "title": "$99 T-Shape 2 Special | First 15 Viewers!",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVkdvTi1ZbWNMNjZCenBuZjV5MEY4Qm1fUkEzMkRkZlRsVnZxSndFSlh2VnY3V1pZdkxnajRKNENNSEQ4S0N1TzRVVWhrcFA4bmRrYzRxWWFFUlExNGljS2J0MjhYdXhid0Vmb3ZCVlk5emFzME91cWtHUlFGVjhtYk5FU3VrNVV6MjhDMDRlRdIBjwFBVV95cUxQVkdvTi1ZbWNMNjZCenBuZjV5MEY4Qm1fUkEzMkRkZlRsVnZxSndFSlh2VnY3V1pZdkxnajRKNENNSEQ4S0N1TzRVVWhrcFA4bmRrYzRxWWFFUlExNGljS2J0MjhYdXhid0Vmb3ZCVlk5emFzME91cWtHUlFGVjhtYk5FU3VrNVV6MjhDMDRlRQ?oc=5",
-      "source": "KCTV",
-      "ago": "7 Std.",
-      "group": "Markt & Kongresse",
-      "summary": ""
-    },
-    {
-      "title": "Dr. Sean Doherty Offers Motiva(R) Implants for Breast Augmentation in Boston",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTThldGc5N0NGU01GRkR6ZzBtVTdqcUZDMFZLUVA5ZlNEYlZyZ291d0o2bW9lYUxvWGZGWTJvRlpNc3NFNWVtNGN1UGU0aXNzLXdFY2lPR19helBvQ25CTlV5SHdpWWdHVDFDSmJpZFRqTVpBdGZra3VoR3JoWTg0UGpnSXZzaGpzMTZpS2wzS3ByWFJjNC10bEtPbzRtbzBCRnhrSVNjSXVfQm5Rd1h5WktVQUNOTVV6THU2blBReUVaOHVtZEJPQmVFRjd0TUtSTFVCVzdLOERZMDhkaEEwUWl4aHY?oc=5",
-      "source": "ACCESS Newswire",
-      "ago": "7 Std.",
-      "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "Sean Doherty, MD - Plastic Surgeon: Dr. Sean Doherty Offers Motiva Implants for Breast Augmentation in Boston",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNb19NNnFlNEtRRHVBYkpjUFBrNUhnWG96NG94Y1BtTFlSbDktSWdHTHZxLURhTm1SZjZSTW0xQm9lQWprdDU3a2dSRWJhQ0tnUVBHbDBNaER1ZmhWYUtHRm92SXdKTmV4ZEFXeXQ4S3NPMXFWbkhXOGFjWktKa2ZIQnRoUWo3NzFWNmVBVU5vLTlDbU8tTWhVbzFqQk04cllRNVlqOFpEelVEbTBJZm9HRktJTUp1dFByVjRzbzBqWUNGSmJjMzNyS3VnYUw5alR4aGRMZUM1c21uRW11anV1SjJlZHh4RUlTRFFoZy1ycXowaVJ2NDZPdll4alRDamxQLW50cw?oc=5",
-      "source": "FinanzNachrichten.de",
-      "ago": "8 Std.",
-      "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "Galderma Aktie News: Galderma am Montagnachmittag nahe Nulllinie",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUEdOLUJqMkdNbjFza2xIemgwVWMxb3U2bWNSTy1QQzF4Y3hqYXVhVGpYYzRaLWFPakJUeGhvNUpubDl5MGJ3bkZtRFg4N1BRRXhzR01wLWQ5MlVRRm8xaWY1a0VTY2dsMzdiQ3NhWTlHalE0NnJYUktReC1VU2IwYWV1WFVSWHdyOW5ob0hfMHUteTB0Zjdz?oc=5",
+      "title": "Galderma Aktie News: Galderma legt am Dienstagnachmittag zu",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMWFpOUUzM3ZyZFh5YW5FUmFEMUExOHYyZ0VwZjlxRGZDOHZneHROV21WS2RpVFJiWXBvNXFWZEhBYTk3UkVuaDhDRGVXbUVLUjRyTlNSZVdYMDgyeGRUWXRsYm9GaFFLcVExNXBWcE9CRktrWHJkRmV1cXFjTk14TnNaZTV1Wm0yWm40UmZMaXUxdXRXcUpZ?oc=5",
       "source": "finanzen.ch",
       "ago": "10 Std.",
       "group": "Wettbewerb",
       "summary": ""
     },
     {
-      "title": "Galderma and the pan-Canadian Pharmaceutical Alliance (pCPA) successfully complete negotiations for NEMLUVIO® (nemolizumab), for moderate-to-severe atopic dermatitis and prurigo nodularis",
-      "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxQVjZOTE5jd2pnXy1JSGlSSk9MWTh5NUVPYU1LTW9QTUhNY1JyeTQzOEdZODJRbXdIN1M2S3ZWZ0FrSklXaDhEdHhYMExwbVkwZk9janZYYnNSZXVoendydTlGV0xieF9tQVByQmd3LTRyRy1pMWdIcS16UHBPZFJXWFhwTWY2NVNUZHAtV3JvRnVheUJKWnI1a1RBUGlsTUVuWjRVVzlLV1V5bEdIbFVVdWxJZXZQRW1vanNuOFF5aVRXZlhZcHp1a3VtSkN0Z05KMmJ2UkFBVUZOZmpUalQwdmNmQ19EOFNvV0RlOElRUERBaEQ5VVFFb2lBWXE0djJjVW1uTjJ0Y2xaem5XZGQ4Qk0yUkdNbmlrVDBlSzV4ZzVxVFUwUG9nUEwyN3k3NnJVMWVIQm40a0U5TXhOMFJjSGJmX2tpWXJiRDhhUFdvcmliUE5qQU1N?oc=5",
+      "title": "Integra LifeSciences Announces 100th Patient Enrolled in AERA® Pediatric Registry",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcF9fM1RMRjJRaV9NRld1ZXhXNXFKNWNQaVRPY0k2ZHQtZG1pa3VDZDA4YnNwU2pQS3NPRmtzVG9uN3Nzb1luT25lbVJsM0ZSWTFDMFFHSEQ5RF9aR3czSDg3MG1LZDVybkF3QVZNaTJhLXRnaWNBOXFydVVWOWktYTdhaUFLZzhuVVkyaUxOazMtYW9PR3lqYjJoNWZ4bHlaTDYtdGRkNThhWF9lOFBNWnoxZWJPTHJEUF9DeA?oc=5",
+      "source": "BioSpace",
+      "ago": "10 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "Apyx Medical Corporation : Von Verkaufen zu Kaufen Bewertung von Maxim",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYmpiRVNtNGpCUm1RTGxkRUxYWktFanRBRGR4M3hJZF85TGZPX3VaM0RQNjNDU01wdlV0cFpfa3ZRMF8xRzdfNTdxZVhkOF9lRjlBcTVxYmFnT0Y4LWNVMHZEb0lkMXppemZrc3VMU3JHbXVBdmxUd0V2UzE2Rm9FRXBHRE1Bd2lpNnoxSk93eXRwak9fSlVBYXBMbkR1eHoyUHk2Q3dnVzdOTHpmUUQ4T0JNSnJUZ0lxSlQwMndnQUd6b2dMVHV2dzAwZEo2SDg?oc=5",
+      "source": "MarketScreener Deutschland",
+      "ago": "11 Std.",
+      "group": "Apyx / Renuvion",
+      "summary": ""
+    },
+    {
+      "title": "Apyx Medical reports study results on Renuvion skin treatment",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUHpXdXdmamV3SEphc1VMeU5LM1hWcThRWTVNRDZlSzNUcmZONGd6SUlDYWZYazJHWUtEcmZRWHJ6enJWZk9HSzhWNUJVeGk5M29Ca1VGSHJhT0NEcEI1Rmx6ODJ1ZzBfTkpEak1VT0FHdmtSbGRXU3ctQW9laVcycThxTlM5XzIxaklBQkJESm0tMy1iT2V1TzZhcHo4em8yT1dEV3p5cHpBd3g5OHN3WGFYY1FrSkhmRXc?oc=5",
+      "source": "Investing.com",
+      "ago": "11 Std.",
+      "group": "Apyx / Renuvion",
+      "summary": ""
+    },
+    {
+      "title": "Apyx Medical Corporation (APYX) Stock Price, News, Quote & History",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9oYlg5eGQyXzloaGNrNHFaMXB1QW92cWdpbkJBSlQxd0x1UFpwdzJIMmJiOXk3ZURaMFJkUmRhbXBMV1pwR2ItQTNWLTBhWk1MTHc?oc=5",
+      "source": "Yahoo! Finance Canada",
+      "ago": "11 Std.",
+      "group": "Apyx / Renuvion",
+      "summary": ""
+    },
+    {
+      "title": "Allergan Aesthetics receives Health Canada authorization for Boey® (trenibotulinumtoxinE), the first and only rapid-onset, short-duration neurotoxin for frown lines",
+      "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxNN3FBazg3QUI3UlBEeUR3bEM0NURuWWNJQkVlLWM3YllrV0xyMzBWbmNFVDNiZFlPdjhSeEpVamtla2UzV3BweGFYajdKTkxzN0dIOU1SWElFNTk3VG5JTXJxcl80N0lkbV95eFoxQV9oMzlzR1hRcVc1VVdfeTNYb1RseXJMeFFGS0N2Tm5sQ1pKbDJPR1NnR3o5NjRIVk5kLVkzZjhQT0hoWmpVTTlLdVp4Tk5PQ0toVjdNTlBjOGtZcEdvY2xsN0FqOGc3aTNqbm16N1NzSTZKaXJSX0dHZ2o0TTBxVjF5MFlDSGFhRDgySzhITDljYW9JNnJTT05GeVZCbGdUNjA2Z2xnUEJ6c2pnbW43bVBrOUV2VHg5T1dReGNUcDhCUGJXZTl1WFBobU16dl9pdHBhUQ?oc=5",
       "source": "PR Newswire Canada",
+      "ago": "12 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Apyx Medical veröffentlicht positive Studienergebnisse zur Renuvion-Hautbehandlung",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObE5WTG94NTNxYmhyTmhXNThEQ1RJUF8tZHVTTEJTVG1fMlJ0YWJ6YXZVMW8yclF6U1NSZ3VZNlBlX0ozZUhjZjJfWHpmcW9VWmcybmgwaTVQWHZNbXZmbkJxM2x2bmtMSU1JWjE4M0N1Qjc5QnFXcGJtaXprcm05NW93TmRrX3ZTNGFMbVhsd2dRS0F5YVpjZ21UdGpJRURaQTMxeVRnVVl2bHdiY2cwLUlsSkFLX1hEWUI2a0NKWVBEVDF5dm5aNTU3eDZlWkRKbVhr?oc=5",
+      "source": "Investing.com Deutsch",
+      "ago": "12 Std.",
+      "group": "Apyx / Renuvion",
+      "summary": ""
+    },
+    {
+      "title": "Apyx Medical Reports Clinical Study Showing Renuvion May Improve Skin Quality Markers and Dermal Remodeling",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZ1J1TUNTbEk5eHR0U1Vtb2xPXzhVT3JDQVRHSExSUWdyM1VIejFrR2ZGcW55MUxuN0NIR3JpbEhsOHg1eEJUME8xRTlKSU1LVkVzLUdjS1ZyVWVQTjNjRWFvTFhvRXBKTzhhX1BjdWdVVWxaRHJJVXh6Y1p6bDNkemh4cFFnQmRCZWdEZUF6T1pYYW96LWczcFM4UUM0dF9UbDRMdXJaejNkSmYxajhqTF9xaE1iekJiWjlFMmN5NlpUcVpfdTZLdTViSUh1NnpKNkxZQXVpRQ?oc=5",
+      "source": "Quiver Quantitative",
+      "ago": "12 Std.",
+      "group": "Markt & Kongresse",
+      "summary": ""
+    },
+    {
+      "title": "Maxim Initiates Apyx Medical at Buy With $6 Price Target",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSmJSMHBiT3JmOThQSjVVUG0xR3NXQmtlLUVMS2QxYnVVZDFNaS1DMm9ZSGYtTGtVZHRuWGR0WnZsa3FQeVN4NGk4dnRDS1lqMWhMcTBQazF5UTNQSWFBTHRMbWdFMm9PUTlPVFI1c0lvV0JUaEdnekRBWGw0SzlHMlZkekh6UEFyVDBGck1obGU4bTg0aGtua1A5dzA2X2EzMV9mdHVQUnpYc3Fw?oc=5",
+      "source": "marketscreener.com",
+      "ago": "12 Std.",
+      "group": "Apyx / Renuvion",
+      "summary": ""
+    },
+    {
+      "title": "Apyx Medical Announces New Clinical Study Demonstrating Renuvion®’s Impact on Skin Quality",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPbC1RNkVFR3kwMFR6aUVRYURhaV9tLVkwM3pIMVJmeXU0dVd0dVBXblZ1aVFXR2V1WmZya0lEdmg2VkR1WTZPLWh5WUZURjZIM1FVNEtlSUFpYk1PamFSU290YUptWVAtTHZ2NGY1c0lmQTh5dzZKdXQyVFdPSUw0V0VITjJXWjY3Z0hHanptRWRKdERyNGgzM25JSldxQUZRZFlnTzhUTlNscE1naFlTMnFsb2Y1ZlZHQ3NzZWJFeFpscHl0WUVLNWI1bkRVLXcyTG9SNmp1SzU4WllpWWJ0UUFQOHVUNmF5M2tqZ21BMGFaR1E?oc=5",
+      "source": "GlobeNewswire",
+      "ago": "12 Std.",
+      "group": "Apyx / Renuvion",
+      "summary": ""
+    },
+    {
+      "title": "Galderma takes Cetaphil and Benzac to five management campuses",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1uTm44M01XZ3g2TmVDeUZ6eW1sYXNld19HQmNXQUxxOWs5TjR5cXZwbUthMTNneWVpNTZ0R2p3MUpaR21WN09YZjlYVzlSb3NRQ2ZPV2pwMTh2LU1BZl82N0lfWkhicUlNVElzZE92TXR3UU1fSWllZQ?oc=5",
+      "source": "MediaBrief",
       "ago": "13 Std.",
       "group": "Wettbewerb",
       "summary": ""
     },
     {
-      "title": "Galderma Aktie News: Galderma am Montagmittag mit Aufschlag",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTWxPRjhuTmpiajhsZkRtZWt0OW1pUGF3WmRQclMxa3g5YmU0WVR1QkZsclNMNTFIUmtNcWIxNVZZZFpfNk5GSkoxOF93blZqdC15ekFNQ1BpUDRZNy1sWVo4SVpzb0pfZGZiZ3hlYWhZRDdmdGJRNXVuaWNUSHU1TDdRSmd3RUxTVGEydFNtbFJQZ3NRN21N?oc=5",
+      "title": "Galderma Aktie News: Galderma tendiert am Dienstagmittag nordwärts",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOR2hzRlpVRXp5S2NHUGtYU1VER3RFaTN0Q2pIQTA4NC1OWjc1RTZZNGxvbzlRS1Y5ZHdYT0VYaFAwaGVhS2RQaWQzWXFNSjd3XzNFT0pOVDRZUTFGbktMd0NVekFHelAzUGd3NnFxV0YzSzNrZl9NeWc2cDVsQzZKakZqckN4VnhnaHZrZnNla1ZZYW9kZnlz?oc=5",
       "source": "finanzen.ch",
       "ago": "14 Std.",
       "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "Galderma Aktie News: Galderma am Vormittag gefragt",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOGZUNnRFaHRobGlsOTIxY1UzZ1Bic25aMzVaVTBVcU9CWmNLQ0hDYngwZTFoNC14aWIya2NjeWI4TGczM3Ytb1VXbkpSNGc3bnctczZDSjgtZUF0MzhsS1NTeXg1NjJwQ3F3MGhwRDllUzE5SnY5WVpPNWhZYVktcFNzSksyYWV4c2ZLNnAzZHB5QzQxY2Rr?oc=5",
-      "source": "finanzen.ch",
-      "ago": "17 Std.",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "Abnehmen: Der Weg zum Magenbypass",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZHhubEtiMzU3aE43ZkZxMlQwa3lTaEdReV9YNXo2bEhqbzlkbXFNQVFkOVp6SFByVFRWckxHVkVMdzVBQnpUMjRaU3JPNzJkcmo4MVBxM2htS2NKel9DTmZaYVhZcDItUXBySTYyS1YzR3p5UnJ3am1oNjhmUk4yOQ?oc=5",
-      "source": "telezueri.ch",
-      "ago": "17 Std.",
-      "group": "Kliniken Schweiz",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences Marks 20 Years of CUSA Technology with Liver Surgery Programming at ACS Clinical Congress 2026",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOa2FIVHg2cnJYMjBXaTBOUWUxOWpYZ0tDNXFJdjhZRFZHUTVQMlZPTXg4TGhDRkRwZUpFRUJ3X1JCR3FuYVlLVkxjRG4wT1UxbmU4bzhTLV9ROWc2Wl9XenV2cUYtVElPTWthbHZNTHJtd3NPNWRlVnQ2Q0VoUG5zQndGWEl3Z1FmM3E0eWRtMnlwOC0tTGtfRWdhTHU0aG44MmNTMlJURU42SEdTcGZacksxU29TU21zcEQ2M19tOXpZaTk1bXAyUGZKMnMyVEZqQi1lWkc3MEtLOEJHbUhyTEhB?oc=5",
-      "source": "Quiver Quantitative",
-      "ago": "3 Tage",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences Marks 20 Years of CUSA® Technology",
-      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOcU43bS1Xcjc4Z253cUlCcnBsRUpIU3E5dUtpbVhOTmdpY1dZVDVLeGpCbE8tWmZSU3JOWXhqVTNTMENRLTh6eWd5UDlVMEVpSExNcy1qVGxDWWtXdXYwd3ZLWW5TdTRXbGJqTnloZzF3ZmdBTTZ2N0g2Zkp5a0l0cWo0UDVUQ1B2RG9EN1JCSnRTOXc4OWJWZ2VoNU9MVUpQODA4Q0VLdElDNjBYUmJQN1BvR2Z1RkNZZFpzOXZ2WTNOMUtvOERhOFhfUkNydHZMX245NzFCak5ESzJ5SUpKdU1feEp3c3hoakpPbzBIOHRDUW9qQURtLXJJSjQzaUJ5aS1hZXp6cHhhRjI3UFZlejctQXU4bXc?oc=5",
-      "source": "GlobeNewswire",
-      "ago": "3 Tage",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences Marks 20 Years of CUSA® Technology",
-      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPUmNXSi1xVjYzeVhFVEk0V1NWeXVhTnJnaUFnLUU4d01IRjhuTDJSUWNCUjk2MnB5b0w3UGlERDFmc0w0NFJ4SzhId3Z0VnVCRUVsaTZuc0l4T2daRGs1c3pFeEpTcE5vSWU4V1Q0bzdweXlMRzBFbjZfZkwzY2xrSzZjeEppUlpwRGpLbTl3cUxxTmpTOURFYkl0cG5rS09fQWQyWDBLYmVPMmFXd3pTTjBwczI3QmhXYXVfVnVqWUw2Mml4eFhJZnNqLW5GdXhRR2laTmVTNl9mT0wycUpMTFR3ZXhUUVVYVVZfSl93Z1BpeUpPRGxBU3VLdnVweFJqZXdWT0tiNDhHLXlpTXRwTlhrNA?oc=5",
-      "source": "GlobeNewswire",
-      "ago": "3 Tage",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Establishment Labs stock falls 3.22 percent after Q2 loss",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTjR1RmZFZ3Y1Tl95SHN6c0hqQUdCOUU1R0JnVmJKRWlRcWVDajdnZUpkMGNyUkxtaU9TUkhsajhJb19NM2RXXzl4bWRiWDIwdVg0emJDY3dMaTU4dm5wOGxicktobTMydU5YQ0stVUR2QTh2MjFtc3dVbm5IT3pFSHktTFdXZzhuTXlYVWJYeFJCS2ZBMlo3XzZFWlJxNjdpYlJwTE9DMFVyWkNjQ01ZODVNNVBBNFE?oc=5",
-      "source": "AD HOC NEWS",
-      "ago": "3 Tage",
-      "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "Cash Flow Recovery Might Change The Case For Investing In Integra LifeSciences Stock (IART)",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQzBjSVJUYnBQVlZyc2c3LW5tMW5zVHMza2tYM21SU2JYdWVZbThHWGYxMHBmTTViVlpiVThRSjhoQ2YzemF4WHViWmFIVFljeHRVSk5wc3hZZFhsazV2MFhKRkdkRmZKQXF5am10NnpBaDRjTlBCZk1Tc1FFdFpRTVEyc3RCeW9Yem12TTEtWk8yekU0Y1BOUjlGM3A2T2hFZXJBdVhZZjVWd19tVTJBOHc4NXRwWUxYUlg1ZEtOc2xaM0pWUGp0bHE5MkJ6UUFuZ3dEUFRqZkZDVlM3ajl6UXFGanFBUFRDcnfSAeoBQVVfeXFMTUMwY0lSVGJwUFZWcnNnNy1ubTFuc1RzM2trWDNtUlNiWHVlWW04R1hmMTBwZk01YlZaYlU4UUo4aENmM3pheFh1YlphSFRZY3h0VUpOcHN4WWRYbGs1djBYSkZHZEZmSkFxeWptdDZ6QWg0Y05QQmZNU3NRRXRaUU1RMnN0QnlvWHptdk0xLVpPMnpFNGNQTlI5RjNwNk9oRWVyQXVYWWY1VndfbVUyQTh3ODV0cFlMWFJYNWRLTnNsWjNKVlBqdGxxOTJCelFBbmd3RFBUamZGQ1ZTN2o5elFxRmpxQVBUQ3J3?oc=5",
-      "source": "simplywall.st",
-      "ago": "3 Tage",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "A Look at Establishment Labs Holdings Inc (ESTA) After 3.2% Decl",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbE9kTjdKOGxEeTFYZm1HV1ktdGRDUXBjM3FBWEtVbTVsTHpXS09FLUdscTdHcGN6cXlvN1BOcWtIZXlMaDZ3SGpfMm04X2xRNDVZUEJNNjRvVmFQTDZKRVVkMFdCUDhlaVY3MVhrN3dPMHZtZ2s2SnNGTWFtR3VWQzBDdWp1ZjBMMVh4WmI2aGtMNlQzT0NMVU02TENKQ3h0TXJ1TV9DRURGeFpOeWEyVU8xVHRFTkJldGU3X2ZEWnMtdks2Tlc1cmFB?oc=5",
-      "source": "GuruFocus",
-      "ago": "4 Tage",
-      "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "PROLLENIUM® Spotlights the Future of Regenerative Aesthetics at Aesthetic Next 8.0 and Chateau Prollenium Dallas",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOFpHVEZRR0ZYeXp3eUszZEVadmpJd29sU0FacWx3aDlUMkVTNVg5QkZlTk9IMVBDczQ5bXFyeE1fek1qRFVpdmZKZE80LUNsN2lHbXpDTk11M0NzbVlNR2FaaTZEOGo0Zkh4eFV0dUgxdlJqRG1VYlRxSkRoX1V3WVBWWHlER08wczNOeWVhVFJYdjVhSzB5ZDdXY2VYQjYyVERiaGlRaDRRaW5XSWVvZ0hlQ25RYzNnRUppenBB?oc=5",
-      "source": "Digital Journal",
-      "ago": "4 Tage",
-      "group": "Filler & Regenerativ",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences stock gains 1.50 percent as margins improve",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOUZ5d3pkOGVhdnljMlBzaXA1NzV6ZmxjeWtyVEJTdVg1YkpSX0lBVk13NE1Nb3doX3ZGaVlNbHltNDJ4ejZybU9tZk9sU0E3NlRJVjZVNUJUUllkaGJWNHhRV25WVDRGdDdaLV81ODQzcEZxN0lrejNYRldacHc0UUhhbkwteGVwTWl4T1pMd3QwMVI0ejc2WkJLeW1KS0ZaVm1DUXVieU1WTFpQWkJFdGlDZGsyR09HV0pRdkVNbVU?oc=5",
-      "source": "ad-hoc-news.de",
-      "ago": "4 Tage",
-      "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     }
   ]
