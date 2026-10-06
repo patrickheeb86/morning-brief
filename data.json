@@ -1,203 +1,203 @@
 {
-  "generated": "2026-10-05T00:00:56.824979Z",
+  "generated": "2026-10-06T01:47:50.289135Z",
   "forex": {
     "eur_chf": {
-      "rate": 0.9279,
-      "change": -0.015800000000000036,
-      "changePct": -1.67426088799407
+      "rate": 0.9311,
+      "change": 0.0032000000000000917,
+      "changePct": 0.3448647483565138
     },
     "usd_chf": {
-      "rate": 0.8266369710467705,
-      "change": -0.00864360958697008,
-      "changePct": -1.0348151013414004
+      "rate": 0.8310424848268475,
+      "change": 0.0044055137800770305,
+      "changePct": 0.5329441985274779
     }
   },
   "bitcoin": {
-    "price": 86486,
-    "changePct": 2.0544463675648603
+    "price": 85676,
+    "changePct": -1.2045281458706072
   },
   "stocks": [
     {
       "ticker": "ESTA",
       "name": "Establishment Labs",
-      "price": 64.06,
-      "change": 1.02,
-      "changePct": 1.618
+      "price": 66.47,
+      "change": 2.41,
+      "changePct": 3.7621
     },
     {
       "ticker": "APYX",
       "name": "Apyx Medical",
-      "price": 2.55,
+      "price": 2.6,
       "change": 0.05,
-      "changePct": 2.0
+      "changePct": 1.9608
     },
     {
       "ticker": "IART",
       "name": "Integra LifeSciences",
-      "price": 12.68,
-      "change": -3.41,
-      "changePct": -21.1933
+      "price": 13.29,
+      "change": 0.61,
+      "changePct": 4.8107
     }
   ],
   "news": [
     {
-      "title": "InMode stock closed at USD 14.09 with a USD 16 target dollar target? no need",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRDh4NjN4MGZTbWRrOTdTakhVUzNONTBXOUNlN01pQjNESVdqeHJ0VmxJUUtXcWZTVTRpbHllb3c1bnlxbzM4YXZJWVRoNEx3eFpKNVdfMjFTbUMwVjJMUDhyOFo4Q3NXYVBRUFhVSzAtZE1OaFpmNUlrb29vMkZCWjg1SjBPalVQNWpERTZhVDlWQTlPVmRvTWQ3UkI3c2VQYm1OR0xoQVdnemJIU3BEelBCN3JweFRpT0pDZ1ZodDdRR29iZnNiekZzMlJOZw?oc=5",
-      "source": "AD HOC NEWS",
-      "ago": "7 Std.",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "Investigation launched into Integra LifeSciences over delayed flood impact disclosures.",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMDNvWEsxTkJ0UzZZR2ZJbElEMFdnSWs1X0pQeFBGVW0xUmNzMmFQazR5ZFFENlZBY29COElyc0NMNXRvbDFJRlZwRk5zbjNCNDVZdjcyZTh0STNjQU9HeHMwZnZqTHlSanNSb21IdHJtSWxxbzFPeER6M25GUU1LUktUR0FYTEktY3hvRWY4aWN0aFB0aElYNkVaaVVDMWwtUkY4dWhaRGdlQQ?oc=5",
-      "source": "Pluang",
-      "ago": "9 Std.",
+      "title": "INTEGRA LIFESCIENCES HOLDINGS CORPORATION INVESTIGATION:",
+      "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxOb2JGT3hqQWc1TUtMM1JIVVpTaldCZTF5YTJTVEhqSFNzQW52QXJwT2Z5TnhWN3hJemwwcEZNY0NFVUdJUmltRnVqNEo3a1NhUl9XLVZzSXVTbFRlRFY4WlRDdy00eFl1WjlKZGtlYnRYdWNoWmdZUDVfbzB0VWQ0MU13NHR5QXBrNUxLZWlOZi1mTEw1WjJWbXJBR0ppWGIwT3BlS2xFZDIyWUtWLVFxc0I4N0ZkeXRaUUVoYTF2T294OERuajU1S0ZoZ2JRTFJQSndlSDlhS2ZqTU1zaTR5WUlKd2Q4MjY4QzFBaW5qR0xCWEs1WTJOZlFtUlBaXy04ZVl2bGtqVlFsbkduSzZOSEFFUmtMNFhxQ2JMNzdUNmZFcGRGV1NDX0dZZU1WREF6M1hMamcwemhYcHRx?oc=5",
+      "source": "GlobeNewswire",
+      "ago": "2 Std.",
       "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
     {
-      "title": "Integra LifeSciences stock fell 21.19 percent after guidance cuts",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOeWZFUnNkRUE3LXhjaDBWLWpvV1ZFbURId2JXZ3c5VDNXb25RLUt1NEdsSXFCVWE0VENNc3p1eGJTMVdFTnBkYkRsaFJlZlRsYU9RN1NmaFZIM2d0Q3JHM0JydW5wY2pDd3pZdmkxRzVackw5U0FBTHlmQzNLWEFQYzQyNGpMdzI2QmxheVBjS2NVeEtEVFMyb2kxSVRTcnZSYnBUZGVRcmRYQlIwS1dmSFJPamdQNEQ5N1pHTDVkUXlaRDNDbUkw?oc=5",
+      "title": "Galderma Aktie News: Galderma am Montagmittag im Plus",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQb0VPZkc0eFNydWJjUF9UWXF1eW1rLWJEa3I3bXhvNndMUWRQWE9FMlJrRGlIVUF0QUkyUF9ycENBNDQ4bl9PWkdCM3ZYMU83R2RFOFU4bjlwSEFseW92bTRJR0ZmbFNBX1d5b244SExhcHdrVHVKZ0ZiMjFFYmllS2JhMFh3OWhObTBLaVpPN0JrT0FJbGVJ?oc=5",
+      "source": "finanzen.ch",
+      "ago": "3 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Flood Damage Prompts Integra LifeSciences To Revise 2026 Outlook",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZlBFNS1LaTBLSmpGejNzczRTbk1wOVVJMjJqblg1aHFWTTNuWXZkd0tNMXRydXlqTUVRUUplNXJXWWg0ekZmNHVZV2V1OHVFS05Ca3M5akd5REkyMjZNQWlrR0w5X0p6bWVGRUttTXByTGNrTm9fXzlhRmZMZGJXdWZydVUxQXhlNmlhVHR3SGNCU29GVmVyQTRGbmhwSXo1UF85bDdacjlvUWJuc3dHMDhhV2JvSmI1cjNmYVpR?oc=5",
+      "source": "Benzinga",
+      "ago": "8 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "Galderma Aktie News: Galderma gewinnt am Montagnachmittag an Boden",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPS0xveVhJWkFiamw2MnRfMHl3bEhvZGp6aFN2aEhwOGtTR1VFaG5FYi1lT3g3ak1PeUg5Y3U1NE53QWlaNXoyaFlOUEhSUndlS3IyYnIySjhleFRlaXFlWHNTLUFoV1BLZmJPQzg4RkVTZzlvT3BXd2ZGUUhFQ3VGOWtTZmp2aVhiTWNRMXJya1lvcjZqdHl3?oc=5",
+      "source": "finanzen.ch",
+      "ago": "11 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "BMO cuts Integra LifeSciences stock price target on facility disruption By Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUm5OYUtPNVpOS0xzODFVQ1JMNl9VejRLM1lxT2YxZ0N5czB5eUR0T3dPQm1XeUhGSFE2Z1lmbXNvOGxZekxFYTBIVUduX0JzRWJ5QXI0LVZrZ1NjbEVOZmVGX3lRSnFxT3hrYUJiZE1lNjMwdXBPQ0NELS1ZYUN0SlRwaWg4ZXNLOXlCY01qVU5Tcnk4Y2xYZGhqSVVkSnplelFQY21zVWFEbnRmTWl5LVdyakhFTnB3X3ppaS1sdmo2OWdSMGtQa19rVEw?oc=5",
+      "source": "Investing.com Canada",
+      "ago": "11 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "NASDAQ Composite Index-Titel Integra LifeSciences-Aktie: So viel Verlust wäre bei einem Investment in Integra LifeSciences von vor 10 Jahren angefallen",
+      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPaVVWczNrMHNyYzNTalh6Z0owZjIxQ2RfcFVoblpibVBFUUloN2RvMGlwNHJPTkg2dTB6eUpYRkFlbC1kS200WXVVdkN5aWZmMDRRcUJlVk9rb3E2Ry1Fa1ViaHVGdFFJTUczWDhTSnctdnkySFhSanhqRGVnajQwN2hSM1BZeHJUTXNTbzJCVWo3S0ZuMi1iQXZWZHhtZTVwNUhxQWNkX0JfWXNQQkRVN2JFYzljS3JERy15S0RMWnNLdjdpTE9JakV3aHQ3S09rSlJMMk1abHJmLW92ZVRPZHpZQkR1X0l6ODhEOXh2U0ppWFgySlg5R1J3T1FPbzE5NkdlUlh0c1NNV3ZwWHFQVlJnbmZSYlltdjNSWkwtZnlmYWtQdm10eTFRcmx2UQ?oc=5",
+      "source": "finanzen.ch",
+      "ago": "11 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "BMO Capital senkt Kursziel für Integra LifeSciences wegen Produktionsstörung",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdWNCNkZxOVZVVGZ1QlZEVEFjbUU1cVVQaDVFSXQ0Q1VDQ2owUVdKWkVxYXFEVWx6Z0ctRXVlb0l0dE5vMk9mTF9NbVc1ZjdJdm5DenRoR3U3UVRFc0R0bG10YTktblVKZzJoRXBGT0ZfZ3FSaDZmZlQ3R3MwTUFydkdJNDl2MDNUNGR6cjFIaElfOFpwczI2M1hwSU9zMGRxNkcyN3g3Z3NnX2VVWUlxWWVQamhjY1hIaVByNVRQNkZUSmExVlotUzBBQzJacktY?oc=5",
+      "source": "Investing.com Deutsch",
+      "ago": "11 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "Northern Virginia Plastic Surgeon Dr. Amir Ghaznavi Uses alloClae® to Restore Volume After Major Weight Loss",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPYjd3RFJWUTlrelhKa3hLT2ZBVENEZ1Q4TDdBbnZ3cnRfblRSQmcyOUc3SlRsVnRmdS1yQjNBOFV6STRDdUsyaGVycHMyb2JrbDB3ZlY1MzQzdEctVmtGNHhqaW0wMTJDNXN4QjRhTkJEQlcxT2NPTGhnS09JZmg2OEdYdjdCTEVmTjZ5bUE0UEpIQ2xvcGRUbDc3YnJsR0V6a05JcV9OTmtaLUdvSFA2T0pmb2hrNWZ4T21HZ0QyT3VScnpWZFhVR2pfMk9BZVUxYXQtTHQ0MmozUXpQUEEyOVNVcGxUbDRjQ0p0dm5aMnZYVXN3?oc=5",
+      "source": "PR Newswire",
+      "ago": "12 Std.",
+      "group": "Markt & Kongresse",
+      "summary": ""
+    },
+    {
+      "title": "Integra LifeSciences price target lowered to $15 from $18 at BMO Capital",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTFI3dlJ6UDV5bDhKdXdBdFAzS3lWRVo2ekwwcXdYaHlpMUtTcGFMZHl1eUVOMEh0Z2F2MXJVYTJmVmQ1MGw3bC16ZjBRZFlsZmNzNGxpVzc0ZFV1dUh5ZjQzSjJuWERxMGo5ZEJ4ZnFFdG9UU3FxWEV0c0o1Tk9relJiWkVVSTdTOHFLLXJ0Vk1NNnJuYk12S2J1bC1jQU8zX1VNbVhUeDJjaDBHWGlnWEFlZ1MzNFhSZ3pXRw?oc=5",
+      "source": "TipRanks",
+      "ago": "13 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "Data, Downgrades and Disruption: Monte Rosa (NASDAQ:GLUE), Foghorn (NASDAQ:FHTX), Integra LifeSciences (NASDAQ:IART) and Six Other Biotech Stocks",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPVTVXWnRtNUgwTGZ0TXM1YVBKU213UENwRUduVmpIa084eHJSZ204eTVrSkZBY0NLdnJDSko0TkZjdmNibzB4Tk1fM1FWWTBzRnppeU5QUGZValhmSkZ0NmV0QzZRSVhYMzc3VWkyQXZTRUxSNVhYQ2Z4TVZOclA4TzNKLUt6SUVmOWEwV29UTVNyb2xaUUJqcEg0M1B6X0N0ZEtxa3N0Vm1vTGtnaldqTzhiOHBsbFFHYkUtMERncGhSMlp5T2hvb3phNVBDZ0hNd2sxcnA5TjFocE5LRUNYQTlxMFVuV0VKOVBGTHE2VFVmeG9jRmE4ZnpORQ?oc=5",
+      "source": "kalkine.ca",
+      "ago": "13 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "FDA approves expanded Motiva breast implant size range By Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeldma2NKRjRfWm9BVmFHU1FEU2JtV2JmdnJkRWxXZkZ0OG9XV1RKR25OQUprODNrZEtFY2hLNS1HU1NvQ0JxVVhkZXc3Vzhnc1hWYXlFQ2Juam1hOTFiMTlOYlVTV0ZZNk9HWXIxdm9scG9ScUlUcENUbWQtYzBkSm1MNVA4Vkxmdk92dzJUbllVVGpCbTJtZmV4OVVlZ1BtQU5SdUhiaE5YamNPQXNVYnhmeE9JQQ?oc=5",
+      "source": "Investing.com India",
+      "ago": "13 Std.",
+      "group": "Markt & Kongresse",
+      "summary": ""
+    },
+    {
+      "title": "Wells Fargo cuts target for Integra LifeSciences stock from USD 18 to USD 15",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSVY5Y1UzTkdBVEVmay1oX3pvYVFKSUJPU3NoZXdXbTZqNGhVR2FCREx5ZmNzcm8yXzhTMW9IbERCbDM2SnMyNzFORDhqdndQN3dEMEV2NDNYYTJ5MURYOHJkdlNSS1NQRE1OZ2lLTkNacG5KNUsyM2ZBMmJCVnAwbEdHZUJUamp2UHV2SU5sQVpSNmdOYTRLNWZuOTQyVlJlTE5FZGVfbFM0Zy10ekwyWE81RG5hdnE0TXhPVmVaaUNBOFFRS2hRYzR6Q2E?oc=5",
       "source": "AD HOC NEWS",
       "ago": "13 Std.",
       "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
     {
-      "title": "Staranwalt Landmann erleidet Sturz im Schwimmbad",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPX0UyYkpfR2NWT21WdUJGUXNJa3NTbXFjTU4xYnlmSndDS1B0bE5IQ194R21Hcnk0M2IwVUszOUUxaGhIaDBEQ1hRT3pjVnZ1cnVOMUdKdGlzekMtdVJKYkhIeGl2bFdVTnBaTnFudDRMbENEcGYwdEpHQlptNXdZU3RObzU?oc=5",
-      "source": "weltwoche.ch",
-      "ago": "1 Tag",
-      "group": "Kliniken Schweiz",
-      "summary": ""
-    },
-    {
-      "title": "Sturz in der Badi Wallisellen: Milieuanwalt Valentin Landmann im Spital",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNM0pSUUtCaUV0U3ktYUhLcGxsU0tjWWJ4TV8tN1dOSDlpdm5wM3VRNVVhSXRialdVV3Rja3VfcHR6UGpvX2pvXzN2blFySFh1NEdvTGNzR1paenFFZEZMcnJkbl83TkpoUHV5ZlZreUR1MG9LR3hwcTlmSkpnT1VNNXI4SDI2TzNKZmYzUXQzWVlGbWtxdkNxd1dEa1ZqMHNKX21MMm5kQ3ZCNExr?oc=5",
-      "source": "20 Min",
-      "ago": "1 Tag",
-      "group": "Kliniken Schweiz",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences price target lowered to $15 from $18 at Wells Fargo",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaDljY3FBS3V6T3Rab2Q4aGpXMDAwcXZzZFQxd3UzSkZWUDREVDRTWDR4eDZYUHhCTXRMbkFJck55Z1dwM3lsenRmUmJLaTBmMHlJY3BuMkZobUtJd3RWMHlQaU9CU3N2STM4ak9fajdlRUFBTEVTWURnMHZRN2VGX1lpTXhpZm0tUnNkcmNtYlcyVUNZM2MyQjgzMHlCRlF2RVhxdW45WmFMSFVycGo4Y2FWeGZjeUEweEE1cA?oc=5",
-      "source": "TipRanks",
-      "ago": "1 Tag",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences (NASDAQ: IART) Slashes Full-Year 2026 Guidance After Cincinnati Flood Disrupts Manufacturing",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQcW12RkptdVRkNDliTXZPQlg3dFRNTF94Tll6YTg1VkZLVUpXUFpGRWtMOWcxeEFZaERjdVJWVlJabk5SSldPR2YzMUg4VnU1OUd2TUpTQkRZY1NaXzI0OHpSTURuMTJXOVdlU1FVc3g0VUJmSWdQMnNCMkFZaElCQ2VKb082akNlcndibE1ndmhFQ1dkQjhtXy0xUU9yZ1c3dl9JcDJibVg3MWVBY2VNLURCY1p0SHFTWGJreWNlcnVfeHdGSi1aQjV5MWFEUXVjdGRDNDVxZ3RIcnh4VFF5ZmRKblh1ZzBWOHhTb0dZNkg?oc=5",
-      "source": "foreignpolicyjournal.com",
-      "ago": "1 Tag",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Is Integra Lifesciences Holdings Corp (IART) a Bargain After 21.",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQOTUwa1lyQ2lUclRtakZ0N3V3MlJBV0ZlX2o3bUFONm40S1dSdVV0WGZGV1lLSzJnenB3b1BQc1pQb0VFbXhZLXlVUkJVV2thZ3ZRbTNNUnZHdEJCdlJDOU1DN24xWG10WFNoU3ZlLXNoMnpQU2NpN1Y5R0NlMkJvNUw2d0VveThlRkhSZWtqdjNYX2RVYmd2NGVQOVU5OHZBcHFOUUhkbjZ2WjczZXhEZnJPb1B4blNBa3BSTWJhUm9qVFV1cXY3ZXljVXg?oc=5",
-      "source": "GuruFocus",
-      "ago": "1 Tag",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences Investigation Notice: SueWallSt Notifies Investors of Pending Investigation Into Integra LifeSciences (IART)",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPaFZ1MkszRjkzWG5XZ255RDBnM3BYbHh1TC1pdGNYMzAxMml6bEFoS0JCaFVMaVBDcm90NHhQQVhaM0I0OGt4V1BqUFk5RjVBN1JyZUV4YjdBejE5RTBtRzQyZW8xYUQ1RXdqd2o0OGtwbGlQbFZGaXZiakpiY0hEa1VPb0VvMC0xUFJkXzhnLUl1aVVTdGl6bXFPSHFkRVZPSXRTbGcybUdMZkhZY2NKcFlUbFM0NFFwaFYyVHNsRDFaQW43TlluVkpZNGdBT1RreVNuT0dBeHoxelktTC1JWWZPeGQ0ZWRiSzJxLUZpN0xlSFVRR3ZzTGFvSG4xSElDb214UnJmdXRaRlA3Q25J?oc=5",
-      "source": "PR Newswire",
-      "ago": "2 Tage",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences Investigation Notice: SueWallSt Notifies Investors of Pending Investigation Into Integra LifeSciences (IART)",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNRE9YYlk5c20yNGU2bWdCUUVDTnEwYTJWeWZkdHFCS0ExcXphUmhJS2JGRWVFSDdEdlNqMzBrcmYxWjRhMTMtSzc0ZU9Eb1Q2T1l2X0ZxV0lfQk4xdFlmaVRmN3Jqd2JOUVJmWGhLanpTLW5DS21BNEZaU1k4bnJITml6WGYxUV8wSHBaT1NwSkJ3cVB6RzBTcnlOLVZPdEdMc2otR05xWGJhMHhUQWtOdThEcUdINkZjU3QwWWxIR0x6OFZZRjlIX0VEUG5WanVMS1BTS2FTNEtIOTVVUXVMVlBvbEFtWlV5bVhhUUtFYUlDMDNyamxJaklqR0ZJaG9iQXJUUHUxYmdGLW05MHc3dWZLLURjZw?oc=5",
+      "title": "Establishment Labs Receives FDA Approval For Additional Sizes Of Motiva Implants",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZVdDRUlwWlRMVnhPN2l4Z1IwdzREbDh5UTVUb3V1elg5TlRXZE9kZ2pQY1lYWDFLRHl6Y3NBd004NmMtTXZoVTYyakNQOGlPQ19DZkNkTGoyNWczZXMtU0M0WF92VWdVcmZ0X18xWFUwdzJyNEV0cUtDSEZoSnZlRUVuLXdLcXZjYlZONUExTmg1VXg2SGw0aTNtbXNrR2pMZEtuYWRRa0RxNUZmX1RFdjloTFl0UGIxczJaWkZybWhoQV93VU8xdFJjelRpeloxNnBjTmY5S0FkVGQ3T3RzekNDN1c?oc=5",
       "source": "TradingView",
-      "ago": "2 Tage",
+      "ago": "13 Std.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Integra LifeSciences (NASDAQ: IART) Investor Alert: Johnson",
+      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxOWjlqaG1qYnN2dzNIdzRsTXJMZXVVbGVZdUlhcTVoM3NiSnU2eVBPQ3dwaExjcWhSYlk2bENZdFJsMlo5X04tZEllYm8wWEVyMTZQZkYtR25nbjc3TU1NS1daQmtQNnFvQlJyQXBlNWNEa3h4cnFFM3NTYUM1cVotYmNnRExiNnV4TzRVa0JKWFBrMzJYaHJjNVdZRV9xM09pVnRvVGhQRzB2dlEzcEs4WjJ3MUJGZURkSE9nQjAxZWdiNzFoSWhfbmtMQ2stRFBwUFgyeTM1cWxrbzhOd3FJcVJsdG16V1daVlYydE55OU1jRjh2b2puVG1xRktSdndxZGtlZGJLOVRXQkdDenEwUldTTExILWpZN1JBbnRLaWVlQUFOaW5IY09Ebm1UWFFoY1E?oc=5",
+      "source": "GlobeNewswire",
+      "ago": "13 Std.",
       "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
     {
-      "title": "Integra LifeSciences Investigation Notice: SueWallSt Notifies Investors of Pending Investigation Into Integra LifeSciences (IART)",
-      "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxOWEtvZTkxcXF2TEVUNmZGWXAxMkpYdzYwcDNGTUdVcFE4Y1d4TmxpU05ZMUhoaGlJeVU2dHhVRm5Oa0tsRHB6MTVxeEwtYm82RUl4Ny0xaVR1Ti1YeklOQzJhUmZlU05JS2dXbjk4Rmh6Q2JYU2tQMWFnNFg0QWlqMGVVLXJsSE5jQkhlSFFsVjFSWHRaRFJHQzVnRW1BTDU5ME5yeWwzb2FTRWVCSGliXzZxRklyaVN1SWhXSkxQU2pseXp1RUpNMmxTYVpVM3BYZ3YySURZQTR3d0JoWk5NSXB4MFM2OUZhN3JUR2FFbDhTWUVmbGFGWHd1M09VbTdVb1pJeXB2WjdKMHI0VzVkN2J4RUt6MllFLVR6cHduajNwNUxVOEJmMmdZaHAyRC1JMmNYUGh6WlkxUkNhNWJ1OVdBTjdLMUlXanhBUmRyY0dwRm5VeEswSkJR?oc=5",
-      "source": "The Conway Daily Sun",
-      "ago": "2 Tage",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Why Integra LifeSciences (IART) Stock Is Nosediving",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMFlXa2c2a2RjbG0tVnZMWlJ2Q3JCOXU0WlQ1SDB6Q2pSay0yTTBfbl9uZWlJZ0ZVQ2JRcHlMQS0ydVQxSEFCYzQ4cnJFME1wZGFCc3lCdjlmZTB5WW1Zd0ROOXY5ZDZNcjQzdnMwM3JkS2ZZMGRUVXYzWEdSbC1LQjd5QTFMTC02OVVEaXJzZ281ZDRTT2U3dVN5ZFpqYjJZTVE?oc=5",
+      "title": "Establishment Labs® Receives FDA Approval for Additional Sizes of Motiva Implants®",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYnlsclN5ZWZIaWpQZXJFbTl2bDk3a3AzNnoyOGRiMnFHTjlzbUJveVhJVVpELXdTbXZyLW52SkpnVEhvWUI4T1F0SU1wWk81YUVWNW93MDFxVHFZS2hHaThaOE1EUEhmdWdzZzM2T3AzaFRoWGNLamdkOWdZcGh0MHVFdF8tb0tyWENKbDh0M0dmSWhGdjNWREt3N2tFa05yWTdj?oc=5",
       "source": "Yahoo Finance",
-      "ago": "2 Tage",
-      "group": "Integra / Lipoelastic / Absorbest",
+      "ago": "13 Std.",
+      "group": "Motiva / Establishment Labs",
       "summary": ""
     },
     {
-      "title": "Integra LifeSciences Aktie: Hochwasser drückt Jahresprognose",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcEVORmFzWkRINVFqdkwxRkZOZ1FWbjg0UE01Z0d3ZWczWGl4MGRlWVh4R3JXZTZQSm5fS3JGaGszVlB5cEp2dTF4Tk9LRElyS1luZ05xQnZPZHljbml1UjJoWTcwU3lDbm82LWxFYm5JOVZiMExXQzdZdWJPbXJjR1pNSG83bFNpRHVrUTZiQnJUXzhONE92YzVDRkZlUWZoUzZlTzVGczM0UnQtU3FEOXNtSnJwd2dvamxINkhBbHNVa2piMlFaRDRuSEI?oc=5",
+      "title": "InMode stock draws a Hold consensus at USD 16.00",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNd1ZPaDg4clp4VVlaenE0OVU2dXRkcDJPNE1ZNURBZnpYLUZRUjhNLVU4TTFpWlNpRVlIUURiWENLejRQY21ZRWVZeEZzYjdKLThBTnh0bHZSZldxQXFaRWxlUXB1ZWZ2T25nOG9udzdYVEJsaHJrUndQTWdjRDl0TlhhdkkyeTI3cWZPNVF3U3pPd2E3SFV3NGtFU1VuZHpub0xLVTJ2MTJhTXVvTEpmVw?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "2 Tage",
+      "ago": "13 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Integra LifeSciences stock fell 21.19 percent as flood cuts outlook",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObE0xLVhMbENDeUR4ZmR5SW9QMGwwT1ozVC0wUDJZSXRKR2lKWS0zUjV2RHplWFF2WEJFQm9YMmItQmc4NHVLaTQwVG1Sei1LeDQ2V0hpU21CTnJTMThuRmhpc3BQVWtJdm5iSkhfc21vbkNMcWwxX3QzZWpNSnJvNHc5OWJVUGkzYUIwZmJCcTAzUXZxNTNxV2tpay1pdGRQeXg0aFJpNVQyWWxTVUFESGNEb0JpUlY3d2VRa3FDdUpPTUNlZ2drUWNn?oc=5",
+      "source": "AD HOC NEWS",
+      "ago": "14 Std.",
       "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
     {
-      "title": "Shares of Nexalin, Integra LifeSciences, Wester...",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMVBVM3ZadjhUODBzZUViODM0cEs3anVzaTRpdWVOQ0NQMkcwWXdaT2ZsS0FMY29PZmRsbl85SkE1bEs0WlFCQ2UxUGhkSUJ3WHNwUWF3WWFCOWdBLTM5c0dpckU1WFp3UDBxb0IxM1Y0LVpNU1pHN2ROMTNaTDM4SlNhQ19ReWJzWFBISzlBa21ZS09INGc?oc=5",
-      "source": "Pluang",
-      "ago": "2 Tage",
-      "group": "Integra / Lipoelastic / Absorbest",
+      "title": "Nethradhama Launches Envision By InMode In Karnataka",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNcWZkUzFueU9SeHBmTEdWeGxkUkRMWE82S1cxbEVfYXh2dkYzUGYwdWg0Yy1PME1GNmxnVEVleW1FamVRb0t2aGphek9tZkdHN2FTTmJpYTJrVHhXeERlbEhWNWpod0xEWXpSQU1FQ2dJa3h1WXdxR0JKQ2JfYTJiamdibUJxU0JscDl0SU5PTGdiRW84TGFGV01jeFN0Tl9MWExLdG5LSFpZVHJGQm1sQTBJdnVWX1NGcjcyQndnTmd1dFRXbWJpUXJOVmJ5c1RpWkVKZjlNa0JlWXhnUUM4ZmJNUTY?oc=5",
+      "source": "Passionate In Marketing",
+      "ago": "14 Std.",
+      "group": "Wettbewerb",
       "summary": ""
     },
     {
-      "title": "Integra LifeSciences (IART) Shares Plunge Nearly 21% Following Q",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFljWnVGX3JHVWUyOWlOSkF0aksxeWVTeC1UbFNvVkp3VUx3dTZyOURmSUt6alhuZUZGRWJaU1p2dEIzc2JLNlJKdXhod3YteVdLRzVJU2kxMFpaSUpJaTBKNHR1WFhIQlRobk45aFVDa3ViRE16U0tUQmc2VFFSRWd0eUs1OWhhX3BkYWotM3pzQ3RVeXJjckx4ZkJLU1B3bVdCdDRVdHRldkRyQmk0bW9CZEwyaHJpSWFHVlRaSzk3aDF2N2ZRcTl3UEhxUmsxUWt0bkNFOFJic2hia0k1Wg?oc=5",
-      "source": "GuruFocus",
-      "ago": "2 Tage",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Breast Reconstruction After Cancer | Understanding Your Options After Mastectomy | Wellness | 2news.com",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPRVhka1VmQzFPM2NfYzd5aHJmMDlTOUl4czRBREhiS1gzYlZRRVYwTC1teXdVSnFrY1hGdnVzb3p1enUxOXZLTDhVaHZ4YlZaQVdhbjBRM29Mc0ZwQm4wWTMyaFp5dHRZZ0dQTWF3eGRZeEhZUmo4azBYT182QXAyLXotVkRkUkRBOEZINjVXNjdWbkhjUGxNdXJ0c2l0ZzBzNFhXcHc2OFdHZzkyVUpvbWUxbGxyeUZfV3dBMm5paWtfSUozMVV0a0MtbzdwVVJlRE5OODhHdTYwN181TGc4TTRkajNQVTQyNU9EejM5dS1OTTdSMUdRUy03TlJTMzlacVE?oc=5",
-      "source": "KTVN",
-      "ago": "2 Tage",
+      "title": "GRAZIA Glow Index 2026: Best Massages & Body Treatments",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUDdaSmt4QTlPdWVUQkNNQXhQb2JMandUZjZ1MEMzdDNnaTBIeW10ZXo4dDI5YTV6b1pURzNTX2VWUndlQS0yWk00MjVxR2VSMFVaM0JDUk5icEZHWkdFRXM3cHljLWlJSXg1SllncENZUE5iZTJMYi1wTUwtU19jZEFSNm9IX1NjTTU4eFRHYkZHRWFRYVFoYnpUUGJra09YYm5KWjRnUUt1MG9DTVJUOQ?oc=5",
+      "source": "Grazia Singapore",
+      "ago": "15 Std.",
       "group": "Markt & Kongresse",
       "summary": ""
     },
     {
-      "title": "SMI aktuell: SMI letztendlich mit Gewinnen",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZmFCeTRFV3gzRzR5MWNqTDFpMFdmd2tMMFNDYXlwdVNZSHRCTHZrZ3N0YTAzakdHemxWNjJWdVQ2M2p1eThBNjRtQmp1SThPMFBxR2pfMHZhSEhlc2k0UXN3QkwtaXh2TjlLTmZ0TlRRbHpxVjNSS3Q2TVhaQUx2QmxJcFRJcmJSekZrNWsxY2FYT2c5VUZLNk03NA?oc=5",
-      "source": "finanzen.at",
-      "ago": "2 Tage",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "Zuversicht in Zürich: Anleger lassen SMI schlussendlich steigen",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWVU3QzA2TUdsWWpZNG9fMkZkS2pvWXBjRHZvdEtrYWUyYmU0SjQwS2tWSnQxamZnZ0gzNTVocFJOSU5KRUE3MW01clI4dGJNQzJjXzgwYlBBREtBeGxxdk9CLU5VLTNDY0FnRGdrUmVmcHA4dU5GY2drQlZESHlxb2FwN212bDZhUUxDeVpEekRMR2doZXRjQU00NlpJVjR0b2cyaHNEalhmYVR1d1JGbjRKTHpEZlFF?oc=5",
+      "title": "Galderma Aktie News: Galderma am Vormittag mit Kursabschlägen",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOR2pLQi0xLW10WTlnMUVRbG9EU3BNUmUyZlFnWldQalBvd2xHOXZUVDFvX2JNdVZrTklNTGVxcEc3aEtJbjI3VV9DZFNJVkJFLUxPMHA5T2x5SFVHblo2Zmd0RU40dTRzanhwb3Z5cGc2WXVRTUtaWG85eG5pYTJjY0VDVk01ZXk1U0JwZURQOEdENFRUcVRN?oc=5",
       "source": "finanzen.ch",
-      "ago": "2 Tage",
+      "ago": "18 Std.",
       "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "Galderma Aktie News: Galderma reagiert am Freitagnachmittag positiv",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUS00N0Q1ZHhPSEFMVTlXUjI5YlJOSWpHTXpSR29DZDBVR24zdmdDT2hhM1I3cXlQTDFoN0JsT1AtVGYyVWlpbktjdDE2S3pJNXVyWS0zZ1h4d0Q5cjl0UmczLTB3cDNXSWJfRGZwZUhTZ3hlNkJMbUYzeHpuOU9xV2F2Q3VZeEdfTDg2NmxrSG14R3NZZldz?oc=5",
-      "source": "finanzen.ch",
-      "ago": "2 Tage",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "'Scary But Empowering': Kat Timpf Reveals Second Pregnancy After Double Mastectomy",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYm14al9FNnZUaUdaX0VMcS1TQ1ZNczZSOFRlcnMyYXc5WHNLbUh3S0lRU3NWWXFzT1VQQ2RldFdXOUtvMXB6Y0lMVExMOXhLZHdfc2hZRkc3Y0c5Mk9fSHZNNWRncHctdC1WYzV5MWJHN040NW9CUm1pWHZ2NUUtbTlPa1laS0J1a3FZLV9GZFJKOUU?oc=5",
-      "source": "Fashion Times UK",
-      "ago": "2 Tage",
-      "group": "Markt & Kongresse",
       "summary": ""
     }
   ]
