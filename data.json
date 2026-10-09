@@ -1,203 +1,203 @@
 {
-  "generated": "2026-10-08T01:06:16.624307Z",
+  "generated": "2026-10-09T01:17:29.618721Z",
   "forex": {
     "eur_chf": {
-      "rate": 0.9309,
-      "change": -0.0050000000000000044,
-      "changePct": -0.5342451116572288
+      "rate": 0.9326,
+      "change": 0.0017000000000000348,
+      "changePct": 0.18261897088839132
     },
     "usd_chf": {
-      "rate": 0.8328710745280486,
-      "change": 0.0023625999517775664,
-      "changePct": 0.2844763207242376
+      "rate": 0.8337207223314858,
+      "change": 0.0008496478034371036,
+      "changePct": 0.10201432483635736
     }
   },
   "bitcoin": {
-    "price": 83397,
-    "changePct": -2.411650094335162
+    "price": 81664,
+    "changePct": -2.0149185009503743
   },
   "stocks": [
     {
       "ticker": "ESTA",
       "name": "Establishment Labs",
-      "price": 65.29,
-      "change": -1.18,
-      "changePct": -1.7752
+      "price": 63.85,
+      "change": -1.44,
+      "changePct": -2.2055
     },
     {
       "ticker": "APYX",
       "name": "Apyx Medical",
-      "price": 2.545,
-      "change": -0.055,
-      "changePct": -2.1154
+      "price": 2.55,
+      "change": 0.005,
+      "changePct": 0.1965
     },
     {
       "ticker": "IART",
       "name": "Integra LifeSciences",
-      "price": 13.32,
-      "change": 0.03,
-      "changePct": 0.2257
+      "price": 13.0,
+      "change": -0.32,
+      "changePct": -2.4024
     }
   ],
   "news": [
     {
-      "title": "Non Surgical Fat Reduction Market To 2035: Rising Aesthetic Demand Fuels Growth",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLXJBQnV1TW85YWdaVzc3dkpWZlpNVnBvU1FWbnZJX1hYaVBIUWxQVDhsZkt2UERfSDFkTlAySnNHRmE2eFMycjBrOEw5eU9pZllicUd0a2VzakVuSUs0RG5kc2plOGJwVWZjMW5fNTdIZlB6c2l2dUl6OG1kTGJ3SV9US0dDbHNhOGVOa3RpcUNTXzYtNWQyQVBPbDI4dU0tYnlRYVF4bUxsQkMzbkxKQVhuemNHbVVpSEZBbg?oc=5",
-      "source": "IndexBox",
-      "ago": "2 Std.",
-      "group": "Markt & Kongresse",
+      "title": "A Look at Integra Lifesciences Holdings Corp (IART) After 3.1% G",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRllzeFgydXU5X24wNDBiTlFIZ3EtOUdxN2Y2QWozYmJuMVNFMHJ1al90UlJsWFQ0bmJZVVBwSWlscEhpUHZYOGZHMTZsOWRRVEFpVmZiazdMTTdlbldDMnZXRjZfOERNRDI0M2lFWFdJUDZWWTJKMmhqUHgyRjN4czVjLVBOaXpYa1R6eHhIa3lrQzVlOXB6TlEzQ0dERjREbzFzWDFKbXk4b21Uc2xKaFZxVE5tMk9mb0pWcHZBVGtzSWoybm1rUUJ3?oc=5",
+      "source": "GuruFocus",
+      "ago": "43 Min.",
+      "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
     {
-      "title": "San Antonio's Dr. Lisa Brostrom Discusses Plastic Surgery After Significant Weight Loss",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNzBHMFQtaEpJTVhMZVo2OXp0aUw5SGhPNGh4QzVpWWxoQ0pWWEs3TERWUWMtMlhjaVZhcUlQSnp5SVl4ODhRaFZsSndSYUFFR0toNVh6N1otYVIxeW1PTDk2T05zaE9kRmRMMkRkamZZWlhtcmV2UnZlSlFBdGx5OWwxUnRhc0pxSWFMNTY0X1hjMl9mNE52WUdNamdTZElYRWc4?oc=5",
-      "source": "Digital Journal",
-      "ago": "5 Std.",
-      "group": "Markt & Kongresse",
+      "title": "Establishment Labs Holdings Inc (ESTA) Stock Down 5.1% -- Now Undervalued? GF Score: 75/100",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ2R6UkxMdm5OcW9xdWJQNEo0Y0pvX0xYaUZuZGdTUkFyd0xGVVR4bjM5YW05VUdFS2dENFplMlhuUkVXN1lMLW5wdjZnSU8tNkdvRWowSzNqZ1M1cEEtV0lWMTBBVGZfbEZacVRtSC1HaDdWWkxJTnVlWUdJV1hSU0Z0cDA2UmVWbnF5aXVhdXBWSzM4SHppajc5U3RLNWZwZE1GV3NTQXlTSmRsYlJwTmJ4bExpNUUyVGFEbw?oc=5",
+      "source": "GuruFocus",
+      "ago": "1 Std.",
+      "group": "Motiva / Establishment Labs",
       "summary": ""
     },
     {
-      "title": "InMode-Aktie notiert 12,53 Euro vor Quartalszahlen",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZzk0WFE1VTU5amUxdkI1VktGNDJuVGsxZ1M0cGtZa2N4M3BhdnRhOHREd0hSNWt1TmpEdnQ3ZXVCRlk2UXNCM2NENmhVOW8tcFJMZzd3OFRGbElHR2RuUlpld3ZHaGpVYk5VXzFULTFTb1FsZnJVOU5odUN5WVZQU3lOaGh4eU9QSWZGOFJqNTR5aW8wbHlJbkJacDN6RjdBTjBqdktEMDdfbkY5Z1E?oc=5",
-      "source": "AD HOC NEWS",
-      "ago": "9 Std.",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "Pratteln: Über 3'200 illegale Peptid-Fläschchen sichergestellt",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTEZuZWJ6RmxKZXdkODh0akhoTnhiNEdmYUdfeVFkRHVYRm9reEZYS0Q1WG1Tcjd3dzNtRVg0R1FJZU55OVM5TzVPTXNublFnaFkwNV8yQ2pPX0x1bzlLdnM3d2RaLUk4eFVKVHhuaVctQWxxY0xsOEF6RnFZTS1LVzdzZm5RQlJGQWZRb3RQQUtWMkFURXA2NXR2OEU?oc=5",
-      "source": "Prime News",
-      "ago": "9 Std.",
-      "group": "Regulatorik Schweiz",
-      "summary": ""
-    },
-    {
-      "title": "Galderma Aktie News: Galderma am Nachmittag freundlich",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOa0JkVFlkOTdqZC1wUTBfSjNieXIwZWNnZWVvYjdGNi10Ynl5ZGNhcmNzdUotM2FaZ2FTMU5BWHdBa1VsRXRmYU5hNUZkQjAwZnl0Y1p4SGdFcEN0bjFtaXlpbE1iVGlZVlhSOHhCY1hoNmxiVl9qX3dGNlV5Z2UwTVItTVRfZUR0bTRGb1B6clF0aVBMMWRN?oc=5",
-      "source": "finanzen.ch",
-      "ago": "10 Std.",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "Who Is the Best Body Feminization Surgeon?",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPazgxM21ZM2hkRjRMRzBUVkZVcFF0X1N5Nl93SC1MaFBrNUVRNnJNdWdhS0NKbHFDR3A4MUZITnhjWkdPN3ZEQ19URUp5UnRxSGs1bWIyU0VlTGxTeXhwc1NsMFd6TjVYZVhOX3p0TlduZFBnVjB4MU5mU0VFbmFYM2FXZWtNcUZYWkdSRUU3MWkwVjF0OEZlRDdvSmpydldvd1BB?oc=5",
-      "source": "StreetInsider",
-      "ago": "10 Std.",
-      "group": "Markt & Kongresse",
-      "summary": ""
-    },
-    {
-      "title": "Brazil Aesthetic Equipment Market to Reach USD 11.43 Billion by 2035 at 15.5% CAGR; South Region Leads at 16.8%",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOUdMNnBSd1NnTm5UczRxQm1zT1FPUUhoU1QyMTBzLTRXUnhEbnVzeUJyOW80XzA5dE5EU1M3a3pob3JPYjVjQVFqQWVjNGtTR0ladmp2al9kZWhQd3Zwa0tITGViY1UzbG5TeGNFNlh2QU0xazdkdDV0elQyQzFZWnZ5ekxfMUFsWWd0SU5YWmxmTllFNkhYV2tNSE0?oc=5",
-      "source": "openPR.com",
-      "ago": "10 Std.",
-      "group": "Markt & Kongresse",
-      "summary": ""
-    },
-    {
-      "title": "Ein lobenswertes Risiko der Gewerkschaften",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObV9qaEVhb25fRnVIQ3JUVkR0eG9yemVqa1BrYV9scGJUMzhPeEVOaWFqem5OWmttUndwSi1VOUdseDdyZkxVMWVMd01pbUkzNDdLVkZlVjlpeEdMR3V5NUQ2ZjBpWFcwa2RzTHJOYV94dTVjVDFzRnA5ZWNEZnh6d0FFYzRPN3lVaWlz?oc=5",
-      "source": "agefi.com",
-      "ago": "11 Std.",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "Galderma stock gets a stronger 2026 growth outlook",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNE85dE1tY09lWlZleTk2Ny1qSWVTSXA4ZFJocHhHMk5yVl8xUWdGZHVYTG9kdzdqd1pkZGRPeWxKb1I2TGtBT1l0MFhsaHR4QkxkaVJCTkEyUEtZYXd3QUdqR0dXS2M2WVhacUxoeXNTLWZfYUQ2NzlEejZDUC03UDNtVlJ6UHZ0QlE5TzMzUkIzWktreVFCY3FoQTloQklkYWZnRzlNMEgxNEZRcUZwcnJRaw?oc=5",
-      "source": "AD HOC NEWS",
-      "ago": "12 Std.",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "Grösster Fund illegaler Peptide in der Schweiz in Pratteln BL",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObkZnWVBPNWVvWGl0RktWck5YVFJmT0NNRE4wWlp6Q2pEcjVVa01jTXRIVlJaSUJZQ0k1Z3ZERERwa1NjRXZaUzFKSTlid0JzVEcwOXBCcDFuRDdyR3VnRFZjNlNXU2ZoTDRNSnVpRjFwQ1NOZ0taRWtWZ0hPTk9vYWNzQUhJNVc0eVdOT3o0aXdsa2hxSE1yMHN6QlZVMTVEMUVneg?oc=5",
-      "source": "Nau.ch",
-      "ago": "12 Std.",
-      "group": "Regulatorik Schweiz",
-      "summary": ""
-    },
-    {
-      "title": "Establishment Labs Holdings (ESTA) Wins Expanded FDA Clearance, Is The Stock Still A Bargain?",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVGY3d2lVTG9Rb1pvRjZmejZYbGc3Rmp4YnFMWmJib3Mtd2NLSWJHWXZ6QXdlc0xSSWM5MGt4SzJNLTJwZnQ4SWhIQTd0UWpkci1tdEJOa2JjdWNXUlVxNWdQenNqeE4wQzRwOWIyR2NCQ1pxWHZMdk1rcjBSMnY3YVB4RmF4ZDk4ODhFdUZYcmtiOHJrRUEzM1BZT3g2Wkdidm9Mbg?oc=5",
+      "title": "Integra LifeSciences Holdings (IART) Cuts 2026 Revenue Outlook, Is The Stock Below Fair Value?",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcFVSc2IyY0FteWIyNGwzM2ZwQ1FvWEwtcGlWNzN3eEtJM21TSDFDMVdCQWJLTl8wWi13U2RkcXZZQjhuX1ZmYnZuS2Z4S0h3UFYySTZaVncwUVNwQlMza2JZclZpUFpLeUsyMzNUeDlDNTZTNndzckIxeXpCLVB5ZUNPRWNyZk1VWHlzMWt0cVNvYlh5VUhUYU9jaG5LVTBUMkpSYmhGMA?oc=5",
       "source": "Yahoo Finance",
-      "ago": "18 Std.",
+      "ago": "1 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "Galderma Aktie News: Galderma wird am Mittag ausgebremst",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNek5vX1BuMjZjZ0p6c0ozRHlxajE3N3gzOWl5Uk9EUHYtUmV3SWZIRk1qblRhRG5GZE5qOEg3MG8zRGNIZVh3RHBiQ19ObThncU96VERzVGc1bExqZU5WaERwMVgyLXUtek1GYXhlTlhCYnJvWjZ2Z3JOazFiTl9ZS0pMWmFjTGxtSUhZNkN0YXNfOF9aRnU0?oc=5",
+      "source": "finanzen.ch",
+      "ago": "2 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Galderma Aktie News: Galderma am Nachmittag nahe Vortagesschluss",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQT3M2WHFmNUhsbnZfRVhrVFFyakh5aHZMZkpFLUpObVkxbjBUVVF3bWZjS21GUjlhcG84MU5sTnZMb25UeF8taVJZRTZKX1BPZXk5Q2JUN2dJcC1PNWhoazlEeDU5QVNPc2UwSGpNamhDYUNqUW82RFdNY0FTOGdEbWhDRGE4T3pzeGN5N3RkV2c3TFlaSnhN?oc=5",
+      "source": "finanzen.ch",
+      "ago": "5 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Establishment Labs clears 28 implant sizes. Establishment Labs stock falls 4.26 percent",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcTE2OXFtWjBYRkJROVZRcUwyVjFkUlNTQUlVUkVTQ1FZaDN4dkFmaUw3ZFJybllTMHBkV3JKN3c0S3hPT0pUN2RkanhhZmh2Nl9fSXFDSTlkb2xrUmx3NVRRZG1Ta1N4Ym1PTGpobGFDNTk1Z2I4R1pSUjVqWWdidmtDM256YnRoU1VuNzB0bW9Gd3UtSk15MFNuUkJNUlQ0VktxMHFETnZ0bE9xNWRab2VDYmRhSnAzaFhyRVNGcmFBRGNGdlJFZU0tLUM1VWRLNm1QVmNCQlJWUzJmM0E?oc=5",
+      "source": "AD HOC NEWS",
+      "ago": "6 Std.",
       "group": "Motiva / Establishment Labs",
       "summary": ""
     },
     {
-      "title": "Glaukom-Implantate: New World Medical erhält MDR-Zertifizierung für drei Produkte",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTWJVV3V2YjBRQ0Y2bmNrN2ZMMFRHNno2cmlPLWs4aGhTZlFiZ0pCVnhnNEVqRkIyS0c3Umk2dDRGZkhDUnJ6aDlWRG0tNmxFTE90aXItdk5RdURyRFFrQzB6OG43TGNfUXFuQi1Bd0I1c0tpQTBiS0p4OXJ5ZkJWZ25oTVgzbXJvNnA2Rm90NTluYzBscGwyTUNzNEJybXF2dWNaR0tVMTFxNWxNMEtqbm5BaXNjMUl6Y3lpeHR0RQ?oc=5",
+      "title": "Galderma stock after-hours at EUR 174.30: unchanged",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYmdKZ3I0VzZGNm5nSDk5Ml9EUktwX3V5Sm9OYTUxOG8yMUtOMXNTWkZvWUotb1JqM3ZhTTl5UktfT3FXVjBuMVFra09TN054djFMWWR1MDU2Q256NHVVMlZKRmF6NEFtemJ4Z3UySHdCUmw5dWl6WkdwblRMVUZqTmoxVzZVZ1ZCaDJXaHdwUDd0dHhfNUlJTDJEYzdyT0stckVfVnBjNjlMWXJuYWc?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "22 Std.",
+      "ago": "9 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Galderma stock trades at EUR 173.95 with a P/ E ratio of 48.0",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQ1ZpWlp5YWFWZFRxT3FiekhWOWgydFhrSl9MYnZ6WFlfcGFnWGJ6b0w5LS1HeVJhd25fRnZna0RScUZ2VGRMdUJISTdxUVpiSXdhbk14bDNwMDZ4NG5Cc2FyQU5LbUpmbW4tR3FaY3lGYnVaTXlXY3Z0WWI2Q0dpRHBDODJBM05fV0JOYm5vSzJTLU83NHE5WmxpYVNRRnFQSUtPUVZYUlpVbHVSV2wyRmtzTV9hR1g1Z0VvYzVlZUw?oc=5",
+      "source": "AD HOC NEWS",
+      "ago": "10 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Wells Fargo cut its target for Integra LifeSciences stock to USD 15.00",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSi1LVU42elR6WGYtQzhxenAwSlB5Y194c0RNNUxFcUkwcnRieUhBMlg3aUdvcTV2WERSMHplOEgwYVQwVzlyWDl4WlZ3MjY0ci13NjZ0aHB1TXlFTWtNOEctQUpzUmNPaUZNUG9sV3RfTTNOTTU4VHlGUUFCcVhiTkQtakItMVluUXVLMnFrRGlDWVFDYmFtLWxQMjZBcGp2ajQ5WXFGbmNyOHlfNGNRbkxwNVFlWEJJbEJNQkprTVItTVhnY3E0VA?oc=5",
+      "source": "AD HOC NEWS",
+      "ago": "11 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "NYLIM VP Small Cap Growth Portfolio's Establishment Labs Holdings Inc(ESTA) Holding History",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbWpGQzJkVUowemNKNTNtLUJrVHNBWmZ0RUd1c01iNDdXTkFNalJnNm82Mm5tQk5iOGZuYmQ2dDFwbTRldktQSjN0N1dIQl9ONG5DZVUxSDlEVTJHQnhGYWg5VjBJbUM0NWZBM0hiNTYybXdGNDR2dVhHQnNoSmd6X3hWRHZxZjcwakJZaHJvckFwMGg2SEE?oc=5",
+      "source": "GuruFocus",
+      "ago": "13 Std.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Simply Wall St lowers fair value for InMode stock to USD 16.17",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWEw2Q3FBbXQtSnF3VTlpenJZUHR5anlCZEZZSUVqQUR2T0wwdDBiS1gxSU1aNjJoNDlqaGczTGJHUy1pV09FcHhGcDlJQ0RzT1JDaUJHWmFwX294Y2dkc0pyeEgxZ0ljdkt4TEV1ZGUzeGs2S1l3RGYyNHZNMndQRExrUG5xZVJqLTVZUnNiNWtKVjZhNEQ1bVhuM3RkWFJwdWZsU3piWDVKUlVaSTJCeWhxS2g2MXVCU1ZCaVh3?oc=5",
+      "source": "AD HOC NEWS",
+      "ago": "14 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Wie die FDA-Zulassung für Implantate bei Establishment Labs Holdings (ESTA) das Investitionspotenzial des Unternehmens verändert hat",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPU2Z5MndmaVV0bzZ1cHZ0SlJvc1FrdEtGQXZBZ0FhbVg4b0F4TjhSTlJmUUZsSXgzelpLSjNmSlB0NjlJLTRtMFF4STZxUlo3cDBDbnRvaEhoUDBnOHA1bnZDZ1VudUVNejdzV2VWbnNvempBNzJLeVFjWXhMZGFsS0RxTnRCcWljVkRLb1NheUxuYUlhakRNbVp3NFI2RDhIZjBkRkRKTmtSNHhRUy02YVRub1E3VXZnWVlhRWRUMFgtUWk1UnV0Nk14eHowMUdxRmh3OG5oRE9xWXVheXJPSnZEZFQwcHFVanNB0gHrAUFVX3lxTE9TZnkyd2ZpVXRvNnVwdnRKUm9zUWt0S0ZBdkFnQWFtWDhvQXhOOFJOUmZRRmxJeDN6WktKM2ZKUHQ2OUktNG0wUXhJNnFSWjdwMENudG9oSGhQMGc4cDVudkNnVW51RU16N3NXZVZuc296akE3Mkt5UWNZeExkYWxLRHFOdEJxaWNWREtvU2F5TG5hSWFqRE1tWnc0UjZEOEhmMGRGREpOa1I0eFFTLTZhVG5vUTdVdmdZWWFFZFQwWC1RaTVSdXQ2TXh4ejAxR3FGaHc4bmhET3FZdWF5ck9KdkRkVDBwcVVqc0E?oc=5",
+      "source": "Simply Wall Street",
+      "ago": "14 Std.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Fall Clinical 2026: Galderma Presents New Three-Year Nemluvio® Data Showing Deep and Lasting Skin Lesion and Itch Responses in Patients With Atopic Dermatitis Aged 12 and Older",
+      "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOOTM5S05DaF81ajdLOVdvMXlEMVRzRW9EMFFWcGVQS3pSWENQeDA5ZHY0R1ZhMEV6TUpYUGtqRVJpeVFOU0x3alN6b1JTdjlpcmRwN1RuUGw4NlRxZmYwS1l3RnFBa0pfWmtiQXl1dlVzRUZRZ2RENmNyRDBMUGlIRUFNYmd4MmY4NmpvTFZYeG9DU3NfYndYUl9TT3liQmVyRmlEMGFrMk9wY3Z6OXRubUdXRkJTaEx0QUxFeC1CUDJjSF9XeExFX19lS3E1QU9LazBvUjFvRVlhZW1EODZhSmlQbG4wR0FHendIUGkwblhwLTJDTkhTR05ZMDh1V3h1VzBGd1ByWFJEWmQtdjZvVkZJeWZLUGgtT3NfSUdTTVprMVRodElRcVJobzRPMnpsXy15SWRoZ1VyZw?oc=5",
+      "source": "BioSpace",
+      "ago": "14 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Navient: ClaroNav erhält EU-MDR-Zertifizierung für chirurgisches Navigationssystem",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSkFFeGw4MEZOQ0poYVBleU5nakxGYUt2YnUzYnFYWU9WSVRIQi1tcS1HV2JTN2dtaEdqSmRLWVQ1dFh2U0NRbDMzWlpFaVFpNERUMFJVOTdCYi12OGJSNlotTWUyOFFTWHFJRFF4TEZIQmJZYTdOXzlROVJpR0Z4X0RTOVZCUHo3Q3FlSXcwTUxuVjc1eEpGUFB6bm1nUjBfY1lBMkZWU3FGdHpha1pB?oc=5",
+      "source": "BornCity",
+      "ago": "15 Std.",
       "group": "Regulatorik Schweiz",
       "summary": ""
     },
     {
-      "title": "BMO cuts target for Integra LifeSciences stock to USD 15",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRjBsdWpsZ2dDZlJjeG9EeG5Jc0p5Q1hVcnNvLXBuZll3WjBIQTY4Q01KcVVIQlY2cl9rUEk0dG8wWEpORlBtZmw1eTBtNFJLa0VrbG16NzViN1g0amZzazRIZWZlT3hMY3ZzMTYwY0dFNE94RnJuN2VSZHllUmVVbWJoX09qSy1XYV8yUGZURVRsNnZ1OFBEelJoNktRT2Z4R1lsN3dUUDAzUzBrdmo0WjQxbUNqZw?oc=5",
+      "title": "Galderma presents Nemluvio data: Galderma stock trades at EUR 172.98 versus EUR 174.35",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdXVYYW5JSG5ZWjFvdzB4NUpLWnFCei1seTQ5ZU5uSnhCLVB6Q2RvdmJTUy00M1pEQkNISHg5VmdNRF9aZDRVbzVsUEljb1VjZlBmZVlHWjBYeks4Qm5DM0JJMHItYkJBV1k3bmp2LXBlRnVIOEw5NEgxNnUtTV9fRERDclRIWW1wczU5dF9TVjdkNnZ1a0VzNG93YU9BSUVKMHQzLTZ6dk9VLVR1b29WYTN4ZTRoR1drNUJfb1I1dEcwQ0JseU0xTXFB?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "22 Std.",
-      "group": "Integra / Lipoelastic / Absorbest",
+      "ago": "16 Std.",
+      "group": "Wettbewerb",
       "summary": ""
     },
     {
-      "title": "INTEGRA INVESTIGATION ALERT: Bragar Eagel & Squire, P.C. is",
-      "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxNLVVCS0Nyb2kwQmlWTFcxOUNCcUl0S3oyVUozS0pRZmhLeE0temdyQnZwMzRvQ1JMVUVOd091b2l5NGpKcWYtMnUzaGwxbTljd3JDZDNfYjBXUE5NODlobnFDLUZtZDB0Y0ZNNzNpMlhzTWJYNlZOY1ZmM3lpdXhqd3pxenJzdUFKcUI0bDdRREdMUHplTVpsaDg4bnJjVEg0Uk9xbHB4bkpRaEdtakpVTDhrR2hRSV9pd2QtWkk5MFBjWmkxM3BwWHlLaFhRVTMycjBOMldjUUE1YUczZW14Zk54eTdLcTMxS1BFa0twMnMwOGRYYjBRVFRCNWVScW5MWGpROUdUMGRCUUlFblZnRllOYkxsWDRmUTZhTEVBUnhtUFYxcFUzOEZYYzB5WGxBdGhpTWZLVTlGMmR4Rmt3emhNN0F0WmhPLUJPMnpWYWU4UHRYamZyN2ZLdUthaHo4OU50a0tCU0NoWDJt?oc=5",
-      "source": "GlobeNewswire",
-      "ago": "1 Tag",
-      "group": "Integra / Lipoelastic / Absorbest",
+      "title": "ARCADIA-LTE: 80 Prozent der Patienten waren nach 152 Wochen fast juckreizfrei",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUHBSSXJac1JzQU56RWxDS2R0Z2doWVU2V2pTbFlzUFhacDVXQjNfQ3F0WUhiMmtNbHNEWmRmVDZHRWZyb2wxNWpYYjVGbVFucVExcno4ZmMyWFRHLVZVZzVpa1JJRHdsWHBTTng2Uno5dVpYd1FjMzd6V1lhNGFwOWpFUDBNTHlEN0dJbzBmZHVtcDROaGM5V0EwMlBqS25mNDBSdWgwQW9FY2RzN2cyOXV3?oc=5",
+      "source": "AD HOC NEWS",
+      "ago": "16 Std.",
+      "group": "Wettbewerb",
       "summary": ""
     },
     {
-      "title": "Integra LifeSciences to Host Third Quarter 2026 Financial Results Conference Call on October 21, 2026",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxORTJObnhkNWJHRDRwMzVqeGllZE02UUNhaU9GYVEyT0d0RV9DODBzcnZNVS11VTJ6MlFqODMyZU8zNjh5QUgtOW9OSUdaZW5taFIwdy1YRXEzamlsOEJBb2VTa3MxeUVHUlNyeUFfYkl6bUdnaWk3eG11bjhUM2FwSXZnS3E0WHdIaTRHSi1YU2QzTEVxZ1NZc1d5QXNFUUQxYjg1M1ExX2MzbW5oMm5ENkZacHUyVHoyV3hRbjI3NWx6WXdkeW5HQUt5YUtuSVlhekNWU01xS3dsZlpMVnV1cWNmdDB1N3dQQ2dabVl4YmZjTHlNS3RqNFRfT3JCaWVjZjZxQ0h3?oc=5",
-      "source": "GlobeNewswire",
-      "ago": "1 Tag",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences to Host Third Quarter 2026 Financial Results Conference Call on October 21, 2026",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQYjlHNUxIdjJqMVdmbUFSeXlGMU1JVk1wSm94TEdMQkJEUFczQzk4bnlfQzBXUDM5Vlp6TVdfbDlIQ0R3LWNxbFdrUWNjWVB6UFItNkVPZ3hpMlp6S25TSjdmSUdueEJnb2Z0M1M5Y2FoT2FDZ04tZ3ZDanpxc0pxM1UzZ3NaWWd1NFdzMjgtRm1waEVYRElZaENUMG1uU3ZQejRJempFQ2Q5Z1hnOG5KZDNzVGh6YVRQSC13OW5CbmJlekhiODdQZVh4ZWE3WWVFeW1CVnQyOHBfRnVNNndwcjBnbjFsSkRsR3ZNR2VmRGxjUGhma1BxUkU0OGlXckRaVzlURUxn?oc=5",
-      "source": "GlobeNewswire",
-      "ago": "1 Tag",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences to Host Third Quarter 2026 Financial Results Conference Call on October 21, 2026",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNMEhSajZfa3p6WmdQMGZ6bldMQ0NwZGtGeC1ydTJrajd0WElZcVpGUWQzWjF5VUhYcWk2RWxGMWMxY1VyOUwtTVowSVZkbXpMTDJCWXM0SGYzVU9RVHpzbGdqZDNNUDM2cXBkaktKVldRWUU4ODBuZ2lYMUZxNzlCamp0WGZHMjB6NDB5Y3gxVDktNUFUcG93aTBNMHBYUWxOaUVQZHZpQnhyTVNUQzJXaHM3LTN4amo5b2ZNSElVRDhYNmxnNWY4aWRkRkRjcXU5M2NSUjhmZTN4dS03OVA4Mm1ldW03NnpCeGtXemdtWng4WDVHVENpTEszLVRFSGcwSGc?oc=5",
-      "source": "GlobeNewswire",
-      "ago": "1 Tag",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Establishment Labs Hldgs Reports Q2 2026 Results: Full Earnings Call Transcript",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPM05zanBKUXJrYU1hbEVXV1RMcW5wQVVHQS1zd0FNalJ3NnJjb3oybUNwbU5pRkdfMWo0RWJ0cy1rbTdnalB6RzFRV2c2UmVrSnJtWXJOOGFHOFNVWGRiY3g0SWpMcld2M0V3Wm1UZkNRcEtrWDBqNmVKTGx2V3JjMnJMSGFNcEFoaTBWa2dlWmJ4LU80MHpMaU9ieUNncmRKOFhUUmhZXzdHeldfZTJOWlBObUdacEFBMllGanIxZ2g?oc=5",
-      "source": "Benzinga",
-      "ago": "1 Tag",
+      "title": "How FDA Implant Clearance At Establishment Labs Holdings (ESTA) Has Changed Its Investment Story",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNWZzTGQ2X2xkTjl3NWRMUUpDSlM4bU0yV29yd0pYS01WclhCVE05cW1sSm01c3FwNHVmQmNMYWc1SUlBU2FOd21fNjlpMGVBTC16WGs1Njc4cDQ4bUJ2MEdCdm5YelZFVVlNV3MwNjZVc3RYVEpkX2hXendUN0thNGZfYUlwNlZUU2JHbVROSlZsTHN4MVpXcTZIQTZ6OGtzQkdBZGdPSnJGQV9fZGxKdzFfNEtFeGlOeTVYeGs1TEJHSmcxdDlDWDYtSEF1UXV2SkpsamZyQXMxZ1J0b3lyMXMtdjNQUUXSAecBQVVfeXFMUDVmc0xkNl9sZE45dzVkTFFKQ0pTOG1NMldvcndKWEtNVnJYQlRNOXFtbEptNXNxcDR1ZkJjTGFnNUlJQVNhTndtXzY5aTBlQUwtelhrNTY3OHA0OG1CdjBHQnZuWHpWRVVZTVdzMDY2VXN0WFRKZF9oV3p3VDdLYTRmX2FJcDZWVFNiR21UTkpWbExzeDFaV3E2SEE2ejhrc0JHQWRnT0pyRkFfX2RsSncxXzRLRXhpTnk1WHhrNUxCR0pnMXQ5Q1g2LUhBdVF1dkpKbGpmckFzMWdSdG95cjFzLXYzUFFF?oc=5",
+      "source": "Simply Wall Street",
+      "ago": "17 Std.",
       "group": "Motiva / Establishment Labs",
       "summary": ""
     },
     {
-      "title": "How Investors Are Reacting To Integra LifeSciences Holdings (IART) Full Year Revenue Cut",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbEQxNDZOODZldmJrT04xaUx5aFVmZk8wVzBCb1liTTRXa2p6Z1NBdk9Lel9JMlQ4TG5HUG1PdHlqNUlkejlSenNleENJaWNmdkZMVGpXeTk2b2ktSlB2TG5pakZ2cFY3RFc5ZnVvNDNtbzBybGRpY1lqRjV2VTlaWW85MnBVYTJjRk1odW14YnJ1RGR2UWRzSFQ0ZjBqdkVJajhKWVhTVUNGb0xDWUctamJkcWlGbVVnOG1nUUhqRkVPVzlXQnlCRXM5MTU5TXhOS3FwNlJjRjJiSGNZRG5oaHZod9IB6AFBVV95cUxPckVSU0duZ0YzY3NseVZuQm1GcFFjZnl4LXRsYVY1NmRRb3pMUEVvcF9tc3dESDYxSHEtTzZ5ZV92Rmdqc3FhRThvSl9UaC0tQkhCbFB1OXFsS1dmWlEyVlhXMUJIN3EyWGVvOUtfa1hMY2h3UzAzQjNoUWIyTEw1czhBYmFtTzkxQkFocG55bGh5dGdCMDJLRDR2RlJpazNGRmNjYXhJWmhvX3BacW5weW1nTTV3dmZtZUFaRHlkQzhqLXVucGhYeWpkSmJsV1d2a3V0NTlDeG40ZFFSZnNpbFliaUNRcXhP?oc=5",
-      "source": "Simply Wall Street",
-      "ago": "1 Tag",
-      "group": "Integra / Lipoelastic / Absorbest",
+      "title": "ClaroNav Kolahi Inc. gibt EU-MDR-Zertifizierung für das chirurgische Navigationssystem „Navient“ bekannt",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQWmM5ZFA0UlRWNC1pSHV0dTdITER4Qks5WXk5TDJoNDRaZGlZU1R3S0ZjamNHalFfZVpnOU83WUVOb2FldXBtYXNPYXVzYnJzemdoTzZjT1F5TG9VZmdhSXY1QURUZ2xSV2R1WXY1TExMVF9SeVZOQVdIMVBNQ1lGcFQyVTdROUZYeFhBRDgtbHVxTXdCNW53b1B6bjJqWnVQUGd6UTE0a3dGQW9VMFJUbUhfUE5ubU5Kd1FZUk1tTDF4X2pfX1FDVWl2N1JFRUhtUnkwbjZ4U0lnaENLSUJHcy10SWwyaVJrcEtVY2FsV05TX2JGNzl1QzNZaFNMU3YzdmdzSTFSYWZqQlBxZUs1UHpINjg?oc=5",
+      "source": "www.pmg-ky3.com",
+      "ago": "18 Std.",
+      "group": "Regulatorik Schweiz",
       "summary": ""
     },
     {
-      "title": "Is Establishment Labs Holdings (ESTA) Undervalued As FDA Approval Expands Its U.S. Implant Range?",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNNk56NXRiOGR3aXBEeGhvR1Y5NkZlMTJPbnpLejlnSTAtdU96VkhYU0hQMHJsN0xCQUs1QTYwMVN0SkNTUFgtS0pGT0E3NFZXdU81bDlDaDBPd1VhNm8xLTFuLXdTZFozZ2pwbEl0Qzl1WFVKTU1mWDRiOUlNVjIzMXZLYTFtYkhpcTJUY09kQWRXZjlVUU1fU1JpSEZ2RWNwdm5GUVBfT1B1ZVlqVjN4ZV9UVTRLTU5IV242d3VJc2NWN1VweVlsakhnejN1VVIxLUctRDJVWGo4MlBIN0VMUkF30gHnAUFVX3lxTE56RGxnTWxMOTUteFV1YTVJZG95cGhHODFlRnh3ZURtSHJYS0N6b2FlYzhROUNFdDM2NGxqUWJyclJQb3QyYmZpaEhfX1BFMW1ncFVSU2FIOHNFdmdmZ0FVSWdkUno2NTV3Q2EtUnpnc3lqMjZkazZ6ZWZmWEF2UFI3Yk5PVEpucmI0czRrQldxcmQzTFpNRTlud2NSSlZTLXpPUmlMWDNzallHZzVwcUJDRUNnUHNPMXpZTnZoTkJZWGxmX0hLUGk2RnBuYlVBTjYyMUpTcUlseUlpUkx6R2F2b2tEdTRMaw?oc=5",
-      "source": "Simply Wall Street",
-      "ago": "1 Tag",
-      "group": "Motiva / Establishment Labs",
+      "title": "Your face has changed. Now what?",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbkthZ3R2S0VLWWxOUnZuT2V0YVR3YjBUbG5yNWJ4ZlZVVWxGdmp5QkVoUFZkRGdZTlZSb3pPTkc3aE9nbENBWnQweUoxV1o1ckd6SHRKN3R6WW5wSFpXc0FGT3NQMXlYTmdpOTNCSjVydlNQTUYzbEUxVEhWV0dhZ2hWbmlIQW12Z2RNaDdVNlFaUQ?oc=5",
+      "source": "InDaily South Australia",
+      "ago": "19 Std.",
+      "group": "Skincare & Geraete",
+      "summary": ""
+    },
+    {
+      "title": "Integra LifeSciences stock cuts guidance after Cincinnati flooding",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQlB3b2VhTjBNNzlxR2FSZldFdHhUd1VlSnZ3UW4zSzR4MEhURUVkSmdoSXZGUWo5MlpQZkZWMUJibW80ZG9MYWZ0MVlGY1YyYl9zZFdFem1LNTA5ck05SU9TZTg1MmJkd3dDS2Z0b3VWM2xPQkxpTlcxTnJobDFMbmFSQXhhOEtwbGxldmdDdm5FYlgtbmRPTzJBWnV4QXh2c3NOS0tFaEJ1WTdxQlROdC00aWFPd1hzbFB2Tjl3aDVIdU0?oc=5",
+      "source": "AD HOC NEWS",
+      "ago": "23 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     }
   ]
