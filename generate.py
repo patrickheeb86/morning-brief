@@ -126,43 +126,78 @@ def fetch_bitcoin():
         return {'price': None, 'changePct': None}
 
 
-# ── STOCKS – actual OHLCV closing prices, volume-filtered (no adjustments) ──
+# ── STOCKS ─────────────────────────────────────
+# Aktueller Kurs = regularMarketPrice aus den Meta-Daten (letzter offizieller
+# Kurs der regulaeren Session, ist sofort nach Boersenschluss aktuell).
+# Vortag = letzte abgeschlossene Tageskerze, deren Datum VOR dem Datum dieses
+# Kurses liegt. Hintergrund: Yahoo schliesst die Tageskerze des laufenden
+# Tages erst ueber Nacht ab. Mit "letzte zwei Kerzen" lag der Brief an
+# Werktagen deshalb immer einen Handelstag zurueck.
+def _market_date(ts, gmtoffset):
+    """Unix-Zeitstempel -> Kalenderdatum in der Zeitzone der Boerse."""
+    return datetime.fromtimestamp(int(ts) + int(gmtoffset or 0),
+                                  tz=timezone.utc).date()
+
+
+def _stock_quote(ticker):
+    url  = ('https://query1.finance.yahoo.com/v8/finance/chart/'
+            + ticker + '?range=10d&interval=1d&includePrePost=false')
+    r    = requests.get(url, headers=HEADERS, timeout=10).json()
+    res  = r['chart']['result'][0]
+    meta = res.get('meta', {})
+    q    = res['indicators']['quote'][0]
+    off  = meta.get('gmtoffset', 0)
+
+    # Abgeschlossene Tageskerzen: Schlusskurs vorhanden und Volumen > 0
+    bars = []
+    for ts, cl, vol in zip(res.get('timestamp', []),
+                           q.get('close', []), q.get('volume', [])):
+        if cl is not None and vol is not None and int(vol) > 0:
+            bars.append((_market_date(ts, off), float(cl)))
+    print(ticker + ': ' + str(len(bars)) + ' abgeschlossene Sessions')
+
+    price    = meta.get('regularMarketPrice')
+    mkt_time = meta.get('regularMarketTime')
+    if price is not None and mkt_time:
+        now_date = _market_date(mkt_time, off)
+        price    = float(price)
+        src      = 'regularMarketPrice'
+    elif bars:
+        # Fallback: keine Meta-Daten -> letzte abgeschlossene Kerze
+        now_date, price = bars[-1]
+        src = 'letzte Kerze (Fallback)'
+    else:
+        raise ValueError('keine Kursdaten')
+
+    older = [b for b in bars if b[0] < now_date]
+    if not older:
+        raise ValueError('kein Vortageskurs vor ' + now_date.isoformat())
+    prev_date, prev = older[-1]
+
+    print(ticker + ': ' + now_date.isoformat() + ' ' + str(round(price, 2))
+          + ' vs. ' + prev_date.isoformat() + ' ' + str(round(prev, 2))
+          + ' [' + src + ']')
+    return price, prev, now_date
+
+
 def fetch_stocks():
     tickers = [('ESTA','Establishment Labs'), ('APYX','Apyx Medical'), ('IART','Integra LifeSciences')]
     result  = []
     for ticker, name in tickers:
-        price, change, pct = None, None, None
+        price, change, pct, as_of = None, None, None, None
         try:
-            # Primary: actual daily OHLCV bars, last two days with real volume
-            # includePrePost=false + volume filter = only complete regular sessions
-            url  = ('https://query1.finance.yahoo.com/v8/finance/chart/'
-                    + ticker + '?range=10d&interval=1d&includePrePost=false')
-            r    = requests.get(url, headers=HEADERS, timeout=10).json()
-            res  = r['chart']['result'][0]
-            q    = res['indicators']['quote'][0]
-            raw_closes  = q.get('close',  [])
-            raw_volumes = q.get('volume', [])
-            raw_times   = res.get('timestamp', [])
-            # Filter: only complete sessions (volume > 0, close not None)
-            valid = []
-            for ts, cl, vol in zip(raw_times, raw_closes, raw_volumes):
-                if cl is not None and vol is not None and int(vol) > 0:
-                    valid.append((ts, cl))
-            print(ticker + ': ' + str(len(valid)) + ' valid sessions')
-            if len(valid) >= 2:
-                price  = round(valid[-1][1], 4)
-                prev   = round(valid[-2][1], 4)
-                change = round(price - prev, 4)
-                pct    = round((change / prev * 100), 4) if prev else 0
-                print(ticker + ': close=' + str(round(price,2))
-                      + ' prev=' + str(round(prev,2))
-                      + ' chg=' + ('+' if pct>=0 else '') + str(round(pct,2)) + '%')
-            else:
-                print(ticker + ': not enough data')
+            p, prev, d = _stock_quote(ticker)
+            price  = round(p, 4)
+            change = round(p - prev, 4)
+            pct    = round(change / prev * 100, 4) if prev else 0
+            as_of  = d.isoformat()
+            print(ticker + ': chg=' + ('+' if pct >= 0 else '')
+                  + str(round(pct, 2)) + '%')
         except Exception as e:
             print(ticker + ' error: ' + str(e))
         result.append({'ticker':ticker,'name':name,
-                       'price':price,'change':change,'changePct':pct})
+                       'price':price,'change':change,'changePct':pct,
+                       'asOf':as_of})
     return result
 
 
@@ -413,8 +448,9 @@ def send_email(data):
         return
 
     now    = datetime.now()
-    days   = ['Sonntag','Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag']
-    months = ['Januar','Februar','Maerz','April','Mai','Juni','Juli',
+    # Python: weekday() 0 = Montag ... 6 = Sonntag
+    days   = ['Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag','Sonntag']
+    months = ['Januar','Februar','März','April','Mai','Juni','Juli',
               'August','September','Oktober','November','Dezember']
     date_str = days[now.weekday()] + ', ' + str(now.day) + '. ' + months[now.month-1] + ' ' + str(now.year)
 
@@ -517,7 +553,7 @@ def send_email(data):
         '</div></body></html>'
     )
 
-    subject = 'Morning Brief \u00b7 ' + now.strftime('%d.%m.%Y')
+    subject = 'Morning Brief · ' + now.strftime('%d.%m.%Y')
     msg = MIMEMultipart('alternative')
     msg['Subject'] = subject
     msg['From']    = GMAIL_USER
