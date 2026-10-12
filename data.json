@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-11T00:16:19.788890Z",
+  "generated": "2026-10-12T00:38:46.461292Z",
   "forex": {
     "eur_chf": {
       "rate": 0.9313,
@@ -13,8 +13,8 @@
     }
   },
   "bitcoin": {
-    "price": 82954,
-    "changePct": 0.5018189701204988
+    "price": 83767,
+    "changePct": 1.0337061302438983
   },
   "stocks": [
     {
@@ -41,10 +41,66 @@
   ],
   "news": [
     {
+      "title": "Plastic Surgery Demand Rises as Combination Procedures Grow",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRlVqempfWVhMaDhkczF3bl9lQXFrdTVHU1RIRE9wLXk5OWZ2RFVTQjhmTlBvTks0a1BXQ0JpQlY3THUzQ0d1OTBhUUItMnBzZXZVaHllWVhVU01lclg2WlhSS0JObG5IczVURFUyY25hWWpYVFBjYzlEY2tFSHlCejFtbTdPdTJOeUxrU1pqR3Nqd1d3dUYxSVNfNC01elk?oc=5",
+      "source": "BNO News",
+      "ago": "1 Std.",
+      "group": "Markt & Kongresse",
+      "summary": ""
+    },
+    {
+      "title": "Galderma legt Nemluvio-Daten vor. Galderma-Aktie notiert im Wochenendhandel 0,33 Prozent höher",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQNmxaTGdNVEU4Z0hlSlVTUVlCdU5GWVZ2c19ZR1NNMVRsWW5SY09pR0RkVGt2RDQyTWZ5LWxkaUtvcG16LXFzc1pUdzlHYl9CZXlTaGY4R0UwMWlTajlvbWo2eEtDRVk3LTBZeWM0a0lTdUJySDFPODZIbmRoaFd2VkV3NmFMZjVBUF82WGNBd2xrUHhYRmkzSkxIQW11cFptbUFoOFFBSnU0NlN4NnlWcXE3cHdKNlltTFRxVDk5ZU9PZFdhaUhwVW5YTXlCM1BBX1dFUTcxMzVsTHhKVVlmWlJ3WmhZUVIzNlpYQkp3?oc=5",
+      "source": "ad-hoc-news.de",
+      "ago": "8 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Fillerbehandlungen: Swissmedic fand bei mehr als der Hälfte der Betriebe Mängel",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWTFlbFBPR29zUnNIRWpObTgwYzJYNjVjODFYY000R3FJaUhCM3J3N3NDTVdLMmJoQ1VGZmNTaGM5bnJ4VlY2aE5QYnlVOFROeE1yeFdXTGF3Vnh1WGFfOW11Y295dEo3aU9TcU85d3FwNlRGRWpWUTA5MlVMb2h6MkM3ZnJOMGRRUndORHJQZVN2Vk1wLUlqdy1VT08yRjZYZy1HUHZwM0NhN0FrWjVUU0lMMTVHQXVvZ2RjdW04OXNNbE1xYlVIdg?oc=5",
+      "source": "ad-hoc-news.de",
+      "ago": "12 Std.",
+      "group": "Regulatorik Schweiz",
+      "summary": ""
+    },
+    {
+      "title": "Why Galderma Group (SWX:GALD) Is Back In The Spotlight",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZGprSl9wdm9lM0owamVXMmZlV0M2dnZSVUpPSnVrM2RfMTYyMzNVbENWekhFeC03cGdhOExnZnB2R0loeDQteTVWRG5IeWJwWlZvclBEVXcyMG4wbWFKaEYyVjFyYnZfdExPclBFQTlDMm8tQmI1UkUxMTBKbTZ2RFMwVy1LV1JpUGh4cDZCM3ByWURsVHA1LXRDbFFscmhWRkZWc2ttZ0d1Tnp5TzdjQ2RZY0p4MWtlSndYZFlRcW1vQkZlWGY5clVTMWpTQzE0ajNObHk2N0pPVkVmelBXWtIB4AFBVV95cUxOZGprSl9wdm9lM0owamVXMmZlV0M2dnZSVUpPSnVrM2RfMTYyMzNVbENWekhFeC03cGdhOExnZnB2R0loeDQteTVWRG5IeWJwWlZvclBEVXcyMG4wbWFKaEYyVjFyYnZfdExPclBFQTlDMm8tQmI1UkUxMTBKbTZ2RFMwVy1LV1JpUGh4cDZCM3ByWURsVHA1LXRDbFFscmhWRkZWc2ttZ0d1Tnp5TzdjQ2RZY0p4MWtlSndYZFlRcW1vQkZlWGY5clVTMWpTQzE0ajNObHk2N0pPVkVmelBXWg?oc=5",
+      "source": "Simply Wall Street",
+      "ago": "16 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Body Contouring Devices Market To 2035: Non-Invasive Demand Drives Growth",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYmZ4d3h1MURpLTJnQ2s2NEd6QlNuMU9UVVoyXzJJRFROMDRxNFdVeDQtX1l5bllDS0dVaEpoclJfTkhJb1F0RC03cXVabVVrWEQxb0dxRHhHYjBaQ1BNOG5mYjEyQkVxSDBFdGNkSlBvRWdfMFJ3VHpnYVRKMDdWSjNSNkxUNElxcDVLRVVkbFJKa2hMTkNvb3pfMDR2QWFMa0lTQzBROUhta0o1ODJRTXh5dzRHMHIzMTc0WnN4bFFFTG9VTkNTUXB6OA?oc=5",
+      "source": "IndexBox",
+      "ago": "1 Tag",
+      "group": "Markt & Kongresse",
+      "summary": ""
+    },
+    {
+      "title": "Integra LifeSciences Holdings Corporation at Morgan Stanley Global Healthcare Conference Transcript",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XUWRYbjc1ZHlGeS1fdFZLVHV1RmtPcktON3BYRWtXYkVFZVFRU1p0R2NRWHNBVFp4WlpNZXYwd2x2bmhhTXp5ZldhYVpSbU5YcTdrVXE5Q01LU2l3VmxMV3pmLXp2M3JZbDU0?oc=5",
+      "source": "GuruFocus",
+      "ago": "1 Tag",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "Verändern die Langzeitdaten zu Nemluvio die Investitionsargumente für Galderma (SWX:GALD)?",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPSWRpX0R2TGhGUDBvSFlnS09FN3l1X25IOHR0TDhKUkllcEFURjFhUElOVlJRX3VVdHRpVElLNGRtWThUVjBEakFVaGdEYkdNRzhabXFuSVpqS1BxSDlaYVBiLXR0YUZvM29PMUs2V0ZJQUxDbzF5d2sxb1R6WWJIME5tQnc3UVhSX0dqWDZNODZXWU5DV2R5NkZyZTdnTlhJY0NyZ01Ia1VQbnl5blVFbF9TX3Fza1V0ZjctVmhVUHlxZ2NtcXRweXEwWUh2bUU5T0l3SjdOMXUzT2tKLW5JNFQ5SmZCZ2lVZzdQY0tZSU3SAfABQVVfeXFMT0lkaV9EdkxoRlAwb0hZZ0tPRTd5dV9uSDh0dEw4SlJJZXBBVEYxYVBJTlZSUV91VXR0aVRJSzRkbVk4VFYwRGpBVWhnRGJHTUc4Wm1xbklaaktQcUg5WmFQYi10dGFGbzNvTzFLNldGSUFMQ28xeXdrMW9UelliSDBObUJ3N1FYUl9Halg2TTg2V1lOQ1dkeTZGcmU3Z05YSWNDcmdNSGtVUG55eW5VRWxfU19xc2tVdGY3LVZoVVB5cWdjbXF0cHlxMFlIdm1FOU9Jd0o3TjF1M09rSi1uSTRUOUpmQmdpVWc3UGNLWUlN?oc=5",
+      "source": "Simply Wall Street",
+      "ago": "1 Tag",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
       "title": "Alexandra Lüönd über verpfuschte Schönheits-Eingriffe",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcEF1dW5WX1phdjJDZUNnTkF3cWg5MVBRMndOOTFJdk9zZUU2Z01sNTBRcGM3M3NGc1E3dFp6UnU4RWtlU0RoTjN5YmZzaW14RDBKTUhPVG9YWjgwYmRYY2FxbWQ1b0x4ZEt4UW9yN3k5VFRXTFljRlFUcE8wbUJqWFd5RVdnUnUzY0E?oc=5",
       "source": "Blick",
-      "ago": "12 Std.",
+      "ago": "1 Tag",
       "group": "Regulatorik Schweiz",
       "summary": ""
     },
@@ -52,7 +108,7 @@
       "title": "Operieren uns bald die Roboter?",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeEd3WkZNT3ZUeHFRTVBVWVZzaFcyNFZmTEZRVWRZbkNGdXhNcUFZNFFVSmE0eFo2WU1fLUhTcDRSLXNiSFFsRE1mVFpmTHVoRk1uUmk5Sk9RWWhLd1NJYm9hMG5KRExGSEUyR3luVGJZTWZTQ3RDb0taSERFN1ZvNnhrRjdrQ1J0bnc?oc=5",
       "source": "Blick",
-      "ago": "15 Std.",
+      "ago": "1 Tag",
       "group": "Regulatorik Schweiz",
       "summary": ""
     },
@@ -60,7 +116,15 @@
       "title": "Galderma legt neue Nemluvio-Daten vor: Was das für die Galderma-Aktie bedeutet",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNT2NsNks3MkZtZl9JazB2Ul8zVjR2WUhwNkVzd2pSUExhSVFEbTVOemZRN3YtRUY3dFV4WE8tVVU2X2dTbGQxaHVZUnpVbktxTlk2eVpnQ3pTUFF3Z1FRUmRYOEVpa1gtcllPLU9GcWhMb0lLYkdEU2xIOEs5N2JkZG1BTU5hZlhlOFlnbmJHVXM0TnNWSDhXQ0Q0dmxKZjc4SU5TSDVGQ3BqS3J5dkpDeERBZ2VHZWhwWVVOVktUZk5Qem0tbm9wUUR1UHk?oc=5",
       "source": "AD HOC NEWS",
-      "ago": "15 Std.",
+      "ago": "1 Tag",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Galderma legt neue Nemluvio-Daten vor: Was das für die Galderma-Aktie bedeutet",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUHZyM3BIdzFCYXk0cWx4MHRIZTJ1MC1VSzFmaHRyQTRlWjZSSHZoVlB1a2psdElWdmw4cjVuTzhXZjVVZFNOeTdDZlZENzAyeldVem1zNWotUlhpTy1kRHVzdGt0TjRjZnBSTmJXUk9uXzdULVpRWEd6QVBvU3AxcDNFVk9wQXB4dS12XzJydm8yR0ppTm5Cak1MR2FmX3paRFdIM09zU2tVTVp1RTBnXzExWTZxQkk1MFJzTDFIb1V0Z210MmhPRGt1N1pvMWdJRHNETjhmVzg?oc=5",
+      "source": "ad-hoc-news.de",
+      "ago": "1 Tag",
       "group": "Wettbewerb",
       "summary": ""
     },
@@ -68,55 +132,23 @@
       "title": "VENUS Healthcare Focuses on Personalised Skin, Hair, Beauty and Wellness Services",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcHVVMW1aMWxiT19JUEdaRjRMbzRFQjROaUpONUVJeW9WRThRNkppeGdsQ2dtdWY5RldDVkoyTlhxRjFYZVhMejBhcUJaeW4wdldzcWlxbjFDS3Y3U3BUaFZ3SUc0Y3EzNm1TUEpCZmc3dl81cEJSb2s2ZjltZWc2SnZTckNXLTJyOFNKQm1TeTE?oc=5",
       "source": "Bharat Fast",
-      "ago": "15 Std.",
+      "ago": "1 Tag",
       "group": "Markt & Kongresse",
       "summary": ""
     },
     {
-      "title": "Galderma stock trades unchanged at EUR 177.65 in weekend trading",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTmdmRGctVkVPNnBJa0I2bWtXSUtsU2R0OW53eGJyREZ4bUotTm01Qmw1YndPMVU0MlBEOUJRelAtZGFIbVlJQ0FNMThmZDZrMmwzU1NBcnVJcDJTMTNEVG1qQ1NxMFBqRmxZUC1rcGdjZFdMcTI4Q19rM2Z2TU5zMHhaWUF4V2VOVHI3Rkl0Rnc0b2pOczhaNldCY3AwV0kwZHhmaW9OU01MTE9ndVlvb1ZEUWFsLVlJMmhmd2x3dzNKc0l5Z2c?oc=5",
-      "source": "AD HOC NEWS",
-      "ago": "15 Std.",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "Verändern die Langzeitdaten zu Nemluvio die Investitionsargumente für Galderma (SWX:GALD)?",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNV1JyOUVsTDNpMi1fMXQ0ZjNOT1J0MzE5cUN0aTZzVlNxS1Z2T1JkNW9CYkhLUlVIamFKNDF3OXBINEt1MHN2YmI2MGE4ZFBQVFFVci10bGJncmJuZV9pUHRkNWdTbnpHNTh2VHNLTTYzeDhWMnVPZ0ZHUi0tQmJLZldnOHByalcxNi1PMUVZS1pzYTRzTmFCdVNnX3lZTElQUGlwbm1ic2dTTi1SWG83eHpIOTN2TlFVU21CYUV5SGhRWElWZTI4STRVV3NjUmFnOV9kNklqVTkwU2l5alZpU1NwUnZVenQweXJB0gHwAUFVX3lxTE9JZGlfRHZMaEZQMG9IWWdLT0U3eXVfbkg4dHRMOEpSSWVwQVRGMWFQSU5WUlFfdVV0dGlUSUs0ZG1ZOFRWMERqQVVoZ0RiR01HOFptcW5JWmpLUHFIOVphUGItdHRhRm8zb08xSzZXRklBTENvMXl3azFvVHpZYkgwTm1CdzdRWFJfR2pYNk04NldZTkNXZHk2RnJlN2dOWEljQ3JnTUhrVVBueXluVUVsX1NfcXNrVXRmNy1WaFVQeXFnY21xdHB5cTBZSHZtRTlPSXdKN04xdTNPa0otbkk0VDlKZkJnaVVnN1BjS1lJTQ?oc=5",
-      "source": "Simply Wall Street",
-      "ago": "18 Std.",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "BOTSI®-Advisor Hochstufung Galderma von Rang 702 auf ...",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYXJKUDR0RzZMUG5zbmJKbGNtMnk5U0d3ZXpPODZtSFFPYXg4dko4a0pJamduTGhnV1pRaHh4MnRWN0JSNURNYzdrZGkyX0tjczJYQnFPWUd2QmpMMWRMalU3WlZNbF9aSW0weFZBbFpGQkJfYlM2NVBYRHlxV0pfZFBUMWpwLXpVMjEzbzYxSlJWT09JcmRCRHZQSk5wc03SAZ8BQVVfeXFMUGFySlA0dEc2TFBuc25iSmxjbTJ5OVNHd2V6Tzg2bUhRT2F4OHZKOGtKSWpnbkxoZ1daUWh4eDJ0VjdCUjVETWM3a2RpMl9LY3MyWEJxT1lHdkJqTDFkTGpVN1pWTWxfWkltMHhWQWxaRkJCX2JTNjVQWER5cVdKX2RQVDFqcC16VTIxM282MUpSVk9PSXJkQkR2UEpOcHNN?oc=5",
-      "source": "boerse.de",
-      "ago": "18 Std.",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "Is Long Term Nemluvio Data Altering The Investment Case For Galderma (SWX:GALD)?",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNUXdDZkhpMDU3Rk1ZZjN0VEJENTFFMUt2VzlmYktxckpQZXNiVm41aVN1R3AzN1lLTUVsUmgzSlBiOVZPQW92eUU5aUFaMG5ldkpxMC1wUGJXZWx4SmotWkx6Q25iZ0pWMkRkbmJ5em1VMFJwczNwazE5ZkRfYTA4MEwzbW53ek1GMjZodmVpWGR0d3pRRlRxdHR1OE9sWW12ZENCUllodkE0d3A5akltMUViR3RMT0djSWxLV09sTHZzWGYzcGZza3M2el9zbGYyT0hjQkljczRBOUVEa0Y2eTdsTDhUd9IB6wFBVV95cUxPZHZpYk4xUDhzMlJFNmUzYkpSelpJdHNmTWhEb2FCSGRPY243RHFURm9IRlJtTkstQ2QwMU5IN2Y1dXFXdkNydGQtWTdaZW1yVU5wQkhGbWNLSnRDNEhUR1loRDh4Y1RIcTB6MHhUZHM2bk42eXc5Wm5UcVQ2a2hYVTlaVlBRY3AyYkUxcmljZHNUSzR2c2oyUDctYzlXTVhJUUNwV0JsbUNVYnQ3bzFiR2hyejVBaU02S282MEZCWDRkX0hFX19VUkloU1JEQldsNlg0ZFhIaXRpWjNwOWYxV3pqZUpKeFh4MUQw?oc=5",
-      "source": "Simply Wall Street",
-      "ago": "21 Std.",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "Galderma-Aktie über 50-Tage-Linie",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYUxYakgzZTVnRFRnOXlEUzdaVFdrOVNYblZfZ1VKeWt1MlE3eDhCM0d0Qzc5WWRjVFpPQWZ6Qm42RWFhbXRfSVFUeDZpSWFTTlVJbl9WNmFsdmhDODc5LWFvMld5SVhJNGFnODZJbkFJQkk5SW5KVnpraHN5eFpNNk82OA?oc=5",
-      "source": "boerse.de",
-      "ago": "22 Std.",
-      "group": "Wettbewerb",
+      "title": "Bronstein, Gewirtz & Grossman, LLC Encourages Integra LifeSciences Holdings Corporation (IART) Investors to Inquire about Securities Investigation",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdUFXekNMaWxjdWpxYkM3VWlyaUZuZThZOW81enUtejlHYVplUGVtYlNkZEJtUk94NV96RXZiZmNRT0R0SF9YU0U0XzU4QzYtV1ZzWC15NFJvQkpkeFhMbkM0OW5iVGxGblJyLW9Jdm9yXy1uZHhXQjRLOFJ2d0lLNHZUNEZkQkF1SkJwOG1WTUVJVHlfZUoyUVd1ZXNCNjYxVTJZbUtQQktCY2M4VnlQTFFaY2cweXdzZnp5RGstOVN6N3FVT1Fvb0xQN2xDdnFoOU5yZHdhdmRrbGhzTi1BRVRGV2s?oc=5",
+      "source": "ACCESS Newswire",
+      "ago": "1 Tag",
+      "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
     {
       "title": "Integra LifeSciences prices $450M senior secured notes at 9.5% By Investing.com",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQN1lQUV9XLXM5eEcxVEtubzBYdTFxRmYzTUhWelV4c2Z2SW9FSjU1LXZsVDdWbHppMGFiTG1lVjdGT1pfZWNpSmdKVEZpZnI2bUVTdW5yS2lrQ3NoSFVsMm9rYm8tZVIycnZpZFNMeTVoV2c0b3hLb05tRElMU0FKaDcwam9NVGtPWllkR05DVGxlcnlINFgyTEhQam9Xd1Z2X0pINXRZbXNuQ3NYSnA5OW5lYm83SVV6VDhCeQ?oc=5",
       "source": "Investing.com Nigeria",
-      "ago": "1 Tag",
+      "ago": "2 Tage",
       "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
@@ -124,7 +156,7 @@
       "title": "Integra LifeSciences (IART) Prices $450M Senior Secured Notes Ma",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOU1FUTEZQWExHZjdTbDFSazNuUHlXYlVDV2ZFM0NfOE5ITzNHc2JfRjZIeVhwbGRhOS1ucl9KNVZ4WE5MWXNfMHhVZ2JEdS04WWdWRzQxaEFCaEtka0dfTUtwUVhRT3JGTGdqa0x6aFFjNnZzcWVUNEFidFJzSng2U2FVRE4tRmlWWkNjd3Y0ZkV5SFZ4MXdMZDF3djl6Sndnanpjb0xMc0tIeklLdVhSbw?oc=5",
       "source": "GuruFocus",
-      "ago": "1 Tag",
+      "ago": "2 Tage",
       "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
@@ -132,7 +164,7 @@
       "title": "Integra LifeSciences Prices $450 Million Senior Notes",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeDZPTWZtYnUtNWhkeURrZ2xfcUZPa2pIRHJXUjlQWS1yS3dCRkdJNVpuMm44MUJZLUZZaW42d29GMEhmNHhJZXJ6V2xXT2NOY21UX0VjblAtaGcyWW5nUm9xc2lqNk5sMFg4RjB6NUVTNDZuRXBER2tvWWhOcVhmd29oUUtWUFRjbTZGZEJxb1c5S3JkVVpRLWw4dTF6MFJNd3lzNHF5NA?oc=5",
       "source": "TipRanks",
-      "ago": "1 Tag",
+      "ago": "2 Tage",
       "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
@@ -140,7 +172,7 @@
       "title": "Integra LifeSciences Prices $450 Million of Notes Due in 2033",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5scE5zOUFZN0JocVNxM0pTM1hNWmRTalRFUEVYaFd2aGRfcGZ5TDVUZ20xcGFYeHZHT0VfSFgzby1HSzVRX0ZyMjBGRTdjWE5vaXVuMWZTMnk?oc=5",
       "source": "TOKENPOST",
-      "ago": "1 Tag",
+      "ago": "2 Tage",
       "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
@@ -148,7 +180,7 @@
       "title": "Integra LifeSciences prices $450M senior secured notes at 9.5%",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMFpWZThNZmZ0Y1VCRlVXbEJTWHRmTWVxdGI0OEhLdzdSYUlMbkJzQUxuaDB0cUdjR29ISC0yY2tsN1BUeUhWUWh5QU1fTmpmUW1XLXVkOERMOWFtSkhRRWxOLXdXbEhtd3VrTEdZQ1VEZzdveGh5c1lGeWlGXzEwYTBLYjlXenFIQU9xdHZiX2c5UzNjX2c3dnZjQUhQS0o2ek9yRWpOZUYxaGNXQjR6YjNVbk9tenc?oc=5",
       "source": "Investing.com",
-      "ago": "1 Tag",
+      "ago": "2 Tage",
       "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
@@ -156,7 +188,7 @@
       "title": "Integra LifeSciences prices $450M senior secured notes at 9.5% By Investing.com",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOM3Q2ZXVtYmpYWmRjMnc0SDBJT1BnWjFLbXNxREZ4bTNHOFNobjJzcVlVWm9vejU0SDdkOWZMOTNFZ2ZBcmlnbzdydmw2M0hvdVBCQi1MSkFpdFdsZnZDRmVMQWpfVnZMV1hwN1dRLUgtOWk2VXZFNy1LRFlBeFdMRFhXaURJeTAydTM1bGJvUXJGYldwWlByT1dIby0zRlU1SlpPN1FGaWwtN2xQRWxsbTFzazV6a3RCTjRYeA?oc=5",
       "source": "Investing.com Canada",
-      "ago": "1 Tag",
+      "ago": "2 Tage",
       "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
@@ -164,40 +196,8 @@
       "title": "Integra LifeSciences prices $450M in 9.5% secured notes",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVnlIaW85NkNxSllRdG0yTy1MNWFEdUx6a1VqQ1FUNjdZS1BKZU1iS3c3UEhRM3R4TzRuSXBtNVVNODJrQk12MGtmUU8zaHNvOHpiaGJ4S0RVQU5FV20yTEdLcHRLdVhRblRpM1JtNVZ5RnhVSDBPdDhKbGVoTF9URVF1YnRvWnVnVnk4UTZ3VEp1Y1ZSWlFRRFI4aHQySmVFQXhqVGMzU3lpNWNWOVhzV2pMOFlhY2s?oc=5",
       "source": "TradingView",
-      "ago": "1 Tag",
+      "ago": "2 Tage",
       "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences prices $450M in senior secured notes",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcDNaTzNnNFNMS2VjX3BEQ2lqWFpxMTBaWktDV29RRmFlR2Q5RjR5ZmNNWld2b1FPTVBsa3g4MTZmZEdtRGw1QTV0QjJVNVYyLXlpYWNIOTNCVTd2YXduN0I4eTZKNW1DUHVIV2w1TkdRRWFEM1pqSWFsTHU3M0trVmZxV2c5M2ZjMFVWTGxIWGhQeFVkZGxQYmFyQVN5bmNkelNPZGl6ZWVQb0VMeTM0WG4tVkNsYkxPbVE?oc=5",
-      "source": "StreetInsider",
-      "ago": "1 Tag",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences platziert vorrangig besicherte Anleihe über 450 Mio. US-Dollar mit 9,5 % Kupon",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRF9IcWh4V3BaTkQzMmY4NFYwMWl5MXVoNHR0aHg1aWxRV0RVd051Sm9PZ2JmUmZDTGk5bllVTzNWZlZYYS16QW1DNVNjMzQwY2tGOFJFd3JMM3NCMmt0bzhJQURYZElMdElCUjdUQkUxS1lmN05WN2pGWXJjc2RDSlphMnNpaTN4OUJEa25mZzRZYnc0U2JRdHFMb3Z5M0xYaXZYdXJHMkV1ZHZVTng0VE4wVVpfekN4SlNfUkUwbUp6MVJGc3ZicWdINjg5UmgyVUY4OTRsR0V1SEJDX2Zod0xUZDIzZw?oc=5",
-      "source": "Investing.com Deutsch",
-      "ago": "1 Tag",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences Prices $450 Million of 9.500% Senior Secured Notes Due 2033",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNkktbmlGdEZiWDRhLVhsOHRoR3ZsZEtGTFFBODc1R3V0NlZXOVBhUkJpb0xWMVZwelA2SjFOMFNOc3o2NkxqQm9ZOENVUWJCWUpiT0JHZFlZelJYblVPS0EtZE1pWjdVMW1OX2VhOEtVeEtGVFRmd1BwN3dsQlowY0cxY3pIcXF3S0NPdEJKNktrWXFJajk1N25ROW1Fb2VHQUszdXczaGlmc183ZnJFQUE2a29sQnRJ?oc=5",
-      "source": "Quiver Quantitative",
-      "ago": "1 Tag",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "\"Promi Big Brother\" 2026: Brust-OPs für die Ex-Freundinnen: Christian Lell lässt die \"Tittis springen\"",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNWhwcFV3Nkg0WUkwUDA2MFk5ekRiTWlodkI3dGd3MExrSXQxWXhxd3drWE5tWWNJX0c4S05mdy1xdnlwcDhYT1ZDZWNEUW9rRVpYaEgxeDVwV1ZuTFZRX3BFVV96UXR3Y1FjTHlFVEltQjlBY3piQUd6LUlSVGtWNU5udk95S3IwbFRGYnlGOG9HT04xejBXM3RXWEdrTWhDdHN0bW9XOWpXdndzS3ZjaEpjdnhnR01jaHBOWmh2SkluV3NHd2ZZa3JZMkU0TVpSbklZSGVXUQ?oc=5",
-      "source": "Joyn",
-      "ago": "1 Tag",
-      "group": "Branche Schweiz",
       "summary": ""
     }
   ]
