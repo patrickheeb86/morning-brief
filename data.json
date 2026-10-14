@@ -1,117 +1,181 @@
 {
-  "generated": "2026-10-14T00:24:11.817945Z",
+  "generated": "2026-10-14T23:59:03.167282Z",
   "forex": {
     "eur_chf": {
-      "rate": 0.9312,
-      "change": 0.0,
-      "changePct": 0.0
+      "rate": 0.933,
+      "change": 0.0018000000000000238,
+      "changePct": 0.19329896907216748
     },
     "usd_chf": {
-      "rate": 0.8323203432248838,
-      "change": -0.000521084196634769,
-      "changePct": -0.06256703611010903
+      "rate": 0.8334077713264851,
+      "change": 0.0010874281016013398,
+      "changePct": 0.13065018901112319
     }
   },
   "bitcoin": {
-    "price": 83382,
-    "changePct": 2.514249964811679
+    "price": 81528,
+    "changePct": -1.9035980492046733
   },
   "stocks": [
     {
       "ticker": "ESTA",
       "name": "Establishment Labs",
-      "price": 58.45,
-      "change": -3.18,
-      "changePct": -5.1598,
-      "asOf": "2026-10-13"
+      "price": 57.88,
+      "change": -0.57,
+      "changePct": -0.9752,
+      "asOf": "2026-10-14"
     },
     {
       "ticker": "APYX",
       "name": "Apyx Medical",
-      "price": 2.6,
-      "change": -0.05,
-      "changePct": -1.8868,
-      "asOf": "2026-10-13"
+      "price": 2.57,
+      "change": -0.03,
+      "changePct": -1.1538,
+      "asOf": "2026-10-14"
     },
     {
       "ticker": "IART",
       "name": "Integra LifeSciences",
-      "price": 13.85,
-      "change": -0.13,
-      "changePct": -0.9299,
-      "asOf": "2026-10-13"
+      "price": 13.175,
+      "change": -0.675,
+      "changePct": -4.8736,
+      "asOf": "2026-10-14"
     }
   ],
   "news": [
     {
-      "title": "Power Assisted Liposuction (PAL) Devices Market Forecast to 2035, Driven by Rising Demand for Minimally Invasive Body Contouring",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQUEZxMktrUUVkN2h2d05pTGo4M2taV1cwVjNBUE5yZUt2cjFnUXFQdGZoRFluRWlQNmZib3hmQ1JEZW5mTjdRcGlGUEMxdm56NE5hSFNPUjhTSFBMaTU0VFJIN3NyX0ZvTXNwYmlpeDJmbHI4bmR1NkE5MEYxb3hGWXZKNkxKQ2FDR3IwR1RteXR0TEJzT29YbnNIalpuZm9KRUM5YUNVWFJxS3Z5ZXgzaTlBaWQ3dEdPS1VDc1FGNjlFamZNc19KbEFudmVRRkI4RDQ2Q3MzNC1wOVdETERlSnpSWUxwN01xcm5V?oc=5",
-      "source": "IndexBox",
-      "ago": "33 Min.",
-      "group": "Markt & Kongresse",
-      "summary": ""
-    },
-    {
-      "title": "FILE PHOTO: A logo of skin care company Galderma is pictured on the company's offices in Lausanne",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPQ0w0ZnlVSVNhT0J1MzJRb3J6X19KS0FCa2hiT0xDUmJYckZqbGZQc3ZiX3RZTWVRMWNwRmdobHI3ZzE3bXFjYnB5dUotWi1QX1FYbXZEWU5oMmdtcW1jdzlUXzRfUHg5SURYYkFzdkRaREh4dHhqVWRuOUhtQWxmdkV6SW51Z25TS0JJaTI4VnZNOWkwVjQ4YnZ0MkFIOGJUZXVPY2c2ZXR1NU9seWpqOEtKOVMyUmZqZEEySkpVYUY3aXBYMHM0LXBsMWJwcmthVjZLcmxibjJwVTMyeEU2UnFGZllyQzRQSkMzVXo0b1B4OFFQNTNBLWZBQlhIaTZZQW5kUjh6ai1xQQ?oc=5",
-      "source": "The Daily News | Texas' Oldest Newspaper",
-      "ago": "38 Min.",
+      "title": "Galderma Bolsters Its Skincare-To-Syringes Portfolio With $1.5B Deal For ZO Skin Health",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUGQ0R1VZT0xROXk4aFhlcFRBOHJmYWwzQ01ZbEhSb2dFOXRhSzdRYkt5RlR2QTJ5TGlJVjBRV3VNeUdmMmNyRXhHUFBrNHdKZ3YzMEtobEZ5TXk0cjRwYUo2VktheW1SampjaFFKaFE0NG5iSlZDVFlJNGJUTll6Vk5GUUVVa0UyajZSMkxPYjFaczBuNnRoVndsRlA?oc=5",
+      "source": "Beauty Independent",
+      "ago": "2 Std.",
       "group": "Wettbewerb",
       "summary": ""
     },
     {
-      "title": "Galderma agrees to buy ZO Skin Health in $1.5 billion skincare deal",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUFV4X19mZ2ZzTGJVWDJUc1hUdHJZSlR0dk50akxJZXpIREg2MXM5Y3FSTTllOUM4OVdnWUhpS0tRQW1yNGtHUWxPanJzMVJMdThpZmxuZUFEdVdRQWgybEtxamtDWHJRaDFjMkg4dnFDZTQtSHNGVjhHWWZOS2dud3l4ZUlOc0NBcmN5SUhVMDcyOFBlUXc?oc=5",
+      "title": "Galderma to Acquire ZO Skin Health for $1.5 Billion, Doubling Down on Physician-Dispensed Skincare",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA5b1hUOGlrWXdta2xiZEN5UlBBckdlbnZrUjJLVWtJYkdXN3VOeG9sMjFpZUJxVFdaU1JfRnlzSG1LYkZ2WjFvOEFtV0xMZlpXRVR0S2Nfa25WbkZoa1ZzWW8xYWZKeVZwbXRRMw?oc=5",
+      "source": "Oui Speak Fashion (OSF)",
+      "ago": "2 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Stifel initiates Establishment Labs stock with buy rating, $85 target By Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZzRSemhMelR1Y1hNb09RZkMzbHNTWklDcThLQ1ZXOHpPYVd6UEVta2JQcDl1WXFpTkJmRTRtdlM1MXJDbDliN3paam1wYUMxNkVjR1ZrdHFIMFd5Z2lhNW13RGpyQURJTl9HVm85bE0zQWtMY3ZIbWdBNDZiOUo4b0JCSmV2cVc2SzJmRTh4TVE3UnBvd2t1X05VOVh4MWZ2STdRYTQ1cERYbzBKVF9tMEZlVWx1TGJmMWpQUHl5QnE3QU5Ha3Iw?oc=5",
+      "source": "Investing.com India",
+      "ago": "2 Std.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Blackstone to exit ZO Skin Health in $1.5bn sale to Galderma",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRm80MTE2emdwM21DbEdfcG9vbmRIY1RyVXBMVmJkR3k3Wl9zaXFCVzhvQ3I0dEJTODV1cmxjbzVkM3B0ZTNHUllzblBCWDRTMkFSMW9nb0NpaFYzd1FKNlF4YWVCb1VBZllQMlJSWjZGYVJvbFhyUzVNNTNEbHZ4dVk2WlpYYkExNHpMQXhYaG1xZEdyZExZYW5TdmJKZw?oc=5",
+      "source": "Alternatives Watch",
+      "ago": "2 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Stifel startet Beobachtung von Establishment Labs mit „Buy“ – Kursziel 85 US-Dollar",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRzgxMDFKMTItM2ZlTEdoZ2NaN2U1cUo3RXVnXzV2UnhYTnF4aFdvZG1sQzFMcHVxU1E3SXNlc2g0NE05aXV5ZzRqM1JiUk9WNllsTFBEWnNjejBuTjd5cnBia3d3Tjh3Mk9BY256S3JIU0NkbVNCa0xITTNONTk3XzVCd3NIWjctclZtVzdvVHFEMnBvRWwzci1uSlpoNnBtSGZFUGpTcVZGUHdTbHVWbG5kSVRrb25NdnVVaTR0Q2JHaklIbWF3Slk1WUNjN1VnempIUQ?oc=5",
+      "source": "Investing.com Deutsch",
+      "ago": "2 Std.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Stifel Starts Establishment Labs Inc. (ESTA) at Buy",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOXpGMXZlTlRzNDlYdXBOQkVweXhMMUVFZk9xbkVaYUltTm1mZnJ0d2ZnelRkR2p6MV9xa2ZVcUxDQnh3UmVKX1REYUYtUzNrOTFrM0g3Q2M4QVdMSEM4a3liNHFqVEJhOXV6azZ6d0NURlY0OTRWTm9BUHNmUXZ4VWplbW9yeTRiYnRNRERfRlN2dFRGblpDTjY5Um1kTXBhZElWQ3A4a0lXVjdnTDkxYk5hdGZKYU0?oc=5",
+      "source": "StreetInsider",
+      "ago": "3 Std.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Blackstone funds set to exit ZO Skin Health in $1.5 billion Galderma deal",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQLUZfNGQ2dnJmNEJYLXN3MWE1Q3czVlJrYWhoYmlSZFhIWGx6VllvUTFvZUdiVkhLMTZmYkZ6UkN5ZVJQRnN0SGJscWZJRVNLeThVQkxRZVMtdUlFZDBwbjA4ZmdSc3lnMWFpRGdWWVBpallPVWxYcEQzUWFQRVpqanFoWWZJQlhsY2FGQ0Q1VnNSNDZReXVTODlqQnhESVNtVFVnLXVqZGNBbnlCRmtybFROTmpmUzFGcHlqa1R6QW5jR2JJX2ZvemRHdjZQQ3ZxRHc?oc=5",
+      "source": "finchannel",
+      "ago": "3 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Galderma-Aktie: Fitch sieht positiven Ratingausblick nicht in Gefahr",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMi1JdHpuWU5kQ3ZWUkJIRjhFbWhodzdRb1A2WDBGS3haU1lrVklfZGV3VkxsN3hIdmlwc3h3dGVxUDAzRGxwOVdRUEZLbGVhdXNvYVl0Y19BNzFYR011ZkQ1VFc0WTUzSFNuLWxOU1Z2alkwakYxQVBqaUxicVRiVmlYTS1WbU5ndVBLVmRfdWVudHZncWd1RjlPVEhSekRheU9OeTJwM05KbzR3ZDN6aHBIN3lqRG1CMi16aHlB?oc=5",
+      "source": "finanzen.ch",
+      "ago": "3 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Wirtschaft: die neusten Meldungen",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Ec1NZa19fZFVQOXJJeGtxTWhFc28xdHFPdm94cjVVYTlteFVlajZVX0FRSjREUEtaaE5oR2txNFR5UGZfdHRxZG9NU29qOVFOYjV4c2lsT2FGOGVTUFJZaGYySVBINXVVTkJ5SHdoS1ZkZEcxbXNNbWtsUjhRUQ?oc=5",
+      "source": "NZZ",
+      "ago": "4 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Beauty Updates: Galderma to Buy ZO Skin Health & More",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWEd0UV8yTlpneXRIX2RtT3AyNkFleUVGa0pWM0MyNENoN1JHakFDUFhMazRXWDhGYkM1c3U2X0FXajNvUjdQQ0NCcXZGWE1jM0VHeEJjV3lUWGQ0NTJ6eWNCNFhRclVna1BwZUlwYUFDZVZURW5uSmItMFFyWlNpQkFn?oc=5",
+      "source": "BeautyNewsDaily",
+      "ago": "4 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Experte erklärt: die grössten Risikofaktoren für Lungenkrebs (B+)",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRmgzbnd6b2RuRW9aMWFRZWpkOWhBbUF1NHV1ZlpKc1BDZUtpanR3azV6WEd0cDhDYjZwSjNOMmFGbWdjM2ozWERNbVcwUUJXQ0F1b0M2Rlk3MXFUNUJYSEUwVVNkdW9Oekl0ckdqNEpBLXZiTUswSDZCQ2FaWUlwRWZUWXQ2aHdmMWVMd3l3MTdvS3BlRWpSa2tJd2hZM0pw?oc=5",
+      "source": "Blick",
+      "ago": "6 Std.",
+      "group": "Kliniken Schweiz",
+      "summary": ""
+    },
+    {
+      "title": "Integra LifeSciences price target lowered to $15 from $19 at Truist",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbFBWOExnY0NNdXNtLWtRcDY5ejg0M0s0Ym9lbzhsN3ptVTdfcU1FTjgyWnJLY19nUHBoaDAydGZ2bXZTQ1RrVjZOOUZJV2JTazYxZGMtYW45NWRJOXdRVXcweVFteWd0M1lmQVh0OW12Z3pVN0pqSDlzYjNXZTE1dkJXd0tXZnFzWlVBSTJmdE53enAtbU9CQUxqdU52Snp5cGgwR3lBNEZlWWNpSkc0Z3U0SGVEdw?oc=5",
+      "source": "TipRanks",
+      "ago": "10 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "Die Bevölkerung ist bereit, mehr für innovative Medikamente zu bezahlen.",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRGRFcjY3cnFhWTQwSXVZYkl3NFAxX0wwbXZHRXlNTzRmcFZ6a1JFemhwMGxlVThpZ0pjUFNlRW45cFphdEhhZktrd2JHTmFQUk9vU0N2VmxZY3dEQnc5Q3M3Q0pCd2R4bE9Ua1lxbWtvbm0yZ3hjR2s1WGRzMW9LMVpuM2RpYXozeGc2U1c5WVE1ODUzR3luOW53?oc=5",
+      "source": "https://www.interpharma.ch/",
+      "ago": "11 Std.",
+      "group": "Regulatorik Schweiz",
+      "summary": ""
+    },
+    {
+      "title": "Nam Yoon-soo Gets Thermage, Skin Botox After 'Killing Time'",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNU3RNeG5NcjZHajJHaWJtYUxwNmE5WFVVNG5TZ3VJdE9jUmM4VGp1NzJIVlM5NnJZeE5sVk05elFXV3VUcFNrT2ZXZGxxYnhPUF96SUZ3Z2pQYUduQmFXOVJCRG1PUGhycTNKbmM0M0FDQndVcmJLVGdCaXhSZW4xV1BpOHBtSGtxQnNJVWlB?oc=5",
+      "source": "조선일보",
+      "ago": "14 Std.",
+      "group": "Skincare & Geraete",
+      "summary": ""
+    },
+    {
+      "title": "‘Killing Time’ star Nam Yoon-su: “Seeing my face on the big screen, all I could see were flaws... I got Thermage and Skin Botox”",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ZLW5GSzRoWlNBdkFGaGJUWWxtc1hRLWxSWFpxcWd5NmY0Zk1CSWdWZzh3OTdyQzQ3NnlxVG1Ta0x6QVdwQlN6U0lMZWt6c3BTLVpNODlsak1TRldCQ0xoalkyQmFWSVNPOTRXNFBGRFRfZ3lHck81VzRLVFo2UQ?oc=5",
+      "source": "스포츠조선",
+      "ago": "15 Std.",
+      "group": "Skincare & Geraete",
+      "summary": ""
+    },
+    {
+      "title": "Live Apyx Medical Corporation (APYX) Technical Analysis",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9UaFktaE1wT2pST0cwd3RJTkhrVFFTaDd0SDI3V2Q3Y1RJV3I5UVF6ZUZOQ0d3NFFURjdnYUt3N0dwX3hEQTdkenVqX1FwODN0dVZieXo5VUJLdzVIdTV6VW5yVlc2X2szTTViNmR0VQ?oc=5",
       "source": "Traders Union",
-      "ago": "1 Std.",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "Galderma Is Set To Buy ZO Skin Health",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBjVlYzOFMzVS0wVjlGQU9YSXdiaFpzU216ejVwRmtPY1pQdldCRURleEVaUmNyMHQzNmNhT2FpdWJMSHRuX0RuVHZ1VWhhc0xJMkxfU1pndFBNc1VST1J2T1RHelpzTmZ0bVYybWNfT25JcWJ0?oc=5",
-      "source": "Finimize",
-      "ago": "1 Std.",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "EXCLUSIVE: Galderma agrees to buy ZO Skin Health for around $1.5 billion, sources say",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUWxpVzlpTVNNbm5VeHJROVRQeUFxTWRMZk9kOXh2LVdGUXRiZnBjb0xPY3BmSGU2Z2xTamM0aFItYmphOHY2ZmdDaGVGV0FQNzl2aS1NMV83ZEM0VnNTMDkzLUdnMzNmS0pod05TSUZBWS1kcTFkSktaMWxZUkdYOWxvMGV4NFhzTVA3N0J3YlFqbl8tQXdpdE9qUXh0czdhSnNMSm1qX2RnQQ?oc=5",
-      "source": "Reuters",
-      "ago": "1 Std.",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "Galderma kauft ZO Skin Health laut informierten Kreisen für rund 1,5 Mrd. USD",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZl9JZ2xkem5FbG5rM0xKWHpNeTZhRF8yLUI1cGpqbUcwRTlKbGgtc2Z2Z01ZVl9qcDdnNnNxZzRkZ1dIY1NHOHRha1NMS083R0RIMGxZSmVhYUxWbm4wUnd3aFZFdHhaQXZlOWltalhaMWFrdjlwVEx0ZG1iU0MzTDA4aEVMMVdqX2N2alFGdmVuOGZ2bm4zSDMyRTJBMGVqMVVrN0U4UEJack91Z0hBRXM4UTVoTzA1OUk1WWoxZW5lV2hXbVJkakZXODZ2bGhLQjJoaE03NUtmeE0?oc=5",
-      "source": "MarketScreener Schweiz",
-      "ago": "1 Std.",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "Galderma will ZO Skin Health für rund 1,5 Milliarden Dollar übernehmen, wie aus informierten Kreisen verlautet",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FbnJVbGtSNHJUWjNGaUpiZGd1STZOYkkzdXJyRkRESnJVdmxHS0Q1NURZWnk4VGM1UFY5R0N0N1MxWnZBV1ZnVFQ0WE8xZVk5ZjZ6SnJPbm8yNGY3RDc4YkpqXzhUTmRsczdVdU11RW9rbGxBcHFj?oc=5",
-      "source": "TradingView",
-      "ago": "1 Std.",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "Galderma agrees to buy ZO Skin Health for around $1.5 billion, sources say",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNa2NIQmw1MEJtQW5BWFZMU0Y5MGFieGhlNHVKTWl2ek9yV1RnYzJrQnI0N3d0bVFRMWg1NW1zeUVrSkYzRWxaMDFTQkQxZGVNMmxmckdFOFVuaENrSzNMWDBVNVFteW1XcGFoVjFZSy1QamNSNkhDWnF2V25WV0w2RVBVaFNEOTlWbVdLREp1VENoeVAxTHhVcEdIbDVXZGFycWhWd1hvME0zNmFkWGV2emViQ1N2dG9jUnlMT1B5akVpcXlISkVMeGsxZ0pVaXc2cDc0aXBGMzlPQQ?oc=5",
-      "source": "TradingView",
-      "ago": "1 Std.",
-      "group": "Wettbewerb",
+      "ago": "16 Std.",
+      "group": "Apyx / Renuvion",
       "summary": ""
     },
     {
       "title": "Establishment Labs Holdings Inc (ESTA) Shares Fall 5.2% -- What GF Score of 76 Tells Investors",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTGNhN2dHWHRNVk4xQ3dJTkJIOEw2djMxeHhpeHJYVVdHeEtXVG5ieGtwd2tNZW40TUM3amh6d2VIMFVIODJaNFhKSFNqel9xQkplQW93SFpQMHFKWTN2RGFOZFQyM19GMzBZMjM2UERGTUNxLXRIdVdjVkdjanNzSEZlWU13SEx2dEZTUXVQWWhDT2JEb1NkU1VfX3hzWExvQVJxVXp2MU5nam5tVEVnZlVwMGowNGx0Vi1CdThPek1Na0lt?oc=5",
       "source": "GuruFocus",
-      "ago": "1 Std.",
+      "ago": "1 Tag",
       "group": "Motiva / Establishment Labs",
       "summary": ""
     },
@@ -119,7 +183,7 @@
       "title": "INTEGRA LIFESCIENCES HOLDINGS CORPORATION IART INVESTORS: Contact Kirby McInerney LLP About the Firm’s Securities Investigation Following 21.2% Share Drop",
       "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNUFlWX0VxQXRrZEd6ZFVaaE9jbUVyckJROEpOYzl4WG1ZX211bllrak9pZFNIbFQwR0p1NElRRFFRcW8xNG1EUW1Wam1lS2J3cGVoVjdpYVZtY055enlwaHZ1eWJpYWJGVFYta08zajRNWll3alQxZnBQN3FSbTR2NW02QWdfa2hRTzNmcXNYMXRnTy0wbzgwVXB5d1ZjWF9WM3FPeEJiaFZxODhOSXY5UDdmak5QMGJqR0RHMENnamJrV3RzTDFNMFpFdXdfeG5kZEhRa0ZrSmd4a3VhNkFnMzQxaV9MaDZpTlhzRjdJSWNENjAwU1dqX3lZUk1YU29EZXU5V1dESG55ajluQkJwU1dtTHhpQVFueGVqUWhnQ1Ezc2FQWWwxQW9FeENGWGtBU0E?oc=5",
       "source": "Business Wire",
-      "ago": "1 Std.",
+      "ago": "1 Tag",
       "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
@@ -127,7 +191,7 @@
       "title": "Integra-LifeSciences-Aktie kostet 12,35 Euro bei 1,08 Milliarden USD Börsenwert",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZ3NOdjdXYUkzVUJzOFR6UUEyV0RTTkFuRW0yckVleExlb2ZPY1k3aWlKay1lSjJnZU5XY1R3OTdiRVVfNThpdEZfWS1UMXd2elUwekxtSTJ2OVlYM1JGLU1QUFhVTGtrUFo1OWV2UmIxM09UZW14S0JwaThnWFVIMUpfUmI1eEFNRHZTQ2M2aXQzcFdwWFRvNmI5X2xEN1RReVExalFUbU13ZDVmVnBJWmNGTDZpTXhJaUxWRHNDUEpqbnBGLUJ3NDdjR1hoSWNVUVhYbHNB?oc=5",
       "source": "ad-hoc-news.de",
-      "ago": "6 Std.",
+      "ago": "1 Tag",
       "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
@@ -135,72 +199,8 @@
       "title": "Analysts Offer Insights on Healthcare Companies: Embecta Corporation (EMBC) and Airsculpt Technologies (AIRS)",
       "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPck5faWpHRWo1UUVZQTc5N1hBY3BtZnVkWnB6ZFZmc2NhcjREQXNpSkVXSGU5emQ1T2RjRnVHdDFCVDZBZFE2cTBRWFZkNFgyWlVOSUJjRDVIc09KMGZzUzJ1LWlEZFg5TDVSRnJKbjZhV0VrbjYyeTMwMGhZRkNQMXdpNTRWYzVWQU9iamwzX2llaVJPRkN6MGRpQnZvaEdTRml4enNLNmpvaWZpNGxlQTU1cTFfTmQtUWhuUGZoaXdPQzVLUjB0OWpLc20yMTFZNUEtSVlnbjE5OC15R29LQlR4RjVxQnJCRnRaYi1qMVBrdkxlRnpWRFNQTnFiOUxKZWcxRm9GbFZLV2pOd0hSekVLMA?oc=5",
       "source": "The Globe and Mail",
-      "ago": "10 Std.",
-      "group": "Apyx / Renuvion",
-      "summary": ""
-    },
-    {
-      "title": "Chai Clinic Expands Personalized Anti-Aging Care with Ulthera, Thermage and Serf Lifting",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSXYyZVZQRnVsVjBBRjA2Zl9GMUcyY3A0RUZhQzlPVzgtRFg1ZnFzQmt0YkdxOVlfT1VodWV6ZExTT0xIUjNQeTBGT0VTdzEwbF9zTUg0dEtOX0dZT2FNZnFEbnRpclBoS0o4TjNsSUlyT0tFc2l4YzRfZ3dIS3pvd1Z5M1lHbWZpN3ZDdFBMTll2d01kY2ZCMVV0LXlGUQ?oc=5",
-      "source": "openPR.com",
-      "ago": "12 Std.",
-      "group": "Skincare & Geraete",
-      "summary": ""
-    },
-    {
-      "title": "Form 4 Establishment Labs Holdings Inc: Edward J. Schutter (Director) For: 30 September",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdTRpN01XQjRqaF84TG9YeUZMT0NpSFdzYXR0Tm9hSWtSOWsySUFDdjJBVVdBemFxV1ZCa2xpUUNra2M4V3NRc3dZaHhvX1NTUHJsdUVxUGtzSm1kSTJuYkVtdlJoUzBYQnFKSnozUm9wcXlfZlNYUUFYeXpDdGpRVHQtS011cHhVRXhsX2YxajhGUjBNcDlvY3h4VlFTeEFpdTAxd3ViN2J5WWpTblUzdmZvOU9oendLRDdubV8xS2NwbGkzV2lPLUxzdlB4d1h0Qkh3VEhkTHVwbEU?oc=5",
-      "source": "Investing.com Nigeria",
-      "ago": "16 Std.",
-      "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "Establishment Labs Holdings (ESTA), Why Is It Getting Attention Today?",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdDZNbHd3U0ktaVBfdFVMUERZVFR1SUpBSWZGc0c1R2VvYmdUdlI1cDl0N1ZiaWRBNmdkOWJnSkRIbDA0cUdLdjFfZmxEMU9PT3FiMmQzVkpsbXlXNGVybkNiVUZIY1dCM1drVjJOczVNZDlXMGJNaW9DRjlYTXFZTHF2Z2xNQWU1MTJkTlRFcnE5NWtPMHdHNzE1ZnUwNlQxMEY0M3ZrRG1nNy1BMEFLWjd3NGY5WnB3a2ZrWU4yaWVPblFYQURXMUNiTjlGUjRLUUJYUDJnR1U2T0U5bHRBcU9R0gHnAUFVX3lxTFB3YlRlakxtOEo4UDd2UWJpMXd0NGlCR0ZpWlZHUnE0MVo4aGkzckdHSVNTaTZtZDNXQmdjb000UXd5SGdTdk5CdUJwMEVDTS1RMFFQUUNERHoyTHFhZk8wMHZvTHpFNHdDa1R0Nk0zZWptZjFxS21aMlFKbHBXMVNqeGUwSkhMbHBEeU1LeFNZWlJEQUdsQ291LURTQ3R5eVJzU1RxcTctODJnLW5zY3NDN2p4NDBvZWQ2ZndCRHdrUmczN0dkeDZ6SW9qaDYzOGN1X0NyRktiazIzOHFSdk9HY2oxZjlnUQ?oc=5",
-      "source": "Simply Wall Street",
-      "ago": "17 Std.",
-      "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "Integra Lifesciences Holdings Corp (IART) Shares Surge 4.0% -- W",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSjFTclhHMDRfTFptdGNOR3ZtSEhlOXpicFVNQVFNUU1vMVJJNW5ieDJVUGVORjZVOWQzb0dkUnBremtLQk85RWhZc2xDQ3BqZVNXY1VRVWlQRjZwTWFQTlNHNFc1VjBfSHhYaDA4RVFfY29kOTVSbzMwX3NqcDBZQ09UVVFzLUhSSnctMWRZOEhuRFlqYjF2cE55dFQtSjRqSUJGTXp1MGMtLTA3RmxqaVJkR21Hbks1S2FMTXlzOU5xcm9vNEl5cDdn?oc=5",
-      "source": "GuruFocus",
-      "ago": "1 Tag",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences hebt 2026-Guidance an – Q3-Überraschung",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdFpmcTZrc0ZJZi1XeXhXUi11UnRQbjBWS0dtTlhYNHc2VWJmTjl6cHl2c3NZcUdYRlYyOXNQOFlxeUhEZWxVX1VIUGVGdzZ0SHdVWkxHMWZQbU95cnBrTnhmZGlPa0hIQ1doclBSTEhZZDAzbWV0aUNPbnBOc2FOVTlSQmdYR3l1ZnBzQWhpZlA1U2gzSlBpcnZuU09zaWdTaTBtOFpOazJkS0JjNXpJQXpkVQ?oc=5",
-      "source": "InvestmentWeek",
-      "ago": "1 Tag",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Analyse von InvestingPro warnte rechtzeitig vor 41 % Kurseinbruch bei Apyx Medical Von Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdGFBekttanpQb1FyMURVTS1GUVVnckN0YkhKaUl6c3FmU2JuY0RlUjVxdTM0aFV4UXU0bkZ0TVpEdUlxcVdleWRpcFFCSUdGdzF4Z19rWjJnYjlYME5MZ25lcWlUR1ZWaG9LWGl1aVRienFKZTU3N0NzVWpwYWNGNDRCRWRNbWl3cjdOTWFwY1dTYVY4b25vZXRhTUI5dVhkaWFNZGx1emZmVk5FbE5XZ2YtYi1TMkVDMzBDSXREZ180QUVibGxucXY2b0ZlSlB5c2NKbUFpWXk?oc=5",
-      "source": "Investing.com Deutsch",
       "ago": "1 Tag",
       "group": "Apyx / Renuvion",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences preist vorrangige besicherte Anleihen im Volumen von 450 Mio. USD mit Fälligkeit 2033",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPQWRuVGt6YjhVNG5jeVdMXzgyMEtaVjUxVXQtODZHQUxfdTBrRENmRm4zcGtHS2ZQXzAwWWo3MWNmdmJYSHUyLXQ0VFdlOTYzSGZ2VUlydzloblp3aHJ3a1RpanV0Qll3Q1JMeDdLVllHZm1nYTloZjlyN1BhMUhfNmM3SHE4bkhoR0Z2TXQyOTdJVjc4ZFlKTldtd1FLcXlNSnVfa3JfOTc2Q0ctZGtWdEZfanl2UXJUa2xRUEVRUTZKOHZ4aFZ1UG9RdTBPMFF3c3VQZWlRdEhGTTVKZkJPVHJ5YXZ3TmFiTmJ2Z1hDckhsSDJYN3EwTU5B?oc=5",
-      "source": "MarketScreener Deutschland",
-      "ago": "1 Tag",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "What Is Integra LifeSciences Holdings (IART) $450 Million Debt Deal Changing?",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVDExTm1xTnJVM3BuSDEtN0FRd2RraWdDNjZhdUlOMTJSZVRsTE02Q29lLTI1cUVKUk1NaGtHaEJheGJxdHFCeTdSLWN0QkQzdEtZUUlQZzhzWHVDa090V3c1T1RUa19qWE1FWmR3cVlJWWFZdllOcGJmRkhnOGs4VkU4YTMxNVdVdTNfZ0ZQbFlFOWE1Yk4zZDg0Si01MUNXTWNlWThqOHNtY18yVHpvbi1KdlJKN0pBV1JrVGpwQ3lDMXJUY1pKMXF5MEE2blN0Q0FkY1hBSjN5OWxMSFZtRWY0Z9IB6AFBVV95cUxPbU5VU3JNRWFzZDl1a2xWY2hpRTdPXzc3dzFiQW9PeHNlY1A1STl6dEl6WWlRTzRwTEtQT2J1WXlDWDlTdWNocFZ4VDFWRktXWF91UVgyakFtOE93d0dva2doMXd2S0EyanRrcjFMajJpX1RtYnMtX3hTMW9NVXVQWU41WUd0dVI2NE1ZTEVEeVREUHZKUXBIUHpNNzgtbVo2RlYyVGJoa251MnpIaURUcXBMdFJpX3pUOEVnbDRBLWJNWWlnbi1zOHdBS3AzV0d5VVhWRWc5RzF0MUtoeXJkbVVzN3hvalVC?oc=5",
-      "source": "Simply Wall Street",
-      "ago": "1 Tag",
-      "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     }
   ]
