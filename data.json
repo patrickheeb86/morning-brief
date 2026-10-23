@@ -1,206 +1,206 @@
 {
-  "generated": "2026-10-22T00:02:54.677752Z",
+  "generated": "2026-10-23T00:01:31.834208Z",
   "forex": {
     "eur_chf": {
-      "rate": 0.9256,
-      "change": 0.0019000000000000128,
-      "changePct": 0.20569448955288652
+      "rate": 0.9211,
+      "change": -0.0044999999999999485,
+      "changePct": -0.4861711322385424
     },
     "usd_chf": {
-      "rate": 0.8239273633612249,
-      "change": 0.0002982951490090313,
-      "changePct": 0.03621717111763869
+      "rate": 0.8220437304774654,
+      "change": -0.0018836328837594785,
+      "changePct": -0.22861637657901882
     }
   },
   "bitcoin": {
-    "price": 84064,
-    "changePct": 1.4496190361250045
+    "price": 81333,
+    "changePct": -3.249106451680841
   },
   "stocks": [
     {
       "ticker": "ESTA",
       "name": "Establishment Labs",
-      "price": 62.28,
-      "change": 1.21,
-      "changePct": 1.9813,
-      "asOf": "2026-10-21"
+      "price": 63.52,
+      "change": 1.24,
+      "changePct": 1.991,
+      "asOf": "2026-10-22"
     },
     {
       "ticker": "APYX",
       "name": "Apyx Medical",
-      "price": 2.51,
-      "change": 0.07,
-      "changePct": 2.8689,
-      "asOf": "2026-10-21"
+      "price": 2.41,
+      "change": -0.1,
+      "changePct": -3.9841,
+      "asOf": "2026-10-22"
     },
     {
       "ticker": "IART",
       "name": "Integra LifeSciences",
-      "price": 11.84,
-      "change": -1.49,
-      "changePct": -11.1778,
-      "asOf": "2026-10-21"
+      "price": 12.325,
+      "change": 0.485,
+      "changePct": 4.0963,
+      "asOf": "2026-10-22"
     }
   ],
   "news": [
     {
-      "title": "Why Integra LifeSciences (IART) stock is falling today",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbnJqSHlyNmFsaW5Sd1FBdUlISWFTUW1yWFBYQU8zOHY3ZkRkNF9ObjJFM3ZOdHpUWG43S0JwNDNjRG9CT1EtMGtpNTNYZkk4SVRNZ1Z1QWl1eFJ0dFpSb3htdV9JV2RTM0Fub1ZLU0hFTW1hcGgtcGFNLXUyd2hqbnZvdkppOHNzUlMzSWwyWG9DTkRpeUNEZWZGQU1SSkNlTXc?oc=5",
-      "source": "Yahoo Finance",
-      "ago": "2 Std.",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences (IART) Tops Q3 EPS by 3c; offers guidance",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQR0p4OFJ2bUxCU3dZOFozMjNtaGhKNUJZYkZ2TVRzZl8tcmhzWTVrTVZOZUc3Zl9DZlB3N1lTUGJHOVM1X1BoalNDSWVwWGpUQzNCcjJ2Nm90cno5MzQ3YlZ4VjhCbzZFd1lnLU9vbG5hSGxFeFFEb25lQVY0Q2YyMjN4YVo5Zy1Fb1U3WlBuY0tCYklpeDJtcTJwVC1EdHBZYlFvMjhHU2J2NW9KZHdvczAyLU96dlFYeXJXUW53?oc=5",
-      "source": "StreetInsider",
-      "ago": "3 Std.",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Teleconferência de Resultados do 3º Trimestre de 2026 da Integra LifeSciences (IART): Interrupção em Cincinnati Pesa sobre as Perspectivas",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE93RXVOX1VNWHpURGFJMWZUS3A0LVRXMXMyNVVWMDZ3OXZmOWxiLUNiZ0hQMjJlN205X0gxLVF4anRWVERESVVEdW5CTm53eFlVVGR1VGYwTFh0N3ZpYTNyR0VBd3lLeEtGRk1MM2tHWTNLN1hWUHc?oc=5",
-      "source": "TradingKey",
-      "ago": "3 Std.",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Who Does the Best Massive Weight Loss Surgery in Jacksonville?",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQellsd0pQWG9KekRPQjVjdUY3LUF2WV9RV25JX2hUdzgxZ3FIT3ZOX2tidFlXX0hadUxMQVRzRnhCZDhyY0NSRTBqSGRCSTluakFnV3ZLU1VuS1ZVLUx2eGFNc3VJYU5sekltcU5xd2g3X0dSNVBtb1kweDI0ZnJfcmw3a0JaSjBfcU9fb1BsSC1pSDFzVjhjekFFSy1xcjVlbEE?oc=5",
-      "source": "Digital Journal",
-      "ago": "4 Std.",
-      "group": "Markt & Kongresse",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences (IART) Reports Q3 Revenue In Line with Guid",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQN2wySjZpZW9FMGJQWVBSOW5LQTJsWW14eHBzNl9Vc0dwbHRlOFd2SkxSTHZnb0dJejFKeGQzOHhHM0hsbktRNWJBbVVEOEpIN2JnSzNlQkNkaTB0WFVOa3JEamZ6UmZKa2VLVC05SmxNYTBFS0tOaTY5Y3V4YWJEYkJIcDVSRVY4TlFxMWlZdmdtNTdMdGdWb0hFLXZ0d2lndlcxc1RMTDFERE1na3RKTUFhNDdYRDNRMnNLWmw5WkQzaG1WN24yN0dOTnAxUQ?oc=5",
-      "source": "GuruFocus",
-      "ago": "4 Std.",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Schlaganfall bei Jüngeren: Warum die Fälle zunehmen und wie man vorbeugt",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOamNzODJVMm03UVdueEdvZjZkNUY0eU9wdm5DOVBlVEVRUmN6dnR1VC13UlFrQ3Y4R0REZjljbFBQNDZVRmdYei11QTVTQ0c1Z1pRMWxxXzhQS2s4Ty11V0IwVFVzR2dzbkMyYWFjbl9za2JjQnU5VHoyYXY2enRSOUpFaXJxYlFjbnVRRW1CeTZxU256V2tPbzFNZTUzRDhfV1pGNUNZSE5DUjNKVHhVYm1uZ21HUQ?oc=5",
-      "source": "Blick",
+      "title": "Galderma wächst mit Hautpflegemarken kräftig",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNWFBanp2VC11cG51Q05NZlA3cVFjZ1hLUXJxMUJjSVlKVmVQdkVLV3F0RUZ3Q1gyYVZBemtpQXN3TlM1Z2lVNl9Vd1dITHk4bUxYbUIwYTVfWWhobFRRdVBXbnp1d2JRLUxjZ3ZiZTRIZk5MUWROZUxCcFgyd2VxeUYzTVBNbFBxdnFxZ2Q5aw?oc=5",
+      "source": "Sarganserländer",
       "ago": "5 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Why Would Integra LifeSciences (NASDAQ:IART) Pay 9.5% on New Secured Notes?",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTWtRZmRTbHNuMWtRVG5qMWRseXp2SmJ6UXpXcFJ2SmdxLUFFZzRxNXpmZVRTdlpjQTlnbV9UT1AtT3JMMnR5OHlReW1seEktWFp1blM0V0J1bXNGV1JJNURkOXJiRDZhaVFneU1DNWduTnBvX1lpUDNYeUxQbTd4UUUyN3Vhd01ma2gzRk5yMTlVSmtTeWhPTC1lN0lJendKdXRfTHYweXFOZw?oc=5",
+      "source": "kalkine.ca",
+      "ago": "6 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "Börsen-Ticker: Schweizer Markt schliesst kaum verändert - Zwei SMI-Schwergewichte verhindern deutliches Minus - Aktien von Galderma und Schindler haussieren - ABB erneut abgestraft",
+      "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxNNndJcXRBc2xlQnNPTk9MVkhsRzhVcnRtOEpOWFlmQzZKb0VBOHh4cU03UExJVHRpc09ick91amlfSHNDY1Y0LXJxOFRkYjhLdXFsWHNyTzhLMG9GUTUwcEkxSFUzWnhFejNZVE9fcnJNSEpUaFdldUl1cG80SU5DQWRKSUZZY25KNTctZUtUNmlTd05ScklhUGtmWk1icG5EUVdiSWV4Y2RSa1lDd2J5c24zcWdJWVRya2lBTlhONHdpVE9KMk9FYXFBZnJXUmVmTE0xSEEyTHFXSUJrVDA5VFN1Skpib2hBSGpjVTdLWU1XVUZ6cms2UmlhLXpKMmtUVjNwLWJGZ1dvemJHSF96cU5LRm5QXzVHSEpIbVFHUWg0WWdJQVNFcE9LRndnVGdfakhxOTI4SkRyUkNvWGdkQVB1VlJWTzFVVjNlRm5oS1Bpd2xLRDYtSWViMA?oc=5",
+      "source": "Cash",
+      "ago": "8 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "IT-Ausfall bei der Berner Insel Gruppe: Hardware-Problem behoben",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYTF6MUxfeC1wRG9YU3VTa0ZjbjIwVU5lZUtoQlVuYmw3cUFGWXM3OG5fa1JXMUVZcnUyYV9rRjU4bDhVX2lfYmFPMGQzUENfU3pCcXdCazIyekpaU1UyXzlpYXJRTFRGZTI4QndlU0VlejBoOHNINHFaZ01ja3ZEdVU1ZHdHVHBTV1NCNjlZdFpONXdxS2lpSUJiWDFFdlJHa1g3Sk5Lc0VzcEJReHVMejRBbE1rTlI1VHc?oc=5",
+      "source": "SRF",
+      "ago": "8 Std.",
       "group": "Kliniken Schweiz",
       "summary": ""
     },
     {
-      "title": "Integra LifeSciences Holdings Corporation 2026 Q3 - Results - Earnings Call Presentation (NASDAQ:IART) 2026-10-21",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUXNRTlY0Q3ptSjZ2QXFQM1ZSQ1pmZVJCOFN2WlZQTDk2TGdGUVVROWNzQzV2Q3FOdkZHS09BZS05S09Jai1ZSTYyZ01fVERGMnBQbDh5VDdBMGswblZnQjBrRUFva0ZJVWV0U3ZKajIzV1pnaUVQY3N5MXFrVk1jNWdTc3dxOEtscGtqR2dCMkhGbG4wTU9SSWRkS29wc2h1a2RBZGtfelg2N2szYktzVVdnN19QdW9YTW9ocTNJaHo0ZFE?oc=5",
-      "source": "Seeking Alpha",
-      "ago": "6 Std.",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "ESTA-Aktie: Stifel startet Kaufempfehlung mit 85,00 USD Ziel",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZUFXT3l6TExIYS1ldGttX082akdjSVB5cll0amtKSFpDWTlabWJtNmJpSm5NYzZfd05yMnRhWWFVZ3FZSkJUYVFWM21DVEhRR0NEQzhmS0hlRGJWeU1LUmJ6UF9Vc2ZwZmJ4TFBkRndxY2k0V0pwQl9XSW52SWhHRG9QSHNyVGtyRlhvS2E0RkF5YzM5TW9NRGhKSGNNeHFfeHdoTmJLM2FudW5CYnhsem95UHMtSl8yZ2c?oc=5",
-      "source": "AD HOC NEWS",
-      "ago": "6 Std.",
-      "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "Exclusive | Billboard artist Shyra Sanchez shares emotional journey of overcoming breast cancer: ‘I had to fight’",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPS3l3RDJOd2UxYXRRRklvVTdOcEhhWmczYW85QjYwbHUwODZ5Vjk2N1lUVzNiSWVsbWNvVThDN3dPTkxYVVo1VTlFUU9BdC1UTlJ3VXk0WU9IRlJWYXJsczJIdEdlNmxjT2EtSzcwcW1nUExzcXdIejUwV2o5clRSanExektLWDh4MW1nX0Z6OWUxa3ZQQ2p6WXA2cW5NMm9lYmxxNE9YWFN2SkFOV015T2lKaVo4aHhGV1V0Sg?oc=5",
-      "source": "Page Six",
-      "ago": "6 Std.",
-      "group": "Markt & Kongresse",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences stock falls on Q3 revenue miss (IART:NASDAQ)",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPa3pYOXBZRk41cWpURk56UExGdjg3ZGlIbnlyWjdqWDc2dXdsWS1nMVlOOW9OVHZsSUNhU0R1TkE0cURVLVRfQk80eGRCQXZXVWFlbkFvSzdLOFpSbnZySC02SXU4V1ZqZGcwYmg4LWtxZ19UTW1GRThMWjZrQTNKci1NNnhDczJrckZhTnhDOA?oc=5",
-      "source": "Seeking Alpha",
-      "ago": "7 Std.",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences Holdings Corporation Q3 2026 Earnings Call Summary",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZGRXOEdpckJzeXRsRmF0eXUzekFocnBNSzY1Z21IaXhyZ1pDdzZrTUh5NjM1N2RaS2VwRENMRkVwREJLQVF3OG1Gd0tkd3VpbmEyUGtuS0JBYWMwMmVYaDhWbVc0cS1LSFk0dGV1UWI4SnVveG9uUjRWaTA3X2pucm1oSU1PSURQNEl0ZTF2VmYxak1vWVJxdTdJU3F1amctTkZUTWZXVkE?oc=5",
-      "source": "Yahoo Finance",
-      "ago": "7 Std.",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Why Integra LifeSciences (IART) stock is falling today",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTm05ajNYWk1ZSUlVbmx3eGQwNlVhXy1uYnpZazM2U0NLZWxhZ1VibDRObVRVdWZZS0xRRThFQnJ2SENDMlNmaWtKLW01OC15ekxrVndHM09iZ0VmbWRkZUxlMG9Eb0xwbDRUeWdaMS14a0MtQk9QekZqV2p3VWRSUzZuOTBibklBTEVjcTFNdmVJeFlObDd6U280emVNalh5aHNVSFNySWZ5NXJ3ZEE4VlZoaw?oc=5",
-      "source": "TradingView",
-      "ago": "7 Std.",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences Holdings Releases Q3 2026 Financial Results",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTW5Fb01VU09iTmFIanRoVlRYY1A3Tm1IMzFETGRmTFdBbDhJSXVDMDQ5bXNPS0ZqQTU0ZjZ1Rk5lV09Sbm5BYzRUU3VRcmkzMGdwSFhPUDNBM1dNVENrMF9GN0d0Y2FJc25yRkF6b0trZU9SOVdVYXF5N2VvMjBKdWt1WS0yV01UcnhDcGhxM0JNOVBxVjVuY2V30gGfAUFVX3lxTFBRNEVpWGFQSE1Pa3VoYVJtaTdIQnpiTXR2Q05mejFHVUtaSVJ2ZTM2OUFTYlVUS0dWTFJwSVNjbGFPTzdsNEQ5Z3RJMlZ5T0RkWFlaRUNWUGQ5TVhENnZwYlFuRkpobi1yWlpXLXpadE9GMnpGdHM3UnlDLVU2NmNENVlWTWFuaVAtTy1FZTRjTXN4ZTBOU3VNOUFGUHlkVQ?oc=5",
-      "source": "AlphaStreet",
-      "ago": "7 Std.",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "What Integra LifeSciences (IART) Said on Its Q3 Earnings Call",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQV3R0a2hTbjRxWDU2OVRYeGN4VlVTWG51QW5lRVZ3bzBoX1BNRmV5NXNJNDBacTVPSW03N0JiVjBrNy1ITGRna1NXSXRtY2Z2ZGNtb1RBLWxGZ3I3SVNtTUd6VEotenYxd3J6YVJrWnFIcldMalc1a3JfMUc4MDZVa0dmU3ZkQl91bzRTdGkydGVPOTNtOGstdExR?oc=5",
-      "source": "Yahoo Finance",
-      "ago": "7 Std.",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "“I’m taking my ti**ies back”: Deion Sanders sets clear return policy for GF Karrueche Tran’s breast implant surgery",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPckFPX0xlVjBuNXducUhIOTRBNWwxQWVUclBoT3RRbXJVMjRkYW5JZV9nTkllNWVycGNsd1VJaGI4UEI1YlhfdXhRLTBhcWxHc1hLYzZYOFgwNGpiWFBDaXRLMnA4VHAyRUE2QldwWWxNemFDTTlkek9ZR2E3a0RZOUFGTTJWNHVmYnlkQjdQaXJfVUJkblVsVWpLUnNPTHBsdGw1NG8tX0NPY04yaS1GcmZtQWxXZ1NiWXBmaXBOUVdETThVeThNNnYtQXRwLWVhMjYzUjRNdXo?oc=5",
-      "source": "Sportskeeda",
+      "title": "Apyx Medical Corporation to Release Third Quarter of Fiscal Year 2026 Financial Results on November 5, 2026",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOWWc4Y1pyWEQ5TjdsZEFpcnU5M0JBN2t4OFlLajJoMXhDaWlNQko0bmE0R3duUXFNblpucXExWkVyRzRMX2gxcE5YM0xraklYOTJaNGVoSFI3NzlZbUZ0Yk1xWGlfZ2p4QXpDbUJLblg0QUlwNElvZXRHWDRoZFZPWXNEVDU1OVU0UmlBa3g2dG53TEdqTGhsbEJ6UFBQam1KVUJ2QkdXVG1xc0U2QjZ4UmlCRkxXaEhSMmxsa3EwdUlSNkJ4ZXB1VmR0d0xxaTVIZTVpb1Z3NFg4bGhmX3gtYU4yOXNQb1docHVjM2t2eUphYTlaX1NQRU1XSVU?oc=5",
+      "source": "StreetInsider",
       "ago": "8 Std.",
-      "group": "Markt & Kongresse",
+      "group": "Apyx / Renuvion",
       "summary": ""
     },
     {
-      "title": "Why Did Integra LifeSciences (NASDAQ:IART) Cut Its 2026 Outlook?",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWlpaa1RmNU1tVG1uY3A3UUtZSGpkSmRDM3Z6Rk5jMEVrc0UxZ2lMWmhWWnBGU0pBNVY1WEV3cTZIOTVoSDZIR0ZEZmVVNU5MOS02aFhFbTRsVElVS2Q4ZlAtdHM5TlNEbENGelFWY0did1I1SVZWajRULXlPUUhLYzh2NThld0hQam9TT0dvRDR0SW5weXVhVGljQXdJdw?oc=5",
-      "source": "kalkine.ca",
-      "ago": "8 Std.",
-      "group": "Integra / Lipoelastic / Absorbest",
+      "title": "Galderma hebt nach starkem dritten Quartal Umsatzprognose für 2026 an – Nemluvio treibt Wachstum",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQd3hZS0xGVjBoNF9iTS03dUpwY21VQlE0eDRwOWpzNENPbDNtRnJzdF84TXBNa1p3bHNvYjlxZmFJNE5KQnJqci1aUWprSEljLVBZMWM3VWNQQ3Jaa2FETzJQNVJyS0lpLUloQ1ctM1FJVl9lLVJVcnBWam1kT3VBdlRnYW5RR0RBaTF0anZ0aVlCYjg1aVFvRllRZW1NcVQxcURwbDVMU1JqLWJldGJ2X21Rd3Rrc19ZTEdfQnAyT3QzYXpBdHNfY0VFVC0xQnZmOGxRdXh2cjVJTW9SMUtNbHF5OG0?oc=5",
+      "source": "Investing.com Deutsch",
+      "ago": "9 Std.",
+      "group": "Wettbewerb",
       "summary": ""
     },
     {
-      "title": "Galderma Aktie News: Galderma am Mittwochnachmittag ohne grosse Veränderung",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZkM1dGRaVjB2ckJjSkNnVHBHRndEbFk0Z05JejdKZHE0Mkc1RmgzN3dtVnloM0VKTjlSSk1kQjVJckR6ckFNaWVDV01HSFUzVzljLXZQZmR4N1NZREIya2ZxOWREcDk4QnpETnBvNDlCQXZSTFkxcUlvNEctN082YXp5bWpkWXpSa2pkOHRJa05rNlVEaGlR?oc=5",
+      "title": "Galderma Aktie News: Galderma am Nachmittag mit sattem Kursplus",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQ3ZhaG1iUGk4WURmbXRrRmgyMWlmT0xrQ25xUVVlSnVMZFNOeDNiUkdlTUFqdnRTZmRwNllGRmYzVy1qZUNlcjVyeWsxaHhSalNkdmdiVFh4dUFYei1DdGJILUZNdHlvcEVUVU5pN1dNMUJlbUYyaW1WYXNSNXZtZDF1d184QWtoUlRSOXlPMEdzN1E0eEdz?oc=5",
       "source": "finanzen.ch",
       "ago": "9 Std.",
       "group": "Wettbewerb",
       "summary": ""
     },
     {
-      "title": "Galderma-Aktie: Berichtstermin am 22.10.2026 bringt neue Umsatzdaten zur Galderma-Aktie",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQNk9wWTNKT2g0V014SGtZYVFNWld3Z25aV09DUHpDOHRNQ0VvUEFKbmw3QTVBYklJSWdvQXZxN0xOMDV0Q1B0NkQwV3l1S1llZzdzVzJpdUpZeU0yZjdzOVN1VGM2dDB4akt3MGxnOHlSMFlENnBReng1eTEyRHBxOTVJNmRSc1dQV1hxNm9SN2RaeVg5am9GLVJhWnBmWUdFczF3YjR4NUhDLVRMLXJXVFRIcDJsQTZlR0kwRVNEX0NlM05QOWZIMm8wU1VVWXZqYUNnem9FYzlVWXUyc1puRE9CQQ?oc=5",
-      "source": "AD HOC NEWS",
+      "title": "Integra LifeSciences posts 2.3% revenue growth in Q3 2026 despite price target cut by Wells Fargo.",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVFZhY29PcTc1UkNKdC1keTh3d3RNc0h0dWZELXdwOV90VGU1YUFkVHA0Q0dpbHZlR1pGYmlSelRGSy1SSXZrODVDcEhFRGxJUUFfMEYtWlVfOEVRMmMxSlFuRWR3MjdhdkFSTV9ENDYtRTF0V25ZeFNPOTJ2cXN6b2FublMxWmJ5bXJ3U2NCVWxSdkdrRTBNcFVuY1ZtY1k5bUxUaFdwdDA4QVVqUkE?oc=5",
+      "source": "Pluang",
       "ago": "9 Std.",
-      "group": "Wettbewerb",
+      "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
     {
-      "title": "Baker McKenzie Advises Lenders on USD 800 Million Bridge Financing for Galderma's Acquisition of ZO Skin Health",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTmpJa3JIODI4UGRkMDdibmlOUERDVzVhY3pIOTF0NDMxa1ktNFFxZkhCeUx0MW8xdllwSUd6S1haek96ZkdWY1d6M3BndFpMQ2RMWHJZUW1pc2FYa0trTExRQmo3WEstalEyMGpna0pyWVNqUEtZZnhLYUJuaFRnaWdSMnpsUGE3ZWlpRjFWVGp6SWMxU0U0aTJyNnVobkVTa0pUaHpFUkczUUo0NjVJU3hUa2dRM0FQZjk5SGRHczVRZ2pCNzFYU2lFbS05RW1B?oc=5",
-      "source": "Legal Desire",
+      "title": "Galderma progresse au troisième trimestre et relève ses objectifs",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9KVjJyMzQ1UDU4UzdEcHdqUWpFdHJkdmtxU2poU0dLbDB5RmVyN0NCY25mV2pJMGV2YWFXM3ZXbTR6T202RXJvUW9xZHI4R083Zk5Ca1pUYWVUcDNjMDlaZGhmTQ?oc=5",
+      "source": "TradingView",
       "ago": "10 Std.",
       "group": "Wettbewerb",
       "summary": ""
     },
     {
-      "title": "Allergan Aesthetics presents its latest scientific advances",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOeVdEUVRYTXotS0JjUlFPT3JBcFlFdXB3c015Y3JWQ1NjVjBxSDlHNmpUT094NC1QX3lFQ212eWZWdUxDMldkWDlQdDRwTk1iVE5KWVByZU4yX1lFY2RKZVdzTFFwaWRCaEJsT2dvcUlfYXNYZkg4aHBibjY3UVpZOGlid3RWZFBLeGZzX1ktUjRhdjVuX0p4RmlqUmVPZDN3WGJ2VmxkQXVMdUFuQlFGa3BpTHhreGNWUkRSaVVzREpfeExOQkhTaHBhWEZxbTFrOG9MU1pR?oc=5",
-      "source": "marketscreener.com",
+      "title": "Galderma läuft es wie geschmiert",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdTQ4blZleTU5czFzZ1hkOUNDRG9tWnp6ZzY3dmkweWU0MmJEem5WWkRWZ2VGdFpGMkV0bDRXUjhXVUpfVHM1Qk80bEYyZEhySFZPdG9MWmR1SlNpN2J3LTRPM2NNdHVVaWw3OEpYWVhhMFMzakw2UzFaazJNVktXT3lRUEc?oc=5",
+      "source": "Finanz und Wirtschaft",
       "ago": "10 Std.",
       "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Galderma Group Q3 2026 Earnings Call Is Live",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZUtqakVId2ZEbnVTRDFmd2J3MVVjSVhocmNVVlRIZ25WNHMtWllrUTVra01HcG80Wm1TSWl2MTRoQVYxNHU3N3RPRDRWRjAwVEtLTWdoUzlkOVVsZW9ick5JSVBWQlhCeDhCQlhmS3U4TWdwQmVfWUZLb1ZKUnc1OV84RGZUWk1VNWI0UWFtd2FTSXIzZ0hMUGRNTEcybFF1Zk11R2tRT2I3eGc2X3VWbHk5QQ?oc=5",
+      "source": "TradingView",
+      "ago": "10 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Establishment Labs Holdings Inc. (ESTA) Expected to Beat Earnings Estimates: Should You Buy?",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWmxabXNfX3NraF9QYzhmYWlVcVp5TklsbmhBNDhHWWcyS0hncmZZVGNkVnBsTXZhWEFoSFBGUENsN1ZOTWRuYi1IWVRZLWota1p4QVdQd2xkODB1SDlFSldUeEllcEJYQnJQOFhkNlBZcW5HRmlRQzlJNndCTERuUWd4Zzc1S3FqLV9Nb25nUUtRRFNSRi10bGRBWHVVREdrOWE4?oc=5",
+      "source": "Yahoo Finance",
+      "ago": "11 Std.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Integra LifeSciences' $2.1B Refinancing Merits A Closer Look",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOenNlYUJTNmlpZW9VcU41d2prOFQ2ZEY2ZW9JS2plRDV1ZkpCaDZReXZtTWtsdHp2Y21QVnpKdVNqS20wXzBFRDdsMFY3ZzBtN01FNURDMUNRZUR1ajd0elM1WXA0YUxrUlNnOGlkVWQ5NEZwNE1XRVl5MV9WbTJNa04xSm1hSnZxaGxTaG9pa1NxWE52VW45ZWs0clh5LVJSMDNSam4wSEpmUzhHU1NiMw?oc=5",
+      "source": "Benzinga",
+      "ago": "13 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "Citizens cuts Integra LifeSciences stock price target on facility flooding By Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUm1tSnEzWGFiSTZfQUhYcnBYSlprZUVtdVFxaXktSXZDQUZhRi1UVWdSTDcwenRXRnB3YkNqUU8wZEtjM3AwMF9OSmxjUzh6LW90QlpQWHlqRnFydU1lcTc0SDhPcmxnX01Xek4wLVhyX3FfSjZUSTVHZUYtd3JjLWgwNE5xbXlqaWRpQUlsQzBhUHA3OHZkMXI3Rk9aZzZwZlZDOVVaMmRJb2JObDI5VS1XSmhKbVZHS0ZZeTdGdU1DTGcyekZ3WENnTHE0MzB5?oc=5",
+      "source": "Investing.com Australia",
+      "ago": "13 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "Integra LifeSciences: Citizens senkt Kursziel nach Überflutung eines Produktionsstandorts",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNckVnUnB0eUxjNmhialVHbE1SY3VCVkR3aVhsWElocDgwcjlBcEJXVG9uZUg5bXVKOGNERm1HeXNvSlpBQ3k4MkxCVmF3N0pXdnk1cm4zU0gzbjhkRTFxVG9xUEs4ek5JRm9zdmxESWtxNllWQXdCZ3JZT2ZCaGt6Q2lIbXBjNkRDaW1kTjhxb3k5U0hUbGFoRS1BZGdQQ3FxVVpmREV1Sm5GUXlMek5uNG92dW1WUkE1UzhfaTNvZzBYaDJNcXhhQVBWdVZmeUJzazRLc2tkVldpb29UZDBTYw?oc=5",
+      "source": "Investing.com Deutsch",
+      "ago": "14 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "Integra LifeSciences (IART) Stock Price Sinks As Q3 Earnings Revive Refinancing Worries",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMkoya1pIRzlZMlJnZjlPcGM2WHFZVG1sWTA5bXlsczNQcUNabWZtVHd3TW1MRlNUSmduSTA1UWRfbVN3eDRhaFN3VWhJUEcteE54LU5NbW80N3huUHBRbzM5SVdzczgyY0hTeENyTWdaeTRKbENJTGNKcl9MelFzZ0tJNmJzUkd6bzdPVzhBT3lWOVRkT0Q4ZFRZcjktYlU3b3lyXw?oc=5",
+      "source": "Yahoo Finance",
+      "ago": "16 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "Top 20 Unternehmen in Skin Resurfacing Marktgröße, Aktien",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOOVRUUjhHaS1YanRYVzl4ZF91MjYxNnE5MHBtcHoxYWxFX2FfcUkyWWNkNTl5N0FjWll6THNxdnVPek5qT1RKcGsweG94MHcxUTc0MlRUd2FYUWkxWjk0UEJmQlpIY3p3T0RiaUl6UVhkQVNqeThvSVpMMmdFYWxXZnFoaXhxSS04aDV3dUpNX09LQzg5T010UGR2QmhsYmRRQW95YWYxcVRtajVQVE9jSy1laXVJT2xZT2FXbFgzVHhnQU9CS3lDZ0J4VWpSMk5yRVM0?oc=5",
+      "source": "Spherical Insights",
+      "ago": "17 Std.",
+      "group": "Skincare & Geraete",
+      "summary": ""
+    },
+    {
+      "title": "IART Q3 deep dive: Cincinnati disruption and Tissue Reconstruction challenges weigh on outlook",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNVVZHQmJEZUEzdkdTclI1SFBWNUxxT3ZmNi05TWFMTWdvUmVBU2hWQkVoQTd2dmx5eUd3UzJPRDRrUHJ1cVZHQk5oMVlmd0FMMVNqZXJ1Z1dHR1VOdV8ySFlleldKZ3pJRzZaVHlvM0toNEVUOTBQd25qLWIybC15TVZqdC1iWWZZVkt1bkJFcHFmekZUNnFjNjZEa0hkekhKVmNudFhfcUZHcUtUYm1hckpnQlNFRHlELVIxbHRvTXhzV0JCb04xZ2tLcmkxa28zcjludWU0OHRDWHk5dXRqWGJqYnpZS0lqa2c?oc=5",
+      "source": "TradingView",
+      "ago": "18 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "Integra LifeSciences Reports Third Quarter 2026 Financial Results",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZzh3aVNqaXZHLXNxOV9WbDhVVGlhQkRRZjhyb0VWOU1uY1JSaXp0ZTV0aHZVU1RaRDF2VlNKRkN0VElOLVJCNWFWY3p2TEJTSGRhZGRCVmZoTUM1bjlvcDVrbXRZbVdIMzRuVTRSMDNHd1hGZ3ZLb214NVpxU19leFJVcHcxem9EaU02dW42dGp2Mkk5UnBneg?oc=5",
+      "source": "Orthopedics This Week",
+      "ago": "19 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "Integra LifeSciences (IART) Stock Sinks As Q3 Earnings Margin Repair Drags",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOR1RRLVk4bWo2dEJaZ2U2UDBkRTluVzNzYzRGdXNkcTFBRG5WY3BzSUs1X1k4VlNsQ1psdERQbUFWWGtzNGZjcXdnUVlFU0E1X29YZ0MxNTg1VjFvX0k0NVBoUHpuS0tVRW5QZF9IOHN3SlVRbEZfQ0JFT3NCME1Oc0ZxYy1kVUtCTDNwYXdnQUFtTkQ4VVZNSjRNZFFUVWUxaXdYMmdqOHhuX3pMUVFVUW0zdTBmOU1Vazh5eERvNGRWdV9LLTJGbGUweU5JR0lEUTc0RndybVA2ZVVwdEJCUW04Z9IB6AFBVV95cUxOYjF3RXIwV1RiRlF3ejJHOXpXQWFUWjEyNGVhbkRTY1pJYVhrUFpEeDZucGdVSDB5LWpEbXhXdl9xdG1WbnhNbUMwM3FUSjVfRU5TVHpHRUNycHlOa1J3R29FdGdJZFJpTS1wUEVnS213bDNSSHQ2VTlDczhTVXp1bmxLQlhMUkRNLXFjT2xLZXR6ckJtTk5NNkZrR0tmNk1YUWdNNGx2djJwUVlpX1p0U3VJcUpyOWhQWEVFMklQX0pUMGVWUXZUZVJYYS1lUjZWaGppWlQySjBZRFNHaG9jY2RCUWo3V3Vo?oc=5",
+      "source": "Simply Wall Street",
+      "ago": "20 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     }
   ]
