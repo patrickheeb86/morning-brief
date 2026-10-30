@@ -1,206 +1,206 @@
 {
-  "generated": "2026-10-29T01:04:40.630784Z",
+  "generated": "2026-10-30T01:10:41.996135Z",
   "forex": {
     "eur_chf": {
-      "rate": 0.9247,
-      "change": 0.0007999999999999119,
-      "changePct": 0.0865894577335114
+      "rate": 0.9222,
+      "change": -0.0024999999999999467,
+      "changePct": -0.2703579539309989
     },
     "usd_chf": {
-      "rate": 0.8305937303512081,
-      "change": 0.0019838648803560677,
-      "changePct": 0.23942086173796032
+      "rate": 0.8285714285714286,
+      "change": -0.0020223017797794673,
+      "changePct": -0.24347664879728353
     }
   },
   "bitcoin": {
-    "price": 80992,
-    "changePct": 0.5583896020381248
+    "price": 76979,
+    "changePct": -4.821472400138592
   },
   "stocks": [
     {
       "ticker": "ESTA",
       "name": "Establishment Labs",
-      "price": 68.97,
-      "change": 2.02,
-      "changePct": 3.0172,
-      "asOf": "2026-10-28"
+      "price": 68.41,
+      "change": -0.56,
+      "changePct": -0.8119,
+      "asOf": "2026-10-29"
     },
     {
       "ticker": "APYX",
       "name": "Apyx Medical",
-      "price": 2.61,
-      "change": 0.11,
-      "changePct": 4.4,
-      "asOf": "2026-10-28"
+      "price": 2.69,
+      "change": 0.08,
+      "changePct": 3.0651,
+      "asOf": "2026-10-29"
     },
     {
       "ticker": "IART",
       "name": "Integra LifeSciences",
-      "price": 12.24,
-      "change": 0.25,
-      "changePct": 2.0851,
-      "asOf": "2026-10-28"
+      "price": 12.83,
+      "change": 0.59,
+      "changePct": 4.8203,
+      "asOf": "2026-10-29"
     }
   ],
   "news": [
     {
-      "title": "Establishment Labs vor Quartalszahlen: Analysten setzen auf FDA-Entscheidung als Kurstreiber",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPS216TldQWU5XUzFDOUpzTUJaSm9feHFFYlYtTjhfVnBhRXl3S202bTNSX3NlOEFmTUhSUDNKUGdLY2JMQjRzcFEyQlc3clA1MUktU3pCN0E2T1hOVXNhcGVRdENpYWNZbDl0NUY4ZEdGX3U1bjFOa0ZnQjZZa2pMa0xfYzhBWkVHTUVjRHBfUEUzSWcwVUh6TWVjeGZ0aFhiZ1VXYTVnVWNGa0M3UEZTVjhFWXViLTBuNkU1V0JIZXk3OTBROGQ1R1dhWTdkamNSc2s2MFRza3NOUQ?oc=5",
-      "source": "Investing.com Deutsch",
-      "ago": "3 Std.",
+      "title": "InMode-Aktie: Sonderausschuss prüft strategische Optionen weiter",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNM2NnY2haVF96NkdIRVJDaFY4akhGZ3k1WVk3d3J6UGhlcEY2bnJ5R0wya0pCekJJRHhaYUVaeGdKLVBfdjFFZFA3QVM3VUM1aVNaQVphYlhsRXg3QkZ1RFRFMHBFQ2t2QnluNnhqbEpBbEUwMGhXTVU5S1hTUE5JbGxwYWNDNjRVWXFCWmZ1Q0stSTZuaTRzMzB1QjlMOGZvWTd3RVktTjlhZWM3ak9OZk1qd0hrVUxISUdOOWIyeU0?oc=5",
+      "source": "ad-hoc-news.de",
+      "ago": "1 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Integra LifeSciences Holdings Corporation (IART) Seasonal Returns Chart",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBuSlpFTGFDSzI5clZJUTg4emN6V05vNDV2bWlLWngwUDhmYjNrQlJMX3lfakRfS1l0SkVfR2oyaXFjdG45OFBOQmRGZDhIalh5RENkRFFvNVlBdzNrSms5dHZR?oc=5",
+      "source": "Yahoo! Finance Canada",
+      "ago": "2 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "Establishment Labs Holdings Inc. Q3 2026 Earnings Call Summary",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPU2ZJalFPSlIyTU96YWk3dnh6OW0zWm9FWGlzTzU2bEpHWmJuNTByMTBCUUJUU0xvTWJZbUJRZFRIMW45bnpwY2t1TktUaHZfRm9zVWk4a1o1UXlKUnNvSEFvWWJkVjhyWWJ4OF8yTlk2N2hwOFh5MlRBOG1yYjhQSmtVeGhLTThBaXRYcklMOWhmN25nMFdyT1ZQY3FFX2I5?oc=5",
+      "source": "Yahoo Finance",
+      "ago": "2 Std.",
       "group": "Motiva / Establishment Labs",
       "summary": ""
     },
     {
-      "title": "Who Is the Best Female Cosmetic Surgeon in Florida?",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMk1xQWpXRWEwalh1MVdaUElOeEJqODV3MDRBMlNVLTNyQ0dvd3FVc0tEenRBSDJISVk1ZHEwbHZVbGhUZ09LSExDVG9TMGN3LUhWOWdMYzJMRnpMUWFsaHd4cmxkYTJZdFZFNlI1eHRFS1Z6OFduOXVQQlZZS0h1SFNZYkRUd1UyeVpvZ2VBOXIzWTBBWWhCMFlDQno3Rng3T241Ym1yN1poTFU?oc=5",
-      "source": "Digital Journal",
-      "ago": "5 Std.",
+      "title": "MSc-Dr. Trinh Xuan Long: Updating technology in plastic surgery",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMGdld1VYVVVOQjZqc1VBb2VGZWh0VDV6QTNSdXlQNlFSdC10dnlPTUV0T3I2R2FaTVRoZFdVNklPOTNPc1JGMVdBbTktQWlBcEl4RWd4UEd0STNrQzN0ZGkzSmJCNHVvYUdmUmJTb0tOTkFrVnoyTk1KeVFNY1JHcFBJeTlJYUFFeF94WFdZRWp3NWhldWhSa1R4YUlBZFk?oc=5",
+      "source": "Vietnam.vn",
+      "ago": "3 Std.",
       "group": "Markt & Kongresse",
       "summary": ""
     },
     {
-      "title": "Two funds report 2.28 million shares in Apyx Medical (APYX).",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWTJSYUQ2dDh5NW1OMXg2WGd2TXktTWo2dXhlQXctUnhUVjB1dHpVN3Z6d2NzR2lzME5KanBDWWRDRFNMdTBSVjBkNGpjcFVoU0RWQW81dXk0T0RtZXNIQmx1ZWhxYXR2YUhUQlYxV01Uc0dHeUgxWERPc3d0ZGhuVHB3WWN5ZlB4a3R0R0dhWWxJM1NoV0wyQXBhYU5DV0g2ZURCb09wcVJFUjlXa1dmNVR0dWJoSDQ3WnFoMWlvT1BmQQ?oc=5",
-      "source": "Stock Titan",
-      "ago": "5 Std.",
-      "group": "Apyx / Renuvion",
+      "title": "Ruptured breast implant constitutes work-related injury, Quebec tribunal rules",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZGlTV1RKZy0xWUpncjh3c2x3SXV5U0ZZYm9ETFdRU2Z5MFNjVURTMkpsUG5ZTUNyU3dZVzZHRDhSN05HUzVLR2RUQnBydThTVG9zY0djOWdsS3h1ajB3QkNLeWJ1aW5KRXpwR2dnMkFZWmtfdHlZNnBYcEFEY3gxYWdOTUZqX0lXaEZPSGZaM0R0aDk4M2RoUnhrdlNaY2EtakNyYklkSHgwTW5QYnk2QmR1NHRGVWxyU1E?oc=5",
+      "source": "CTV News",
+      "ago": "3 Std.",
+      "group": "Markt & Kongresse",
       "summary": ""
     },
     {
-      "title": "Andi Lew Raises Awareness About Breast Implant Illness",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOG9OTTFsSTVuc2JvSVVhc1lKbWJERUU5QjFVdXRPM3ZiS1RIMnl6d3lwTTlYdk1ubXptek1fSjloQ3FxSWNjZUhSX3psQ1ByaEFPWEgzellFbG11aW5BVzRqNXlHaVdZSlJEX3VETHU2dFdMOUQtYmpBYkxSTWZmakM4Z1FKWVlabUdWQTNmeEFOcWxaSmlBTGNwSTU?oc=5",
-      "source": "LAmag",
+      "title": "Establishment Labs stock price target lowered to $93 by BTIG on estimates",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQS0tCSE80dU1rcEhoYWh3Uy1YTDBhQ3VFSjFTQ3FxUDRQMmRXOEtmQ2VZSjdUdkVDMURuZnBXcTI1WmF2OVlDNzhkRzJqRFJ3VktDRVdwQUN6U0pSNFZwendFQnhNZVN5RzJxd3ZuWk5MaEM2WUs5MEVxUDg4ZXhvX01MWERLNk1rbllSZ2dKcldadGxEX0NhMXZLblBDMkVScFRSMXFCcUJvMDMxOVhWNndzZmNzOE91ZzgzRVRFN0hJaC1NUmFBbzBzYUI?oc=5",
+      "source": "Investing.com",
+      "ago": "5 Std.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Establishment Labs Holdings Reports Wider Than Expected Q3 2026 Loss",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdlNKeGNuMHZoMFgzTk1xdmpSc0RReVk2X1MteGlUelVRbHBreEtHckhKSXFqajNPSHA1Sk5IeW9hcXFiNUJSRFFxUFdoOTVTMWlwT3pqSXpDallCTzkxTGJvY0ZXWktMR0RJVFJSVFI5eF80WWN2NDMtcVBWMHRfdlNXWElVMU5zUWxsN2dqc3pzX0lZeFNrZmhvLTBXS03SAZ8BQVVfeXFMUHZTSnhjbjB2aDBYM05NcXZqUnNEUXlZNl9TLXhpVHpVUWxwa3hLR3JISklxamozT0hwNUpOSHlvYXFxYjVCUkRRcVBXaDk1UzFpcE96akl6Q2pZQk85MUxib2NGV1pLTEdESVRSUlRSOXhfNFljdjQzLXFQVjB0X3ZTV1hJVTFOc1FsbDdnanN6c19JWXhTa2Zoby0wV0tN?oc=5",
+      "source": "AlphaStreet",
+      "ago": "5 Std.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Establishment Labs: BTIG senkt Kursziel auf 93 US-Dollar – Kaufempfehlung bestätigt",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPeGNPelEwN2RWQmVlTU1DYk42cFlUQVZUMDY2UjJna3JMeUZINUo4MUo0RWU4aWRKVWF2T2l2UXdrX0VkZENWTGFtQndpeDdpeWZpaDRjNFE1SG5ubmsxVWFRMHNkNzBrcVQ3Y0NqcmlZdHNyTlBFYzRJV0NHUUJkaTZNR3pzQ05hcnRzYWpRYk1oNW9NLU5XTXNUSjBLeFBCTE1OMUxFVy1Lb0Z5VEo3aG1NVGhjcGpJUFoxTnUxbXRNMHRtWFNKMkVmdklxb09CM0RQTUlR?oc=5",
+      "source": "Investing.com Deutsch",
+      "ago": "5 Std.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Establishment Labs Inc. (ESTA) PT Lowered to $93 at BTIG",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVHJQS1dVV2dhUGlRcnZqbVVhRW5zZ2hzWm43YWxRdi1ndWJRWGJTM2c3TEo3QUVIQXh3WHlIdEJMM29rNzZERzFRUEFNcG53MmVZSl82U1FTR3p3SkdJOXJNbUt6YkJYMEpaOTdHQzh1cTFSVl8tOUE0RUxLbnBfcDNfOXJDT1M3TXVQNEdnTnVqcGVnUlF6OHJVeVFQd0VGZ1JWMmtEeWo1dGY4NFNKT3AxTXN4Ny1jZERiNWhraXk?oc=5",
+      "source": "StreetInsider",
       "ago": "6 Std.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Establishment Labs Holdings Inc. reports results for the quarter ended September 30",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOZ0tKUTZRbFRKSFRIUGRXV2M1RFd3aVJwRFF3a0RvNERaRjNqdlNkS0FCUnkwcVhEVGhwREhlSjdGbDZ4Unl5SDNpeWJGLTZ4dWVIS1RoVTNCaXF5VXNRTy1VcVNXMzg3TXJCMnR1SVFfRnR4bFhXaVRHX2FLWmIwZzhvbHF2ZXFLTFktYTgySllPdVFYLUE1NXdUNnNpNlhGSTk2b0dITGs3S2pTTHM3QkVLNG9heGE4dmRhSE14WG9UQWtZRVdXQVI1R3VVc01jUWJQYk5rdmpFc3dKdk4xVkxWUzJfdGhNR1I1UEZsY29JQzNHbU5wU3VVbDF2UQ?oc=5",
+      "source": "TradingView",
+      "ago": "7 Std.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Jennifer Lawrence makes crude comment about the effects of childbirth on her body... after admitting to breast implant surgery",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOWlLY3A3Tm9OMlYyRTRjUGsxQ0NQQ0g4eTNGMU1aTTBoQlBBZFJjOWZGLWlNRFZBX2hDMzh0NzBkalBGMEVOenZER1RUSjlubHJMbGltVExCZXhHQnlhQXlnTFYxLURyY0NGbHR2Rm5jQWVzR2tFREE0QlZESEV1cWhGY1ZxN3JsdlVEVlREbkVUc2VZa3N6NjRQSlZ5aGVTNVEwX3V0N240SkNoZXhYbEtVMjVxVldhME9PU0hHbldtWXl5Q0lR0gGzAUFVX3lxTE5tbW83cG92cE5RRmxMbmR4N1cwdU5fVVVvWFhUQWVqM2RCeDB0a1FaWk1ZdlNldjE2WGRHNlFLR0FBLTZWaThXUFZFaHBfRkd5c3FPRnpZVjFqQ0tIcU56bmE0ellzUnVkZVd5SUFsbkZ4YVBNaHo1QVpJRVQxTWpkVzhET0tZVFlMdjlvR1hPeEhfZzQ0R0g0ejZMQ2xiWVlKdUNOWnV2b0kteFN5RHpsVTdF?oc=5",
+      "source": "Daily Mail",
+      "ago": "7 Std.",
       "group": "Markt & Kongresse",
       "summary": ""
     },
     {
-      "title": "Galderma Aktie News: Galderma zieht am Nachmittag an",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVG9WSFhqNkNxSFJMSU1mdDJKZUVoSko0Umx4LUg1ZmtybUtQbDlRZTdfR2x6TS13RDNWTHVZUjc0WUpFTHB0dUlsR0d0OVNqazVidFlja0haWXlCc0JGb1UtZlFWcmEzbENRWnNWZDhZa19laUsxenF0d1Nlc3FFNENKbzR1ak1Ib0pjN2FhQ3QxU042LUxV?oc=5",
+      "title": "Jennifer Lawrence makes crude comment about the effects of childbirth on her body... after admitting to breast lift",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRFFITUhPZ2FZMGdGU2J5djlPWWxNSks3YkozUFR6c1JXQm5NWF9vSVJQcWJZOWxjNVQ1Mnk3ekZCZ2g5NTQyS1NER3R0aGtodTdNei1LY3JzTFd4OWlhU1daUDlDREhHb3ZPdlNHdXVBT3NnQk9fMjYyRjJyc3JleTFjTC1yWlIyc3FvWVdQMmw2SjBHR20yQWFTZ3hLLUdpUWFQRTQ3c01WX1MtUEHSAbMBQVVfeXFMTm1tbzdwb3ZwTlFGbExuZHg3VzB1Tl9VVW9YWFRBZWozZEJ4MHRrUVpaTVl2U2V2MTZYZEc2UUtHQUEtNlZpOFdQVkVocF9GR3lzcU9GellWMWpDS0hxTnpuYTR6WXNSdWRlV3lJQWxuRnhhUE1oejVBWklFVDFNamRXOERPS1lUWUx2OW9HWE94SF9nNDRHSDR6NkxDbGJZWUp1Q05adXZvSS14U3lEemxVN0U?oc=5",
+      "source": "Daily Mail",
+      "ago": "7 Std.",
+      "group": "Markt & Kongresse",
+      "summary": ""
+    },
+    {
+      "title": "Galderma-Aktie: Hauptversammlung billigt alle Anträge",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOWlfU09UTUxJYjhlNmthUVhyMDgycXZSd0dXbjlwQV94ZENIYld0SzdyTEZSQlUwbksxN2g4UlJkQ3lzMXppcENDMzh3d1JKQ2hKdTJWaW5BWG8xSi16WUhKdGN3eDVFb1JLUmJsRDkxZFhWdEZBaHMwbEtRZ25DbVBsNWY4eHJCRm5Ia3dkNFlBLVA2R3lDZjV4dUZsQzZjaV9sQmIzS3BOY2JQMjBnUWdqelVKeVk?oc=5",
+      "source": "ad-hoc-news.de",
+      "ago": "8 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Transcript : Establishment Labs Holdings Inc., Q3 2026 Earnings Call, Oct 29, 2026",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNaVQ3VWRDdHprTHE3Z2FVenBHYkZ2UmtLOWg2eTg0LWU1QUt1LWgxblRoZjlDOXJ6b3J6T04wYXpCcHo0WmN1dV80YXo2VTZDVWVWSXN3VDJtcm01UXV0UkpQZUZYU0p3YU8wUGR4M2RwUXZ3RExhdjZfR3lPU0l6ZEY3WmR6N1pyMUYyOFZySW9ranVPeVV2Q1RUdDh3Y3ItVzRxMnBDdktfUEtObURNV1gwY3lDUWlFT1l3dGhSNFFNeE1iSGNrbTctMGtSM0tWX1pLY2lveDNERXZvOVhjYl9oNENEZGpyZWtmZlo3TENFc3MyY3hwVEd1aw?oc=5",
+      "source": "MarketScreener Deutschland",
+      "ago": "8 Std.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Transcript : Establishment Labs Holdings Inc., Q3 2026 Earnings Call, Oct 29, 2026",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPM2tUYUZoc3JnZmQ3OV93R2hMRk9CQzlJMWlaUWNyTjhvMkd1ZVFza3gzT0JmTXBYYTlQQjNqMmZ3c3N3MV93UF83c0o1TjlueF9BZV91V0F1WDlQRkJ1TEtCY050ZHlYZ0hiZFVnaEREVmUtc1JOYXJQX3NZSzRLY2d3Rm1TbFJDaExURmNiN2d1YWlFY1dSMXRmQzBnNi1ROXZTQ2hBdEJVUHFKMUVZeEdQSEhMV3Z1VGtQWlRaTmNxTTB0NEYyNw?oc=5",
+      "source": "www.marketscreener.com",
+      "ago": "8 Std.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Establishment Labs Q3 Net Loss Narrows, Revenue Grows; Lifts 2026 Revenue Outlook",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQelJqekROc0JZZmU1UU9KR0hadUVlSzRxQk43bXcwLWJIa3pmNW1VaDhmYldhNVdxZEZxaFVRejhldHh3NHZkZF93YjlhVmhOdHJEWmVDakZ2aFRXb0hYNTFjRVFvaC0yaGctcmhvbkg5aHBIQktvcnpxTjJqRzVNb2U1cGl1ZzkxbkFCanItRHN0OU1UUlgwSndRWDdPNGlYM1BHVVYtUXRFMWoyUTFicFBsbUl5Y3ZjYVRlQmh0eUVUWm1QdEZwZUtZY0E?oc=5",
+      "source": "www.marketscreener.com",
+      "ago": "9 Std.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Establishment Labs Holdings Inc. hebt Umsatzprognose für das Gesamtjahr 2026 an",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaEQyVkwwblk3enJxZU9wckhSbWNpX250NnFoSVpSYUNSTlJOc3VYYlBSMHFkajVzMHp1bDZlY29qQjFSUTl0bVhYSjM1a1lPMDVTV1A2ZTJTcmp2WV92d2g5T3pLU09TalVsaUpDUGtuMU0ySm9FQXplU3Z1b1pBbFZPSDRfa2NOa0Y3cG42c0FYdTRBdURnVEEzQWY1d0FtemdxZFBjcFlxQ1pSQkNDTk5tUEI2cWx3X0xDT1Fpb1JDbW5TQzZmanJfOEpCeTNBdjB4TDR4dGY1QjNVbmc?oc=5",
+      "source": "MarketScreener Deutschland",
+      "ago": "9 Std.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Establishment Labs Holdings Inc. Raises Revenue Guidance for the Full Year of 2026",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVlBQRFhsXzA3YkhPUWctZWdJZFBRVk43RkgwNEduVG1WSFVQWGNSVXpHS01pRi05dTFZYWRlbkpoSWt1czgxdUttOVVFT011bV83VC02dlgwaHYtT01DRk1FY3VFeGFxUUlZOEJFb2M0cGJYdHVuTUhOSVdsWHB6dWp1c1h0dUZBX1o4VjFvT3NrSnZqbndSS0Yxd0ZRdGt1Mzhyank3aFlhSXhBM3lhUXB1aG11VnloRjFXdEJUR2Y2NVRndTlMckpINkREMk0?oc=5",
+      "source": "www.marketscreener.com",
+      "ago": "9 Std.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Woman’s body found in Sherbrooke park",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMVM2LTJFMzJFamNTdndqM1B1N3RkamdsYmUzaDZTTDVnc3pHWVZuZWl3UnFRbXhEaHgyejJtZDBjZGRGaU1RMkh3ZXVxSlFwc3ZVRmFSUG50YzFKQXNlMFVXYmUzSmN1Q0lIVXJicU1GMndSS0NkZElHTTJFNS13ZTF2NA?oc=5",
+      "source": "CTV News",
+      "ago": "9 Std.",
+      "group": "Markt & Kongresse",
+      "summary": ""
+    },
+    {
+      "title": "Galderma Aktie News: Galderma präsentiert sich am Donnerstagnachmittag stärker",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORWpTcnNjNWVoT0VUWW1HT0xCdjRnMFE0dVJmQUxScEdfNnFzWTVBWDFERS1ZcmZwaFYyZkM3RUFyOG80WmpoYW9ndVJFODJJZGZjWWg4VXRrOWhxbmI0bVBkOWwtalpYLUVqaE1qNjAxN2o0Wm8yWU44eGY4R2RWWFNDZUM4LTB2ejQxNjB6N2tzOWc3VDNR?oc=5",
       "source": "finanzen.ch",
       "ago": "9 Std.",
       "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "Establishment Labs earnings on deck as analysts see FDA catalyst By Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUWRpNUluZVd4TFl6a1pfYmphZE5pTnFZcUlWQ195QUpEeUN2VkYybi1hNmVWR1VkeXc4RTZuVmk3YVkzTG5YYVdMQTdaMm5TX1RlWXFTUXZocFYxUXdqVEZVd0RGX2tJVXBVVjM3OHpfWjJCcTBoaGlXdFVfaEUwYjlZQ2I1WkNWcnBqZ2hOcW9CbHkxNmN2aWtwYjhXeEdYWW1IUVZOU1ZRbHhLZ0tiMGQwMWRrNFFDN0g1T3p0WnE5Nmc?oc=5",
-      "source": "Investing.com Canada",
-      "ago": "11 Std.",
-      "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "Brustkrebspatientinnen in Aarau gestalten Geschenke für Betroffene",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTWlPMlFack03SHRtMDljUG0yZXVIY2t3WGpQb3puVkZvWThacFd0SEJ3d0pFY3RSb0Y1NHV4TE42NmpURS0yNHlkbGJTeVZHR0lQTDFGTUItdlFVYUpXSERJTFhKVTMteTNpcmpfZ2lSY1djcGZ6OC1rOFVSNjl3NXhjOW5tTWszdFI5eTRDdmhFcGRZdEJLWDBTS2hfNEkxc2tfVW9fSzNUUGFreHdYbEdDZlM1aWljODMtS0NfdnJWaFAxUndYNmR6UlllSzQ?oc=5",
-      "source": "Aargauer Zeitung",
-      "ago": "12 Std.",
-      "group": "Kliniken Schweiz",
-      "summary": ""
-    },
-    {
-      "title": "Galderma Aktie News: Galderma am Mittwochmittag mit grünen Vorzeichen",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMXBlYnVWaVVMZkdWTzlYU1lLc3d3UERtMUpaVXlnRFdNXy03NkJ5WXIxWmhkUk5pMjhvVUhSYUtyNVpORE5RUDQwbmZzcmZiTU1xSlNiN0FpWHFib2lwak1hdVRlNlE1QlJramJDeDFXQ0xUT0xJSEFXWWpyTlhvdG4wWjVwSTktanZxS1hXVXdCS0NycTI4?oc=5",
-      "source": "finanzen.ch",
-      "ago": "13 Std.",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "Best Mattresses Under ₹25,000: Buying Guide",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVEVsRFRQVTR5UUJSdjFNbFJnZzZHVUtnRHF6V0Nqb0RBLU01WGxzb01RaVVYR0xZaEMxckVEdktZNW9id1Q1MEtUc3FvQUtNVlMwVG1zSGZJRVZvdzVLcGM5U0l5MDB3bjc5V0RkWWhmT2U2OEJSZ3ROcFdTSHZwZW8zUTZJZ1ZS0gGOAUFVX3lxTE5fRTNEXzdnUXh0T0g3c09CNHItb2xFdzl2SF9uamVLOGFScExaZ184M0dJM2x0N2NZYkVDQmVwWXV2WHhVTEYxZUxyUDlLLWRybVI3UnRFR2dyN0lhM0hpWE5EV0cxbzQzTTQ3NW1vMWgwWmdnd3VsdDRnS1B6RDljRk4xM3lCVUFRR1VzYkE?oc=5",
-      "source": "The Assam Tribune",
-      "ago": "14 Std.",
-      "group": "Markt & Kongresse",
-      "summary": ""
-    },
-    {
-      "title": "Jivita gewinnt Hirslanden als Aktionärin",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTlNNYTZfc216TDJlcS1VUjZjZ2dwcjhwZDNQN24zNDBwZEFXcmczdjBjT21Va1NZMURXVmhGUlI0aWRHdFZIenI4U05HczB3b3J4SXE3b19pOWhVMmNYVGJZZE1IdWtQYjlscE5yUW8xTG1zT2pTTVdKX0NuS201WFNrT0FndjBjRGV6dDFBaw?oc=5",
-      "source": "punkt4.info",
-      "ago": "16 Std.",
-      "group": "Kliniken Schweiz",
-      "summary": ""
-    },
-    {
-      "title": "Galderma Aktie News: Galderma gewinnt am Vormittag",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWENZUDZEV05CVHJubVd3UTZSOHRUc2gxb01kbE5SMU9kNG1CM2tEOXkzTmV4TmpHLWZObkoxR1ZVYUhlMFB0TkV6Y2NkUUVZb0w0QXlrbDdYZmxsU09wZFJYdmtlMFJqRjhoU1psMXdJT2tiQXBWVEV3ZWx0UGQ0M3NDUlE3eDV5dThiOEpBLWF5R1VhcnB3?oc=5",
-      "source": "finanzen.ch",
-      "ago": "16 Std.",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "UBS Upgrades Integra Lifesciences(IART.US) to Hold Rating, Raises Target Price to $14",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTUZ2NnVDTEV3emdhZFNmaVN3bHJ5RHdNWi1aWjhJY2pyV2QzS0lxaVFkUEJDRTMtS0lnUmNrUXlQVWhBMWxGOVFCQjlMbkFDRkljNmRkWnNuUVctX1lMN0lUN1FyWTZteHI3aEdWNjF1emQ0Q3AwLVRPek94c0RJRkduNFE4YTVTZ25VWWhFYkF1eldsT0pBQkdNXzM0R0VhUV9taVJkXzJCUE9hdmFMOXBpbw?oc=5",
-      "source": "Moomoo",
-      "ago": "1 Tag",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences Is Maintained at Neutral by UBS",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOHBRSTlUbHpxWHdZNmZtVEpXUVlLWXA0Q1JwSXpfYk10c3ZNMFMzOTlaSU92T1Z4SmhNaHc2WXQwTEc2UkxtUjJrM01udE5SMWtJempDRVNZalBVZjY1eEJfbVdLRjVyRWItOFZKTF8zWUZIZ0FFWlpTOXBYZlltalJMaUs4bjlHOHFKWXJ4OXFodXhKMjZVX1psNks?oc=5",
-      "source": "Moomoo",
-      "ago": "1 Tag",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Establishment Labs Price Target Cut to $95.00/Share From $117.00 by TD Cowen",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObWpNTVFJVFN0LTFTM2lZa3hIYjdnMGhXbHFfTlFRS1hkajh1T1J0Zmt5ckFFdkVYWWE0eURqbU04S0hHOG9DYmdLbnd0Yjk3dFNnTGdYNVotQ3J0ZlA1aGdhdmZrdndJbC01WVNoQVhxZlFxNUNaVjFBMEVRcFk1eHI4Q2hYUmY4Wk5aRXEwOXozYzdrTE1jc3NDX2gycWFI?oc=5",
-      "source": "Moomoo",
-      "ago": "1 Tag",
-      "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "Investigation launched into Integra LifeSciences over alleged securities fraud after revenue misses.",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQlZBZWtwOWo5UWR4N3hLLUFkWW92RXVROGUwRDJWRS1OcDR2ZUNveWxYYWJpMGtoSU1ham56WGpJM1pFWlBlUDFUeG1MMm05UUVQOVJrMkdETWdXWTFidG5meGhNRUdud0hzVDh0MDdWWHIyNFl3a2dnenVYZEl0VlVmVUZ3STJsM1llV2NWelY2dlBKUHFubkhCc0I?oc=5",
-      "source": "Pluang",
-      "ago": "1 Tag",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences Holdings Corporation : UBS bekräftigt seine neutrale Bewertung",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPMlNuQzdCWUR1UFJLaG5iWWZndnl2cDhXSTNmbDcyMTBGbDNORndOdTVVdjNNanZXUXFyUmhoMEZIT04wSkZyTVF2VkN1MF9qQmdHUkxHY3ZzZnFOX20zSlVfcWtGWmtGRW1QMGJGeFRUcHA0RUZXaDZNbk0ySHVrQVIxeVlrWl85b0Z2NFNIcm04UTA0bjFpQktsT2FBZnFIUExrOEU2YS1UdkFkVzh1Zl9PY2hsTlo1cjM3YWx1OG5ZbGR6aUFxWnBhclA1aUpvUlg0andEWm1oZ0poUC1fTUp3?oc=5",
-      "source": "MarketScreener Deutschland",
-      "ago": "1 Tag",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Intelligente Medizin als Wachstumsmotor für Deutschland",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWUdRbzJwZzRtM1FJV2hMTXp2bXlPa2FpSUlZVkx3a0NuR0s1b1Zjek9GM3Y3eUQwejE5UXNxR01IakZDZ1ZPVEVlR2tRSU1HZ0tQa0ltOEZkR2dMZ1RBbnhsVEhhVVRsZm93V2JiNXhORmdpdUUxTUlJZUthc2Q3c1VsN3E4OHpGdFFqa2FNeW4xaklkVmFtVmY2OV9ORXJQazFFZkw0WFg0VUY3MnRFWE1Hb3JvekRKQl9xSkVIZmlCOUlOQ3h4NjNBNWhidnREWHM3OXFIcw?oc=5",
-      "source": "Braunschweiger Zeitung",
-      "ago": "1 Tag",
-      "group": "Regulatorik Schweiz",
-      "summary": ""
-    },
-    {
-      "title": "Telekom investiert in Tandem Health: KI-gestützter medizinischer Assistent entlastet Gesundheitsfachkräfte",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcmUyanVnS3NWdi1zNm1VTjVfcVlwRnFFZ1dOU09hUnAzcS1Ud3VYTExTa2dGeHZsbmp5aFo1TXZMQ3c0VTRwbkxjWmNjMnNuaW5GNGVGOWRjdUVPS0xvYWdjRHkyM3FENms0ZDBBNjNjdjRCX0pFMVR5NUxOeW4ya3VJaEY0aG83aVljZzVZQnR3Ykx3NGRKQzlUZV8tMUlQVF9VSjhkSlMxSXJ3SHc?oc=5",
-      "source": "Deutsche Telekom",
-      "ago": "1 Tag",
-      "group": "Regulatorik Schweiz",
-      "summary": ""
-    },
-    {
-      "title": "Umstrittenes Herzimplantat am USZ: Interne Mails belasten Swissmedic",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONEVKcEh4bVFWWTNoV1FPUkR6eFBXanVpOXNUWTd5dUFsUEhYeU5IYWtEejMyS1NiNWEycGIxNW9lLUV6Y1Y2a25TbnExMEN6N3dUdDNkZXh3cGlxZHdyS2o1RHFXZ1NMeENPUURmWjJ0QkNxQURueDYzZHBxOGJoaDc2MWNTWnR4cGtzcGdWUldUWURVbWZmQWhnWWc4Qm5iRl9SbQ?oc=5",
-      "source": "Tages-Anzeiger",
-      "ago": "1 Tag",
-      "group": "Regulatorik Schweiz",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences Aktie: Truist senkt Kursziel, bleibt bei Halten",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQYnBfTkxDYmNWVFFQRnpUUUxFT1dMRFlTLWxHcmN1bGF1RVVtOVFwM0RJTFZmVi1LMzM4NjMydlJ0MkZDd3l4d0Z6a0RsSW91M2dldldsenMyQ19RYjJRMHhUYVJOTUs0NjFCRXlhVFRkS19QbTlXU3pRZk9ERkk0TUtPS0FvY3c4NWwxdTlMeFZuM3E5em5NY2RabDd0MjhOdVVmN2JYMHh3Z1VOaDc1UUZBMVgxVjMzN2ctcTE1ZzRBWklTSk1xQ3pVZXNtdV9TMGRCeQ?oc=5",
-      "source": "ad-hoc-news.de",
-      "ago": "1 Tag",
-      "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     }
   ]
