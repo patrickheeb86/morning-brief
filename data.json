@@ -1,61 +1,197 @@
 {
-  "generated": "2026-10-30T01:10:41.996135Z",
+  "generated": "2026-10-31T00:53:37.915173Z",
   "forex": {
     "eur_chf": {
-      "rate": 0.9222,
-      "change": -0.0024999999999999467,
-      "changePct": -0.2703579539309989
+      "rate": 0.9194,
+      "change": -0.0028000000000000247,
+      "changePct": -0.30362177401865376
     },
     "usd_chf": {
-      "rate": 0.8285714285714286,
-      "change": -0.0020223017797794673,
-      "changePct": -0.24347664879728353
+      "rate": 0.8229502327246688,
+      "change": -0.005621195846759797,
+      "changePct": -0.6784201884020444
     }
   },
   "bitcoin": {
-    "price": 76979,
-    "changePct": -4.821472400138592
+    "price": 77416,
+    "changePct": 0.5069232940281658
   },
   "stocks": [
     {
       "ticker": "ESTA",
       "name": "Establishment Labs",
-      "price": 68.41,
-      "change": -0.56,
-      "changePct": -0.8119,
-      "asOf": "2026-10-29"
+      "price": 62.46,
+      "change": -5.95,
+      "changePct": -8.6976,
+      "asOf": "2026-10-30"
     },
     {
       "ticker": "APYX",
       "name": "Apyx Medical",
-      "price": 2.69,
-      "change": 0.08,
-      "changePct": 3.0651,
-      "asOf": "2026-10-29"
+      "price": 2.6,
+      "change": -0.09,
+      "changePct": -3.3457,
+      "asOf": "2026-10-30"
     },
     {
       "ticker": "IART",
       "name": "Integra LifeSciences",
-      "price": 12.83,
-      "change": 0.59,
-      "changePct": 4.8203,
-      "asOf": "2026-10-29"
+      "price": 12.75,
+      "change": -0.08,
+      "changePct": -0.6235,
+      "asOf": "2026-10-30"
     }
   ],
   "news": [
     {
-      "title": "InMode-Aktie: Sonderausschuss prüft strategische Optionen weiter",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNM2NnY2haVF96NkdIRVJDaFY4akhGZ3k1WVk3d3J6UGhlcEY2bnJ5R0wya0pCekJJRHhaYUVaeGdKLVBfdjFFZFA3QVM3VUM1aVNaQVphYlhsRXg3QkZ1RFRFMHBFQ2t2QnluNnhqbEpBbEUwMGhXTVU5S1hTUE5JbGxwYWNDNjRVWXFCWmZ1Q0stSTZuaTRzMzB1QjlMOGZvWTd3RVktTjlhZWM3ak9OZk1qd0hrVUxISUdOOWIyeU0?oc=5",
-      "source": "ad-hoc-news.de",
-      "ago": "1 Std.",
+      "title": "Establishment Labs (ESTA) Stock Slides After Q3 Earnings Turn Cash Positive",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRVpXelVYcmY1Z3AxcDI4V0U1TXphZC04RVR2bFAzZTNjWHB3VXNjS2VnYlBXamRHbUdla3VmNEpUSmJkRlVuVEZCSGR1N0pkVE82UG9ub1RacnpFY0NrMXY4OHMwMXlNdkQtVkM3YlE0RXBhNHMwSFRJaWFOWVFYcWo5N0IxMnFwQmlZclEzWjBCV2tmUFdLN3l0MURCNFQ0dnVyM0tPSm1sX1dyeUt0S0VfalZSOVVvX1pPWEJjdi1QQm43cV80Q3phaGdNM0U1NThUako0V2ZLZmM1eTdwZ9IB5gFBVV95cUxQakRXa0lvRDVXc1JkT2lkdnEyREFzT3J2eUdRbW5zQldKRmZFTnZpcjJFcVV6a09fMk16bGgxc01fQUp3LTJsY1VIWnZsMEE5Zm1VRG5nOUo1NTNXcUdhOURPUjk0Zm9nZmxPVjhLVFhtTjFJWUVzRzhrRFFnUks1bDZEcFNkZmVpVnN1SE9VWGVIWnBDbU1Id1gybnRxcDZoc3psNUR3UVRTaU55LUxwY19UN0FEcWlPRTZ3QmdSRVdYWkk1aUQ4NE1DckoxNU1lc2FyWjdFQWlFc2loS3RWTHluSFA5QQ?oc=5",
+      "source": "Simply Wall St",
+      "ago": "36 Min.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Biomimetic Facial Fillers: Merz Aesthetics Expands BELOTERO with New Cheek and Lip Fillers",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lUmZHMGhlZzMzRGU1MTRnbl9yVUIzOWVKdHpWRGFUMVBGQmNYYy02Q2R6Z2dXLXJxZDdteERMejRXdS1nY214NUdNTVlKakdpNDNSYXp1aVZKaWUtWVdmZ055UlA4WGpUdkpWNw?oc=5",
+      "source": "Trend Hunter",
+      "ago": "6 Std.",
       "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Agnez Mo Puts Cleavage On Display In Plunging Dress After Denying Breast Implant Rumors",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ibXNXb2g1a3hBalF1MFJtdWhpbkE5M1dHTmYxN1k4UU1aSVVXYUM1cUZSWFU3Q0ZoeEVyR1JWdGpMWUUyVTZRSm8zTm9SQURSRE15QWJjdWtKNlBvbzJmczNpQU9mMW5CaUZwag?oc=5",
+      "source": "The Blast",
+      "ago": "6 Std.",
+      "group": "Markt & Kongresse",
+      "summary": ""
+    },
+    {
+      "title": "Establishment Labs Holdings (ESTA) Just Gave Investors Something To Think About",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPNmgyVFJ1cFhhdm5MODBDNEkwMy1pcHVhWjd6Wm9wTVBvc1dOYjRKNWFWdVVqb0t6TmRNTHpHU3BfcWhOeU54TE9lMWtwUkdLbGpQZUhiOGFZclJSei1vX3pkSDc4T1BpQnk0Nmd5UkxTOFhUUkRJOVJ4T1ZmakpnX3Q5V1VNanV4cWJSNk5HWVdOQWZ3M1BiYVZ3ZHBSMDJDbmR6YWFmR2M2MGI0OVJwT1p3VDV3OEgteUlkRlVndTJJYmJhX2NTY3J6NWZzc3J1YUh1d2RoX20yWFVyY0ZQMWZ1Rnl3amfSAecBQVVfeXFMTzZoMlRSdXBYYXZuTDgwQzRJMDMtaXB1YVo3elpvcE1Qb3NXTmI0SjVhVnVVam9Lek5kTUx6R1NwX3FoTnlOeExPZTFrcFJHS2xqUGVIYjhhWXJSUnotb196ZEg3OE9QaUJ5NDZneVJMUzhYVFJESTlSeE9WZmpKZ190OVdVTWp1eHFiUjZOR1lXTkFmdzNQYmFWd2RwUjAyQ25kemFhZkdjNjBiNDlScE9ad1Q1dzhILXlJZEZVZ3UySWJiYV9jU2NyejVmc3NydWFIdXdkaF9tMlhVcmNGUDFmdUZ5d2pn?oc=5",
+      "source": "Simply Wall St",
+      "ago": "8 Std.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Galderma-Aktie: Aktionäre billigen Dividende und Wahlen",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQWtaRmJUeUV2ejhBM0Q1bjZFN21BMUlGNThnVU95bjBpd2dlZHRUVnZEenFYazNzdkZrTVRmbmNIZUlFaUo5a0N3cDIyRkQteDM0bFM0eER4ZUlFNVBQOE5CcFVWcVlPYTctUnlIOFc3OWg1VnNoQXFTMXpkNlYzazZVaVJNU1NmN3paRmR6aUZjTm5DZkV3T29mQVJMT01CVnM4bDJkanJ1em4xLTVpZ2FUN1J3bDZqS3c?oc=5",
+      "source": "ad-hoc-news.de",
+      "ago": "9 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Galderma stock: Strong Q3 growth lifts 2026 sales outlook",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZjJHZzg5cmcyM19KbnRoc3RRa1lHcFYteFFDY0lNTzA0VTFvOHVwVkpuNzdSVkRsWkFfbGZTb2lWR0h4VlFfVWp2aFhtMXFZVU1iaDExdXozVnRSOTNmbWxZLXRVN2s2bjZqTE96anhaZ1d5N0IxaGVudGhNelpKSXctdlExQWRKai1kc2VnekFFVWdDaG9MSXg0NDJ3akE5S0J5VHdrNXZpa3h4Zk80SjVJa0VvdFJSS3E0?oc=5",
+      "source": "ad-hoc-news.de",
+      "ago": "9 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Integra LifeSciences to Highlight Hands-On Education and Neurosurgery Innovation at CNS 2026 Annual Meeting",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaWVXcmNxMXRjLVFhcmUyaTAzdUh3V09LZ2J6ZTZEZDdLM2RpRW1KQnJ3dGJGZVNZN0w4c2lWRmV5VTczbVA5Z3F2WlJidHN1UEFqaURJN2hoUGxlUXo0ZW9Lb2FEWjRTNXpjVkpzaE5GV0wxRkhmRlpvS2FhSVRWMnVrWjNyQ1JnR3lId1FvbzZ3dko0bWp4X2dpWQ?oc=5",
+      "source": "Yahoo! Finance Canada",
+      "ago": "12 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "Integra LifeSciences to Highlight Hands-On Education and Neurosurgery Innovation at CNS 2026 Annual Meeting",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPRFVvZDdmN1N2MW5VLXdZVkxyZVpoc2xhLUk3bmw5NnlTOHprYVVHVzRVS08wbzdCU21oSm9NdVgzQmhPd3pHaHRBNklrWV9iRzdXWGxVNEQzWmUydDk1WnZ0dW00ejBVc1JIQ0hobm9PUTR6aFZYNU1CZVBpbFd3RjhqLU45OHcwY3RxaEstTUNoaDFDSTZ2Q1JBeHJaMzdvOWNhc3ZkeUVpZ01JMmRPN0hmbV9nYTUtR1dZdERRUDZ0VnREZVVzSjZDN25iS2ZVdWtISkp6ZDhYVzgwaUJxY05LX0NERUdVMXBwUnlGU0FMZDJBa3ZzT0JhTlJZSTdrQ3ZEWVVUVUNSaU0?oc=5",
+      "source": "GlobeNewswire",
+      "ago": "12 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "An estimated 13.8 million patients need neurosurgery yearly. Integra will offer hands-on training.",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbGxaTlVGbTEtaEJPMEludy1lZHFPeXdjWHljRXNZRGk1dkZjekRieWdaOVY4NnlJc3BKWk5BNlU2S3pxRjFNbHJRWjFvVFhCVDl3VFpiTnd0eXJfc09WZVNVNmR2Y1J2Q0laVWp3YkNfTjNhWGs3X2ZteWdxR25rWmxHd3hTbWNlaGswbGtOOEQ1SmUwSngzcUVvMDZ1d2ZxNDZaWl91MzJ0bUV2YzdtZnNn?oc=5",
+      "source": "Stock Titan",
+      "ago": "12 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "Galderma Aktie News: Galderma gewinnt am Mittag an Boden",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObHJfUmdPNDE4Q0lBWDZWZ0xHRHhhWS0zclZPZ3RFY1lWVXROUlFLcVliZ081OUJYV25PaExTUUhieU53eDdlNUF6eWhRWG1uNXktZU1LLXNFZWZJMUFMMzFBcWN1WWYya1JJWkFxUVhsdXppdmdaN0NQU29ZY3RIbHFzdjZhNWtFOXkta3owZWNQbENpOHFF?oc=5",
+      "source": "Finanzen.ch",
+      "ago": "13 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Mizuho reiterates Establishment Labs stock rating on strong sales By Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVnJEalk5dTZLSkNuS0U1REdVOTEtLUJDNThSSkNhYTlpM0dsTXZRSlJudWIySEVUcXJKa1YwVnIwemhDWU15cjJDaFl6OHFKNGc1T3FFU2lWTWJVSjFaaUNUek5WOFVKS011U01hVWFHY1ktbFBzcENKNzJWMHIxU3BPeDU1Q0lqVHpGQ2Y4amZVTkZjNURFQTBNbWxZUVZSRzNsZVMyNDk3Z0I3TE02aEROUWZVWmJtQnc0VERTVEJhUlVJ?oc=5",
+      "source": "Investing.com UK",
+      "ago": "14 Std.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Establishment Labs (NASDAQ:ESTA) Posts 34% Revenue Growth in Q3 2026, Achieves First Quarter of Positive Operating Cash Flow",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQR2M4R0VFNV93SVlSUXNyeFExNjdYQTdNeHR3OG4xVXlUeV95ajJDWnZldENQYVVVTGgxNHFwSGpTU2RzVVFhdzFEWWV0bUl4dmwzQmw4eVk4V29lNDJLUjdUcm9LQUN6bENYQldYdVhqTGp5T1FWalhseV9DWF9JcExXQUZRSTRWWWVlZHpGa3pTeElTckl5WlQxSk5WMEIxVDhKOEtlZGNyY1ZjcFozOG1JakpEa1pZakR5eDdESzFvMkRLamNLUk9Hc1Mtc1psRURBeTd3MEcxSWk5TTNadDZqZDY2T01ybTJKT1VJaU1tbG5oa2EydjdlMzk?oc=5",
+      "source": "Kalkine",
+      "ago": "14 Std.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Establishment Labs Holdings Inc (ESTA) Q3 2026 Earnings Call Hig",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQOHNfdW1CU0NjT2FBREpNdHRGaDNzNFhTNGxUYmFvVlZsR0h4NUc1clJGZk9fY0dla0xtU1BMZHRRSTNQQ1VYTTBuU054cVJyNVFRX0oyWVFrS1RwRFAzZzkya1Q0OTg4N0hsVXV3N0tDdU83SW9KalV4T04xTWsyeGF4NUw3SFY0SVc2ZjdNbzBMYTlmN1U4WXdqYllybW91cWNxb3JzNjNxQ0JoS3hUWmh4WTdsX002OFVJNHZ2X3pZNDlBSEVvcFFyS3JSc2ctdjdDbHZiWFJOTVVqVGVzRnladFd1SEFxOHByZUV2ZnpWcEgzZzcxcg?oc=5",
+      "source": "GuruFocus",
+      "ago": "15 Std.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Galderma stock: 2026 sales outlook rises after strong Q3 growth",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZUdiTE1fTE5xOFFFbXQ0cTFUSGwyRWY1Ykk4djg5Y0M5LS1vUGNmYktkX3ZoVG5uWUROYmlzXzg2Rjdsb3JNYm5fc05RWG9odTVHM0V5b3prcVNxLTRjbzBLSTRpLXJkUWxKYlg5NWFsM0lPYWtRNTFQRVV5X0dQUGtuT29GZWl1OTF2MmdaRDJTWGlGVnFaa1BNelBzRl9PVzhpRWpnQS16clIwc0FtU295Z245Y1R6X2Y3eVVxaDQzVmc?oc=5",
+      "source": "ad-hoc-news.de",
+      "ago": "15 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Galderma-Aktie: Höhere Prognose nach starkem Neunmonatsgeschäft",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMWdOR1JXWFJiZnRMdjVETDhKNmxza1lzT0NkTFpqbXQzZTNoa09tOUllMnViT2NfckR5VGFNYVdBUFhVQW9QazE1YmpRZjUxaTJXMk5XSWJ6SjF3WkNsT1BpcU1fZ0lITC02X3ptYnJ6Y09EOTFZb2V5NVdfeDdHNXJuYml0M3hkZGh0eFBOZ0ZxLUVnaFlXOVR4OWpxaUQxX09hNEFPeWdLS2FaQkhBZk9fWGNXaWZhb0hzTGRSbk5JUWdnVmc?oc=5",
+      "source": "ad-hoc-news.de",
+      "ago": "15 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Silk Laser Australia (ASX:SLA) Expands Aesthetic Clinic Network as Body Contouring and Injectables Revenue Grows",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPTnoyZ04zTkFrUE5mVUVoRS1fTXNGUVEzTEJBYlNGWHdCYkVjdjdKWXBmYjdBd2RjVzF1cW1WSnRyeFNqMl9GTmlqbHp1TUxPdDM4QzNJNnVSM0REc2JjVnJiS3JJbnRicEFJd2FqMF9XNk82dllQVHVhbUJrT3hQaVNDLUtvZmh6TWVqVDRITTZGcTNIQ3lsNHMteWNEVFdfQWFITzQ3V1lNbWJ6dzVaT2IzRGNLYV9YZS1pWVdtRk1WZVNDaENKdTc5eWZSUEtDNjZkRmszOHRaTkxtT01MaVRR?oc=5",
+      "source": "Kalkine",
+      "ago": "16 Std.",
+      "group": "Markt & Kongresse",
+      "summary": ""
+    },
+    {
+      "title": "Establishment Labs Holdings Inc. (ESTA) Seasonal returns chart",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9sa01TaHNqWkpqa3VyOWlLMmJtYjhBa0FMTVFFc3I2MW1URHRCQ3Q1dUJIR0NtQjJCZTNRSURsR1NlTmszcXQ3SGljdXQ3Z0szOTVRWmdvY0VQbWFDTWxWWjR3?oc=5",
+      "source": "Yahoo Finance UK",
+      "ago": "17 Std.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Establishment Labs-Aktie: Umsatz wächst, Ausblick angehoben",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOS0pQTE9PS28yMEo2TjRyWEc2azNuR09DQ2xWb19lb3lENUxPc2dPV2Nza0ZTMklVM1lBdW5TZDBXYTV2VjE1RGMyWmVaYnlHLTF1b0JYT004NEc5QWRyb2s0QlZhalRQVFRlRFRCaGo0R0wzYUx5bFcyZ2g3SzZWN2NMVVhMV2IyaDUxaXdFNnQ5ZUgyMUh4bFBCVnZyRjhnMzBDX1RzbkRCeHh3NE1kWmhZRlBSTENp?oc=5",
+      "source": "ad-hoc-news.de",
+      "ago": "23 Std.",
+      "group": "Motiva / Establishment Labs",
       "summary": ""
     },
     {
       "title": "Integra LifeSciences Holdings Corporation (IART) Seasonal Returns Chart",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBuSlpFTGFDSzI5clZJUTg4emN6V05vNDV2bWlLWngwUDhmYjNrQlJMX3lfakRfS1l0SkVfR2oyaXFjdG45OFBOQmRGZDhIalh5RENkRFFvNVlBdzNrSms5dHZR?oc=5",
       "source": "Yahoo! Finance Canada",
-      "ago": "2 Std.",
+      "ago": "1 Tag",
       "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
@@ -63,144 +199,8 @@
       "title": "Establishment Labs Holdings Inc. Q3 2026 Earnings Call Summary",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPU2ZJalFPSlIyTU96YWk3dnh6OW0zWm9FWGlzTzU2bEpHWmJuNTByMTBCUUJUU0xvTWJZbUJRZFRIMW45bnpwY2t1TktUaHZfRm9zVWk4a1o1UXlKUnNvSEFvWWJkVjhyWWJ4OF8yTlk2N2hwOFh5MlRBOG1yYjhQSmtVeGhLTThBaXRYcklMOWhmN25nMFdyT1ZQY3FFX2I5?oc=5",
       "source": "Yahoo Finance",
-      "ago": "2 Std.",
+      "ago": "1 Tag",
       "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "MSc-Dr. Trinh Xuan Long: Updating technology in plastic surgery",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMGdld1VYVVVOQjZqc1VBb2VGZWh0VDV6QTNSdXlQNlFSdC10dnlPTUV0T3I2R2FaTVRoZFdVNklPOTNPc1JGMVdBbTktQWlBcEl4RWd4UEd0STNrQzN0ZGkzSmJCNHVvYUdmUmJTb0tOTkFrVnoyTk1KeVFNY1JHcFBJeTlJYUFFeF94WFdZRWp3NWhldWhSa1R4YUlBZFk?oc=5",
-      "source": "Vietnam.vn",
-      "ago": "3 Std.",
-      "group": "Markt & Kongresse",
-      "summary": ""
-    },
-    {
-      "title": "Ruptured breast implant constitutes work-related injury, Quebec tribunal rules",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZGlTV1RKZy0xWUpncjh3c2x3SXV5U0ZZYm9ETFdRU2Z5MFNjVURTMkpsUG5ZTUNyU3dZVzZHRDhSN05HUzVLR2RUQnBydThTVG9zY0djOWdsS3h1ajB3QkNLeWJ1aW5KRXpwR2dnMkFZWmtfdHlZNnBYcEFEY3gxYWdOTUZqX0lXaEZPSGZaM0R0aDk4M2RoUnhrdlNaY2EtakNyYklkSHgwTW5QYnk2QmR1NHRGVWxyU1E?oc=5",
-      "source": "CTV News",
-      "ago": "3 Std.",
-      "group": "Markt & Kongresse",
-      "summary": ""
-    },
-    {
-      "title": "Establishment Labs stock price target lowered to $93 by BTIG on estimates",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQS0tCSE80dU1rcEhoYWh3Uy1YTDBhQ3VFSjFTQ3FxUDRQMmRXOEtmQ2VZSjdUdkVDMURuZnBXcTI1WmF2OVlDNzhkRzJqRFJ3VktDRVdwQUN6U0pSNFZwendFQnhNZVN5RzJxd3ZuWk5MaEM2WUs5MEVxUDg4ZXhvX01MWERLNk1rbllSZ2dKcldadGxEX0NhMXZLblBDMkVScFRSMXFCcUJvMDMxOVhWNndzZmNzOE91ZzgzRVRFN0hJaC1NUmFBbzBzYUI?oc=5",
-      "source": "Investing.com",
-      "ago": "5 Std.",
-      "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "Establishment Labs Holdings Reports Wider Than Expected Q3 2026 Loss",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdlNKeGNuMHZoMFgzTk1xdmpSc0RReVk2X1MteGlUelVRbHBreEtHckhKSXFqajNPSHA1Sk5IeW9hcXFiNUJSRFFxUFdoOTVTMWlwT3pqSXpDallCTzkxTGJvY0ZXWktMR0RJVFJSVFI5eF80WWN2NDMtcVBWMHRfdlNXWElVMU5zUWxsN2dqc3pzX0lZeFNrZmhvLTBXS03SAZ8BQVVfeXFMUHZTSnhjbjB2aDBYM05NcXZqUnNEUXlZNl9TLXhpVHpVUWxwa3hLR3JISklxamozT0hwNUpOSHlvYXFxYjVCUkRRcVBXaDk1UzFpcE96akl6Q2pZQk85MUxib2NGV1pLTEdESVRSUlRSOXhfNFljdjQzLXFQVjB0X3ZTV1hJVTFOc1FsbDdnanN6c19JWXhTa2Zoby0wV0tN?oc=5",
-      "source": "AlphaStreet",
-      "ago": "5 Std.",
-      "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "Establishment Labs: BTIG senkt Kursziel auf 93 US-Dollar – Kaufempfehlung bestätigt",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPeGNPelEwN2RWQmVlTU1DYk42cFlUQVZUMDY2UjJna3JMeUZINUo4MUo0RWU4aWRKVWF2T2l2UXdrX0VkZENWTGFtQndpeDdpeWZpaDRjNFE1SG5ubmsxVWFRMHNkNzBrcVQ3Y0NqcmlZdHNyTlBFYzRJV0NHUUJkaTZNR3pzQ05hcnRzYWpRYk1oNW9NLU5XTXNUSjBLeFBCTE1OMUxFVy1Lb0Z5VEo3aG1NVGhjcGpJUFoxTnUxbXRNMHRtWFNKMkVmdklxb09CM0RQTUlR?oc=5",
-      "source": "Investing.com Deutsch",
-      "ago": "5 Std.",
-      "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "Establishment Labs Inc. (ESTA) PT Lowered to $93 at BTIG",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVHJQS1dVV2dhUGlRcnZqbVVhRW5zZ2hzWm43YWxRdi1ndWJRWGJTM2c3TEo3QUVIQXh3WHlIdEJMM29rNzZERzFRUEFNcG53MmVZSl82U1FTR3p3SkdJOXJNbUt6YkJYMEpaOTdHQzh1cTFSVl8tOUE0RUxLbnBfcDNfOXJDT1M3TXVQNEdnTnVqcGVnUlF6OHJVeVFQd0VGZ1JWMmtEeWo1dGY4NFNKT3AxTXN4Ny1jZERiNWhraXk?oc=5",
-      "source": "StreetInsider",
-      "ago": "6 Std.",
-      "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "Establishment Labs Holdings Inc. reports results for the quarter ended September 30",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOZ0tKUTZRbFRKSFRIUGRXV2M1RFd3aVJwRFF3a0RvNERaRjNqdlNkS0FCUnkwcVhEVGhwREhlSjdGbDZ4Unl5SDNpeWJGLTZ4dWVIS1RoVTNCaXF5VXNRTy1VcVNXMzg3TXJCMnR1SVFfRnR4bFhXaVRHX2FLWmIwZzhvbHF2ZXFLTFktYTgySllPdVFYLUE1NXdUNnNpNlhGSTk2b0dITGs3S2pTTHM3QkVLNG9heGE4dmRhSE14WG9UQWtZRVdXQVI1R3VVc01jUWJQYk5rdmpFc3dKdk4xVkxWUzJfdGhNR1I1UEZsY29JQzNHbU5wU3VVbDF2UQ?oc=5",
-      "source": "TradingView",
-      "ago": "7 Std.",
-      "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "Jennifer Lawrence makes crude comment about the effects of childbirth on her body... after admitting to breast implant surgery",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOWlLY3A3Tm9OMlYyRTRjUGsxQ0NQQ0g4eTNGMU1aTTBoQlBBZFJjOWZGLWlNRFZBX2hDMzh0NzBkalBGMEVOenZER1RUSjlubHJMbGltVExCZXhHQnlhQXlnTFYxLURyY0NGbHR2Rm5jQWVzR2tFREE0QlZESEV1cWhGY1ZxN3JsdlVEVlREbkVUc2VZa3N6NjRQSlZ5aGVTNVEwX3V0N240SkNoZXhYbEtVMjVxVldhME9PU0hHbldtWXl5Q0lR0gGzAUFVX3lxTE5tbW83cG92cE5RRmxMbmR4N1cwdU5fVVVvWFhUQWVqM2RCeDB0a1FaWk1ZdlNldjE2WGRHNlFLR0FBLTZWaThXUFZFaHBfRkd5c3FPRnpZVjFqQ0tIcU56bmE0ellzUnVkZVd5SUFsbkZ4YVBNaHo1QVpJRVQxTWpkVzhET0tZVFlMdjlvR1hPeEhfZzQ0R0g0ejZMQ2xiWVlKdUNOWnV2b0kteFN5RHpsVTdF?oc=5",
-      "source": "Daily Mail",
-      "ago": "7 Std.",
-      "group": "Markt & Kongresse",
-      "summary": ""
-    },
-    {
-      "title": "Jennifer Lawrence makes crude comment about the effects of childbirth on her body... after admitting to breast lift",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRFFITUhPZ2FZMGdGU2J5djlPWWxNSks3YkozUFR6c1JXQm5NWF9vSVJQcWJZOWxjNVQ1Mnk3ekZCZ2g5NTQyS1NER3R0aGtodTdNei1LY3JzTFd4OWlhU1daUDlDREhHb3ZPdlNHdXVBT3NnQk9fMjYyRjJyc3JleTFjTC1yWlIyc3FvWVdQMmw2SjBHR20yQWFTZ3hLLUdpUWFQRTQ3c01WX1MtUEHSAbMBQVVfeXFMTm1tbzdwb3ZwTlFGbExuZHg3VzB1Tl9VVW9YWFRBZWozZEJ4MHRrUVpaTVl2U2V2MTZYZEc2UUtHQUEtNlZpOFdQVkVocF9GR3lzcU9GellWMWpDS0hxTnpuYTR6WXNSdWRlV3lJQWxuRnhhUE1oejVBWklFVDFNamRXOERPS1lUWUx2OW9HWE94SF9nNDRHSDR6NkxDbGJZWUp1Q05adXZvSS14U3lEemxVN0U?oc=5",
-      "source": "Daily Mail",
-      "ago": "7 Std.",
-      "group": "Markt & Kongresse",
-      "summary": ""
-    },
-    {
-      "title": "Galderma-Aktie: Hauptversammlung billigt alle Anträge",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOWlfU09UTUxJYjhlNmthUVhyMDgycXZSd0dXbjlwQV94ZENIYld0SzdyTEZSQlUwbksxN2g4UlJkQ3lzMXppcENDMzh3d1JKQ2hKdTJWaW5BWG8xSi16WUhKdGN3eDVFb1JLUmJsRDkxZFhWdEZBaHMwbEtRZ25DbVBsNWY4eHJCRm5Ia3dkNFlBLVA2R3lDZjV4dUZsQzZjaV9sQmIzS3BOY2JQMjBnUWdqelVKeVk?oc=5",
-      "source": "ad-hoc-news.de",
-      "ago": "8 Std.",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "Transcript : Establishment Labs Holdings Inc., Q3 2026 Earnings Call, Oct 29, 2026",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNaVQ3VWRDdHprTHE3Z2FVenBHYkZ2UmtLOWg2eTg0LWU1QUt1LWgxblRoZjlDOXJ6b3J6T04wYXpCcHo0WmN1dV80YXo2VTZDVWVWSXN3VDJtcm01UXV0UkpQZUZYU0p3YU8wUGR4M2RwUXZ3RExhdjZfR3lPU0l6ZEY3WmR6N1pyMUYyOFZySW9ranVPeVV2Q1RUdDh3Y3ItVzRxMnBDdktfUEtObURNV1gwY3lDUWlFT1l3dGhSNFFNeE1iSGNrbTctMGtSM0tWX1pLY2lveDNERXZvOVhjYl9oNENEZGpyZWtmZlo3TENFc3MyY3hwVEd1aw?oc=5",
-      "source": "MarketScreener Deutschland",
-      "ago": "8 Std.",
-      "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "Transcript : Establishment Labs Holdings Inc., Q3 2026 Earnings Call, Oct 29, 2026",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPM2tUYUZoc3JnZmQ3OV93R2hMRk9CQzlJMWlaUWNyTjhvMkd1ZVFza3gzT0JmTXBYYTlQQjNqMmZ3c3N3MV93UF83c0o1TjlueF9BZV91V0F1WDlQRkJ1TEtCY050ZHlYZ0hiZFVnaEREVmUtc1JOYXJQX3NZSzRLY2d3Rm1TbFJDaExURmNiN2d1YWlFY1dSMXRmQzBnNi1ROXZTQ2hBdEJVUHFKMUVZeEdQSEhMV3Z1VGtQWlRaTmNxTTB0NEYyNw?oc=5",
-      "source": "www.marketscreener.com",
-      "ago": "8 Std.",
-      "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "Establishment Labs Q3 Net Loss Narrows, Revenue Grows; Lifts 2026 Revenue Outlook",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQelJqekROc0JZZmU1UU9KR0hadUVlSzRxQk43bXcwLWJIa3pmNW1VaDhmYldhNVdxZEZxaFVRejhldHh3NHZkZF93YjlhVmhOdHJEWmVDakZ2aFRXb0hYNTFjRVFvaC0yaGctcmhvbkg5aHBIQktvcnpxTjJqRzVNb2U1cGl1ZzkxbkFCanItRHN0OU1UUlgwSndRWDdPNGlYM1BHVVYtUXRFMWoyUTFicFBsbUl5Y3ZjYVRlQmh0eUVUWm1QdEZwZUtZY0E?oc=5",
-      "source": "www.marketscreener.com",
-      "ago": "9 Std.",
-      "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "Establishment Labs Holdings Inc. hebt Umsatzprognose für das Gesamtjahr 2026 an",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaEQyVkwwblk3enJxZU9wckhSbWNpX250NnFoSVpSYUNSTlJOc3VYYlBSMHFkajVzMHp1bDZlY29qQjFSUTl0bVhYSjM1a1lPMDVTV1A2ZTJTcmp2WV92d2g5T3pLU09TalVsaUpDUGtuMU0ySm9FQXplU3Z1b1pBbFZPSDRfa2NOa0Y3cG42c0FYdTRBdURnVEEzQWY1d0FtemdxZFBjcFlxQ1pSQkNDTk5tUEI2cWx3X0xDT1Fpb1JDbW5TQzZmanJfOEpCeTNBdjB4TDR4dGY1QjNVbmc?oc=5",
-      "source": "MarketScreener Deutschland",
-      "ago": "9 Std.",
-      "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "Establishment Labs Holdings Inc. Raises Revenue Guidance for the Full Year of 2026",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVlBQRFhsXzA3YkhPUWctZWdJZFBRVk43RkgwNEduVG1WSFVQWGNSVXpHS01pRi05dTFZYWRlbkpoSWt1czgxdUttOVVFT011bV83VC02dlgwaHYtT01DRk1FY3VFeGFxUUlZOEJFb2M0cGJYdHVuTUhOSVdsWHB6dWp1c1h0dUZBX1o4VjFvT3NrSnZqbndSS0Yxd0ZRdGt1Mzhyank3aFlhSXhBM3lhUXB1aG11VnloRjFXdEJUR2Y2NVRndTlMckpINkREMk0?oc=5",
-      "source": "www.marketscreener.com",
-      "ago": "9 Std.",
-      "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "Woman’s body found in Sherbrooke park",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMVM2LTJFMzJFamNTdndqM1B1N3RkamdsYmUzaDZTTDVnc3pHWVZuZWl3UnFRbXhEaHgyejJtZDBjZGRGaU1RMkh3ZXVxSlFwc3ZVRmFSUG50YzFKQXNlMFVXYmUzSmN1Q0lIVXJicU1GMndSS0NkZElHTTJFNS13ZTF2NA?oc=5",
-      "source": "CTV News",
-      "ago": "9 Std.",
-      "group": "Markt & Kongresse",
-      "summary": ""
-    },
-    {
-      "title": "Galderma Aktie News: Galderma präsentiert sich am Donnerstagnachmittag stärker",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORWpTcnNjNWVoT0VUWW1HT0xCdjRnMFE0dVJmQUxScEdfNnFzWTVBWDFERS1ZcmZwaFYyZkM3RUFyOG80WmpoYW9ndVJFODJJZGZjWWg4VXRrOWhxbmI0bVBkOWwtalpYLUVqaE1qNjAxN2o0Wm8yWU44eGY4R2RWWFNDZUM4LTB2ejQxNjB6N2tzOWc3VDNR?oc=5",
-      "source": "finanzen.ch",
-      "ago": "9 Std.",
-      "group": "Wettbewerb",
       "summary": ""
     }
   ]
