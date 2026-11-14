@@ -1,141 +1,197 @@
 {
-  "generated": "2026-11-13T01:58:50.424790Z",
+  "generated": "2026-11-14T01:30:46.942294Z",
   "forex": {
     "eur_chf": {
-      "rate": 0.9232,
-      "change": -0.00019999999999997797,
-      "changePct": -0.02165908598656898
+      "rate": 0.9266,
+      "change": 0.0033999999999999586,
+      "changePct": 0.3682842287694929
     },
     "usd_chf": {
-      "rate": 0.8331378034473422,
-      "change": 0.0032645222394694917,
-      "changePct": 0.3933759904545921
+      "rate": 0.8384002895403547,
+      "change": 0.005262486093012497,
+      "changePct": 0.6316465380921955
     }
   },
   "bitcoin": {
-    "price": 70864,
-    "changePct": -3.708334409729497
+    "price": 68332,
+    "changePct": -3.868958494621131
   },
   "stocks": [
     {
       "ticker": "ESTA",
       "name": "Establishment Labs",
-      "price": 68.62,
-      "change": -2.07,
-      "changePct": -2.9283,
-      "asOf": "2026-11-12"
+      "price": 70.75,
+      "change": 2.13,
+      "changePct": 3.1041,
+      "asOf": "2026-11-13"
     },
     {
       "ticker": "APYX",
       "name": "Apyx Medical",
-      "price": 2.89,
-      "change": -0.11,
-      "changePct": -3.6667,
-      "asOf": "2026-11-12"
+      "price": 2.81,
+      "change": -0.08,
+      "changePct": -2.7682,
+      "asOf": "2026-11-13"
     },
     {
       "ticker": "IART",
       "name": "Integra LifeSciences",
-      "price": 14.35,
-      "change": -0.42,
-      "changePct": -2.8436,
-      "asOf": "2026-11-12"
+      "price": 14.4,
+      "change": 0.05,
+      "changePct": 0.3484,
+      "asOf": "2026-11-13"
     }
   ],
   "news": [
     {
-      "title": "Galderma Group AG (GALD.SW) Stock Price, News, Quote & History",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IVzhTLWhCSF9iMk9LTmduUmlIRU1UaC1od1pTRnVLOEZSb1Q5bldDc1M4Vi1Kd3JfYUNBNXhyeU03NWU5MnJjVWg5OXBBcVlTalYzSjdR?oc=5",
-      "source": "Yahoo! Finance Canada",
+      "title": "Establishment Labs Holdings Inc (ESTA) Stock Up 3.1% but GF Value Says Overvalued -- GF Score: 76/100",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdTV1YU91ZUVRbmlKcUp0R3Z3a0pKZ294YmRXT3FfQlY4RFlxY01hWC1oZEpTQWFXbENtQVFjc0dVLS1qOExNbDlQZzFiSkswM2ZnY1JubENlWEE1bEdoSXpwYl9kbzhucTIzRGZPb1FqLWtaeFc5UUJTZ3J0VWVoMUlHak9USlN5NWFMaXpqSWhJSUdqc1lUV2o1OEdKT0l6QVloOUVGT1ltcXg4OWdoX1JjX00xWmMweHJUSUxCWTZZdWtYQmNuNnNYMA?oc=5",
+      "source": "GuruFocus",
+      "ago": "1 Std.",
+      "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Could breast implant illness present as MS?",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lektZejhlcDVIYkYtMGM1NFVQeW5Idi1fSE9YRzExLTM0bnJ0bjZ0UjFYWTRUNE5mSks0WnRNTnhrLVBuUGoxeW1qbHk1UkU5OF92MEJCa0s0Zw?oc=5",
+      "source": "CBC",
+      "ago": "3 Std.",
+      "group": "Markt & Kongresse",
+      "summary": ""
+    },
+    {
+      "title": "Does Christina Applegate Have Breast Implant Illness?",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcHA4SndnY00wNXYzWl9TSmtrT3NRMHVHdXl4X0dPZjd6cWFpQ01aTldSUGpHdE9URC1SNU8xWENDTHM5R3pIdEM3Q3ItMU0zT2Nwek4wdUVMX0tMZUhPRkhINU5DU3FlaG9tMlNUMzYzZV8tOVg2Vm5JX1Q0WVc2MzRn?oc=5",
+      "source": "Breast Cancer.org",
+      "ago": "4 Std.",
+      "group": "Markt & Kongresse",
+      "summary": ""
+    },
+    {
+      "title": "Form SCHEDULE 13G/A ESTABLISHMENT LABS HOLDI Filed by: BROWN ADVISORY INC",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOX3IyNV9WNEJFQi1scjFOV0lDZG9kSnJtQTlQekFTS2gxNk44N2ZhTnJfU2lrXzQwdHhQQnZpN2c0ZUpGcXVnZnM5RnRvaHkxbDlVcnRTRFdWcUR4ajVHem9pWFFLU0J6VHNDWUZvZmNJX2lqb1NXR0JoYjZYTjhuYlRlQkRRVEg2SUFaNVdORU9VQ2VwSGxndG4xZUh4MzNCZHp2bU9WREN1bzI4VnI2dUxUWGRxT0R0aGEyQXNfMTJrUThsOTdoSE93?oc=5",
+      "source": "StreetInsider",
       "ago": "5 Std.",
-      "group": "Wettbewerb",
+      "group": "Motiva / Establishment Labs",
       "summary": ""
     },
     {
-      "title": "Kylie Jenner accused of trying to hide breast implant scars at LACMA Gala as viral photos spark BBL and lipo speculation: ‘None of her body parts are real’",
-      "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxOZmJQZ1Ruc2ZpUklhMm1aLXB5LUJXZl9BZnN6cU9KNktqekFXSWlqSzlpZXJERjBOMWo2VUdlRFhiY1VmR3kzR2ZxRE9tbnEtMGJxUXVkdkZEQkFNdHBvX3E1RDBTZ0hQTDkzVnZYdGpGRF9WdTRMUzlDX0xOcl9FcTdhMG9LN2tTRlRheDNrVDZWclZMc1pfTTg3U294S2VjZ096VDMwNXFZQXo3OFJFX0NiaEN6ZExmcmNtVl9VeGFhamtEVmUtbmNYM0tzYnRRTWgyQWREWGdDVXAtNU5RUHBBTTNVTVoyT2JkWXpKTnNHWlZ0Tldvdnp5WnBBVndLNmxNdkFTQ2RkdlVhdmVvZV83Wm53bGIxTUh2VVk0SDE3Y1pFYmppS2QzZDJybGNhT2xpQ0puekREbnZkS0ZrVNIBwAJBVV95cUxOZmJQZ1Ruc2ZpUklhMm1aLXB5LUJXZl9BZnN6cU9KNktqekFXSWlqSzlpZXJERjBOMWo2VUdlRFhiY1VmR3kzR2ZxRE9tbnEtMGJxUXVkdkZEQkFNdHBvX3E1RDBTZ0hQTDkzVnZYdGpGRF9WdTRMUzlDX0xOcl9FcTdhMG9LN2tTRlRheDNrVDZWclZMc1pfTTg3U294S2VjZ096VDMwNXFZQXo3OFJFX0NiaEN6ZExmcmNtVl9VeGFhamtEVmUtbmNYM0tzYnRRTWgyQWREWGdDVXAtNU5RUHBBTTNVTVoyT2JkWXpKTnNHWlZ0Tldvdnp5WnBBVndLNmxNdkFTQ2RkdlVhdmVvZV83Wm53bGIxTUh2VVk0SDE3Y1pFYmppS2QzZDJybGNhT2xpQ0puekREbnZkS0ZrVA?oc=5",
-      "source": "Indiatimes",
-      "ago": "7 Std.",
-      "group": "Markt & Kongresse",
+      "title": "Establishment Labs Holdings (ESTA) Following Higher 2026 Guidance Is It Already Fully Valued",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSUVDMUxCNk1sVi1Ja0IzYVNsQkJ2OFQzUnRJNi14NTFiZk1XRnc2ejYxQWtQREZWRzg1c1YyVGR3T3dnNWpVaWlIUThRT3Q3OUtPU0FzMC1NcmE0b2VyT0F6Skw1bzRUN1RlaXY1OU93bFBtT0dRazRkUndCdkNJZ3Btd0NMdjVMTDZGdlVtdHc2N1NadDk3Z0JXVmN2NFZOX1YyN0xySmhac1NWWnBwTjEyeHVuemlCVmQ5VlpubWwtUlJ6QnpBb1hCMVBKanFTZGRHanA0RVlsNUROd0NLSTVR0gHnAUFVX3lxTE8yanhFYTdFOWJJaVhnQUlNV0pZQ2NQczNYMUhUSTJWX01uUEZ5Y2FwSmVxdlNpRlMyUDcyZWcxQnVjREVzQzhmUUZwYnd0YmZJdVhUdlRwLU9xV3ZBX2RaZFdYVTd6WkMwaVY1TWZ0M3BIWV9wNi1HU2R4d1M3NmR0dGxFc1pfeFdpdENPSXFzVHNTNVA3V2lDNFdEWTVZVGE1T0tCc2gxNjRtVkxSSXk2NFo0VEkxXzhOMzF5UDVBVHI2ei00UFdObjJiNVZLY2FaUjB5aDI2U0FqT0FhUDRHM0NCTmZCZw?oc=5",
+      "source": "Simply Wall St",
+      "ago": "8 Std.",
+      "group": "Motiva / Establishment Labs",
       "summary": ""
     },
     {
-      "title": "Fans React to Kylie Jenner Hiding Breast Implant Scars in Viral Social Media Post",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUmtKaFZkWDhYTURrTTRFUjA4T0NycEJucGhpN3o1bmNvSTM2ZFEzT1haazEzNW5PUWdlT1lhbVZGZW1FYk1LRUwyWEx3NHBvR3h1S3UzLWNVWVJsS29DNXhjRjRpMGxETTNiSGtJUThHY3hlV2FxVVFINm5vM0NqR2lSd25haldxWWY3dDdaWklXTzNNaFRPa2t2R3hVUU1nZ0tic3l5SVk0U2xt?oc=5",
-      "source": "Hypefresh Magazine, Inc.",
-      "ago": "9 Std.",
-      "group": "Markt & Kongresse",
-      "summary": ""
-    },
-    {
-      "title": "Galderma stock slips as CFO transition and December vote draw focus",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTWswdThqZTFaQl9LUEVRSDV1My1qSmkyTFQxeXNINFZhbExSRUc0R29vdlFVNHQ3MnN6U1l6OHFKakhWNEREVkozaG5mcXdacndaLUZBLXFQSERiNlpoUDNJc2NLak1CZFQ2bW1zckZMQ0owSW95dy0ycFpLLWRleWNJal9sNU1ZMUtNeGZxZTRfZWtpYTcxS3Ytc3JaUmtwSHUwNnVZeTRYN1J5SDJIbldMZDBKUS1VOFFTd2xyMTZlMnlqSVFkYVJ3?oc=5",
+      "title": "Galderma-Aktie: Restylane Shaype erhält erste Kiefer-Zulassung",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN1ZlSUpDSmJyLU5RamRDUUQydGxXMzlaVFhPMmVZSko0NHJvY0tFZ3AtM0FiM3AwN0J2ZHd3UEdzQUkyejNNeG9jWEo2YnFPMGdLUkhycThCVWFZTURheXNCSzMteDdBazVsOVJ2ZUNiQWlLQS1pYnB5U1ZzNFlIU2ViQ2llVkFsSG1rNWlaWFZ5Q2VmQXRPdVpYaEkxdm9IejZqdkt6YU5mYTRIMmkzSWNlY3c2bS0tNHMzSi1kT3BuUWc?oc=5",
       "source": "ad-hoc-news.de",
-      "ago": "9 Std.",
+      "ago": "10 Std.",
       "group": "Wettbewerb",
       "summary": ""
     },
     {
-      "title": "Christina Applegate fears breast implant poisoning may have led to MS misdiagnosis",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOM194OU1ZeHhPd01pQWxTUDcyYjU4Um1WTGVxUkhaTUlwWmd0RkZCaFR0WXJ3VzRaM1pvVUhEUXhqSklOd3cxUXhvSDlyT243RWJmZWdLZDNweHZOOUxaVUxBWlZRbkNXMzBnUEhFWkI1SlFxdEJxbmhlalBhdkxPQ0tRV1luNU1WUUlXUlptb0MxSTlabE5UUVdOQ043WlRfSUw3cWlOc1BuZ2tEakZ6Qw?oc=5",
-      "source": "Washington Times",
-      "ago": "9 Std.",
-      "group": "Markt & Kongresse",
-      "summary": ""
-    },
-    {
-      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Integra LifeSciences Holding Corporation",
-      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOdWo0YmhZVkR6U0NRbDFUTTdaeWdheHpOQ1RGTHhkbXRaS0NDMXZLTC1QV0x5Qm5BUS05ellyVjhfUjU2dmU4dTAwb0JIVTRGY3Mzc2xSQWNQZFhOT0dzQm9oVEI0dXFpSk9ia1RXYTJiN2FLU1lqczFnZkphTjdDVzBGOEhYUUZzNWNqS2FHNElMYzFIRmt0TlZFWE1HQnhVbGM4RTJEYjNSdGM1Wmp3WHlvbXBrck1BalNHUXpPc3FaVGFWMVRsbE50dzNTZ1FjTzlwNDlodGNVQlZoNEpyWkZDS2FVdWlwSnNsQnZuYnpWeEJLZTZvakE4NS1WTENPTjFuX2h6dl9kVFNvMktCYw?oc=5",
-      "source": "PR Newswire",
-      "ago": "9 Std.",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Galderma Aktie News: Galderma fällt am Donnerstagnachmittag",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSGVFUkkwYUNvVEo5R1lYTUQ4dlZqNkQ2LV9YSjEwUVNubndwZm1QdjBUeGxmZG5mUDg3QTFwMDlabS02T0I3b0JDNktLMnFzUTk2d3JrOFNQX0ZQeGcxNzhoaml2N3lScHVuekhYWE9udGV4dmtuYXBqdnllazkyTlRHT2RtcnY4alIyaUgyQUxMUlhEdl9z?oc=5",
+      "title": "Galderma Aktie News: Investoren trennen sich am Mittag vermehrt von Galderma",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPblhWZFJuRW12WFE2RzFwd1FmVU9DUWhHQVVHdDVaanRMVy1VZkNDRFlrRE1mRXV3MWhPLWx4QXBIX0hWdmhCWkRkMk1iN1R0TjRKbnJJUzltcE1VYTBDX2U1aUw3YXg0bVF2bmNOZTNUZ0l1UXlBaHlPNVhLcWU1V3dTbm83aDlfalJKdkw5eE9fLTd1cFlN?oc=5",
       "source": "finanzen.ch",
       "ago": "10 Std.",
       "group": "Wettbewerb",
       "summary": ""
     },
     {
-      "title": "Neue Chefin für MyPermanence Oerlikon",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcFhhQlF4aEJUTDhQVXRjX3FFSFItcy0wZUhhYkZiOEhJY0xMVVd5VFJidld1c2dXejYxSDYxVW5UNVpqZjExVm53U3RKcG1RNW5kSjdnTzU4eVY0SzNjeUJHT3YxZURyUzNqc0loeGJZenVHSVB3YU5BTXAxem96Sw?oc=5",
-      "source": "Medinside",
-      "ago": "10 Std.",
-      "group": "Kliniken Schweiz",
+      "title": "Galderma gibt Zulassung von Restylane Shaype zur Kinnaugmentation und Definition der Kieferlinie in Mexiko bekannt",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNdkdfdlNWOUZ0TjQtNWZYb2l5XzFxRC1fN1FQUjlsQ3BCbVpWTEc0eV80STRYc01Qb0VxNS1CdHdsLWdjcGlyNmJFcTVWaUpZeWNEd3lkLVhwcnBqQ0dNVXp3c0JDclJTLTZtMTRmejRRWXR3WkJITHRiRTIydWpLQ3VVQ1QxaVMzZUx0dlFfMHYwTWYyaUtqRlA4U3Fnb1RadEUwcHB4UVBtd2V2dVhWaGZTNWdEcTNTUUxKbHFJUzlhUUxUN3hCcE56bnM2WFFpVlFmZ2pUTzg1SWIzV1ZXVEVSTWxCdTYxR0dMaWs4cGVXZ2g4eWRfZw?oc=5",
+      "source": "MarketScreener Deutschland",
+      "ago": "13 Std.",
+      "group": "Wettbewerb",
       "summary": ""
     },
     {
-      "title": "Christina Applegate Floats Breast Implant Theory After MS Misdiagnosis",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYVQzUk56cnhPc3hsMDItd3U0Y2l4UHVpR09JZGlpOE9rUGZCOGZVVy1UdmtyUXlsYV9FZXc5NlBmdGkzWHV3RHBxWWRsZ05fdDNiaXA2LUl0eWZ2d2ZrZW9hUkxxSll1d0hNdzVoR1JpTlA3X3dFLTdoMEVlR1FrejJOY0JkUXpId3I2R2szZUtDLXRxMU9TUlJJWE91aWFaVnVnOGxPektXNlVB?oc=5",
-      "source": "Showbiz Cheat Sheet",
-      "ago": "11 Std.",
-      "group": "Markt & Kongresse",
+      "title": "Mexico Becomes the First Market Worldwide to Re…",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQR2tjdVFCYkFHNUs1R2tUcWFnYl9vTk9yZk16U0NZbDNwZmdqdEYzRE5BRzFNcF9xRmlLZDc2Q3NJTGFDMG1UYWlKNWtrT2F6U2RrS1p6LXF5ZkVwang5Q2dtRElLazlsbWtmSE9PSElEZi1HR2ctRkQ1M1FPenIwZE9mZkRwcTN6VDBxcURSWGNuajVQT01tLUFHRXBESzBMUzZaNUcxTDhpYUNRVnZUY0ZraVN5QmFEbXc3cXl5LTFfNHpaM24wNFozMzdCZThmRW01WUFONEJqZWxLaHNsankyWXA4NnY3cXZQa0p6bDM?oc=5",
+      "source": "uniindia.com",
+      "ago": "13 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Galderma-Aktie stabil: Zulassung für Restylane Shaype in Mexiko für Kinn und Kiefer",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPN1hqcjJuYTFFa0lLN0NpY19WbnBFbExzdlh3WF9VSHc5RmlXVUJKZXQxcU0wTHZ3VXFaVlVTRnpuZGI4N3dQNXJVOW85eEdwQUpHUG0xWTB0QllKbmdJcXFMOUZ2NndjMDYydmdERi1WRWdhdEVSNmo2c1hhLVc5V1pkOXRMS2I0cnhjc0dmS0dfblFJd0E4V2F3eHhlal9RV0R0RC1Ua19pdVRJODNsT0hWaV9Tb2lUS1A2RkxIYU9JaEJ0OVFlbUVVR2hzS1VHMkQ3UA?oc=5",
+      "source": "finanzen.ch",
+      "ago": "14 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Galderma stock faces CFO transition ahead of December vote",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTUZOMlMwbzUxV2RDNTQxc2l4V0dydEo1NE1GR3JIOFUyeEpnZVVZUG5EOGh6MnRxeGhsRDhDdWxCVm4zQWJGYnVWQVBOZEo2RlB3UENaeWltUEZsamVwdkdZMC1iNEVNSFdOWjhKMXdOQVlIcS1NWk1mejJHVHE5LUJMNGpOOHZERXBXQVl1aHNQMlVsdzJJWXZVR1R1elVLdEhXWmVqdE5wVmtRd2JiMl9OZGxqdVF2VzcxU1ZB?oc=5",
+      "source": "ad-hoc-news.de",
+      "ago": "14 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Apyx Medical | 8-K: Current report",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONlVpUlNPdzlVQkN4NDE5TVlnMWNjUVh1YXhqUWNlMEhGZFhfTXVrZ28yOXJDYmtEZDZmdXZFdWxRVkpidkh1NlBRZllOeU83UURSX0FZWEtnUThkem1wOHEtUU5LNEZfbXY3NWZqUVBRLWhDYk0yRmJwajhzdzFJc0Nn?oc=5",
+      "source": "Moomoo",
+      "ago": "15 Std.",
+      "group": "Apyx / Renuvion",
+      "summary": ""
+    },
+    {
+      "title": "Integra LifeSciences Holdings (IART) Stock Dropped, What Is Behind The Fresh Attention?",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZmtFem5VcnBrbmpGa25BMy1nazF0aUhtNVVkWlZQZFNLVTdONUgzU09zUllwbWQ0VENnci15ODZoRXBGbFdEYXBfNm5PMEZjazJEOVhncnVKU01FRTB2VHNPaklyaG9IN3BaU1g4Q2pvMXQ4bnFkN3hPN1JfUzVFX1p2bmZ4N2NIeXQwLW91dExvMVp0QTRKbGV0N1BBLXFlQktfQ19CMEk3VnBuYktNemVTWGR5WXFfU1BUMnVER1VpSnVFZndMN1YzZGJ6ZXNISjFOeEpsTk96eEZFSnVQYk9WbkfSAeoBQVVfeXFMTWZZMko2aVNITGQwS1hIcUY2eFhvR1VmYkNDbXdVSnYwbWIyd3I5aG02VzFhRWFJWC1iRUFpZUgxdHp5aDU0Nlk2U1BKN1pMVi1CYXlLeUp1S1owOWtOcGpDSG1iczhsVlpteV9CZ1h4bmdTOUtXbUtsRU1rVDJyMThSeXJLaFJhbTBNYjVIbXVEaHNKRzlmTE1vdzNYai1pbkRYZzd3TGdKbHp0UGgxS3g1QXJ2cFZ5R1NoNFd0V1V5Qy1GSUJURmY3dDF6VUNKMUUwVHVIMjlpeVNKRHU5elNFMzJwY1c0ZkZn?oc=5",
+      "source": "Simply Wall St",
+      "ago": "17 Std.",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Integra LifeSciences Holding Corporation",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOdWo0YmhZVkR6U0NRbDFUTTdaeWdheHpOQ1RGTHhkbXRaS0NDMXZLTC1QV0x5Qm5BUS05ellyVjhfUjU2dmU4dTAwb0JIVTRGY3Mzc2xSQWNQZFhOT0dzQm9oVEI0dXFpSk9ia1RXYTJiN2FLU1lqczFnZkphTjdDVzBGOEhYUUZzNWNqS2FHNElMYzFIRmt0TlZFWE1HQnhVbGM4RTJEYjNSdGM1Wmp3WHlvbXBrck1BalNHUXpPc3FaVGFWMVRsbE50dzNTZ1FjTzlwNDlodGNVQlZoNEpyWkZDS2FVdWlwSnNsQnZuYnpWeEJLZTZvakE4NS1WTENPTjFuX2h6dl9kVFNvMktCYw?oc=5",
+      "source": "PR Newswire",
+      "ago": "1 Tag",
+      "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
     {
       "title": "Apyx Medical Corporation (APYX) stock price, news, quote and history",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1IRFNGclpSajJCSWRuUzFUQTFGLTFNNXRBX2RaN1VkanhBZlVPZVZfOWJMaHZFNVpCTi04QWNiMXJCX1FqVkU3VHg2OFFoWkhLU2c?oc=5",
       "source": "Yahoo Finance UK",
-      "ago": "14 Std.",
+      "ago": "1 Tag",
       "group": "Apyx / Renuvion",
+      "summary": ""
+    },
+    {
+      "title": "Skin Clinics in Seoul for Foreigners: A 2027 Guide to Korean Skin Treatments",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNGNGZl9tRXVROW9zT1o2U2NGZ3VGUmR2MVQ4d3k4VHg2a19FcW4yOFVOVGVnd3A2SGZONnZsRC13QnJfQjVmcTJ6OW03OEgyS3k5ZUsxQkFzR1AxWVZvTGJ6amhGSTYtZEtjMFU2RHBpMzg2Y084WldJRzFJdW1DLThpZ1dZN1dXUmRpZFNFR2lyeEo3Z09yeXNqUlBDa05HMEk4WEkxLXFFZzBNaV8tSGpLUnpHTlMtT1Yyd2tR?oc=5",
+      "source": "Big News Network.com",
+      "ago": "1 Tag",
+      "group": "Skincare & Geraete",
       "summary": ""
     },
     {
       "title": "Establishment Labs Stock Gets A Lift From Raised Revenue Outlook",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOEhQRjdnMGRva2Rfb2hkc0dJeGNFZGZzbUZVdVpSVDFodkJIcFM3YkVQTkZLenZuWWZWOTFvZFU0emljaDdBN0ZnSjJYOHF5aEptaDdraUVKVzUzRUVmNkNMa05XTnJOMkJrQkdJNHNHOU5jMVFBTFM3UjRKMkxKR1dnSGRYT3ZyOTZxU3FjVHNrbzFfX3pqYU1Ed3FwWU9m?oc=5",
       "source": "Yahoo Finance",
-      "ago": "22 Std.",
+      "ago": "1 Tag",
       "group": "Motiva / Establishment Labs",
+      "summary": ""
+    },
+    {
+      "title": "Apyx Medical at Canaccord Genuity forum: betting on GLP-1 demand",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPY2pGRWpjX0FsZy1McGdnTWd2bnF1cEFHbVJ6M01zOTFQSUhTMlF2LS04SHJRcFN1TnNnX3dhR0toZUZ5UmhpbktuWll2dVQySHJnYjJPT2ExbDhVQmM2X2I3V1BNOUpDS3VpVHlBaTJ2bWZFdDZuUi1vcERYSXdyWFc4OGJlLWVtcmVWN2FoczRyc0YxYTl3NkNQaXZuVVpCTnpKSkhBeWo4b0xpdmxWWWxibG45Tm8xR24tV2NENU4?oc=5",
+      "source": "Investing.com Nigeria",
+      "ago": "2 Tage",
+      "group": "Apyx / Renuvion",
       "summary": ""
     },
     {
       "title": "Apyx Medical at Canaccord Genuity forum: betting on GLP-1 demand",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRHk1TFZyVWJhWlNrM3Y0Z05aY2pOSkFtNVFLb3FnNWxoOG1ZTUR2UWhnZGIyR1lQU19yendrZjJCYk43aHd2Yi1ZMlI5S1VNSGw3T2xKZWJKa2NCdXI4Wk5fM3RNZnNNOUM5MGhOcjZfd01DcHNVVFpPYUk5QWVoQWhTcTdpR2ZyV3czWkhhbHNlM29RLUtoaVoxR2l3bG5KVVhNNElfM1kwVm4wQm9wdkNUVFJRZWxiNDQ4dFE5NVU?oc=5",
       "source": "Investing.com Canada",
-      "ago": "1 Tag",
+      "ago": "2 Tage",
       "group": "Apyx / Renuvion",
       "summary": ""
     },
@@ -143,63 +199,7 @@
       "title": "Apyx Medical auf dem Canaccord Genuity Forum: Wachstumsfantasie durch GLP-1-Boom",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbkdzUzdkRnJiX3pCZUNvRGRjTm1KSFdsempROGxIOGlMM0l0YXdKUy1YVDNMSy1pcXI5MTgtQ2hlMzc3SVhRZnNsaXdzYTFYdFNRbVl0RXB4Ym85Wl9iaXdSTmt5ZVJGZUtOZE9KTkRkeHo2cTRjM0dKZmJHd1Q2UGZkMC1lRXQwdjg1N3dUTk9BVFRhcldCaC1XcnVoSEFoR0IycmxKMngzLU1rTi1TVnBBLVNodk5ub1Q1YVNoY2cwdTFLT01aaHpsWkM?oc=5",
       "source": "Investing.com Deutsch",
-      "ago": "1 Tag",
-      "group": "Apyx / Renuvion",
-      "summary": ""
-    },
-    {
-      "title": "Investors sue Integra LifeSciences over revenue miss and operational disruptions from flooding.",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPa3MzbGZUS0RVQ1JsNEowcURtcnRrTTRpLURuX1k1dDRhR1lJQm4yT0NZT21wTVVKWDRtUHZvUlFiXzNUVWNHNnRwUkpWYTdJT0dGT1MzdkV1R3VWbGRpM1JpTDJCYjlpMUxXLTA1VnA5UWEyUV92NjRLNHVnTFdIS2FMOEFSNDFNb251aERfaDhvWUxZVGdhUkNqNWFxSTJORy1Yallhcw?oc=5",
-      "source": "Pluang",
       "ago": "2 Tage",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Form SCHEDULE 13G INTEGRA LIFESCIENCES Filed by: Invesco Ltd.",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTUR1Z25IMm5lZmlNY3o5R1hUY1VDSHRka29MWWJOcDNoVWlPcUczWVZzaUZMWmx4QzFZWE9CUUxqcXB2ODZBRUJRa2FlS2ctblFtRWgxZGRSVmhUa0phTzhoT3JoN1ktRUVjLUQzY28tbTRFcnE5WmtiWmhYYzhGbU5pQ2JxTFVLVVA3bWFvODU1Y2Z3Y0llTGtBYk5abkZGeURKWEV4aV9jRDRqM1pLVVdvLXYtdXlBMkV3?oc=5",
-      "source": "StreetInsider",
-      "ago": "2 Tage",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Transcript : Apyx Medical Corporation Presents at 2026 UBS Global Healthcare Conference, Nov-09-2026 10",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQTjJVVDYtZ2VEMjBEZGJpdTJrQnlCeG5PYzFBeWtES1lLRFRXajVtLVlvenkzWVBPTDdOWVQyYk1jMXZDX1ZUUmVMZ1ZBbFRZQ1drQUVPTnVPNlhMSUhSQURpRHR6b0hsN0tDZkFXeXd3cFZwLWVDV0REQmxXaEJPZVN6TmhsWkp0T01fRzl3VTVtZGVhNFVydFBmeWczbkVsTXItSGRCb2JQekJKc0FnVG1qYlF0b2l6T3pNM1JsMEVQYnJGclV3TTFySFkzWlc4ekFhUENJNU1fMEJjVHo4U3VCb2NwTWVXd1ZKcUd4bXpHZm1XV0NyWEdPenhYaUQ3eVZtYkxBMUswREQ3eDh6Nm5HYUFBUQ?oc=5",
-      "source": "MarketScreener Deutschland",
-      "ago": "3 Tage",
-      "group": "Apyx / Renuvion",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences at UBS global healthcare conference: recovery takes shape",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOT1hOOGwzZGlpRTVYRWlJaXZVcjJTQlVvcXUxLXF2RnUyYTg5QlhZdEpVaXRGUFJvd0lETWVtY2pUb3Bwem9iTXJHTDg4dk9JUXVyVkU4blB3NC1jV3E0Y2VrLWE0TjhZYkRwcHdQb05jTU55bDR5enMwekJtbFUxclJaMUxIbF9Pa1pjZ2QzSHF5djRxcF9aanFYVVRrSURXb3lhY3VWSW5FQ0FVMXk3QzF3ZE04cjZ0dXJjY1JYZDk4RnpKelBhSnFRa1NBUQ?oc=5",
-      "source": "Investing.com",
-      "ago": "3 Tage",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences auf UBS-Gesundheitskonferenz: Erholungskurs gewinnt an Kontur",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTld6MVJNVDlRR19pNlBmd2I0YWJaNVdGNzJWbnFEdVdQa0lVamxic2lSUHdoT2ZlRGR1OFdlM09JS0t0UndTZFpGS1hPZHROSVFmbHJmaE1XUlRkSFBsblJtdnU1c1RfdDBCYkZIWHRmNUpIclFLTFRSLUdHMkk2Y0NBZEp1UlUtWWt2cS1hYi03bTN0cGZ4RDVidmZlbEc0SXBmbDFBUE5tejhtSDRYb1ZXTVZiTnd3b1B2VFIxSlFuTmw3UjV4eGRlazhaVTRU?oc=5",
-      "source": "Investing.com Deutsch",
-      "ago": "3 Tage",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Integra LifeSciences at UBS global healthcare conference: recovery takes shape By Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUjVTZTdxS1B4Qy12UzB1bHJaVnFLS19sX2JwNFdEc3JWRzEwb3RWaTgzREZqUU03NnRNdXNVdHE0b1BJLVRwY2gzNC13WHJMSHc0b1c3SWJIT3c2NUdvZjUxdUJWaWE2M0ZvSXVGTG9YZTVLc01yakh4aGYyZ2VWT2J6ZlJtRW15ck9YTURmV21ZOWJJNUtiUk5kX2RaSUY4MlRDWGd3Z2xjVDRpMXZlOWJxckhBZ3ZYNHdDT3NfWTV3Y19Wa1pPOVdoQ2ZZeE9LZzBGTg?oc=5",
-      "source": "Investing.com India",
-      "ago": "3 Tage",
-      "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Apyx Medical at UBS global healthcare conference: sees GLP-1 tailwind",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQXzdlalkwUTZNNUVJVnAxc0RxNlFFNUtOTXE2RmplUjFnY3haZnJBYTFNc0lobE9yRGlyOE54MHNKME5kVG5IWVBnLXdlRG93M1JyeE9WQVhJWW5IR290TXBteHZHM0w2eXJzZ24yQnE5ajVQakl6RVp2ak5NU1pjS0Fna2xoazBNX0NiZUItM18yOU9sZlR0UWY1ejVuZVhaVWpNUTd6QnY5Uldxb0xBZlJ3bkw3cE9GR0xqS0txaERfTlUxWGVB?oc=5",
-      "source": "Investing.com Canada",
-      "ago": "3 Tage",
       "group": "Apyx / Renuvion",
       "summary": ""
     }
