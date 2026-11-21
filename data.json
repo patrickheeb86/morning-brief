@@ -1,133 +1,141 @@
 {
-  "generated": "2026-11-20T02:26:26.243443Z",
+  "generated": "2026-11-21T02:35:30.283406Z",
   "forex": {
     "eur_chf": {
-      "rate": 0.9262,
-      "change": 0.0019000000000000128,
-      "changePct": 0.2055609650546373
+      "rate": 0.9223,
+      "change": -0.0039000000000000146,
+      "changePct": -0.42107536169294046
     },
     "usd_chf": {
-      "rate": 0.8426128093158661,
-      "change": -0.00011147952439649611,
-      "changePct": -0.013228469366880552
+      "rate": 0.8392174704276615,
+      "change": -0.0033953388882046465,
+      "changePct": -0.4029536283647751
     }
   },
   "bitcoin": {
-    "price": 61578,
-    "changePct": -1.8685003867276613
+    "price": 58799,
+    "changePct": -4.219231245783785
   },
   "stocks": [
     {
       "ticker": "ESTA",
       "name": "Establishment Labs",
-      "price": 69.61,
-      "change": -1.19,
-      "changePct": -1.6808,
-      "asOf": "2026-11-19"
+      "price": 69.14,
+      "change": -0.47,
+      "changePct": -0.6752,
+      "asOf": "2026-11-20"
     },
     {
       "ticker": "APYX",
       "name": "Apyx Medical",
-      "price": 2.39,
-      "change": -0.1,
-      "changePct": -4.0161,
-      "asOf": "2026-11-19"
+      "price": 2.4,
+      "change": 0.01,
+      "changePct": 0.4184,
+      "asOf": "2026-11-20"
     },
     {
       "ticker": "IART",
       "name": "Integra LifeSciences",
-      "price": 13.55,
-      "change": -0.31,
-      "changePct": -2.2367,
-      "asOf": "2026-11-19"
+      "price": 13.25,
+      "change": -0.3,
+      "changePct": -2.214,
+      "asOf": "2026-11-20"
     }
   ],
   "news": [
     {
-      "title": "InMode (NASDAQ:INMD) Sinks To Annual Low: Is Value Emerging?",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZ1diQmlISkRQdGV4eDRrODZMZnRBUVhxSkJudzBlZXFfM25yb1MyT3IyeDBSTUs2cElLUWJNcmdkb21oZXVncG5ZSXQ0RzBEeGlTQ0VEb0tLd1Utd25malFrSXhLcklSWkNraE1Ka1A5Z0dydXltY1VCRVZBWTFpazFjYmZZaUVMdEZubDZVMUJDbThZTmMxNWFwd3hqQVF4aC0w?oc=5",
-      "source": "Kalkine Media",
-      "ago": "5 Std.",
+      "title": "Galderma Group AG (PY3.DE) insider ownership and holdings – Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA0ZlpucVNnODBQSHNJbE1GVzBlNldTNmxUS013VlRhTHRsVHFUc1NpektqaWZyUUZVYTRDNFlJYmNjNDlES0pmM1FOU2NOREp1TWlGeUdFbHY2QWRnUW83MmNRS3FkNzBB?oc=5",
+      "source": "Yahoo Finance Singapore",
+      "ago": "2 Std.",
       "group": "Wettbewerb",
       "summary": ""
     },
     {
-      "title": "InMode (NASDAQ:INMD) Hits New 12-Month Low",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPV1RBWGZ3NjNGTGRqTlZQM2t1VUwzY0k3b2tJdno3TU05SjBoQ2RpV3hVOFhzRnlDdEcteHI3cWtHZHhoRndZVnpLZ1RVVzlUb09QcE5EOFhqUWVJOWRfRlF2WXAyT00wLWN4b2txXzV0M3hOcUJZZ01WaWhqYXNsVWMxUTRkS0RaZjhvRG84N2FFZ0tLTjYtRFRQV1A1SmJtSVJGcl9CUjNLa21xWklv?oc=5",
-      "source": "MarketBeat",
-      "ago": "8 Std.",
+      "title": "Swiss dermatology company to double Miami office space",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOc1pKNy0xNHpUWnNDZGtSdS1wZk5tcnd0aFRhLUVVR0VZNmpaMlJreUlEdkJId2QyejQ4WTJJczAtaHRDdF9LYkJNaWYxa3JlSG90Q1RrbTlQU1NsWEZVdUlNMXFaS2Y5amEteFZDZlRKWk9TbS10eTVUR0dRSWd2TmRNOFlRSjBkN2JiSmpNcXdOYXlDZXFscGQ1VlF0M2lmcWc?oc=5",
+      "source": "The Business Journals",
+      "ago": "6 Std.",
       "group": "Wettbewerb",
       "summary": ""
     },
     {
-      "title": "Galderma-Aktie: Kursabstand zum Dienstag beträgt 1,48 Prozent",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSElUb0xyMVBuVTdhcDVOU2dlSHYzYzRtcW90eUE2bm90VzE3UXVINUVVMnRGX3laMjQ5N1FqUXVXXzdjclAwLWpvOXI2eW50T1dfN2w5X2ZpRXY0cHVFZ2VzY05PTjd0RHUwTkJmWnVIVFp5S25HY1BLa1BWYUhKNlNoUnR5b3BubmJmVWZXX1FqU1FWY3p3X3VEekRVdl9OcV9jdHBrbUpFSHlSTy1WZVFYLXVjc0pTaFk0UG1vQ2FwUQ?oc=5",
+      "title": "Galderma Aktie News: Anleger trennen sich am Freitagvormittag vermehrt von Galderma",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPM2ZZQ3ZoaXZYZVVacTZFSkltdXVVSFNNT2FLYi1JYVZVM3V2T29PWlBOdlFKcU43b2hKTlAyZG1jaXhEMWtfdGI4SExEM3pLQ1E5TWdnVS15Tm50ODFmS25hM0NxRHFBM0RnWnFwMDBhX0xWRHdVdndNamplVTBpX0QyWXM5REFpVlVXQ2xiQmhaQ19mVS13?oc=5",
+      "source": "finanzen.ch",
+      "ago": "7 Std.",
+      "group": "Wettbewerb",
+      "summary": ""
+    },
+    {
+      "title": "Galderma stock: Quote at 198 euros after November 18 report",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQU2dVUmdRZnBDR1ZTMEJ1czZBTjBjajF6UTdvMXhmNDFTdUdNSVJDZEtmUzg1a2ZiNDVtS041RzBkSW82dkVGQzE0RkhZQktPZnBhLVhqc0U4bFhvTDlHb0xBZ0ZHS3hJM2JfX0hvRTFEdkFyMmo4dGM1S1BYQXFiRWVPU2ZYcWFNNnVVM1Z4NjNReWd3UVJXT0dMN3lMV0QwSXB5ZS1BVVplZmV0RTNOVWd0LUtHMTFEeTRvN3pB?oc=5",
       "source": "ad-hoc-news.de",
       "ago": "10 Std.",
       "group": "Wettbewerb",
       "summary": ""
     },
     {
+      "title": "Jennifer Lawrence Surprises Andy Cohen With Breast Implant Reveal",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdGxkZ09Ca0phMHY1Ukw2cmkwN29jOWhWaXFNN2F5Q0hGVnJiWjdaSjNkbGc2ckdHaTg4RThWZDdLUnVGWjJQSkJfLTlYOXBfRmN1amJnb1RzT3lqaDBKRmRxbnVNUEpMejVDczBUVkM3MDFKZF9ISDZDSkJ5WXdyVko1T0p3cEFTcVdJRDM2YmNqMzhH?oc=5",
+      "source": "Complex",
+      "ago": "10 Std.",
+      "group": "Markt & Kongresse",
+      "summary": ""
+    },
+    {
+      "title": "Jennifer Lawrence Reveals Breast Implant Details After Saying She Wants To Be a 'Sexy Mom' in Interview",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQTNHa3ljZnNtT2p5U2RlZFItRjV6eDB4dExRZ255dG1GMlhRVmxHcl9ZbGg2cURDN2RxZXZIbC12WTliMGIzNWlkb0JNa0lWVzJOeHNXcTh0Y2Y5Y2pfV0FMVEViWmdvOVJaVTl3SE5JdG45bTkwN0NOdll3VjZPTnlfaGxCZG8wVHBPdzExTEtMMHoxS0EzSkxFcWdxbWUyOEhXQ09kZm1kWU42YXpWX1I3R242cndQejBzVjhnMjZEU3hJRmc?oc=5",
+      "source": "inkl",
+      "ago": "11 Std.",
+      "group": "Markt & Kongresse",
+      "summary": ""
+    },
+    {
+      "title": "Caliway's CBL-514 Receives Early IND Clearance in China, Accelerating Development in the World's Fastest-Growing Body Contouring Market",
+      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQWVZaVUdUeWQ0MEszZEJCQUxJSDJzd0E0RUZhazF0d1VaMmpCVEo5OUdlSE5tMUgxZ3hYcmFvSFhKZ2MwWHNKSFpfckdiUEI1eEZHLVFmZUhQZ3ZKSnlnUkx4SGRzbkRxU21Sd01RbWw0T0x1Um16QU1PYUZ2WFlHLTc4b196QXlaYjBqNkVDb1ZxQjd3UzZRa2J0VVBCR3BuRTlZOGM1Y0NxeEIwWXB6VjQ3SWc4T3Y2YlJxX0g0UHFMV2l1RVRJUzRVSlpoWlZhRHFQczlpNnpxZGlXeGpqbzdmLWlVYUxuVDlKZ09lQWxnRlhiWUFMeDFpcndjZ1RXcVRWVHJrZ01Xd2R3cVFLOVBuTTlFT0pXQTBBN2pn?oc=5",
+      "source": "Morningstar",
+      "ago": "17 Std.",
+      "group": "Markt & Kongresse",
+      "summary": ""
+    },
+    {
+      "title": "Jennifer Lawrence makes candid breast implant revelation, details her cosmetic surgery journey | Health",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOdjhKamlZZ3Q4QTE0V1FSSjNGamRLU2p5UXM4bnR4ekxrNTY2eERrbENLY3EzeEtMdzJGd2lkdjNsUXlVOUFkSGRsaTJwNkJyLXlrUjRsa1hDWG11T2xpYnFBUW5BdDl0TnM4Xy1YZi0wamdzQk5DMkdkOWdxOXJDcU1Sd0lETHZRMjY4d2x1WHdfblN2bkxrZXczdVFhUEU5WHRXcGVhS3pOandxMUVILXZqM1hCV1NNM1JhMGtMUG5xMnhSdjdPd2F2bHdNa04yTmhvS1luX0gzSzR6cFpvWDk0WTdCa21hbGlzTE13VHhJRVU1RXJza2dIcng1ZFpnQ0JSa1JTbXAteG1yLTlEaEtfOGxGR03SAZwCQVVfeXFMT3pSckV5eldiNHhValdJODQwNnRlVWVOUUNGUGU0Z3hEVnh3alpUNGx4Wi1Qemk4NTYxSmhhdmFjRmRrUE1pV0lFRmM2NUpkTVNYZzdwOTYzZm5xeXVpMWdGNHpxazRLbFRKck1zYjJibGJYYTI4Sk5CWWtnblFsUjR3NDF0QkExZ2dwbEhDTWVOaUZCY0lueTZIUWJ5TnBkdnh6SWlOWmxHY1lRNVlHYmpLc0t4TGdjVERWT3BFWkI4OVUtWnZrcXFHTGJqWHhZNFRITnlJT09TM0lCXzNlcVVKUHZJRW9xWF9XbVNwRkpqbXlxUVJ2dWR5RlZKSXZrMGJHbkZWR3VSRkUza25iMXJuX1ZKMWRYU2lULVM?oc=5",
+      "source": "Hindustan Times",
+      "ago": "19 Std.",
+      "group": "Markt & Kongresse",
+      "summary": ""
+    },
+    {
       "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Integra LifeSciences Holding Corporation",
       "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPdGhIWHFWMEpPRV9LZEh1dE9VSGdzWi03SjFjNks2eGlxMGpRbWVmRzdxX3JkdGM3c2Y2U2s5bTBaNlpwbDc5WjJnZ2czSHBnOWxwbnZITGpFcUttWmkybk9yYVpyNGNjUDB4RUhQUFNpOFR2bDktTmFESUdXSDJJT3NqWEI1N2k2VmY3OUphNnpKS0wteVNHaEsxOUEtZTFOSmdZVHgwd01Sbm5md2JPR3hRNDQ0VnVlb2RocmdMQzRzcmV6QnFFZVBKbHVfYi1KQVk2WFlPd2tCYjdPaVhYR3hMS0pDQ2E3eG9aQ2JnY2l3STlpVTAzbVF5QnctUTBRSEY0R1VQamlYanBUanh3Qg?oc=5",
       "source": "PR Newswire",
-      "ago": "11 Std.",
+      "ago": "1 Tag",
       "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
     {
-      "title": "Galderma CEO optimistic on growth, Jefferies says",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTmtIR0NlLW1HRG5KbEpxRWZnWDFZQ3hLbjFWazhIaVN6cWMtMzhUNTlfMHdWU1UyYzVCaTJxbW1hYkhzRFJ0bkFOZDVTX2pHLXRCeVhyejhfMEczYmNTRU9yQmZZNERUMkE0RGd3dzBZNWZfdlNxZ1VrQWxzMjhQVmZmd0FZcVFVV01lWWhGQVVJN1hQd3R0UzQxckREWHpkdTdndHhGTkEzaUVUZGUwUmt4UXZFUF92Ul9hNHdIMUJNakJGMTk3Wnh3ZjZKSjA?oc=5",
-      "source": "marketscreener.com",
-      "ago": "13 Std.",
-      "group": "Wettbewerb",
+      "title": "Bausch Health Companies Inc. (BHC) stock price, news, quote and history",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9EdGlYOFBsTjRwMHZObng1YnBIWS01RVVMbTRPTjBYQk9qbHJQZ3cwckdlaE9UcnF0OG84QXpTcjNTSDhGS3Y4aG96dG1RNl9H?oc=5",
+      "source": "Yahoo Finance Australia",
+      "ago": "1 Tag",
+      "group": "Skincare & Geraete",
       "summary": ""
     },
     {
       "title": "Bausch Health's Aesthetic Business, Solta Medical, Surpasses 10 Million Treatments Worldwide",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxORUtDZ3VzYy00YzRxNGFVcnAxa1I1bXNiekE4UnB3U0UyWlRfdWo2ci1pUVdseFB0OWNJVFEwT1JmeGdGLWZieENfNFhKRG5BdEdRTFdtT1lJZ3pxM3VzSVlfV1NyR1NjNkFPSnNqYkFUUEFZNDl4QkpwazJVRTlDXy16b1FLT0FjUFRCbk5tVzBWS2J1SWtuZ0JmZ2hYYUVNVUFqUWhnWW4tNUhLWEduc1BzN19qN0RDOXJySnpha01PTFN2ZE4zUnBrd3dGVFo2YWVyR0NfTGRzSGs1ZXc?oc=5",
       "source": "PR Newswire",
-      "ago": "13 Std.",
+      "ago": "1 Tag",
       "group": "Skincare & Geraete",
-      "summary": ""
-    },
-    {
-      "title": "Galderma Aktie News: Galderma am Mittag mit Abschlägen",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSHBFQ3o3WWp1RTJhOUFBUDJPRUxCWHVuM2k0T0haREZoaVpHSVRVZGJYRzlXdGlNNldKRGwwN3pvWFpWcmlGWjE2UVFsVS1EMExqa08tQXZYZjVnYTY4SmNUazN3WWVfS01kUk9oUGc1NGwzeE9pY2pGUmx5LTV1RUd0eFU4cVM0UFpWd0lrQWpYd2hobzFz?oc=5",
-      "source": "finanzen.ch",
-      "ago": "14 Std.",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "CoolSculpting for belly fat: Plastic surgeon raises concerns, dermat explains its benefits",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVGtJcXJtZ3dnTDNqUkgyUjZCUWdhSVRIU0ZJNEJQSlRCYVlJbDNORUI3UGtFLTBjb2JnS3dtTkszWUl2Q0pvbkxxd3RGUVByOGhDdEVpanpXUmhyamp2YnJTX1MyUFV4Z1hzSmt0aDVCTEZWYm5oUHJxN2RmYVhXMGZaN053LWY5WE1lZXh5TndDUXJRcnBCR1hnWGNzX3dSTUFFZXBHUkJBZGYyUzN2LXd2d24xdzNQM1JGeWlqZkxncld0eWI2UHk2V2ZyOVFSMUp5YmFySW9lek1mYnlCdjZOVlfSAeQBQVVfeXFMT1RrSXFybWd3Z0wzalJIMlI2QlFnYUlUSFNGSTRCUEpUQmFZSWwzTkVCN1BrRS0wY29iZ0t3bU5LM1lJdkNKb25McXd0RlFQcjhoQ3RFaWp6V1JocmpqdmJyU19TMlBVeGdYc0prdGg1QkxGVmJuaFBycTdkZmFYVzBmWjdOdy1mOVhNZWV4eU53Q1FyUXJwQkdYZ1hjc193Uk1BRWVwR1JCQWRmMlMzdi13dnduMXczUDNSRnlpamZMZ3JXdHliNlB5NldmcjlRUjFKeWJhcklvZXpNZmJ5QnY2TlZX?oc=5",
-      "source": "India Today",
-      "ago": "15 Std.",
-      "group": "Markt & Kongresse",
-      "summary": ""
-    },
-    {
-      "title": "Galderma-Chef laut Jefferies optimistisch hinsichtlich des Wachstums",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYTN6REFDeHl3NllhMUZJR01VUGhhNWlBRTA4TGpkRmRBQzhIcEN2ZlJOQWJNak5NSXJVMURCeV9qdWhRaXBtR3pmTWZZS1NhMVZUSFU2eHdYcFFKUDdmSktQWnpncVBVWF9GZktHT3ZPWDh0QjNyb1hEQUJhOThkbTd2NXlxMHk0U2huM3FJdzlJMFozRUphLS1hd1NBakhWSERTSDJZODM0dzZzN2pYMzhPbDJwSzJPcVBKLWd2ZUdtNkFBdU12bW5ncmNUZ0U?oc=5",
-      "source": "MarketScreener Schweiz",
-      "ago": "15 Std.",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "Galderma Aktie News: Galderma am Vormittag im Plus",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRkJZMmVERHNEb2dxLWFrX1lSS2l6NjBZeEFxUnpWWlRfMEo5WVhoTDBrcDZZbHQ4aThKTGlvc2FTc2VVeWxuR1BBSkpkSERmNkZCUk1WTWFZU2dacG5zNDNIcEs5OFhpSTYwZlpTQkQwYjIxYmtMblpSS1VlSzJ5azhjcF9tc2Zsd09HT0pZTTZXSFNxYWJJ?oc=5",
-      "source": "finanzen.ch",
-      "ago": "17 Std.",
-      "group": "Wettbewerb",
       "summary": ""
     },
     {
       "title": "Houston Plastic Surgeon Dr. Sam Sukkar Adds AYON and Renuvion for Surgical Body Contouring",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOY3l5cndHNFl3ZFk3YnZRVWJpWG9xTTNWbjN4aVpOYmM0cXhoWG9iYjl4UkIxUzdEUkM3OFYtalJaalNEWmxmTEdrUW40LVRjVVdybmZnWFNzUjZCUHNYTlJKdzBQdzN3NUg2OXNSUnh3Q19wZHVJZ01RTW8taWFqOXFJN09PNlRrUjZLTWl0Qk42TlBRSEhPUXVLTXJtaHBFWm9oc3dZcWZLVDBuNlZla2xjWTNYSTdQZElFVHRzRU10X3hhR2ZHR290THpndnRvb2c?oc=5",
       "source": "EIN Presswire",
-      "ago": "1 Tag",
+      "ago": "2 Tage",
       "group": "Apyx / Renuvion",
       "summary": ""
     },
@@ -135,7 +143,7 @@
       "title": "Houston Plastic Surgeon Dr. Sam Sukkar Adds AYON and Renuvion for Surgical Body Contouring",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVHQ0Rm1DZjlZb2RVdUk4N2tVbkZZcS04UnFRbE5HQ1Q1bHB0cDFyY1V0QlN5U1RDaTJjc3UtZWdGdU9mZWJMNmprN0h6OXM4bVFIakU0RDZwdjRuN0QyYmJiOFdtNDFzcDhXWlpacEc4YWJyc2E0cnZpdjRwUUUyY2lQZUl4QjJrRFpIc29WWlJ0a2w5R2NEMXVYYjlJM1ZnSlZGUzQwck4tbHY3MFduRW9WMFZpQTZQcHRySlNzVWZRb1BQQ1BlS0sxYw?oc=5",
       "source": "EIN News",
-      "ago": "1 Tag",
+      "ago": "2 Tage",
       "group": "Apyx / Renuvion",
       "summary": ""
     },
@@ -143,7 +151,7 @@
       "title": "Investigation launched into Integra LifeSciences over revenue miss and stock drop after flooding disruption",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcW5aaWdZUDJjUkZXbHRNMHh4YXhPQkIySGp6WG40MERjLXo5NEVVZWJrSUI4c1VBZ2NvVlJBb005OUp4eE9WZUljNGJOYy04T2ZJNjhnOEZJZmdNR0VuZS1EWHZJeFZleWwxVG92RXcwaGZWYmFzVXZkdF9ieVBjYldBa1VoZWFrYVFPSXpwSnc4TU5ZUWVDYmphcVdSbXJ0ZU1oaXV0NjNmdw?oc=5",
       "source": "Pluang",
-      "ago": "2 Tage",
+      "ago": "3 Tage",
       "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
@@ -151,7 +159,7 @@
       "title": "Can Xifaxan Keep Carrying Bausch Health (TSX:BHC) After It Raised Its Outlook?",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdXF0UU0zRlNER2Jnd0pxYTBoTjktTFNzdW5aNzhTbGlYYldrVGRTVVBpQ2d6RDFzWjRzVHljWW84b1BhYzhxVEVYM2hpUUJSVEZEWVdxcGU4WHNOYXlwdUFDMk1PeXhTUGJMeUhnTkR6eUpMeTlqUW9SUUxwMmVuek9uZWVha0lMM3FRbm1oSFdYOHZybXRzN29wZkZSRWY5elZzWm5lTHVYRURFSGIwV2tTaWQ2MUgwUElpaQ?oc=5",
       "source": "Kalkine Media",
-      "ago": "2 Tage",
+      "ago": "3 Tage",
       "group": "Skincare & Geraete",
       "summary": ""
     },
@@ -159,15 +167,23 @@
       "title": "Formaldehyd aus Möbeln: EU-Grenzwert von 0,062 mg/m³ seit August 2026 – Betten, die unter die Medizinprodukteverordnung fallen, sind ausgenommen",
       "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxOQm5Tb1QzelpvUkhxU1o3MVlEUHlLM2RPMnF4MjBNY0k2a2lZVVM4MjBQMEU4bHpwYTd3S1J1NU8yWW43MlNpaDEzemE0SkdMOW5ZNmVwS180aDdtR1hRN0cwSVNMbExBS2F6UjEwdkZnaE9Mek9MVHJIeXRFb2J0cWFGZUkxVGoyeDVCUGk3dThma2ZweEhCbmVmMUd3QjFVX0NoMElNVTltaHAtNy03S1haZXpyb1l5NUJqMWhLbWlPTWpsOG9iVVI3MEh3aVF5NjRJWUkzY3ZkWDVEZkt4czFEejh3WmlULXNVV1B0T0FXdndETnpjU2p5YzZhRG1YbW9OSFR3bktyb1pqSEFjS1VKTVdYNVlIZHpsU0xhMDRQSkxwX2xJQ3A0UHJzd2xLdXVn?oc=5",
       "source": "PresseBox",
-      "ago": "2 Tage",
+      "ago": "3 Tage",
       "group": "Regulatorik Schweiz",
+      "summary": ""
+    },
+    {
+      "title": "NASDAQ Composite Index-Titel Integra LifeSciences-Aktie: So viel Verlust hätte ein Integra LifeSciences-Investment von vor 3 Jahren eingefahren",
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPUkxiZlFENFY4QTdyckxma3lHaEpuaWdGd3RGWjBlZUtQZEZ4YWFGMzh1SmVLblFUdW9qeXE5Umc0QkYzVFJyWTFYcGRfRUM1YWVLMmtjUXRLVldNbERUMV9WbFVrTmJUMmtXUkRhZ3hidnNWUUs5bVdrYW9yZThSeER4U1oxZm1WaG9KdWtad1d2TDU2bjk2Y2ZZUEpndzJUYzVEbnJtQWZESFNLRWYyREhDaUlMWENDXzV3NXFLU3VaSHZPNUtDZ1JtSzg1VXhZeVk3SjNNQWQ5aUdla21DUWI4cFN6dW1xWC13STVOYVV3eUo1X1RibzZORmF4WF9kaFY4T0QxS05YN2l1blpSTFlCX3djYXRDaFcyektCVUxJdlU?oc=5",
+      "source": "finanzen.ch",
+      "ago": "4 Tage",
+      "group": "Integra / Lipoelastic / Absorbest",
       "summary": ""
     },
     {
       "title": "Establishment Labs Holdings Inc (VGG312491084.SG) Seasonal Returns Chart",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5iUmNWS2NZcHMxYnJaNG00RWc5WlQ5dG9lMU1VUFNYa0ZfVlNIQjdwYkVYbzNLdERZbklJOUhNVnFUN1VpakJoeDl5NjEwVVVjaHdXZHVrUS1lTGNHdzg2YmNRdS1YM0FYVmI2WFRVR20?oc=5",
       "source": "Yahoo! Finance Canada",
-      "ago": "4 Tage",
+      "ago": "5 Tage",
       "group": "Motiva / Establishment Labs",
       "summary": ""
     },
@@ -175,7 +191,7 @@
       "title": "Die Aktie von Establishment Labs Holdings (ESTA) wird nach einem Kursanstieg von 222 % weiterhin mit einem Abschlag gehandelt",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNa2UxU0lZbDRxM0VmWEpMYXRKYWVJUlNwMk8tbnFOcGZPUklZUnNIaEVUMVYwd2J6Y0RXcmtGWnNaNF9ZTHRWYjdpTmFQVG92YUx1WDN0THJwWmxEaThhSU5heEdrOUxVUXV4MTFibE9oN3JEaTVwZXkxV0NSWG1reTB2T2lOOFRWUUF5VDlITlBTR2VMVkNrcVNhSmE5S0JFenlYZVVJYk9GeE9zNV9wVHhXUU1BUEJuUzlwdS1EcWhUNF9LdTlyeThiT3V3VzR6VnJNMUdCamtoUS0wRm1fbWk1OHY2Z9IB6wFBVV95cUxOVDlZa2EyMWk5Q3BBOUpxZ1pyZ1ZMUjZmYnJOS0pKczcyTWZZMG8yb2ZJZ3JodzExMUdrNVJnSGRmaDN4UFlTZjZrUURIb3h3RU1mZWZLZHZNaG4tdWNOX1kyOFhmLWlqazh4XzFiUkIyTVV3dHRZQ003amtpWTlvYXlJQkY3aTZjeFd3NnlwVjRiSWZpVXF0bEpZdnRWNXE5R2JHZHlJTXZhYmdqaE5yYWNmVkY3bndrYkdJMHZMY0JxSkIxYjJyT2laZVZCamNpemdBMEFZZmNSY0tVQ3JhTWxIc1RvZ0plUEVj?oc=5",
       "source": "Simply Wall St",
-      "ago": "4 Tage",
+      "ago": "5 Tage",
       "group": "Motiva / Establishment Labs",
       "summary": ""
     },
@@ -183,22 +199,6 @@
       "title": "Establishment Labs Holdings (ESTA) Stock Still Trades At A Discount After Its 222% Run",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOUEVuQ1RLLVMyUm9BN29VNWVDajZIT0VPMXpPcGk5bXZwV0wtMVpxdDg2bkl1dzZMZTdwd1RHUHNKbG5jdUdTZEdBamxkbmpqSklUY3NwRHQtMFVwbUVhd2NrOWg1bXpfLWZUWEJHV3FzZFNFTDJlaTVNX0dWUTctUlpJZHZCWTNVekRHQ1M3Z0RIc2hSeUtqTzZoT2xBTzdPNG4wRkdOWlZSRWhBcGlwbzh0aHE1cHc4b1BxQzB4a1VwQmJsTEhXa3pzX0VDeE5ocUxXdHNhSVF3ekNLRHJETkpB0gHnAUFVX3lxTE5NYUtNdUROSHBvZFhndm45ZXJKOGw4alRDMUdzcElWNUM3ZjdERC1ueFE2bndCR0oxbTBCNmszbzhhd040VF9ONmVycUhOb1pJWUZPMDhlMTJqRmI1UGctYzNhWEk3aEJQcHpiVHZqdWNCWnJJLXNxMVNNQ05TQWNnR25RU24xV3N3U2tvVWM0eVBValoyNGt1b09FSGlCS3pfOEJJUnNhdzJTcGtmdTJ0dTdVWDMyZDZSY2lXRVp2VGtzVXJmVXFmU29wcmZqUWF4c0hTM1J1WWxyMy1za2trWkk3ckFYYw?oc=5",
       "source": "Simply Wall St",
-      "ago": "4 Tage",
-      "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "Establishment Labs Holdings (Nasdaq:ESTA)",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZWtCYXpYUnk4eVNnTzZJaFhRbDd5UFJfLU4tLUw3TTZEX25zcERVQnpNMmRBa251ZlprdmdwOU9HcnRCUzV0QktpWEEzT3BrYk0xV1lHRzBVNnlVdjdIQWk5WW4xaExvbVZFT3VHMVRHQzVsUmtqYjIyTWZSeURRMFVaUW1EM3UwR1E?oc=5",
-      "source": "Simply Wall St",
-      "ago": "4 Tage",
-      "group": "Motiva / Establishment Labs",
-      "summary": ""
-    },
-    {
-      "title": "Establishment Labs Earnings Call Signals Strong Growth",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUlFsODJiUWJhSlFVeE1rUEFTR1NlUy1kY3Z5RG1SQ3phakIzZkxGTFpBcExwaXlBbmxwcFBYUENpaXlKX2JTVEVYWmpIZlhrUEFjMHBaY0dsU1J0Wlk4TlZWMnU1YXJHOW5RWWp3UG03a2ZES1p1QzlFWkFwMjhYUXZ0bE4tYTZtRldCZjhLVTBHTm9NXzhsVjktdHVZdEM2OFBsWF81NnZpUQ?oc=5",
-      "source": "TipRanks",
       "ago": "5 Tage",
       "group": "Motiva / Establishment Labs",
       "summary": ""
