@@ -206,23 +206,29 @@ def fetch_stocks():
 # Google News nur eine kleine, relevanz-sortierte Trefferliste voller
 # alter Evergreen-Seiten - deshalb pro Gruppe eine eigene Abfrage,
 # jeweils mit Zeitfenster (when:) und, wo sinnvoll, in beiden Editionen.
-# prio 1 = eigene Partner, Produkte und Regulatorik
+# prio 1 = eigene Partner, Lieferanten und Regulatorik
 # prio 2 = Wettbewerb, Kliniken, Marktumfeld
+# Hinweis Google-Syntax: OR bindet staerker als das Leerzeichen.
+# 'Galderma Restylane OR Sculptra' heisst also Galderma UND (Restylane ODER Sculptra).
 ED_DE = 'hl=de&gl=CH&ceid=CH:de'
 ED_EN = 'hl=en-US&gl=US&ceid=US:en'
 
 NEWS_GROUPS = [
+    # ── Partner & Lieferanten (prio 1) ──
     {'name': 'Motiva / Establishment Labs', 'prio': 1, 'when': '30d',
      'q': '"Establishment Labs" OR "Motiva implant" OR "Motiva implants" OR "Mia Femtech"',
      'ed': [ED_DE, ED_EN]},
-    {'name': 'Apyx / Renuvion', 'prio': 1, 'when': '30d',
-     'q': '"Apyx Medical" OR "Renuvion"',
+    {'name': 'Apyx / Renuvion / AYON', 'prio': 1, 'when': '30d',
+     'q': '"Apyx Medical" OR "Renuvion" OR "AYON body contouring"',
      'ed': [ED_DE, ED_EN]},
     {'name': 'Integra / Lipoelastic / Absorbest', 'prio': 1, 'when': '30d',
      'q': '"Integra LifeSciences" OR "Lipoelastic" OR "Absorbest"',
      'ed': [ED_DE, ED_EN]},
+    {'name': 'Fett & Liposuktion', 'prio': 1, 'when': '30d',
+     'q': '"Tulip Medical" OR "Puregraft" OR "body-jet" OR "Humanmed"',
+     'ed': [ED_DE, ED_EN]},
     {'name': 'Filler & Regenerativ', 'prio': 1, 'when': '30d',
-     'q': '"Revanesse" OR "Prollenium" OR "SoftFil" OR "Sunekos" OR "Regen Lab"',
+     'q': '"Revanesse" OR "Prollenium" OR "SoftFil" OR "Sunekos" OR "Regen Lab" OR "Meccellis"',
      'ed': [ED_DE, ED_EN]},
     {'name': 'Skincare & Geraete', 'prio': 1, 'when': '30d',
      'q': '"pHformula" OR "Solta Medical" OR "Thermage"',
@@ -230,8 +236,15 @@ NEWS_GROUPS = [
     {'name': 'Regulatorik Schweiz', 'prio': 1, 'when': '30d',
      'q': '"Swissmedic" OR "swissdamed" OR "Medizinprodukteverordnung"',
      'ed': [ED_DE]},
-    {'name': 'Wettbewerb', 'prio': 2, 'when': '14d',
-     'q': '"Merz Aesthetics" OR "Galderma" OR "Allergan Aesthetics" OR "Mentor implant" OR "InMode"',
+    # ── Marktumfeld (prio 2) ──
+    {'name': 'Wettbewerb Implantate', 'prio': 2, 'when': '14d',
+     'q': '"GC Aesthetics" OR "Polytech Health" OR "Sientra" OR "Mentor implant"',
+     'ed': [ED_DE, ED_EN]},
+    {'name': 'Wettbewerb Aesthetik', 'prio': 2, 'when': '14d',
+     'q': '"Merz Aesthetics" OR "Allergan Aesthetics" OR "InMode" OR "BodyTite"',
+     'ed': [ED_DE, ED_EN]},
+    {'name': 'Galderma Aesthetik', 'prio': 2, 'when': '14d',
+     'q': 'Galderma Restylane OR Sculptra OR "Face by Galderma" OR filler',
      'ed': [ED_DE, ED_EN]},
     {'name': 'Kliniken Schweiz', 'prio': 2, 'when': '14d',
      'q': '"Hirslanden" OR "Insel Gruppe" OR "clinic utoquai" OR "Klinik Pyramide"',
@@ -246,7 +259,44 @@ NEWS_GROUPS = [
 
 MAX_CACHE  = 600   # Obergrenze Cache-Eintraege
 MAX_SHOW   = 20    # Meldungen im Brief
-MAX_MARKET = 8     # davon hoechstens aus prio 2
+MAX_MARKET = 5     # davon hoechstens aus prio 2
+CAP_PRIO1  = 4     # hoechstens so viele Meldungen pro Partner-Gruppe
+CAP_PRIO2  = 2     # hoechstens so viele Meldungen pro Markt-Gruppe
+
+# Boersen-Laerm: gilt nur fuer die Marktumfeld-Gruppen (prio 2).
+# Bei den Partnern bleiben Boersen-News bewusst drin.
+FINANCE_SOURCES = ['finanzen.ch', 'finanzen.net', 'finanzen.at', 'stockinvest',
+                   'tradingview', 'marketbeat', 'ad-hoc-news', 'boerse.de',
+                   'investing.com', 'simply wall st', 'zacks', 'pluang',
+                   'cash.ch', 'marketscreener', 'seeking alpha', 'benzinga']
+FINANCE_TITLE = re.compile(
+    r'\baktie\b|aktien-news|kursziel|\bstock\b|\bshares\b|price target|'
+    r'forecast|investor alert|class action|law firm|\bearnings\b|'
+    r'should you buy|dividend', re.I)
+
+# Reine Kursseiten sind keine Meldungen - gilt fuer alle Gruppen.
+QUOTE_PAGE = re.compile(
+    r'stock price, news, quote|latest stock news & headlines|'
+    r'aktienkurs und chart|stock quote', re.I)
+
+
+def is_noise(item):
+    title = item.get('title', '')
+    if QUOTE_PAGE.search(title):
+        return True
+    if int(item.get('prio', 2)) != 1:
+        src = item.get('source', '').lower()
+        if any(s in src for s in FINANCE_SOURCES):
+            return True
+        if FINANCE_TITLE.search(title):
+            return True
+    return False
+
+
+def title_key(title):
+    """Normalisierter Titel zum Erkennen von Duplikaten aus mehreren Quellen."""
+    t = re.sub(r'[^a-z0-9äöü ]', ' ', title.lower())
+    return ' '.join(t.split())[:70]
 
 
 def load_cache():
@@ -325,6 +375,9 @@ def parse_rss(xml_text):
 
 def fetch_news():
     cache = load_cache()
+    # Alte Eintraege der frueheren Gruppe "Wettbewerb" (inkl. Galderma-
+    # Boersenticker) verwerfen - sie werden durch die neuen Gruppen ersetzt.
+    cache = [i for i in cache if i.get('group') != 'Wettbewerb']
     cached_urls = set(i.get('url', '') for i in cache)
     print('Cache geladen: ' + str(len(cache)) + ' Eintraege')
 
@@ -381,14 +434,38 @@ def fetch_news():
     save_cache(cache)
     print('Cache gespeichert: ' + str(len(cache)) + ' Eintraege')
 
-    # Anzeige: feste Quote, damit weder aeltere Partnermeldungen noch das
-    # Marktumfeld die Liste allein fuellen. Zum Schluss nach Datum sortiert.
-    core   = [i for i in cache if int(i.get('prio', 2)) == 1]
-    market = [i for i in cache if int(i.get('prio', 2)) != 1]
+    # Anzeige-Kandidaten: Rauschen raus, Duplikate (gleicher Titel aus
+    # mehreren Quellen) raus, pro Gruppe gedeckelt. Cache ist bereits
+    # nach Datum sortiert, es bleiben also jeweils die neusten.
+    noise = 0
+    seen_titles = set()
+    per_group = {}
+    candidates = []
+    for i in cache:
+        if is_noise(i):
+            noise += 1
+            continue
+        key = title_key(i.get('title', ''))
+        if key in seen_titles:
+            continue
+        prio = int(i.get('prio', 2))
+        grp  = i.get('group', '')
+        cap  = CAP_PRIO1 if prio == 1 else CAP_PRIO2
+        if per_group.get(grp, 0) >= cap:
+            continue
+        seen_titles.add(key)
+        per_group[grp] = per_group.get(grp, 0) + 1
+        candidates.append(i)
+    print('Gefiltert (Boerse/Kursseiten): ' + str(noise))
+
+    # Feste Quote: Partner zuerst, Marktumfeld hoechstens MAX_MARKET.
+    core   = [i for i in candidates if int(i.get('prio', 2)) == 1]
+    market = [i for i in candidates if int(i.get('prio', 2)) != 1]
     shown  = core[:MAX_SHOW - MAX_MARKET] + market[:MAX_MARKET]
     if len(shown) < MAX_SHOW:
+        # Luecken zuerst mit weiteren Partnermeldungen fuellen
         seen  = set(id(i) for i in shown)
-        rest  = [i for i in cache if id(i) not in seen]
+        rest  = [i for i in core if id(i) not in seen]
         shown += rest[:MAX_SHOW - len(shown)]
     shown.sort(key=sort_ts, reverse=True)
     print('Im Brief: ' + str(len(shown)) + ' Meldungen ('
