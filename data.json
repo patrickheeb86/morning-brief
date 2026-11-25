@@ -1,197 +1,181 @@
 {
-  "generated": "2026-11-24T05:22:48.331048Z",
+  "generated": "2026-11-25T04:21:52.790552Z",
   "forex": {
     "eur_chf": {
-      "rate": 0.9186,
-      "change": -0.0037000000000000366,
-      "changePct": -0.40117098557953346
+      "rate": 0.9183,
+      "change": -0.00029999999999996696,
+      "changePct": -0.032658393207050614
     },
     "usd_chf": {
-      "rate": 0.839747691745132,
-      "change": 0.0005302213174704917,
-      "changePct": 0.06318044322889194
+      "rate": 0.8376356836632308,
+      "change": -0.002112008081901151,
+      "changePct": -0.25150507737771277
     }
   },
   "bitcoin": {
-    "price": 60560,
-    "changePct": -1.1749055695488237
+    "price": 59277,
+    "changePct": -1.8465242561454183
   },
   "stocks": [
     {
       "ticker": "ESTA",
       "name": "Establishment Labs",
-      "price": 70.5,
-      "change": 1.36,
-      "changePct": 1.967,
-      "asOf": "2026-11-23"
+      "price": 70.99,
+      "change": 0.49,
+      "changePct": 0.695,
+      "asOf": "2026-11-24"
     },
     {
       "ticker": "APYX",
       "name": "Apyx Medical",
-      "price": 2.37,
-      "change": -0.03,
-      "changePct": -1.25,
-      "asOf": "2026-11-23"
+      "price": 2.3,
+      "change": -0.07,
+      "changePct": -2.9536,
+      "asOf": "2026-11-24"
     },
     {
       "ticker": "IART",
       "name": "Integra LifeSciences",
-      "price": 13.72,
-      "change": 0.47,
-      "changePct": 3.5472,
-      "asOf": "2026-11-23"
+      "price": 14.12,
+      "change": 0.4,
+      "changePct": 2.9155,
+      "asOf": "2026-11-24"
     }
   ],
   "news": [
     {
-      "title": "Testosteron: Jungbrunnen für den Mann?",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdDRycjRXdGFGSDktdlJuQjNUODdKeGowckJKajVTTkhVdW1OODRHRDl0VFBCWV93ME1uS2NyQVBKRS16cUVjQmFIZTdZcG5oV1BCdTFfSGtQalJZWWhjU3VMclhuN2NFN0ZKTDhiMmVoSUFQNGd2a2o0bEpod0JLOEptYVJOQnc?oc=5",
-      "source": "TeleZüri",
+      "title": "Why Breast Implant Revision Surgery Is Rising",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBCM2ZfeHBQSDJvMnlfWlZaN1l6Rzlsb3BEYmRNUmdpWlYtZk9LTmdndExhRHVITktEd0ZMOWdHTTBMLTl2S0U5S0NydHl2QWdIWVJ2NUZLUVFUck5GTm5aNzVuYUxkNml6YW16eUtuY2w?oc=5",
+      "source": "NewBeauty",
       "ago": "3 Std.",
+      "group": "Markt & Kongresse",
+      "summary": ""
+    },
+    {
+      "title": "Clinically Tested Body Contouring: Sable Therapeutics Shows Visible Skin Improvements…",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4yNkVVZHNoT0xDNUZwVXVKNUstWDJtWm52SEktMGUwQXpfRzFBSl80djN1UGE1dkdFRC1oWDVab2gwWWctUDNNZWhzZ0pTdnRRaDF5ajkwaXFzOTZtZVpsN1RmLTV6REE1dlEwUEh5RVlZQlpjcjJB?oc=5",
+      "source": "Trend Hunter",
+      "ago": "8 Std.",
+      "group": "Markt & Kongresse",
+      "summary": ""
+    },
+    {
+      "title": "EUDAMED und swissdamed 2026: Diese Fristen gelten für die UDI-Produktregistrierung",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeFYtWFFGOVRiUjRmcEI4amllNEhvZEdTMmJfQmdHbjZ1dVdHTGRhck9oUGdyVkJuZi1DcVphVXVYdEJXb2VyRGZ6OTdyNjZDRXRVVnE5TXdHRVkxMW5DWm82dlQ1UU5reHQyUWpIT2JYY1p2NktqRGd3Vi1ZY2E1Q1hrWldtbXpCUmNjbXZSeFJXSWVrZzBZbGVyMHJCTjlINkZBU2prNERldWVtd2stU1NOdkk2YXlOTWRfNmtXT0NkSVczWmc?oc=5",
+      "source": "businessportal24",
+      "ago": "14 Std.",
+      "group": "Regulatorik Schweiz",
+      "summary": ""
+    },
+    {
+      "title": "Neuer Oberzibelegring: Was bedeutet Ihnen das, Christian Leumann?",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNVNkM3FFRHdubm9MMXI3UHFtSXBtaG1wNk9LUGRnTjhQYWd1eVRKalQtRHVabmhIZnQ2SjNIMGd3ZEFNTFVIelpEMU1JdmN5MDRaWmQ5NmNUM0tSQ1VxVWZTa0JuY2pYUU9ld1VHRjJqcHdDQzVzY1ZTTGtlbThvSktzYkJ0S1k1R1NPbmI1Z19EWWtMMERpRzdhVkUybkxfQ3VYTS1n?oc=5",
+      "source": "Nau",
+      "ago": "20 Std.",
       "group": "Kliniken Schweiz",
       "summary": ""
     },
     {
-      "title": "Galderma Aktie News: Galderma schiebt sich am Montagnachmittag vor",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN1E2VlRqUW50QmpjbVR0S2IzYWVNSDZ3V3h5aUFjdkFNcTZKMXphTkQ0YmhFNkRfTU1zRlR0cVBJWkh1STZIaDFLZ3RhVkJ0RzdCLXRLNHZ5MGJSa3Fvc1owZWNaQjk2TjU5TkZRUnZVRGd1NC15ODFPWTM1UHFHM1c3bWtUMGZnb2NNSUFpYnBPQ0RHQ3RF?oc=5",
-      "source": "finanzen.ch",
-      "ago": "10 Std.",
-      "group": "Wettbewerb",
+      "title": "Surgical equipment & consumables - specialty stocks Q3 in review: Integra LifeSciences vs peers",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNb1d3eTh2V0xHamlFb05WVkRDamExRTViTzJjenJwUUZXSW0tSV93MGYwYjloVkl4Mmx3WlB1SWxPT1FYRkQyQU10TVloZXV1d1didHY5SWRYdXVaREZoaTd1RHg4NE5jam5SUktLY3N2UzdmUzZ2MjFIZUR3LTB3WVM0MXNFTkNpV2lrS2lwa0xINmlYdWlJZTBGUGlyY3pwVUpqVXdWZnFCWTJDVjdsU0lxRVJvMGVDSmU3UTB5Q3o5QXhoYzhWd3MtVkp5X2xhOE1rODF4SWVXRlZEQUVXWjNnRnk4QQ?oc=5",
+      "source": "TradingView",
+      "ago": "1 Tag",
+      "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "Testosteron: Jungbrunnen für den Mann?",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdDRycjRXdGFGSDktdlJuQjNUODdKeGowckJKajVTTkhVdW1OODRHRDl0VFBCWV93ME1uS2NyQVBKRS16cUVjQmFIZTdZcG5oV1BCdTFfSGtQalJZWWhjU3VMclhuN2NFN0ZKTDhiMmVoSUFQNGd2a2o0bEpod0JLOEptYVJOQnc?oc=5",
+      "source": "TeleZüri",
+      "ago": "1 Tag",
+      "group": "Kliniken Schweiz",
       "summary": ""
     },
     {
       "title": "Urteil zu Arzneimittelbericht - Bundesgericht erlaubt Medikamentenvergleiche in den Medien",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRUNnMVpVZ1JuVlo5elJaN0REVHNaanY0SmNNcmFCZVJodkg0VVRjY1RpaGMyNFNtVW1wTUU3Y05rdlhKMzFubU5SWDQ0T0lUZmZTT2YwUGZ0aFFIcjBEdlVwUU9lTXpld1VNUGJlZUtjQ2NmM1BNY1hvS0UwMFg0QlR1em5KY2JPamoxbF9yc0ozejF3b0h4cE5TLU5UMy0yakplSW9rM2ZFVE82aEhEb0g5Y3ZJUFptd05XYQ?oc=5",
       "source": "SRF",
-      "ago": "12 Std.",
+      "ago": "1 Tag",
       "group": "Regulatorik Schweiz",
-      "summary": ""
-    },
-    {
-      "title": "Galderma stock: Galderma wins second FDA approval for Nemluvio",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNM2JIRnkyYjRGNDNvMC1LaDB0LWI5a28tT1FVZlR4eDUtWlJ6YVphZnFhMkZqSWZ2ZG9SRnp2ZkJfNlhYYnRpT1hxZjVwVUhwZUFQYUN4VERxSUVlSS1jcTh3SkhkQ19MTmt1MkhXcFY0MzdRWVZZMmZUZTNtRkNTSDc0azBtbzZzQmxHdkNIdkJBNTJncFJkb2RuMzBmTDU1aUV6WG9Ga1Fpc2cyUVllRWpkMVQxSG1FSDRhM0NEVE1kdw?oc=5",
-      "source": "ad-hoc-news.de",
-      "ago": "12 Std.",
-      "group": "Wettbewerb",
       "summary": ""
     },
     {
       "title": "NASDAQ Composite Index-Wert Integra LifeSciences-Aktie: So viel Verlust hätte ein Integra LifeSciences-Investment von vor 5 Jahren eingefahren",
       "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPZ3ptNnlPV2l2RHgwME0wRl9zZ2VleGJXOUYzcHQ1SkZHNWdsUC0yQmY4RkFCcU1ZSkZvYzZ5WnUxdXhLLUZkeVFvRjVwQU1uNlpJaDBqNTJZR21NcFlqZzFfY2RGNmVuTkh2Z1dxX1NzcFJrdnRDUjdzeG5mVG00bXZfWUwwY0VUdGxsTmNocG1zelJCSkRyNUZoSzhweFpWWVBpX2MzRGRtOEYyRUNNZEhfT0JtTWwyeDQxM09fZUhHVWJZOTk2T19GazFfd1R1WXppc21IVm5EWGhSUlNRNGk4VTJQZTg4TnFGMVVxd1gtRXBlNGNpMWRzaHR6NjhhX0R0Sm9wOWdidXNWLUZjQ2pLSnpQaHNYcmQwdUd5enNhZw?oc=5",
       "source": "finanzen.ch",
-      "ago": "14 Std.",
+      "ago": "1 Tag",
       "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Galderma Aktie News: Galderma gewinnt am Montagmittag an Fahrt",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYWlkV1hjQ254RjI0UzdPWmlwejZDbEczaEp6WG5nVEd4Q191MTRZemx6Qk5zVlp3eWVxb0p1bVM3TnVVSW9IVmcyUGhYeGlVSTNwaThHUEk2YlQ1ZnBpenlvbFlVX1phVXdOQzlwaVlrXy05YU9WZUZRSzhVNWpVZnc2bGpva3M1QW5IOGZLUTEwSzRHMHJn?oc=5",
-      "source": "finanzen.ch",
-      "ago": "14 Std.",
-      "group": "Wettbewerb",
       "summary": ""
     },
     {
       "title": "Swissmedic verliert vor Bundesgericht: «Gesundheitstipp» war keine Werbung",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSHk5U2hjNmNCVGpHSFZvbFBVcE9pZi1rbXExY25sVERJVFA3YzQ0N3Y0cVM2eW1MQ19rU212eGxXTHplZ1pRUDRLbk1uRF9wOG1wd3JGbmIwN3R2d3VkQWhWbXBLNnpkNl9ncFBkWmczcWE0dWk3NmdKZWRXWk1jQmRrWEo0Z2EwNzRlOUFOSjl2UERJNkdvR2hLc0I0RXJGN1JVaUZuY2M?oc=5",
       "source": "Aargauer Zeitung",
-      "ago": "18 Std.",
+      "ago": "1 Tag",
       "group": "Regulatorik Schweiz",
       "summary": ""
     },
     {
-      "title": "Galderma Aktie News: Galderma gewinnt am Montagvormittag",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWG5hdE5vNkkyZ1RoTzdudU1sYTdkM3U2UzdRbG1PbVRfNTJmRGtUNWlNVmN2d3FIYUl4WHF1N0VpZWhqQXZkVjRBMGVrZ0NhXzlSRU5YRXNOYWwtandzdjg2djdXeVFMYUplMFZJd1M0dEFPRkRXYjRCX2p6V3o2UHpuTW53Y19EM19xYmJWZUlHMTdVdk1Z?oc=5",
-      "source": "finanzen.ch",
-      "ago": "18 Std.",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "Breast implant capsular contracture: an ongoing battle",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOblk0ZkJZMndxQUFFMnFudGZGakJtZXNHcnRQdGlIaDVEMmtieV9hcVZyRENjZlBFT0NLeDFGOFA2VnFKTWR2TFBUY2N2V0ZENlNyWTRxZlp2ZjF3M2pabVRmVkliUzFHY0tCWVBFY2E4YjZSLUFvT0FTd2NnczhaRzlCRkZndHVQcjY5OFdtU0RWQmh4N0EtOEt6RmI0QXg4S1JBQUliRUpUcXlITWtiQS1wZTI1Mms3c0MxTUkzclZpVkNEeG1DaXNpLTNrZ2hPYkl0anBKYjZpSlo3eUtyYmxqRQ?oc=5",
-      "source": "IslanderNews.com",
-      "ago": "1 Tag",
-      "group": "Markt & Kongresse",
-      "summary": ""
-    },
-    {
-      "title": "Haven Medspa Invites Rocklin and Lincoln Patients to an Open House at Its New Rocklin Office",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNXJSUmQwVjVwQms0OEVtMkRzX0V3Uzc4NVpQZFpPT253RHI1cS05M0VHUU05d1QxdUUxVlpDdTFubGNtMDRkZ0hzR1lxQk9WbS1LeTdBMV92eEpVbmJJbktxdUpuVk1YamR6SVdEMjBaalFjcEVYVXd3d0lEVzd0RlpON2U1Smd6cVNLTzlYdWhhNktSRi1UZGFNTEd5dkRvYUNOTEw4U01oRlJBREhPSW52QW9VZlZUeE9mRXVldVhCazVGbGEyMnBvb0NKZnp1RGtyU2tmWkJuZWVXeDlF?oc=5",
-      "source": "24-7PressRelease.com",
-      "ago": "1 Tag",
-      "group": "Wettbewerb",
-      "summary": ""
-    },
-    {
-      "title": "Christina Applegate Questions Breast Implant Illness",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTmJZMjZjMzZyME1yc2E2dW5HSUlSVkVhdmo5cWhhQXh2NGFGUXBSeUZQNk0wcDlqWXR3WFZ3Yk5XSDlodXZQdUY3UjVRQmtaX0JWYmxMZmZObjItWS1YY0ZHWHlRSmd1ZF8zckhnbGlPb2RfNF9MZ2t1dGx1dUcyN3pianFqU0kzak12LTlNVUJpdlFZbWxmN2V0MUlWQmV0U3YzZ3NtSEZGdUJBdjEtUWkwSVY?oc=5",
-      "source": "Yahoo",
+      "title": "11 Ways to Smooth Forehead Wrinkles, According to Dermatologists",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB5Z1N6WkVyTjlZcWpTd1JHR1hpSk10aWhfZFBXcG5xOWF2UFpkVjA5cWc0YlVKSV9kLUNwUzBfb3dJRmc1Tzd5ZXl6dU1MUmhOak85TzJwYXMwNlZ1a2RYT3BzTHBhSXI2OHIwWnJmUnNOWmxL?oc=5",
+      "source": "Byrdie",
       "ago": "2 Tage",
-      "group": "Markt & Kongresse",
+      "group": "Skincare & Geraete",
+      "summary": ""
+    },
+    {
+      "title": "Air Niugini Flight Makes Emergency Landing in Philippines; All 146 Onboard Safe",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTE9VeXRDVXlsVmYwZndfS3piTmlnWTZWVUNpNDJ0Z2NQSXotNHhnUl9mNzB5ZFMwSVo3YXpXNy1VZVhyc2hMRXo5NmFkSGJZTmwyRUp1SGl5S0VEdE9zaTVsbTh6VjY4M0xiMU93Z3pPYnlfNmRaMzY3akQ3aUZZWlN3eWRwTUtHdzdXZTZTV3JEa0Z2b1F6VVFZRW55ZlZiR1NfaXhRM0VfZkxwa0RQb1FheDJ6SmhUZDZZNDlSWXBOYWpWdjZyUHNWa3pxQV81NHhZ0gHYAUFVX3lxTE1QeGtKRHBZR3pHWDE0eHgxNGhKaEh3dTlZemtXS1lNaUJ4ZExncjByajdDbXJjXzV2aFRJYVpzb0VfcU1ndW1LcFM0djZHQVgyOTZQMHBnRUVDaDdYUTRaZ0duOEFsQ3V6TmsyUzQ3Q0J3TzAxQTI0RXk2QjF4ZmFwd1lrcExQcTVyZGIxYU9ybnNiam5tUnpBVWRsRDdNTDZVQXVKSElyTDROa1Q0c0N2VXZ6VEdWSHRlbDNfb3NaNDM4a3JwOW5YaVpFa05KS0F3cFJsbU5pMA?oc=5",
+      "source": "Republic World",
+      "ago": "3 Tage",
+      "group": "Fett & Liposuktion",
       "summary": ""
     },
     {
       "title": "Apyx Medical Stock Price Forecast. Should You Buy APYX?",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1ZY2hIOHVDRk9xZUJCdGdBOVNpXzVVZFhHX2pFX0ZfRFEyMXpNMEVXMm1wa1dONTc5SXhlWW94OTIwdnlYTW1obQ?oc=5",
       "source": "StockInvest.us",
-      "ago": "3 Tage",
+      "ago": "4 Tage",
       "group": "Apyx / Renuvion",
       "summary": ""
     },
     {
-      "title": "Bausch Health Companies Inc. (BHC) Latest Stock News & Headlines",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1hcnIzS0lfXzFLNldNVzJwSFJPNjA2djg4Q0lfS3ZsZEFqUlcwUTNRTTFheHY2Rmw5TXQ2anQtTW1TOTllZVRnanlpLUFUalpNSWd6eUtWVQ?oc=5",
-      "source": "Yahoo! Finance Canada",
-      "ago": "3 Tage",
-      "group": "Skincare & Geraete",
-      "summary": ""
-    },
-    {
-      "title": "TMDX Aktienkurs und Chart — NASDAQ:TMDX",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5DLXc0cDdKdHRqeHp6RVJ6OHp5WUI2QzZCTHJ5cG5ReGhkSWVVb2tXUTZRTVVuN2o4bjJjTmdTV0piU0dOTkxuSk1SZDJlRV80QlJHR2pvOWRncms?oc=5",
-      "source": "TradingView",
-      "ago": "3 Tage",
-      "group": "Motiva / Establishment Labs",
+      "title": "InMode (NASDAQ:INMD) Sinks To Annual Low: Is Value Emerging?",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZ1diQmlISkRQdGV4eDRrODZMZnRBUVhxSkJudzBlZXFfM25yb1MyT3IyeDBSTUs2cElLUWJNcmdkb21oZXVncG5ZSXQ0RzBEeGlTQ0VEb0tLd1Utd25malFrSXhLcklSWkNraE1Ka1A5Z0dydXltY1VCRVZBWTFpazFjYmZZaUVMdEZubDZVMUJDbThZTmMxNWFwd3hqQVF4aC0w?oc=5",
+      "source": "Kalkine Media",
+      "ago": "5 Tage",
+      "group": "Wettbewerb Aesthetik",
       "summary": ""
     },
     {
       "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Integra LifeSciences Holding Corporation",
       "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPdGhIWHFWMEpPRV9LZEh1dE9VSGdzWi03SjFjNks2eGlxMGpRbWVmRzdxX3JkdGM3c2Y2U2s5bTBaNlpwbDc5WjJnZ2czSHBnOWxwbnZITGpFcUttWmkybk9yYVpyNGNjUDB4RUhQUFNpOFR2bDktTmFESUdXSDJJT3NqWEI1N2k2VmY3OUphNnpKS0wteVNHaEsxOUEtZTFOSmdZVHgwd01Sbm5md2JPR3hRNDQ0VnVlb2RocmdMQzRzcmV6QnFFZVBKbHVfYi1KQVk2WFlPd2tCYjdPaVhYR3hMS0pDQ2E3eG9aQ2JnY2l3STlpVTAzbVF5QnctUTBRSEY0R1VQamlYanBUanh3Qg?oc=5",
       "source": "PR Newswire",
-      "ago": "4 Tage",
+      "ago": "5 Tage",
       "group": "Integra / Lipoelastic / Absorbest",
-      "summary": ""
-    },
-    {
-      "title": "Bausch Health Companies Inc. (BHC) stock price, news, quote and history",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9EdGlYOFBsTjRwMHZObng1YnBIWS01RVVMbTRPTjBYQk9qbHJQZ3cwckdlaE9UcnF0OG84QXpTcjNTSDhGS3Y4aG96dG1RNl9H?oc=5",
-      "source": "Yahoo Finance Australia",
-      "ago": "4 Tage",
-      "group": "Skincare & Geraete",
       "summary": ""
     },
     {
       "title": "Bausch Health's Aesthetic Business, Solta Medical, Surpasses 10 Million Treatments Worldwide",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxORUtDZ3VzYy00YzRxNGFVcnAxa1I1bXNiekE4UnB3U0UyWlRfdWo2ci1pUVdseFB0OWNJVFEwT1JmeGdGLWZieENfNFhKRG5BdEdRTFdtT1lJZ3pxM3VzSVlfV1NyR1NjNkFPSnNqYkFUUEFZNDl4QkpwazJVRTlDXy16b1FLT0FjUFRCbk5tVzBWS2J1SWtuZ0JmZ2hYYUVNVUFqUWhnWW4tNUhLWEduc1BzN19qN0RDOXJySnpha01PTFN2ZE4zUnBrd3dGVFo2YWVyR0NfTGRzSGs1ZXc?oc=5",
       "source": "PR Newswire",
-      "ago": "4 Tage",
+      "ago": "5 Tage",
       "group": "Skincare & Geraete",
+      "summary": ""
+    },
+    {
+      "title": "Edelweiss schedules A350 operations to Pristina",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTFdYRkVrWW5JVFI4QXlCazMwR2w2N00yM2VmcjFLX2cxRHZfbGhreFpqMVlhTnFIcThpZThxWVFPYTRDaEZMU1lJLTh0ZXNySWVQMThuMEs5Sjk3UHFMYTJCWGNNOVFhRWFkY2hhazhfT0dOTGpvdGJZU2pRQlhBNmh4Rk1kU00?oc=5",
+      "source": "EX-YU Aviation News",
+      "ago": "5 Tage",
+      "group": "Fett & Liposuktion",
       "summary": ""
     },
     {
       "title": "Houston Plastic Surgeon Dr. Sam Sukkar Adds AYON and Renuvion for Surgical Body Contouring",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOY3l5cndHNFl3ZFk3YnZRVWJpWG9xTTNWbjN4aVpOYmM0cXhoWG9iYjl4UkIxUzdEUkM3OFYtalJaalNEWmxmTEdrUW40LVRjVVdybmZnWFNzUjZCUHNYTlJKdzBQdzN3NUg2OXNSUnh3Q19wZHVJZ01RTW8taWFqOXFJN09PNlRrUjZLTWl0Qk42TlBRSEhPUXVLTXJtaHBFWm9oc3dZcWZLVDBuNlZla2xjWTNYSTdQZElFVHRzRU10X3hhR2ZHR290THpndnRvb2c?oc=5",
       "source": "EIN Presswire",
-      "ago": "5 Tage",
-      "group": "Apyx / Renuvion",
-      "summary": ""
-    },
-    {
-      "title": "Houston Plastic Surgeon Dr. Sam Sukkar Adds AYON and Renuvion for Surgical Body Contouring",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVHQ0Rm1DZjlZb2RVdUk4N2tVbkZZcS04UnFRbE5HQ1Q1bHB0cDFyY1V0QlN5U1RDaTJjc3UtZWdGdU9mZWJMNmprN0h6OXM4bVFIakU0RDZwdjRuN0QyYmJiOFdtNDFzcDhXWlpacEc4YWJyc2E0cnZpdjRwUUUyY2lQZUl4QjJrRFpIc29WWlJ0a2w5R2NEMXVYYjlJM1ZnSlZGUzQwck4tbHY3MFduRW9WMFZpQTZQcHRySlNzVWZRb1BQQ1BlS0sxYw?oc=5",
-      "source": "EIN News",
-      "ago": "5 Tage",
+      "ago": "6 Tage",
       "group": "Apyx / Renuvion",
       "summary": ""
     },
@@ -199,8 +183,24 @@
       "title": "Investigation launched into Integra LifeSciences over revenue miss and stock drop after flooding disruption",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcW5aaWdZUDJjUkZXbHRNMHh4YXhPQkIySGp6WG40MERjLXo5NEVVZWJrSUI4c1VBZ2NvVlJBb005OUp4eE9WZUljNGJOYy04T2ZJNjhnOEZJZmdNR0VuZS1EWHZJeFZleWwxVG92RXcwaGZWYmFzVXZkdF9ieVBjYldBa1VoZWFrYVFPSXpwSnc4TU5ZUWVDYmphcVdSbXJ0ZU1oaXV0NjNmdw?oc=5",
       "source": "Pluang",
-      "ago": "6 Tage",
+      "ago": "7 Tage",
       "group": "Integra / Lipoelastic / Absorbest",
+      "summary": ""
+    },
+    {
+      "title": "Can Xifaxan Keep Carrying Bausch Health (TSX:BHC) After It Raised Its Outlook?",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdXF0UU0zRlNER2Jnd0pxYTBoTjktTFNzdW5aNzhTbGlYYldrVGRTVVBpQ2d6RDFzWjRzVHljWW84b1BhYzhxVEVYM2hpUUJSVEZEWVdxcGU4WHNOYXlwdUFDMk1PeXhTUGJMeUhnTkR6eUpMeTlqUW9SUUxwMmVuek9uZWVha0lMM3FRbm1oSFdYOHZybXRzN29wZkZSRWY5elZzWm5lTHVYRURFSGIwV2tTaWQ2MUgwUElpaQ?oc=5",
+      "source": "Kalkine Media",
+      "ago": "7 Tage",
+      "group": "Skincare & Geraete",
+      "summary": ""
+    },
+    {
+      "title": "Formaldehyd aus Möbeln: EU-Grenzwert von 0,062 mg/m³ seit August 2026 – Betten, die unter die Medizinprodukteverordnung fallen, sind ausgenommen",
+      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxOQm5Tb1QzelpvUkhxU1o3MVlEUHlLM2RPMnF4MjBNY0k2a2lZVVM4MjBQMEU4bHpwYTd3S1J1NU8yWW43MlNpaDEzemE0SkdMOW5ZNmVwS180aDdtR1hRN0cwSVNMbExBS2F6UjEwdkZnaE9Mek9MVHJIeXRFb2J0cWFGZUkxVGoyeDVCUGk3dThma2ZweEhCbmVmMUd3QjFVX0NoMElNVTltaHAtNy03S1haZXpyb1l5NUJqMWhLbWlPTWpsOG9iVVI3MEh3aVF5NjRJWUkzY3ZkWDVEZkt4czFEejh3WmlULXNVV1B0T0FXdndETnpjU2p5YzZhRG1YbW9OSFR3bktyb1pqSEFjS1VKTVdYNVlIZHpsU0xhMDRQSkxwX2xJQ3A0UHJzd2xLdXVn?oc=5",
+      "source": "PresseBox",
+      "ago": "7 Tage",
+      "group": "Regulatorik Schweiz",
       "summary": ""
     }
   ]
